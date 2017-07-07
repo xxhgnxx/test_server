@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <!--<link href="bootstrap-table.min.css" rel="stylesheet">-->
+    <!--<link href="magicsuggest-min.css" rel="stylesheet">-->
+    <!--<link rel="stylesheet" href="bootstrap-treeview.css">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+
+</head>
+
+<body>
+
+    <form novalidate method="post" class='form-horizontal'>
+        123 <input type="text" required>123
+
+        <button type="submit" class="control btn btn-success">保存</button>
+
+    </form>
+
+    <table id="table"></table>
+    <button type="button" class="test btn btn-primary">test</button>
+
+
+    <div class="panel panel-default" id="boxContent">
+        <div class="panel-heading">
+            <h3 class="panel-title">内容定向111111111</h3>
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal">
+                <div class="">
+                    <div class="form-group ">
+                        <div class="col-sm-2  control-label"><label for="inputEmail3" class="">媒体内容定向：</label></div>
+                        <div class="col-sm-10 myList_all1">
+                        </div>
+                        <div class="col-sm-2  control-label" style="text-align: left;float: right;margin-right: 500px;">
+                            <label for="inputEmail3" class="">
+                            <a href="javascript:void(0)" class="addListGroup">+添加内容</a></label>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <div class="col-sm-2  control-label"><label for="inputEmail3" class="">排除：</label></div>
+                        <div class="col-sm-10 myList_all2">
+                        </div>
+                        <div class="col-sm-2  control-label" style="text-align: left;float: right;margin-right: 500px;">
+                            <label for="inputEmail3" class="">
+                            <a href="javascript:void(0)" class="addListGroup2">+添加内容</a></label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!--<div id="tree"></div>-->
+
+    <form class="form-horizontal recharge-form">
+
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label a2" required>*充值金额：</label>
+            <div class="col-sm-3 control-label number">
+                <input autofocus id='test' type="text" min="1" pattern="[0-9]+" title="请输入正整数" required placeholder="正整数" class="form-control adminRechargeNumber">
+            </div>
+            元
+        </div>
+        <label id="testtext">test</label>
+        <input type="" id="testinput" value="">
+        <button type="submit" class="btn btn-default btn-save">&nbsp;&nbsp;保存&nbsp;&nbsp;</button>
+
+        </div>
+    </form>
+
+
+    <button class="btn btn-default btn_del">Confirmation 2</button>
+    <button class="btn btn-default btn_del">Confirmation 3</button>
+    <span class="glyphicon glyphicon-home">gggggggggg</span>
+    <a href="" class='test_a'>ggggggggggggg</a>
+    <button class="btn btn-default" id="custom-confirmation-links">Share to</button>
+
+
+    <form data-toggle="validator" role="form" class='CoR-form'>
+
+        <div class="form-group has-feedback">
+            <label for="tn" class="control-label">number</label>
+            <input type="number" class="form-control" id="tn" placeholder="请输入大于0的整数" min='0' step='1' data-error=‘请输入大于0的整数’ required>
+            <div class="help-block with-errors"></div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+        <button type="submit" class="btn btn-primary disabled" onclick="go()">test</button>
+
+    </form>
+
+
+
+
+
+
+
+
+    <style>
+        .parent {
+            width: 980px;
+            height: 250px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: #999;
+        }
+
+        .children {
+            display: inline-block;
+            width: 100px;
+            height: 250px;
+        }
+
+        *+html .children {
+            display: inline;
+            zoom: 1;
+        }
+
+        * html .children {
+            display: inline;
+            zoom: 1;
+        }
+    </style>
+
+    <body>
+        <div class="parent">
+            <div class="children" style="background-color:green;"></div>
+            <div class="children" style="background-color:red;"></div>
+            <div class="children" style="background-color:yellow;"></div>
+            <div class="children" style="background-color:blue;"></div>
+            <div class="children" style="background-color:green;"></div>
+            <div class="children" style="background-color:red;"></div>
+            <div class="children" style="background-color:yellow;"></div>
+            <div class="children" style="background-color:blue;"></div>
+            <div class="children" style="background-color:green;"></div>
+        </div>
+        <!--<script src="jquery-3.1.1.min.js"></script>-->
+        <!--<script src="bootstrap.min.js"></script>-->
+        <!--<script src="bootstrap-table.min.js"></script>-->
+        <!--<script src="bootstrap-table-zh-CN.min.js"></script>-->
+        <!--<script src="magicsuggest-min.js"></script>-->
+        <!--<script src="bootstrap-treeview.js"></script>-->
+        <!--<script src="bootstrap-confirmation.min.js"></script>-->
+        <!--<script src="validator.min.js"></script>-->
+        <!--<script src="area.js"></script>-->
+        <!--<script src="test.js"></script>-->
+        <style>
+            .wrap {
+                height: 500px;
+                border: 1px solid red;
+                height: 500px;
+                width: 650px;
+                display: table-cell;
+                /*IE8以上及Chrome、Firefox*/
+                vertical-align: middle;
+                /*IE8以上及Chrome、Firefox*/
+            }
+
+            .div1 {
+                background-color: pink;
+            }
+        </style>
+
+        <body>
+            <div class="wrap">
+                <div class="div1">
+                    我要垂直居中<br> 我要垂直居中
+                    <br> 我要垂直居中
+                    <br> 我要垂直居中
+                    <br> 我要垂直居中
+                    <br>
+                </div>
+            </div>
+        </body>
+        <ul>
+            <li>flex法，父元素添加 display: flex; 子元素添加 margin: auto;<br></li>
+            <li>利用calc() 数值计算<br></li>
+            <li>box法，子元素添加 display: (-webkit-/-moz-/-ms-)box; box-orient: horizontal; box-pack: center; box-align: center;<br></li>
+            <li>模拟表格，父元素添加 display: table; 子元素添加 display: table-cell; vertical-align: middle<br></li>
+            <li>绝对定位，子元素添加 position: absolute; top: 50%; margin-top: -(div height/2)px;<br></li>
+            <li>利用padding或margin（边距法）<br></li>
+            <li>利用line-height（行高法）,只针对文字</li>
+        </ul>
+
+
+
+
+
+        <script>
+            function go(params) {
+                console.log(123123);
+            }
+
+            $('.CoR-form').validator().on('submit', function (e) {
+                console.log('validator(),submit');
+                if (e.isDefaultPrevented()) {
+                    // handle the invalid form...
+                    console.log('isDefaultPrevented');
+                } else {
+                    // everything looks good!
+                    console.log('good');
+                }
+            })
+
+
+
+
+
+            $('.test_a').on('click', () => {
+                console.log("ok");
+            })
+
+            test = document.getElementById("test"),
+                $('#test').on('input', function (e) {
+                    e.target.setCustomValidity('')
+                    if ($(this).val() > 3) {
+                        console.log('大于3');
+                        this.setCustomValidity('123')
+                        // e.target.checkValidity()
+                        this.reportValidity();
+                    }
+
+                })
+
+
+
+
+
+            $('.btn_del').confirmation({
+                rootSelector: '.btn_del',
+                btnOkClass: "btn-success",
+                btnCancelClass: "btn-danger",
+                title: "是否确定删除?",
+                // content: "删除操作可能无法逆转",
+                popout: "true"
+                // other options
+            });
+
+
+            //           $('#custom-confirmation-links').confirmation({
+            //     rootSelector: '#custom-confirmation-link',
+            //     container: 'body',
+            //     title: 'gogogogogo',
+
+            //   });
+        </script>
+    </body>
+
+</html>
