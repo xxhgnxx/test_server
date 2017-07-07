@@ -1,47 +1,95 @@
-var fs=require('fs');
-var express = require('express'),
-	app = express(),
-	server = require('http').createServer(app);
+var fs = require('fs');
 
-function setup_res(req,res,res_date){
-	console.log("收到请求",req.method,req._parsedUrl.pathname,req.query);
-	res.header("Access-Control-Allow-Origin", "*");
-	res.header("Access-Control-Allow-Headers", "X-Requested-With");
-	res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
+var path = require('path');
+let express = require('express');
+var fs = require('fs');
+let app = express();
+var server = require('http').createServer(app);
+var cookieParser = require('cookie-parser');
+
+var https = require('https');
+// var privateKey  = fs.readFileSync('./res/key/private.pem', 'utf8');  
+// var certificate = fs.readFileSync('./res/key/file.crt', 'utf8'); 
+var privateKey = fs.readFileSync(path.join(__dirname, './res/key/private.pem'), 'utf8');
+var certificate = fs.readFileSync(path.join(__dirname, './res/key/file.crt'), 'utf8');
+var credentials = {
+	key: privateKey,
+	cert: certificate
+};
+app.use(cookieParser());
+var httpsServer = https.createServer(credentials, app);
+
+var SSLPORT = 9999;
+var PORT = 9999;
+
+//创建http服务器  
+// server.listen(PORT, function() {  
+//     console.log('HTTP Server is running on: http://localhost:%s', PORT);  
+// });  
+
+// //创建https服务器  
+httpsServer.listen(SSLPORT, function () {
+	console.log('HTTPS Server is running on: https://localhost:%s', SSLPORT);
+});
+
+
+// let server = require('http').createServer(app);
+// let io = require('socket.io').listen(httpsServer);
+// let io = require('socket.io').listen(88);
+// let port = process.env.PORT || 8000;
+// server.listen(port);
+
+
+
+
+function setup_res(req, res, res_date) {
+	console.log("收到请求", req.method, req._parsedUrl.pathname, req.query);
+	// res.jsonp({status:'jsonp'});
+	
+	res.header("Access-Control-Allow-Origin", "https://localhost:8080");
+	res.header("Access-Control-Allow-Headers", "*");
+	res.header("Access-Control-Allow-Methods", "*");
 	res.header("X-Powered-By", ' 3.2.1')
 	res.header("Content-Type", "application/json;charset=utf-8");
-		res.writeHead(200, {
-		"Content-Type": "application/json"
-	});
+	res.header('Access-Control-Allow-Credentials', 'true');
 	setTimeout(() => {
 		res.end(res_date);
 	}, 50)
 }
 
 
+app.get('/', (req, res) => {
+	console.log("收到请求  /");
+});
+
 app.get('/login', (req, res) => {
-	fs.readFile('res/login.ok.json',(err,data)=>{
-		setup_res(req,res,data)
+	res.cookie("token","123123")
+	fs.readFile('res/login.ok.json', (err, data) => {
+		setup_res(req, res, data)
 	})
 });
 app.get('/get_list', (req, res) => {
-	fs.readFile('res/list.json',(err,data)=>{
-		setup_res(req,res,data)
+	res.cookie("localhost",0, {domain:"localhost",maxAge: 60 * 1000})	
+	res.cookie("localhost:8080",2, {domain:"localhost:8080",maxAge: 60 * 1000})	
+	res.cookie("def",1, {maxAge: 60 * 1000})	
+	console.log("cookies",req.cookies.def);
+	fs.readFile('res/list.json', (err, data) => {
+		setup_res(req, res, data)
 	})
 });
 app.get('/activity/quiz/temp/redpacket', (req, res) => {
-	fs.readFile('res/ok.json',(err,data)=>{
-		setup_res(req,res,data)
+	fs.readFile('res/ok.json', (err, data) => {
+		setup_res(req, res, data)
 	})
 });
 app.post('/activity/quiz/temp/redpacket/send', (req, res) => {
-	fs.readFile('res/ok.json',(err,data)=>{
-		setup_res(req,res,data)
+	fs.readFile('res/ok.json', (err, data) => {
+		setup_res(req, res, data)
 	})
 });
 app.post('/activity/quiz/temp/submit', (req, res) => {
-	fs.readFile('res/submit_ok.json',(err,data)=>{
-		setup_res(req,res,data)
+	fs.readFile('res/submit_ok.json', (err, data) => {
+		setup_res(req, res, data)
 	})
 	// var data = JSON.stringify({
 	// 	code: 0,
@@ -51,8 +99,8 @@ app.post('/activity/quiz/temp/submit', (req, res) => {
 	// 	setup_res(req,res,data)
 });
 app.get('/activity/quiz/temp/lists', (req, res) => {
-	fs.readFile('res/list.json',(err,data)=>{
-		setup_res(req,res,data)
+	fs.readFile('res/list.json', (err, data) => {
+		setup_res(req, res, data)
 	})
 	// var data = JSON.stringify({
 	// 	code: 0,
@@ -84,7 +132,7 @@ app.get('/admin/agents/list', (req, res) => {
 			},
 		]
 	});
-		setup_res(req,res,data)
+	setup_res(req, res, data)
 })
 app.get('/admin/agents/get_customer_list', (req, res) => {
 	console.log('/admin/agents/get_customer_list', res);
@@ -466,7 +514,7 @@ var getOneData = {
 
 
 
-server.listen(9999);
+// server.listen(9999);
 
 // server.on('request', (request, response) => {
 // 	console.log(require('url').parse(request.url));

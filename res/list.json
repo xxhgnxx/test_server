@@ -1,25 +1,170 @@
 {
-    "status": 1,
-    "list": [{
-        "name": "一二三四五六",
-        "num": "101"
-      },
-      {
-        "name": "a",
-        "num": "100"
-      },
-       {
-        "name": "一二三",
-        "num": "99"
-      },
-      {
-        "name": "一二三四五六二三四五六",
-        "num": "98"
-      }
-    ],
-    "info1": {
-        "content": "内容内容内容内容内容内容内容内容",
-        "name": "名字名字名字",
-        "num": "123123"
+  "status": 1,
+  "list": [{
+      "name": "一二三四五六",
+      "num": "101"
+    },
+    {
+      "name": "a",
+      "num": "100"
+    },
+    {
+      "name": "一二三",
+      "num": "99"
+    },
+    {
+      "name": "一二三四五六二三四五六",
+      "num": "98"
     }
+  ],
+  "info1": {
+    "content": "内容内容内容内容内容内容内容内容",
+    "name": "名字名字名字",
+    "num": "123123"
+  },
+  "table_data": [{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.12,
+    "allocation": 100.01,
+    "withdraw": 25.03,
+    "balance": 9900.10,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "这是五个字这是五个字这是五个字这是五个字这是五个字这是五个字",
+    "amount": 10000.12,
+    "allocation": 100.03,
+    "withdraw": 25.31,
+    "balance": 9900.2,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.31,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.31,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.13,
+    "withdraw": 25.12,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  },{
+    "agent_id": 10030,
+    "agent_name": "test1",
+    "amount": 10000.00,
+    "allocation": 100.00,
+    "withdraw": 25.00,
+    "balance": 9900.00,
+    "count": 2,
+    "status_op": 4
+  }]
 }
