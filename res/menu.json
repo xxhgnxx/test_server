@@ -1,0 +1,58 @@
+{
+	"code": "0",
+	"message": "no errors",
+	"data": [
+		{
+			"id"   : "101",
+			"name" : "广告管理",
+			"icon" : "flag",
+			"uri"  : "",
+			"child": [
+				{
+					"id"   : "10101",
+					"name" : "计划管理",
+					"icon" : "hammer",
+					"uri"  : "/test1"
+				},
+				{
+					"id"   : "10102",
+					"name" : "投放管理",
+					"icon" : "hammer",
+					"uri"  : "/units"
+				},
+				{
+					"id"   : "10103",
+					"name" : "创意管理",
+					"icon" : "hammer",
+					"uri"  : "/creatives"
+				}
+			]
+		},
+		{
+			"id"   : "102",
+			"name" : "数据报告",
+			"icon" : "person",
+			"uri"  : "",
+			"child": [
+				{
+					"id"   : "10201",
+					"name" : "昨日统计",
+					"icon" : "person",
+					"uri"  : "/stat/yesterday"
+				},
+				{
+					"id"   : "10203",
+					"name" : "按创意统计",
+					"icon" : "person",
+					"uri"  : "/stat/creatives"
+				},
+				{
+					"id"   : "10203",
+					"name" : "按投放统计",
+					"icon" : "person",
+					"uri"  : "/stat/units"
+				}
+			]
+		}
+	]
+}

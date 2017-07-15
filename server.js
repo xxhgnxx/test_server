@@ -23,14 +23,14 @@ var SSLPORT = 9999;
 var PORT = 9999;
 
 //创建http服务器  
-// server.listen(PORT, function() {  
-//     console.log('HTTP Server is running on: http://localhost:%s', PORT);  
-// });  
+server.listen(PORT, function() {  
+    console.log('HTTP Server is running on: http://localhost:%s', PORT);  
+});  
 
 // //创建https服务器  
-httpsServer.listen(SSLPORT, function () {
-	console.log('HTTPS Server is running on: https://localhost:%s', SSLPORT);
-});
+// httpsServer.listen(SSLPORT, function () {
+// 	console.log('HTTPS Server is running on: https://localhost:%s', SSLPORT);
+// });
 
 
 // let server = require('http').createServer(app);
@@ -50,7 +50,8 @@ function setup_res(req, res, res_date) {
 	res.header("Access-Control-Allow-Headers", "*");
 	res.header("Access-Control-Allow-Methods", "*");
 	res.header("X-Powered-By", ' 3.2.1')
-	res.header("Content-Type", "application/json;charset=utf-8");
+	// res.header("Content-Type", "application/json;charset=utf-8");
+	res.header("Content-Type", "application/application/vnd.api+json;charset=utf-8");
 	res.header('Access-Control-Allow-Credentials', 'true');
 	setTimeout(() => {
 		res.end(res_date);
@@ -74,6 +75,11 @@ app.get('/get_list', (req, res) => {
 	res.cookie("def",1, {maxAge: 60 * 1000})	
 	console.log("cookies",req.cookies.def);
 	fs.readFile('res/list.json', (err, data) => {
+		setup_res(req, res, data)
+	})
+});
+app.get('/get_menu', (req, res) => {
+	fs.readFile('res/menu.json', (err, data) => {
 		setup_res(req, res, data)
 	})
 });

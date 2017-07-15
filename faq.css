@@ -1,0 +1,61 @@
+body,
+html {
+    max-width: 1440px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.faq_head {
+    /*background-color: red;*/
+    width: 100%;
+    height: 40px;
+    border: double;
+    
+}
+
+.faq_content {
+
+    display: flex;
+/*    display: -webkit-flex;*/
+    border: double;
+}
+
+.left_20 {
+    width:200px;
+}
+.right_80{
+    flex: 1;
+    height: 100%;
+}
+.well{
+
+    height: 100%;
+
+}
+
+.faq_container {
+  display: flex;
+  margin-right: auto;
+    margin-left: auto;
+}
+
+.left {
+  width: 200px;
+  background: red;
+}
+
+.right {
+  background: green;
+  flex: 1;
+    
+  
+}
+.act{
+    background-color: blue;
+}
+.list-group-item:hover,.can_select:hover{
+    background-color: green;
+    
+}
