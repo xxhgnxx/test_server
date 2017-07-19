@@ -6,7 +6,7 @@ var fs = require('fs');
 let app = express();
 var server = require('http').createServer(app);
 var cookieParser = require('cookie-parser');
-
+app.use('/', express.static(__dirname));
 var https = require('https');
 // var privateKey  = fs.readFileSync('./res/key/private.pem', 'utf8');  
 // var certificate = fs.readFileSync('./res/key/file.crt', 'utf8'); 
@@ -21,16 +21,16 @@ var httpsServer = https.createServer(credentials, app);
 
 var SSLPORT = 9999;
 var PORT = 9999;
-
+var http_port=7777;
 //创建http服务器  
-server.listen(PORT, function() {  
-    console.log('HTTP Server is running on: http://localhost:%s', PORT);  
+server.listen(http_port, function() {  
+    console.log('HTTP Server is running on: http://localhost:%s', http_port);  
 });  
 
 // //创建https服务器  
-// httpsServer.listen(SSLPORT, function () {
-// 	console.log('HTTPS Server is running on: https://localhost:%s', SSLPORT);
-// });
+httpsServer.listen(SSLPORT, function () {
+	console.log('HTTPS Server is running on: https://localhost:%s', SSLPORT);
+});
 
 
 // let server = require('http').createServer(app);
@@ -50,8 +50,8 @@ function setup_res(req, res, res_date) {
 	res.header("Access-Control-Allow-Headers", "*");
 	res.header("Access-Control-Allow-Methods", "*");
 	res.header("X-Powered-By", ' 3.2.1')
-	// res.header("Content-Type", "application/json;charset=utf-8");
-	res.header("Content-Type", "application/application/vnd.api+json;charset=utf-8");
+	res.header("Content-Type", "application/json;charset=utf-8");
+	// res.header("Content-Type", "application/application/vnd.api+json;charset=utf-8");
 	res.header('Access-Control-Allow-Credentials', 'true');
 	setTimeout(() => {
 		res.end(res_date);
@@ -70,10 +70,10 @@ app.get('/login', (req, res) => {
 	})
 });
 app.get('/get_list', (req, res) => {
-	res.cookie("localhost",0, {domain:"localhost",maxAge: 60 * 1000})	
-	res.cookie("localhost:8080",2, {domain:"localhost:8080",maxAge: 60 * 1000})	
-	res.cookie("def",1, {maxAge: 60 * 1000})	
-	console.log("cookies",req.cookies.def);
+	// res.cookie("localhost",0, {domain:"localhost",maxAge: 60 * 1000})	
+	// res.cookie("localhost:8080",2, {domain:"localhost:8080",maxAge: 60 * 1000})	
+	// res.cookie("def",1, {maxAge: 60 * 1000})	
+	// console.log("cookies",req.cookies.def);
 	fs.readFile('res/list.json', (err, data) => {
 		setup_res(req, res, data)
 	})

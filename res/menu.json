@@ -12,13 +12,13 @@
 					"id"   : "10101",
 					"name" : "计划管理",
 					"icon" : "hammer",
-					"uri"  : "/test1"
+					"uri"  : "test1"
 				},
 				{
 					"id"   : "10102",
-					"name" : "投放管理",
+					"name" : "代理商列表",
 					"icon" : "hammer",
-					"uri"  : "/units"
+					"uri"  : "test2"
 				},
 				{
 					"id"   : "10103",

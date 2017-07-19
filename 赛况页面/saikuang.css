@@ -1,0 +1,241 @@
+html,
+body {
+    -webkit-touch-callout: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    /* iOS position:fixed; elements fix (not 100%) */
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+.matchItem:hover {
+    background: #ebeced;
+}
+
+.tab_active {
+    /* background: #16b13a; */
+    height: 38px;
+    border-bottom: 2px solid #16b13a;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tab_active a {
+    /* background: #16b13a; */
+    color: #16b13a !important;
+}
+
+#con .left {
+    width: 680px;
+}
+
+.title_player::before {
+    display: inline-block;
+    content: "";
+    width: 3px;
+    height: 22px;
+    background: #16b13a;
+    vertical-align: sub;
+    margin-right: 14px;
+}
+
+.content_header {
+    position: relative;
+    height: 40px;
+    background: #f7f7f7;
+    /* border-bottom: 1px solid #ffffff; */
+}
+
+.matchItem {
+    color: #888888;
+    height: 80px;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #e3e3e3;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+
+.matchItem a {
+    /* color: #888888; */
+}
+
+.team {
+    text-align: center;
+}
+
+.team_name {
+    height: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.stat {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.stat div {
+    height: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.team_img {
+    width: 50px;
+}
+
+.match_info {
+    width: 100%;
+    height: 160px;
+    background: url(img/info_back.png) no-repeat center;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.match_info .team {
+    margin: 39px;
+    text-align: center;
+}
+
+.match_info .team_name {
+    height: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.match_info .team_img {
+    width: 75px;
+    margin-bottom: 4px;
+}
+
+.match_info .stat {
+    width: 200px;
+}
+
+.match_info .stat div {
+    width: 200px;
+    text-align: center;
+}
+
+.zhibo {
+    position: relative;
+    display: inline-block;
+     display: -webkit-flex; 
+     display: flex; 
+    background: #f7f7f7;
+    line-height: 30px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.zhibo_title {
+    display: inline-block;
+        flex-grow: 0;
+    width: 75px;
+    padding-left: 12px;
+}
+
+.zhibo_pla {
+        flex-grow: 0;
+    display: inline-block;
+    margin-left: -18px;
+    line-height: 25px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+      width: 580px; 
+}
+
+.zhibo_pla a {
+    color: #16b13a;
+}
+
+.zhibo_pla>div {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #888888;
+}
+
+.split {
+    display: inline-block;
+    height: 15px;
+    width: 1px;
+    background: #cdcdcd;
+    vertical-align: middle;
+}
+
+.link_list {
+    position: relative;
+    display: inline-block;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: #f7f7f7;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.link_list_a>div {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#news_list h2 {
+    font-size: 18px;
+}
+
+.none_news {
+    text-align: center;
+    line-height: 100px;
+}
+
+.invalid_title {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
