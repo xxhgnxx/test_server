@@ -125,7 +125,7 @@ h1.name {
 }
 
 .match_stat {
-    /* height: 376px; */
+    margin-bottom: 20px;
     background: #f7f7f7;
 }
 
@@ -155,27 +155,22 @@ h1.name {
 
 .match_tab {
     display: inline-block;
-    height: 50px;
-    /*background: #68c;*/
-    vertical-align: top;
-    margin-left: 50px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ebeced;
+    /* vertical-align: top; */
     font-size: 0;
 }
 
 .match_tab a {
     display: inline-block;
-    /*width: 44px;*/
-    height: 25px;
-    padding: 0 10px;
-    margin: 12px 10px;
-    /*border: 1px solid #16b13a;*/
-    /*color: #ffffff;*/
+    width: 225px;
+    height: 39px;
+    line-height: 39px;
     color: #333333;
-    font-size: 13px;
-    line-height: 25px;
+    font-size: 16px;
     text-align: center;
     border-radius: 1px;
-    /*background: #999999*/
 }
 
 .match_tab a:hover {
@@ -183,15 +178,14 @@ h1.name {
     transition: all .2s;
 }
 
-.match_tab a:nth-of-type(3) {
-    margin-right: 20px;
+.match_tab .split {
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    margin-bottom: 10px;
+    background: #fff;
+    vertical-align: middle;
 }
-
-.match_tab a:nth-of-type(4) {
-    margin-left: 20px;
-}
-
-
 
 .link_list_a {
     color: #333333;
@@ -204,16 +198,56 @@ table.match_list {
 }
 
 table.match_list td {
-    height: 28px;
-    background: #f7f7f7;
     text-align: center;
+    color: #555;
     line-height: 28px;
-    font-weight: 500;
+    padding: 10px 0;
+    ;
 }
 
 table.match_list td:nth-child(1) {
-    width: 100px;
+    width: 140px;
+    text-align: left;
+    padding-left: 30px;
 }
+table.match_list th:nth-child(1) {
+    width: 140px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.top_rank .match_list td:nth-child(2){
+    width: 50px;
+}
+.top_rank .match_list td:nth-child(3){
+    width: 50px;
+}
+.top_rank .match_list td:nth-child(4){
+    width: 50px;
+}
+.top_rank .match_list td:nth-child(5){
+    width: 50px;
+}
+.top_rank .match_list td:nth-child(6){
+    width: 50px;
+}
+.top_rank .match_list td:nth-child(7){
+    width: 50px;
+}
+.top_rank .match_list td:nth-child(8){
+    width: 50px;
+}
+.top_rank .match_list td:nth-child(9){
+    width: 50px;
+}
+.top_rank .match_list td:nth-child(10){
+    padding-right: 45px;
+}
+.top_rank .match_list th:nth-child(10){
+    padding-right: 45px;
+}
+
+/* 
 
 table.match_list td:nth-child(2) {
     width: 120px;
@@ -221,16 +255,16 @@ table.match_list td:nth-child(2) {
 
 table.match_list td:nth-child(3) {
     width: 85px;
-}
+} */
 
 table.match_list th {
-    height: 24px;
-    background: #ebeced;
-    color: #888888;
+    height: 38px;
+    color: #999;
+    font-weight: 400;
     vertical-align: middle;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px;
-    font-weight: 300;
+    background-color: #ebeced;
 }
 
 table.match_list tr.stat_list:nth-child(2n) td {
@@ -771,10 +805,11 @@ article.position {
     font-weight: 500;
 }
 
-.stat_list img {
+.match_list img {
     width: 20px;
     height: 20px;
     vertical-align: middle;
+    margin-right: 5px;
 }
 
 .stat_list span {

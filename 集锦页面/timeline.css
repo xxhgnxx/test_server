@@ -1,0 +1,761 @@
+section {
+  display: block;
+  height: 40px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+  background-color: #ebeced;
+}
+
+a {
+  /* color: #399e5c; */
+  text-decoration: none;
+}
+
+a.person,
+a.person:visited,
+a.person:hover,
+a.person:active {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.6;
+  text-align: justify;
+  word-wrap: break-word;
+  word-break: normal;
+  /* margin: 20px 0; */
+}
+
+ul,
+li,
+dl,
+dt,
+dd {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+header time {
+  color: #999;
+  font-size: 12px;
+  display: inline-block;
+  padding: 0;
+  vertical-align: top;
+  margin-left: 6px;
+}
+
+header h2 {
+  line-height: 20px;
+  font-size: 12px;
+  padding: 5px 0 0 0;
+  font-weight: normal;
+  margin: 0;
+}
+
+article video {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background: url() #3e3e3e no-repeat center center;
+  background-size: 118px;
+}
+
+.media-iframe {
+  text-indent: 0;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100px;
+}
+
+.media-container {
+  display: block;
+  position: relative;
+  z-index: 1000;
+  margin: 0 auto;
+}
+
+.media-container-video {
+  border-bottom: 25px #000 solid;
+  border-top: 25px #000 solid;
+}
+
+.media-holder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background: url('http://static1.dongqiudi.com/web-new/static/api/images/play@80x80.png') no-repeat center center;
+  background-size: 40px 40px;
+}
+
+.media-holder-video {
+  background: url('http://static1.dongqiudi.com/web-new/static/api/images/video.png') no-repeat center center;
+  background-size: 60px 60px;
+}
+
+.floater {
+  float: left;
+  height: 50%;
+  margin-bottom: -10px;
+}
+
+.empty {
+  clear: both;
+  height: 20px;
+  position: relative;
+  text-align: center;
+  color: #747474;
+  font-size: 16px;
+}
+
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ol#timeline {
+  width: 100%;
+  padding-bottom: 20px;
+  background: url('http://static1.dongqiudi.com/web-new/static/api/images/eventpic/bg_line.png') center center repeat-y;
+}
+
+ol#timeline li {
+  position: relative;
+  color: #555;
+  margin: 10px 0;
+}
+
+ol#timeline li div {
+  width: 40%;
+  border: 1px solid #ddd;
+  padding: 5px 0;
+  background: #fff;
+  position: relative;
+  border-radius: 3px;
+}
+
+ol#timeline p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  text-indent: 0;
+}
+
+ol#timeline p img {
+  width: 15px;
+  vertical-align: middle;
+}
+
+.content_p {
+  padding-bottom: 41px;
+  /* height: 699px; */
+  /* overflow: auto; */
+  margin-right: 1px;
+  padding: 10px 15px;
+  background-color: #f7f7f7;
+}
+
+.show {
+  width: 100%;
+  font-size: 14px;
+  height: 40px;
+  /* padding: 13px 0; */
+  line-height: 25px;
+  border-top: 1px solid #ebebeb;
+  background: #f5f5f5;
+  margin-bottom: 10px;
+}
+
+.show_main {
+  padding: 0 90px;
+}
+
+.show img {
+  width: 25px;
+  vertical-align: top;
+  margin-right: 3px;
+}
+
+.show span {
+  display: inline-block;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.show_main {
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  /*ie6-8*/
+  text-align-last: justify;
+  /* ie9*/
+  -moz-text-align-last: justify;
+  /*ff*/
+  -webkit-text-align-last: justify;
+  /*chrome 20+*/
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  /* chrome*/
+  .show_main:after {
+    content: ".";
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+  }
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table
+}
+
+.cf:after {
+  clear: both
+}
+
+.cf {
+  zoom: 1;
+  clear: both;
+  padding: 0;
+}
+
+ol#timeline .home {
+  float: left;
+  text-align: right;
+  padding-right: 10px;
+  margin-left: 25px;
+}
+
+ol#timeline .home p {
+  text-align: right;
+  font-size: 12px;
+}
+
+ol#timeline .home span.arrow {
+  display: block;
+  width: 6px;
+  height: 8px;
+  position: absolute;
+  background: url('http://static1.dongqiudi.com/web-new/static/api/images/eventpic/tri_l.png') 0 0 no-repeat;
+  position: absolute;
+  right: -6px;
+  top: 5px;
+  background-size: cover
+}
+
+ol#timeline .away {
+  float: right;
+  text-align: left;
+  padding-left: 10px;
+  line-height: 15px;
+  margin-right: 25px;
+}
+
+ol#timeline .away span.arrow {
+  display: block;
+  width: 6px;
+  height: 8px;
+  position: absolute;
+  background: url('http://static1.dongqiudi.com/web-new/static/api/images/eventpic/tri_r.png') 0 0 no-repeat;
+  position: absolute;
+  left: -6px;
+  top: 5px;
+  background-size: cover
+}
+
+ol#timeline .away p {
+  text-align: left;
+}
+
+ol#timeline .num {
+  display: block;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  background: #16ac3a;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: arial;
+  font-size: 10px;
+}
+
+.content .act {
+  display: block;
+  width: 100%;
+  height: 20px;
+  color: #16ac3a;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.content .dot {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: #16ac3a;
+  margin: -5px auto 0 auto
+}
+
+.content .dot_s {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: #16ac3a;
+  margin: 0px auto 0 auto
+}
+
+ol#timeline>li:first-child {
+  margin-top: 5px;
+}
+
+.icon_start {
+  display: block;
+  margin: 0 auto;
+  width: 16px;
+  height: 16px;
+  background: url('http://static1.dongqiudi.com/web-new/static/api/images/eventpic/icon_start.png') 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.icon_end {
+  display: block;
+  margin: 5px auto 0 auto;
+  width: 16px;
+  height: 16px;
+  background: url('http://static1.dongqiudi.com/web-new/static/api/images/eventpic/icon_end.png') 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.status {
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.status table {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.status table.head {
+  border-bottom: 1px solid #ddd
+}
+
+.status th,
+.status td {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-collapse: collapse;
+  font-weight: 400;
+  font-size: 12px;
+  border: 0;
+}
+
+.status th {
+  height: 40px;
+  line-height: 40px;
+}
+
+.status td {
+  height: 16px;
+  line-height: 16px;
+  padding: 7px 0;
+  font-family: arial
+}
+
+.status a {
+  color: #333;
+}
+
+.status th img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.status .away {
+  width: 41%;
+  text-align: right;
+  text-overflow: ellipsis;
+}
+
+.status .home {
+  width: 41%;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.status .num{
+  margin-left:5px; 
+  margin-right: 5px;
+}
+.status .name {
+  width: 18%;
+  text-align: center;
+}
+
+.status .rank {
+  margin: 0 1px;
+  display: inline-block;
+  width: 85%;
+  height: 12px;
+  line-height: 12px;
+  background: #e9e9e9;
+  border-radius: 1px;
+  vertical-align: top;
+  margin-top: 2px;
+}
+
+.status .ranks {
+  display: inline-block;
+  height: 12px;
+  line-height: 12px;
+  background: #16ac3a;
+  border-radius: 1px;
+  vertical-align: top;
+}
+
+.status .ranks_l {
+  background: #888
+}
+
+span.text_lim {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  line-break: strict;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  width: 90px;
+}
+
+.empty {
+  padding-top: 30%;
+}
+
+.video {
+  position: relative
+}
+
+.video .mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(https://dqdfiles.b0.upaiyun.com/app/icon_playing.png) center center no-repeat rgba(0, 0, 0, 0.5);
+  background-size: auto 20px;
+  z-index: 10000;
+  display: none;
+}
+
+.playing .mask {
+  display: block;
+}
+
+.playing .media-holder-video {
+  display: none;
+}
+
+
+/*code for css*/
+
+ul.gif_container {
+  min-height: 200px;
+  padding: 15px 10px 10px;
+  font-size: 0;
+}
+
+ul.gif_container li {
+  background: #FFFFFF;
+  display: inline-block;
+  width: 49%;
+  min-height: 100px;
+  margin-bottom: 8px;
+  overflow: hidden;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+ul.gif_container li:nth-child(even) {
+  margin-left: 2%;
+}
+
+ul.gif_container li .img_con {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 128px;
+  width: 100%;
+}
+
+ul.gif_container li .text_con {
+  font-size: 12px;
+  margin: 0;
+  padding: 8px 8px 10px;
+  height: 52px;
+  position: relative;
+}
+
+ul.gif_container li .text_con p {
+  margin: 0;
+  height: 30px;
+  line-height: 15px;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+ul.gif_container li a {
+  display: block;
+  color: #333333;
+}
+
+ul.gif_container li a:visited {
+  color: #999999;
+}
+
+.total_view {
+  position: absolute;
+  left: 8px;
+  bottom: 10px;
+  color: #16ac3a;
+}
+
+.comments {
+  position: absolute;
+  right: 8px;
+  bottom: 10px;
+  color: #999999;
+}
+
+.gif {
+  background-image: url(public/3x_gif_icon.png);
+  background-position: center center;
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+  display: block;
+  z-index: 2000;
+}
+
+#app_news {
+  background: #fff;
+}
+
+#app_news dd {
+  padding: 0 14px;
+}
+
+#app_news dd {
+  border-top: 1px solid #eeeeee;
+  height: 72px;
+}
+
+#app_news dd a {
+  display: block;
+  color: #333;
+  height: 52px;
+  padding: 10px 0;
+  position: relative;
+}
+
+#app_news dd a:visited {
+  color: #999999;
+}
+
+#app_news dd span {
+  color: #aaa;
+  font-size: 11px;
+  position: absolute;
+  right: 0;
+  bottom: 9px;
+}
+
+#app_news dd .img_news {
+  background-color: #e9e9e9;
+  width: 70px;
+  height: 52px;
+  float: left;
+  margin-right: 10px;
+  background-position: center center;
+  background-size: 100%;
+}
+
+#app_news dd .video_news {
+  width: 70px;
+  height: 52px;
+  border-radius: 2px;
+  float: left;
+  margin-right: 12px;
+  background-position: center center;
+  background-size: 100%;
+}
+
+#app_news dd .video_icon {
+  background: url(https://dqdfiles.b0.upaiyun.com/app/video.png) center center no-repeat rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  background-size: 20px 20px;
+}
+
+#app_news p {
+  padding: 0 0 3px 0;
+  line-height: 18px;
+  margin: 0;
+  font-size: 14px;
+  position: relative;
+  bottom: 2px;
+}
+
+.content h2 {
+  line-height: 1.5;
+  margin: 10px 0;
+  padding: 0 0 0 10px;
+  position: relative;
+  color: #2d2f32;
+  font-weight: 400;
+  background: url(http://static1.dongqiudi.com/web-new/static/api/images/bh_title.png) left 6px no-repeat;
+  font-size: 18px;
+}
+
+.tips_i {
+  width: 100%;
+  font-size: 0.8em;
+  color: #8c9399;
+  display: block;
+}
+
+.tips_v {
+  display: block;
+  width: 100%;
+  font-size: 0.8em;
+  color: #8c9399;
+}
+
+section table {
+  margin: 0;
+  padding: 0;
+  width: 100%
+}
+
+
+/* section table.head {
+  border-bottom: 1px solid #ddd
+} */
+
+section th,
+section td {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 36px;
+  border-collapse: collapse;
+  font-weight: 400;
+  font-size: 16px;
+  border: 0;
+}
+
+
+/* section th {
+  height: 40px;
+  line-height: 40px;
+} */
+
+section td {
+  height: 16px;
+  line-height: 16px;
+  padding: 7px 0;
+  font-family: arial
+}
+
+section a {
+  color: #333;
+}
+
+section th img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+section .away {
+  width: 43%;
+  text-align: right;
+  text-overflow: ellipsis;
+}
+
+section .home {
+  width: 43%;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+section .name {
+  width: 14%;
+  text-align: center;
+}
+
+section .rank {
+  margin: 0 1px;
+  display: inline-block;
+  width: 77%;
+  height: 12px;
+  line-height: 12px;
+  background: #e9e9e9;
+  border-radius: 1px;
+  vertical-align: top;
+  margin-top: 2px;
+}
+
+section .ranks {
+  display: inline-block;
+  height: 1px;
+  line-height: 12px;
+  background: #16ac3a;
+  border-radius: 1px;
+  vertical-align: top;
+}
+
+section .ranks_l {
+  background: #888
+}
