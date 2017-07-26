@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link href="http://vjs.zencdn.net/5.5.3/video-js.css" rel="stylesheet">
+        <!-- If you'd like to support IE8 -->
+        <!-- <script src="http://vjs.zencdn.net/ie8/1.1.1/videojs-ie8.min.js"></script> -->
+        <script src="http://vjs.zencdn.net/5.5.3/video.js"></script>
+        
+    </head>
+    <body>
+        <h1>放松放松法的直播间</h1>
+        <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+               poster="img/yuanxing.png" data-setup="{}">
+            <!-- <source src="rtmp://wsvideopull.smartcourt.cn/prod/93c50ea2b9a941b78dd9bb685a391908" type="rtmp/flv"> -->
+            <!-- <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type="rtmp/flv"> -->
+            <!-- 如果上面的rtmp流无法播放，就播放hls流 -->
+             <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type='application/x-mpegURL'> 
+            <p class="vjs-no-js">
+                <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+        </video>
+    </body>
+</html>

@@ -69,6 +69,11 @@ app.get('/login', (req, res) => {
 		setup_res(req, res, data)
 	})
 });
+app.get('/v2/activity/hisensetv/4074880', (req, res) => {
+	fs.readFile('res/haixin.json', (err, data) => {
+		setup_res(req, res, data)
+	})
+});
 app.get('/get_list', (req, res) => {
 	// res.cookie("localhost",0, {domain:"localhost",maxAge: 60 * 1000})	
 	// res.cookie("localhost:8080",2, {domain:"localhost:8080",maxAge: 60 * 1000})	

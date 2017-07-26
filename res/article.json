@@ -1,0 +1,134 @@
+{
+    "status": 1,
+    "news_list": [
+        {
+            "title": "在这里总共有合计十四个中国字",
+            "num": "101"
+        },
+        {
+            "title": "只有五个字",
+            "num": "100"
+        },
+        {
+            "title": "一二三",
+            "num": "99"
+        },
+        {
+            "title": "在这里总共有合计十四个中国字",
+            "num": "98"
+        },
+        {
+            "title": "这是三十字这是三十字这是三十字这是三十字这是三十字这是三十字",
+            "num": "98"
+        }
+    ],
+    "article": [{
+            "title": "一这里总共有合计十四个中国字",
+            "sum": "一我疯了我写了超过五十个字的内容，我要看看这玩意能否自动截断，文字兵加省略号！三是三十字这是三十字这是三十字这是三十字这是三十字这是三十字",
+            "img": "http://img1.dongqiudi.com/fastdfs1/M00/9F/57/180x135/crop/-/pIYBAFl1bZ-ASmCpAAApHFRC5Lo721.jpg"
+        },
+        {
+            "title": "二这里总共有合计十四个中国字",
+            "sum": "二是三十字这是三十字这是三十字这是三十字这是三十字这是三十字",
+            "img": "http://img1.dongqiudi.com/fastdfs1/M00/9F/57/180x135/crop/-/pIYBAFl1bZ-ASmCpAAApHFRC5Lo721.jpg"
+        },
+        {
+            "title": "三这里总共有合计十四个中国字",
+            "sum": "三是三十字这是三十字这是三十字这是三十字这是三十字这是三十字",
+            "img": "http://img1.dongqiudi.com/fastdfs1/M00/9F/57/180x135/crop/-/pIYBAFl1bZ-ASmCpAAApHFRC5Lo721.jpg"
+        }
+    ],
+    "img": [
+        [{
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/28/o4YBAFl1yZOAfkjxAAG-JWYu3j0776.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/28/o4YBAFl1yZqAXGh9AAG6f52BrDQ844.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/28/o4YBAFl1yaSAcGQDAAFLTVEVum0767.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/28/o4YBAFl1ya2AFyMeAAFA1L9lhpM841.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/8E/pIYBAFl1ybWAT5dWAAEkSFRohd4214.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/28/o4YBAFl1yb6AfQS5AAFqPM-hFyw640.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/8E/pIYBAFl1yc-AATrEAADdGyBMRKE161.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/8E/pIYBAFl1yc-AATrEAADdGyBMRKE161.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/8E/pIYBAFl1ydiAGJKZAAE8Qkp9GYk620.jpg"
+            }
+        ],
+        [{
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/8A/pIYBAFl1xX-ACDzkAAJ1zpUwN44786.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/25/o4YBAFl1xX-AVhZtAAGzkqBYgGg559.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/8A/pIYBAFl1xYCAciERAAH8FpbsEa8065.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/25/o4YBAFl1xZKAPz6wAAIFJzP3268260.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/8B/pIYBAFl1xZKAUSVoAAIoNLeEwKU170.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/8B/pIYBAFl1xZKAN8K2AAGOajY2tZ0319.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/8B/pIYBAFl1xZOADRdOAAF2IuSl7w8183.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/25/o4YBAFl1xZOACOSEAAHljsigv-k196.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/25/o4YBAFl1xZOAcLboAAFrnjOR5HA871.jpg"
+            }
+        ],
+        [{
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/85/pIYBAFl1vEiAC0WIAArtEC7KINI338.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/79/pIYBAFl1qjaAI3hRAAG4dXXHUcs465.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/79/pIYBAFl1qjaASfUuAAInsPsrm4g907.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/79/pIYBAFl1qjeAMRyzAAOYaZ1v1IE181.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/13/o4YBAFl1qjeAFCIVAAK0Q2u65t8393.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/13/o4YBAFl1qjeAYYlnAAZ-bFRRq_M765.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/79/pIYBAFl1qjeAaJZMAAUkhmN79OU341.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/79/pIYBAFl1qjeAQNWRAANrnLP6TLQ754.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/9F/79/pIYBAFl1qjiAN4juAAPSdtHkylM591.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/13/o4YBAFl1qjiAKUAjAAdysEl8FTU921.jpg"
+            },
+            {
+                "src": "http://img1.dongqiudi.com/fastdfs1/M00/A0/13/o4YBAFl1qjiATEhcAAOUDxPixkM704.jpg"
+            }
+        ]
+
+    ]
+}
