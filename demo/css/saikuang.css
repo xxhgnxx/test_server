@@ -76,7 +76,7 @@ body {
 
 .team {
     text-align: center;
-    width: 85px;
+    width: 100px;
 }
 
 .team_name {
@@ -96,7 +96,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100px;
+    width: 80px;
 }
 
 .stat div {
@@ -135,8 +135,9 @@ body {
 }
 
 .match_info .team {
-    margin: 9px;
+    margin-top: 9px;
     text-align: center;
+    width: 120px;
 }
 
 .match_info .team_name {

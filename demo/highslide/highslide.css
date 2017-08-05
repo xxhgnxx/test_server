@@ -34,10 +34,10 @@
 	border-color: white;
 }
 .highslide-wrapper, .highslide-outline {
-	background: white;
+	/* background: white; */
 }
 .glossy-dark {
-	background: #111;
+	/* background: #111; */
 }
 
 .highslide-image-blur {
@@ -485,7 +485,7 @@ html>/**/body .highslide-gallery ul img {
 
 /* hs.wrapperClassName = 'dark' */
 .dark {
-	background: #111;
+	/* background: #111; */
 }
 .dark .highslide-image {
 	border-color: black black #202020 black;
@@ -493,7 +493,7 @@ html>/**/body .highslide-gallery ul img {
 }
 .dark .highslide-caption {
 	color: white;
-	background: #111;
+	/* background: #111; */
 }
 .dark .highslide-controls,
 .dark .highslide-controls ul,
@@ -504,7 +504,7 @@ html>/**/body .highslide-gallery ul img {
 /* hs.wrapperClassName = 'floating-caption' */
 .floating-caption .highslide-caption {
 	position: absolute;
-	padding: 1em 0 0 0;
+	padding: 0.5em 0.5em 0.5em 0.5em;
 	background: none;
 	color: white;
 	border: none;

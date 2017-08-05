@@ -1,5 +1,5 @@
 var fs = require('fs');
-
+var bodyParser = require('body-parser');
 var path = require('path');
 let express = require('express');
 var fs = require('fs');
@@ -17,6 +17,7 @@ var credentials = {
 	cert: certificate
 };
 app.use(cookieParser());
+app.use(bodyParser.json());
 var httpsServer = https.createServer(credentials, app);
 
 var SSLPORT = 9999;
@@ -62,6 +63,17 @@ function setup_res(req, res, res_date) {
 app.get('/', (req, res) => {
 	console.log("收到请求  /");
 });
+
+app.post('/log',(req,res)=>{
+	console.log("收到请求  log",req.query);
+	console.log("收到请求  log",req.params.log);
+	console.log("收到请求  log",req.body);
+		res.writeHead(200, {
+		"Content-Type": "application/json"
+	});
+
+		res.end();
+})
 
 app.get('/login', (req, res) => {
 	res.cookie("token","123123")

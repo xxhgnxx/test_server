@@ -1,0 +1,27 @@
+<div>
+
+    <a id="a" >
+ggogogogog
+</a><a href="ggogogogog">
+ggogogogog2
+</a><a href="rrrrr">
+ggogogogog3
+</a>
+tttttttt
+
+<div>
+
+
+            <script src="jquery-3.1.1.min.js"></script>
+<script>
+    $('div').on('click',function () {  
+window.location ="test_click"
+        console.log('go',window.location);
+    })
+            $('#a').on('click',function (event) {  
+window.location ="a"
+        console.log('a',window.location);
+         event.stopPropagation()
+    })
+
+</script>

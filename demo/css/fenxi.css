@@ -270,6 +270,10 @@ table.match_list th {
 table.match_list tr.stat_list:nth-child(2n) td {
     background: #ffffff;
 }
+.pankou tr.stat_list td {
+    background: #ffffff;
+    border-bottom: 1px solid #ebeced
+}
 
 table.match_list tr.stat_list:last-of-type {
     border-bottom: 1px solid #ebeced
@@ -811,6 +815,14 @@ article.position {
     vertical-align: middle;
     margin-right: 5px;
 }
+.match_list .team_name {
+max-width: 1px;
+       overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+        width: 100px;
+        padding: 0 20px;
+}
 
 .stat_list span {
     vertical-align: middle;
@@ -867,3 +879,4 @@ table.teammates_list tr.stat_list:hover td {
 table.teammates_list tr.stat_list:hover a {
     color: #16b13a;
 }
+

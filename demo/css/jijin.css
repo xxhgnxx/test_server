@@ -110,6 +110,17 @@ ul.gif_container li a:visited {
   margin: 0;
   padding: 0 10px;
   background-color: #f7f7f7;
-  margin-top:1px; 
-  margin-bottom:10px; 
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+/* 
+.floating-caption .highslide-caption {
+  margin-top: 3rem;
+  font-size: 14px;
+  width: 625px;
+  left: -96px;
+} */
+
+.highslide-caption{
+  padding:0 10px;
 }

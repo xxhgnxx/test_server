@@ -1,0 +1,65 @@
+<div id="user_head">
+    <a id="left_ico" href="javascript:history.go(-1);">
+        <i class="icon iconfont">&#xe645;</i>
+    </a>
+    <span>个人头像</span>
+    <a id="s_dpage" href="javascript:void(0);">
+         <i class="icon iconfont">&#xe633;</i> 
+    </a>
+</div>
+
+<a href="javascript:void(0);" class="logoBox" id="logoBox">
+    <img id="bgl" src="images/userico.jpg" width="100%">
+</a>
+
+<div class="htmleaf-container">
+    <div id="clipArea"></div>
+    <div id="preview"></div>
+</div>
+
+<div class="btn-1">
+    <button>确认更换</button>
+</div>
+
+<div id="dpage">
+    <a href="javascript:void(0);">
+        <input type="button" name="file" class="button" value="拍照">
+    	  <input id="file_head" type="file" onchange="javascript:setImagePreview();" accept="image/*" multiple  />
+    </a>
+    <a href="javascript:void(0);"><input type="button" name="file" class="button" value="选取照片">
+  	   <input id="file" type="file" onchange="javascript:setImagePreview();" accept="image/*" multiple  /></a>
+    <a href="javascript:void(0);" class="qx"><button id="clipBtn">截取图片</button></a>
+</div>
+
+
+<script>
+    function setImagePreview() {
+        var preview, img_txt, localImag, file_head = document.getElementById("file_head"),
+            picture = file_head.value;
+        if (!picture.match(/.jpg|.gif|.png|.bmp/i)) return alert("您上传的图片格式不正确，请重新选择！"), !1;
+        if (preview = document.getElementById("preview"), file_head.files && file_head.files[0]) preview.style.display =
+            "block",
+            preview.style.width = "100px",
+            preview.style.height = "100px",
+            preview.src = window.navigator.userAgent.indexOf("Chrome") >= 1 || window.navigator.userAgent.indexOf(
+                "Safari") >= 1 ? window.webkitURL.createObjectURL(file_head.files[0]) : window.URL.createObjectURL(
+                file_head.files[0]);
+        else {
+            file_head.select(),
+                file_head.blur(),
+                img_txt = document.selection.createRange().text,
+                localImag = document.getElementById("localImag"),
+                localImag.style.width = "100px",
+                localImag.style.height = "100px";
+            try {
+                localImag.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale)",
+                    localImag.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = img_txt
+            } catch (f) {
+                return alert("您上传的图片格式不正确，请重新选择！"), !1
+            }
+            preview.style.display = "none",
+                document.selection.empty()
+        }
+        return document.getElementById("DivUp").style.display = "block", !0
+    }
+</script>
