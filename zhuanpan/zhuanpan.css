@@ -1,0 +1,14 @@
+.zhuanpan_box{
+    margin: 5%;
+    width: 90%;
+    /* background: rgba(200,0,0,0.5); */
+}
+.zhuanpan_box canvas{
+    position: absolute;
+}
+#btn_choujiang{
+    position: absolute;
+}
+#myCanvas{
+
+}

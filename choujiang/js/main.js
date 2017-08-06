@@ -9,10 +9,7 @@ function roll(n = parseInt(Math.random() * (7 - 0 + 0) + 0)) {
 	end = n
 	speed = 62
 	change_select(30)
- 
 }
-
-
 
 function change_select(speed) {
 	// if (speed <= (2000 + n * 20)) {
@@ -20,26 +17,18 @@ function change_select(speed) {
 	// }
 }
 
-function set_speed(){
-	if (speed>30&&times==24) {
-		speed-=4;
-	}else{
-		if (times>0) {
-		times--
-			
-		}else{
-
-if (speed<1500) {
-	speed+=50
-}
-
+function set_speed() {
+	if (speed > 30 && times == 24) {
+		speed -= 4;
+	} else {
+		if (times > 0) {
+			times--
+		} else {
+			if (speed < 1500) {
+				speed += 50
+			}
 		}
-
-
-
 	}
-
-
 	return speed
 }
 
@@ -59,8 +48,8 @@ function change_canvas() {
 
 
 	n = (n == 7 ? 0 : n + 1);
-		console.log(speed);
-	
+	console.log(speed);
+
 	if (speed >= (1000)) {
 		console.log('end');
 		return
