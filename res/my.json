@@ -1,0 +1,20 @@
+{
+	"code": 0,
+	"data": {
+		"is_joined" : true,   
+		"can_choujiang": false, 
+		"zhenrong": {
+			"zhenxing": "1",
+			"weizhi": "",
+			"head_id":1,
+			"nickname": "一二三四五六七八",
+            "team_id": 1,
+            "money":15000
+		},
+		"prize": {
+			"prize_id": 10002,
+			"prize_name": "足球",
+			"prize_detail": "1000101"
+		}
+	}
+}

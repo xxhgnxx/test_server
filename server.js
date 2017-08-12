@@ -63,6 +63,14 @@ function setup_res(req, res, res_date) {
 app.get('/', (req, res) => {
 	console.log("收到请求  /");
 });
+app.get('/api', (req, res) => {
+	console.log("收到请求  /api");
+	res.end();
+});
+app.get('/localapi', (req, res) => {
+	console.log("收到请求  /localapi");
+	res.end();
+});
 
 app.post('/log',(req,res)=>{
 	console.log("收到请求  log",req.query);
@@ -78,6 +86,21 @@ app.post('/log',(req,res)=>{
 app.get('/login', (req, res) => {
 	res.cookie("token","123123")
 	fs.readFile('res/login.ok.json', (err, data) => {
+		setup_res(req, res, data)
+	})
+});
+app.get('/api/activity/join1', (req, res) => {
+	fs.readFile('res/login.ok.json', (err, data) => {
+		setup_res(req, res, data)
+	})
+});
+app.get('/api/activity/my', (req, res) => {
+	fs.readFile('res/my.json', (err, data) => {
+		setup_res(req, res, data)
+	})
+});
+app.get('/api/activity/good-luck', (req, res) => {
+	fs.readFile('res/luck.json', (err, data) => {
 		setup_res(req, res, data)
 	})
 });

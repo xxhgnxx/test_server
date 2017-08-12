@@ -1,8 +1,12 @@
-var roundwidth = $('.zhuanpan_box').width()
+var roundwidth = document.body.clientWidth * 0.9
+// $('.zhuanpan_box').width()
+$('#msg').text($('#msg').text()+"-"+$('.zhuanpan_box').width())
+$('#msg').text($('#msg').text()+"-"+document.body.clientWidth)
+$('#msg').text($('#msg').text()+"-"+roundwidth)
 $('.zhuanpan_box').height(roundwidth)
 var roundheight = $('.zhuanpan_box').height()
 
-console.log('高：' + roundwidth + '  宽：' + roundwidth);
+console.log('hhhhhhhhhh' + roundwidth + '  宽：' + roundwidth);
 
 $('#myCanvas').attr("height", roundwidth)
 $('#myCanvas').attr("width", roundwidth)
@@ -28,7 +32,7 @@ var info = ['超级杯专属足球', '豪门足球游戏礼包', '谢谢参与',
 
 
 var canvas = document.getElementById('myCanvas');
-var canvas_select = document.getElementById('myCanvas_select');
+var canvas_select = document.getElementById('canvas_select');
 var canvas_btn = document.getElementById('canvas_btn');
 var canvas_ball = document.getElementById('canvas_ball');
 var canvas_text = document.getElementById('canvas_text');
@@ -38,6 +42,9 @@ var ctx_btn = canvas_btn.getContext('2d');
 
 var ctx_ball = canvas_ball.getContext('2d');
 var ctx_text = canvas_text.getContext('2d');
+
+
+
 
 // 初始化外边框
 ctx.lineWidth = r / 20;
@@ -68,12 +75,14 @@ var startAngle = 0;
 var endAngle = 0;
 //画一个8等份扇形组成的圆形
 ctx.lineWidth = r / 1.2;
+
+
 for (var i = 0; i < 6; i++) {
     startAngle = Math.PI * (i / 3 - 1 / 6);
     endAngle = startAngle + Math.PI * (1 / 3);
     ctx.save();
     ctx.beginPath();
-    ctx.arc(r, r, r - r / 3 - r / 4 - r / 20, startAngle, endAngle, );
+    ctx.arc(r, r, r - r / 3 - r / 4 - r / 20, startAngle, endAngle);
     if (i % 2 == 0) {
         ctx.strokeStyle = '#5d7a43';
     } else {
@@ -186,7 +195,7 @@ var end = parseInt(Math.random() * (7 - 0 + 0) + 0)
 var speed = 62
 var times = 24
 
-function roll(n = parseInt(Math.random() * (7 - 0 + 0) + 0)) {
+function roll(n =1) {
     end = n
     speed = 62
     change_select(30)

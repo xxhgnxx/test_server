@@ -1,0 +1,18 @@
+#zhuanpan_box{
+   width: 90%;
+    position: absolute;
+    margin: 0 5%;
+}
+#zhuanpan_back{
+    width: 100%;
+    display: block;
+}
+#zhuanpan_select{
+position: absolute;
+    width: 73%;
+    top: 12.1%;
+    left: 14%;
+    /* background: red; */
+    background: rgba(200,0,0,0.5);
+    display: block;
+}

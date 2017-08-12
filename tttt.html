@@ -1,14 +1,56 @@
 
-<div class="thumbwrapper">
-	<a href="samples/full2.jpg" class="highslide" onclick="return hs.expand(this,
-			{wrapperClassName: 'borderless floating-caption', dimmingOpacity: 0.75, align: 'center'})">
-		<img id="thumb2" width="107" height="120"
-	        src="samples/thumb2.jpg" alt="Highslide JS"
-			title="Click to enlarge" />
-	</a>
-	<div class='highslide-caption' id="caption-for-thumb2">
-    	You can add a caption below the expanded image. Use CSS to style the
-		borders and captions. This image also has a Mac-style close button overlaid in the top right corner.
-	</div>
+        <script src="jquery-3.1.1.min.js"></script>
 
+<div class="">
+123123
+<button type="" onclick="test()">test</button>
+<button type="" onclick="test2()">clear</button>
+<div id="error_msg">
+        go->
 </div>
+</div>
+
+<script>
+        function test(params) {
+               try {
+    $.ajax({
+      type: 'get',
+      url: '/api/activity/join',
+      data: {
+    'tt':'123'
+      },
+      dataType: 'json',
+      success: function (res) {
+        console.log(res);
+        set_error_msg('json_ok'+'-code:'+res.code)
+        if (res.code == 0) {
+
+        } else {
+
+
+        }
+      },
+      error: function (xhr, type) {
+        console.log('网络异常responseText test', JSON.stringify(xhr));
+
+        console.log('网络异常', xhr, type);
+        set_error_msg('网络异常')
+        set_error_msg('网络异常' + xhr + type)
+set_error_msg('js反馈 网络异常error test-'+JSON.stringify(xhr))
+      }
+    });
+  } catch (error) {
+    set_error_msg('catch 网络异常 test-'+error)
+  }
+}
+
+function test2(params) {
+        $('#error_msg').text('')
+}
+
+function set_error_msg(msg) {
+          $('#error_msg').text($('#error_msg').text()+"->"+msg)
+
+}
+        
+</script>
