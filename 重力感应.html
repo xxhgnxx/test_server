@@ -1,0 +1,36 @@
+<div class='main'>
+    重力感应？！
+
+
+
+</div>
+<style>
+.main{
+    background: rgba(200,0,0,0.5);
+    height: 500px;
+width:100%;
+}
+</style>
+
+<script>
+    if (window.DeviceMotionEvent) { 
+                 window.addEventListener('devicemotion',deviceMotionHandler, false);  
+                 console.log('存在重力感应');
+        } 
+        var speed = 30;//speed
+        var x = y = z = lastX = lastY = lastZ = 0;
+        function deviceMotionHandler(eventData) {  
+          var acceleration =event.accelerationIncludingGravity;
+                x = acceleration.x;
+                y = acceleration.y;
+                z = acceleration.z;
+                if(Math.abs(x-lastX) > speed || Math.abs(y-lastY) > speed || Math.abs(z-lastZ) > speed) {
+                    //简单的摇一摇触发代码
+                 console.log('摇一摇');
+                    alert('摇一摇');
+                }
+                lastX = x;
+                lastY = y;
+                lastZ = z;
+        }
+</script>

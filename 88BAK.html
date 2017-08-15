@@ -1,74 +1,40 @@
-
-    <div id="popwindow" class="zoomInUp popwindow">
-      <div class="back">
-        <div class="msg">
-          <div class="window_msg">
-            很遗憾，你神马都没抽中╮(╯_╰)╭ <br> 但是没关系，你颜值高啊！
-          </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .img{
+            width:100px;
+            height:100px;
+            border:1px solid blue;
+        }
+        .big{
+            border:1px solid red;
+        }
+        img{
+            width:100px;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="big">
+        <div class="wrap">
+            <input type="file">
+            <div class="img"></div>        
         </div>
-        <div class="btn_group">
-          <img class="btn" src="{{staticDomain}}/public/images/haomen/btn.png" alt="">
-          <span onclick="btn_ok()" class="btn_msg">说得在理</span>
-        </div>
-      </div>
-      <img class="title" src="{{staticDomain}}/public/images/haomen/pop_title0.png" alt="">
-      <img class="close" onclick="btn_close()" src="{{staticDomain}}/public/images/haomen/close.png" alt="">
     </div>
-
-    <div id="popwindow_get_ok" class="zoomInUp popwindow">
-      <div class="back">
-        <div class="msg">
-          <div class="window_msg">
-            提交成功 \(•ㅂ•)/ <br> 请耐心工作人员和你联系哟！
-          </div>
-        </div>
-        <div class="btn_group">
-          <img class="btn" src="{{staticDomain}}/public/images/haomen/btn.png" alt="">
-          <span onclick="btn_ok()" class="btn_msg">好哒</span>
-        </div>
-      </div>
-      <img class="title" src="{{staticDomain}}/public/images/haomen/pop_title1.png" alt="">
-      <img class="close" onclick="btn_close()" src="{{staticDomain}}/public/images/haomen/close.png" alt="">
-    </div>
-
-    <div id="popwindow_game_code" class="zoomInUp popwindow">
-      <div class="back">
-        <div class="msg">
-          <div class="window_msg">
-            恭喜你抽到 <span class="name"> 豪门足球游戏礼包</span> <br> 复制中奖码，进入游戏即可兑换哦！
-            <br>
-            <div class="code" id="game_code">
-              WOEFI198SSDL
-            </div>
-          </div>
-        </div>
-        <div class="btn_group">
-          <img class="btn" src="{{staticDomain}}/public/images/haomen/btn.png" alt="">
-          <span id="getcode" onclick="get_code()" class="btn_msg">复制中奖码</span>
-        </div>
-      </div>
-      <img class="title" src="{{staticDomain}}/public/images/haomen/pop_title1.png" alt="">
-      <img class="close" onclick="btn_close()" src="{{staticDomain}}/public/images/haomen/close.png" alt="">
-    </div>
-
-    <div id="popwindow_ball" class="zoomInUp popwindow">
-      <div class="back">
-        <div class="msg">
-          <div class="window_msg">
-            恭喜你抽到 <span class="name"> 超级杯足球</span> <br> 留下联系方式，工作人员会在7天内和你联系
-            <br>
-            <div class="input" style=" margin-top: 1.3rem; ">
-              <span>手机号:&nbsp</span>
-              <div> <input id="tel" type="tel" placeholder="请输入11位手机号码" pattern="\d{11}"> </div>
-            </div>
-          </div>
-          <div class="error_msg" id="error_msg"></div>
-        </div>
-        <div class="btn_group">
-          <img class="btn" src="{{staticDomain}}/public/images/haomen/btn.png" alt="">
-          <span onclick="btn_ok()" class="btn_msg" id="btn_msg">3分钟内提交</span>
-        </div>
-      </div>
-      <img class="title" src="{{staticDomain}}/public/images/haomen/pop_title1.png" alt="">
-      <img class="close" onclick="btn_close()" src="{{staticDomain}}/public/images/haomen/close.png" alt="">
-    </div>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script>
+        $('input').on('change',function(){
+           console.log('123');
+        })
+      
+    </script>
+</body>
+</html>

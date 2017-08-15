@@ -56,7 +56,7 @@ function setup_res(req, res, res_date) {
 	res.header('Access-Control-Allow-Credentials', 'true');
 	setTimeout(() => {
 		res.end(res_date);
-	}, 50)
+	}, 3000)
 }
 
 
