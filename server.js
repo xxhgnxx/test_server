@@ -22,11 +22,11 @@ var httpsServer = https.createServer(credentials, app);
 
 var SSLPORT = 9999;
 var PORT = 9999;
-var http_port=7777;
+var http_port = 7777;
 //创建http服务器  
-server.listen(http_port, function() {  
-    console.log('HTTP Server is running on: http://localhost:%s', http_port);  
-});  
+server.listen(http_port, function () {
+	console.log('HTTP Server is running on: http://localhost:%s', http_port);
+});
 
 // //创建https服务器  
 httpsServer.listen(SSLPORT, function () {
@@ -44,22 +44,36 @@ httpsServer.listen(SSLPORT, function () {
 
 
 function setup_res(req, res, res_date) {
+	var timeout = 0
+	var conf = {}
+	fs.readFile('conf/config.json', (err, data) => {
+		conf = JSON.parse(data)
+		timeout = conf.timeout || 0
+		for (var i = 0; i < conf.header.length; i++) {
+			var element = conf.header[i];
+			res.header(element.name, element.set)
+		}
+		setTimeout(() => {
+			res.end(res_date);
+		}, timeout)
+	})
 	console.log("收到请求", req.method, req._parsedUrl.pathname, req.query);
-	// res.jsonp({status:'jsonp'});
-	
-	res.header("Access-Control-Allow-Origin", "https://localhost:8080");
-	res.header("Access-Control-Allow-Headers", "*");
-	res.header("Access-Control-Allow-Methods", "*");
-	res.header("X-Powered-By", ' 3.2.1')
-	res.header("Content-Type", "application/json;charset=utf-8");
-	// res.header("Content-Type", "application/application/vnd.api+json;charset=utf-8");
-	res.header('Access-Control-Allow-Credentials', 'true');
-	setTimeout(() => {
-		res.end(res_date);
-	}, 3000)
 }
-
-
+app.get('*', (req, res) => {
+	console.log("收到请求  *");
+	console.log(req.url);
+	fs.readFile('conf/res_list.json', (err, data) => {
+		var res_list = JSON.parse(data)
+		if (res_list[req.url]) {
+			fs.readFile(res_list[req.url], (err, data) => {
+				setup_res(req, res, data)
+			})
+		} else {
+			console.log("无效请求", req.url);
+			res.status(400).send('无效请求');
+		}
+	});
+});
 app.get('/', (req, res) => {
 	console.log("收到请求  /");
 });
@@ -72,19 +86,19 @@ app.get('/localapi', (req, res) => {
 	res.end();
 });
 
-app.post('/log',(req,res)=>{
-	console.log("收到请求  log",req.query);
-	console.log("收到请求  log",req.params.log);
-	console.log("收到请求  log",req.body);
-		res.writeHead(200, {
+app.post('/log', (req, res) => {
+	console.log("收到请求  log", req.query);
+	console.log("收到请求  log", req.params.log);
+	console.log("收到请求  log", req.body);
+	res.writeHead(200, {
 		"Content-Type": "application/json"
 	});
 
-		res.end();
+	res.end();
 })
 
 app.get('/login', (req, res) => {
-	res.cookie("token","123123")
+	res.cookie("token", "123123")
 	fs.readFile('res/login.ok.json', (err, data) => {
 		setup_res(req, res, data)
 	})
@@ -104,11 +118,11 @@ app.get('/api/activity/good-luck', (req, res) => {
 		setup_res(req, res, data)
 	})
 });
-app.get('/activity/quiz/leagues/', (req, res) => {
-	fs.readFile('res/result.json', (err, data) => {
-		setup_res(req, res, data)
-	})
-});
+// app.get('/activity/quiz/leagues/', (req, res) => {
+// 	fs.readFile('res/result.json', (err, data) => {
+// 		setup_res(req, res, data)
+// 	})
+// });
 app.get('/v2/article/test', (req, res) => {
 	fs.readFile('res/test.json', (err, data) => {
 		setup_res(req, res, data)
