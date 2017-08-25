@@ -1,0 +1,127 @@
+{
+    "errCode": 0,
+    "errMesg": "",
+    "data": {
+        "comment_list": [{
+            "id": "58521376",
+            "up": 2689,
+            "rank": 15035739574934,
+            "recommend": true,
+            "created_at": "2017-08-24 19:25:57",
+            "user_id": "1145130",
+            "content": "\u6559\u79d1\u4e66\u822c\u7684\u9632\u5b88\u53cd\u51fb",
+            "reply_total": "119"
+        }, {
+            "id": "58521468",
+            "up": 1510,
+            "rank": 15035739763859,
+            "recommend": true,
+            "created_at": "2017-08-24 19:26:16",
+            "user_id": "1191600",
+            "content": "\u6709\u4e2a\u4eba\u8bf4\u7684\u5f88\u597d\uff1a\u5982\u679c\u6253\u5f00\u61c2\u7403\u5e1d\uff0c5\u6761\u65b0\u95fb\u91cc\u6ca1\u6709\u5173\u4e8e\u5df4\u8428\u5f88\u60e8\u7684\u65b0\u95fb\uff0c\u90a3\u4e48\u8bc1\u660e\uff0c\u4f60\u7684\u670d\u52a1\u5668\u53ef\u80fd\u5d29\u4e86\u3002",
+            "reply_total": "49"
+        }, {
+            "id": "58521520",
+            "up": 913,
+            "rank": 15035739862330,
+            "recommend": true,
+            "created_at": "2017-08-24 19:26:27",
+            "user_id": "2112701",
+            "content": "\u8ba9\u5f00\uff0c\u8ba9\u6211\u7528\u5c3f\u6ecb\u9192\u5df4\u6258\u6885\u4e4c",
+            "attachments_total": 1,
+            "attachments": [{
+                "url": "http:\/\/img1.dongqiudi.com\/fastdfs1\/M00\/B4\/59\/pIYBAFmet-KAMdDuAAl8wnxZx2Y983.png",
+                "thumb": "http:\/\/img1.dongqiudi.com\/fastdfs1\/M00\/B4\/59\/pIYBAFmet-KAMdDuAAl8wnxZx2Y983.png",
+                "mime": "image\/png",
+                "width": 1080,
+                "height": 1920,
+                "size": 621762
+            }],
+            "reply_total": "66"
+        }],
+        "article": {
+            "id": "408427",
+            "title": "\u9a6c\u5361\uff1a\u5185\u9a6c\u5c14\u5411FIFA\u8d77\u8bc9\u5df4\u8428\uff0c\u7d22\u89812600\u4e07\u7eed\u7ea6\u5956\u91d1",
+            "share_title": "\u9a6c\u5361\uff1a\u5185\u9a6c\u5c14\u5411FIFA\u8d77\u8bc9\u5df4\u8428\uff0c\u7d22\u89812600\u4e07\u7eed\u7ea6\u5956\u91d1",
+            "share": "https:\/\/www.dongqiudi.com\/article\/408427",
+            "description": ""
+        },
+        "user_list": [{
+            "id": "0",
+            "username": "\u706b\u661f\u7403\u8ff7999\u53f7",
+            "medal_id": 0,
+            "medal_desc": "",
+            "is_root": false,
+            "avatar": "http:\/\/img1.dongqiudi.com\/fastdfs1\/M00\/3B\/EF\/100x100\/-\/-\/o4YBAFjM9lqAel9GAAAQrsgeQ3A103.jpg"
+        }, {
+            "id": "1145130",
+            "username": "\u7a46\u52d2010927",
+            "avatar": "http:\/\/img.dongqiudi.com\/uploads\/avatar\/2016\/08\/07\/R62l4sNJtc_avatar.jpg!avatarsmall",
+            "medal_id": "0",
+            "medal_desc": null,
+            "medal_url": "",
+            "created_at": "2015-07-31 00:34:57",
+            "team_id": "961",
+            "team_icon": "http:\/\/img.dongqiudi.com\/data\/pic\/961.png",
+            "is_root": false
+        }, {
+            "id": "100730",
+            "username": "Cleverley",
+            "avatar": "http:\/\/img.dongqiudi.com\/uploads\/avatar\/2014\/07\/29\/n3eLYfknzQ_avatar.jpg!avatarsmall",
+            "medal_id": "0",
+            "medal_desc": null,
+            "medal_url": "",
+            "created_at": "2014-07-29 01:51:45",
+            "team_id": "774",
+            "team_icon": "http:\/\/img.dongqiudi.com\/data\/ouzhoubei\/774.png",
+            "is_root": false
+        }, {
+            "id": "1191600",
+            "username": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u8db3\u7403\u534f\u4f1a\u4e3b\u5e2d",
+            "avatar": "http:\/\/img.dongqiudi.com\/uploads\/avatar\/2017\/03\/19\/eCE1kTsv58_thumb_1489908387450.jpg!avatarsmall",
+            "medal_id": "0",
+            "medal_desc": null,
+            "medal_url": "",
+            "created_at": "2015-08-18 17:05:20",
+            "team_id": "453",
+            "team_icon": "http:\/\/img.dongqiudi.com\/uploads\/attachments\/channels\/FKZVlUl30jRMqc5y.png",
+            "is_root": false
+        }, {
+            "id": "2112701",
+            "username": "\u9b51\u9b45\u9b4d\u9b49\u4e1c\u5357\u5317",
+            "avatar": "http:\/\/img.dongqiudi.com\/uploads\/avatar\/2016\/12\/25\/ceFDDkG0MD_thumb_1482638941589.jpg!avatarsmall",
+            "medal_id": "0",
+            "medal_desc": null,
+            "medal_url": "",
+            "created_at": "2016-05-29 08:19:21",
+            "team_id": "2017",
+            "team_icon": "http:\/\/img.dongqiudi.com\/data\/pic\/2017.png",
+            "is_root": false
+        }, {
+            "id": "1629757",
+            "username": "\u5355\u5c0f\u53cd",
+            "avatar": "http:\/\/img.dongqiudi.com\/uploads\/avatar\/2017\/01\/21\/jolRu9OfRT_thumb_1484974754097.jpg!avatarsmall",
+            "medal_id": "0",
+            "medal_desc": null,
+            "medal_url": "",
+            "created_at": "2016-02-03 20:30:03",
+            "team_id": "2017",
+            "team_icon": "http:\/\/img.dongqiudi.com\/data\/pic\/2017.png",
+            "is_root": false
+        }, {
+            "id": "1196171",
+            "username": "LS1999",
+            "avatar": "http:\/\/img.dongqiudi.com\/uploads\/avatar\/2016\/11\/27\/zVo9CPd7G1_thumb_1325595660190.jpg!avatarsmall",
+            "medal_id": "0",
+            "medal_desc": null,
+            "medal_url": "",
+            "created_at": "2015-08-20 07:46:48",
+            "team_id": "429",
+            "team_icon": "http:\/\/img.dongqiudi.com\/data\/pic\/429.png",
+            "is_root": false
+        }],
+        "pendant": {
+            "status": false
+        }
+    }
+}

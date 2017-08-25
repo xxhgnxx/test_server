@@ -104,8 +104,23 @@ app.get('/api/activity/good-luck', (req, res) => {
 		setup_res(req, res, data)
 	})
 });
-app.get('/v2/activity/hisensetv/4074880', (req, res) => {
+app.get('/activity/quiz/leagues/', (req, res) => {
+	fs.readFile('res/result.json', (err, data) => {
+		setup_res(req, res, data)
+	})
+});
+app.get('/v2/article/test', (req, res) => {
+	fs.readFile('res/test.json', (err, data) => {
+		setup_res(req, res, data)
+	})
+});
+app.get('/v2/activity/hisensetv/3260453', (req, res) => {
 	fs.readFile('res/haixin.json', (err, data) => {
+		setup_res(req, res, data)
+	})
+});
+app.get('/getplayer', (req, res) => {
+	fs.readFile('res/player.json', (err, data) => {
 		setup_res(req, res, data)
 	})
 });
