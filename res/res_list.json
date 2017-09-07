@@ -1,0 +1,26 @@
+{
+    "get": {
+        "/user/getUserInfoByAuth": "res/ok.json",
+        "/activity/quiz/leagues/1": "res/result.json",
+        "/admin/monitoring/creative/list": "res/monitoring.json",
+        "/monitoring/creative/set-speed": "res/ok.json",
+        "/monitoring/creative/set-ctr": "res/ok.json",
+        "/activity/quiz/leagues/": "res/result.json",
+        "/activity/quiz/zhongchao/": "res/chinese_super_quiz.json",
+        "/activity/quiz/leagues/submit/": "res/ok.json",
+        "/activity/quiz/leagues/result/?mobile=13412312312": "res/ok.json"
+
+    },
+    "post": {
+        "/activity/quiz/leagues/submit/": "res/ok.json",
+        "/activity/quiz/zhongchao/submit/": "res/ok.json",
+        "/activity/quiz/leagues/result/": "res/ok.json",
+        "/activity/quiz/zhongchao/send_code/": "res/ok.json"
+
+    },
+    "put": {
+
+    }
+
+
+}

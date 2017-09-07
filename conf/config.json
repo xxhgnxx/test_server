@@ -1,5 +1,5 @@
 {
-    "timeout":0,
+    "timeout":200,
     "header":[
         {"name": "Access-Control-Allow-Origin","set":"https://localhost:8080"},
         {"name":  "Access-Control-Allow-Headers","set":"*"},

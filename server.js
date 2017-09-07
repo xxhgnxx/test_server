@@ -60,10 +60,43 @@ function setup_res(req, res, res_date) {
 	console.log("收到请求", req.method, req._parsedUrl.pathname, req.query);
 }
 app.get('*', (req, res) => {
-	console.log("收到请求  *");
+	console.log("收到get请求  *");
 	console.log(req.url);
-	fs.readFile('conf/res_list.json', (err, data) => {
-		var res_list = JSON.parse(data)
+	fs.readFile('res/res_list.json', (err, data) => {
+		var res_list = JSON.parse(data).get
+		if (res_list[req.url]) {
+			fs.readFile(res_list[req.url], (err, data) => {
+				setup_res(req, res, data)
+			})
+		} else {
+			console.log("无效请求", req.url);
+			res.status(200).send('无效请求');
+			// fs.readFile('res/ok.json', (err, data) => {
+			// 	setup_res(req, res, data)
+			// })
+		}
+	});
+});
+app.put('*', (req, res) => {
+	console.log("收到put请求  *");
+	console.log(req.url);
+	fs.readFile('res/res_list.json', (err, data) => {
+		var res_list = JSON.parse(data).put
+		if (res_list[req.url]) {
+			fs.readFile(res_list[req.url], (err, data) => {
+				setup_res(req, res, data)
+			})
+		} else {
+			console.log("无效请求", req.url);
+			res.status(200).send('无效请求');
+		}
+	});
+});
+app.post('*', (req, res) => {
+	console.log("收到post请求  *");
+	console.log(req.url);
+	fs.readFile('res/res_list.json', (err, data) => {
+		var res_list = JSON.parse(data).post
 		if (res_list[req.url]) {
 			fs.readFile(res_list[req.url], (err, data) => {
 				setup_res(req, res, data)
@@ -109,6 +142,11 @@ app.get('/api/activity/join1', (req, res) => {
 	})
 });
 app.get('/api/activity/my', (req, res) => {
+	fs.readFile('res/my.json', (err, data) => {
+		setup_res(req, res, data)
+	})
+});
+app.put('/test', (req, res) => {
 	fs.readFile('res/my.json', (err, data) => {
 		setup_res(req, res, data)
 	})
