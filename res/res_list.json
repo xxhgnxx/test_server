@@ -8,7 +8,9 @@
         "/activity/quiz/leagues/": "res/result.json",
         "/activity/quiz/zhongchao/": "res/chinese_super_quiz.json",
         "/activity/quiz/leagues/submit/": "res/ok.json",
-        "/activity/quiz/leagues/result/?mobile=13412312312": "res/ok.json"
+        "/activity/quiz/leagues/result/?mobile=13412312312": "res/ok.json",
+        "/recharge/apps": "res/recharge.json",
+        "/recharge/orderinfo?order_no=hgn": "res/recharge.json"
 
     },
     "post": {
