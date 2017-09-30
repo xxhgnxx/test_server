@@ -1,24 +1,28 @@
 {
     "get": {
-        "/user/getUserInfoByAuth": "res/ok.json",
-        "/activity/quiz/leagues/1": "res/result.json",
-        "/admin/monitoring/creative/list": "res/monitoring.json",
-        "/monitoring/creative/set-speed": "res/ok.json",
-        "/monitoring/creative/set-ctr": "res/ok.json",
-        "/activity/quiz/leagues/": "res/result.json",
-        "/activity/quiz/zhongchao/": "res/chinese_super_quiz.json",
-        "/activity/quiz/leagues/submit/": "res/ok.json",
-        "/activity/quiz/leagues/result/?mobile=13412312312": "res/ok.json",
-        "/recharge/apps": "res/recharge.json",
-        "/recharge/orderinfo?order_no=hgn": "res/recharge.json"
-
+        "/user/getUserInfoByAuth": { "des": "获取用户资料", "date": "res/ok.json" },
+        "/v2/activity/hisensetv/3260453": { "des": "海信活动页接口", "date": "res/haixin.json" },
+        "/activity/quiz/leagues/1": { "des": "中超竞猜活动页接口", "date": "res/result.json" },
+        "/activity/quiz/tempMatch/1": { "des": "五大联赛活动页接口", "date": "res/result.json" },
+        "/monitoring/creative/set-speed": { "des": "", "date": "res/ok.json" },
+        "/monitoring/creative/set-ctr": { "des": "", "date": "res/ok.json" },
+        "/activity/quiz/leagues/": { "des": "", "date": "res/result.json" },
+        "/activity/quiz/zhongchao/": { "des": "", "date": "res/chinese_super_quiz.json" },
+        "/activity/quiz/leagues/submit/": { "des": "", "date": "res/ok.json" },
+        "/activity/quiz/leagues/result/?mobile=13412312312": { "des": "", "date": "res/ok.json" },
+        "/recharge/apps": { "des": "", "date": "res/recharge.json" },
+        "/recharge/orderinfo?order_no=hgn": { "des": "", "date": "res/recharge.json" },
+        "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
+        "/admin/monitoring/creative/list": { "des": "创意监控接口", "date": "res/monitoring.json" }
     },
     "post": {
-        "/activity/quiz/leagues/submit/": "res/ok.json",
-        "/activity/quiz/zhongchao/submit/": "res/ok.json",
-        "/activity/quiz/leagues/result/": "res/ok.json",
-        "/activity/quiz/zhongchao/send_code/": "res/ok.json"
-
+        "/activity/quiz/tempMatch/submit/1": { "des": "创意监控接口", "date": "res/ok.json" },
+        "/activity/quiz/leagues/submit/1": { "des": "创意监控接口", "date": "res/ok.json" },
+        "/activity/quiz/leagues/submit/": { "des": "创意监控接口", "date": "res/ok.json" },
+        "/activity/quiz/zhongchao/submit/": { "des": "创意监控接口", "date": "res/ok.json" },
+        "/activity/quiz/leagues/result/": { "des": "创意监控接口", "date": "res/ok.json" },
+        "/activity/quiz/zhongchao/send_code/": { "des": "创意监控接口", "date": "res/ok.json" },
+        "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用"        
     },
     "put": {
 

@@ -1,0 +1,9 @@
+{
+    "/activity/quiz/tempMatch/submit/1": { "des": "创意监控接口", "data": "res/ok.json" },
+    "/activity/quiz/leagues/submit/1": { "des": "创意监控接口", "data": "res/ok.json" },
+    "/activity/quiz/leagues/submit/": { "des": "创意监控接口", "data": "res/ok.json" },
+    "/activity/quiz/zhongchao/submit/": { "des": "创意监控接口", "data": "res/ok.json" },
+    "/activity/quiz/leagues/result/": { "des": "创意监控接口", "data": "res/ok.json" },
+    "/activity/quiz/zhongchao/send_code/": { "des": "创意监控接口", "data": "res/ok.json" },
+    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用"        
+}

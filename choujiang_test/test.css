@@ -1,0 +1,28 @@
+.main {
+    position: relative;
+    margin: 0;
+}
+.back {
+    display: block;
+    width: 100%;
+}
+.result {
+    font-size: 85px;
+    position: absolute;
+    color: #fff;
+    top: 42%;
+    height: 120px;
+    width: 100%;
+    line-height: 120px;
+    /* background: rgba(255, 255, 0, 0.5); */
+    text-align: center;
+}
+.test {
+    position: absolute;
+    top: 75%;
+    left: 36%;
+    width: 23%;
+    padding-left: 5%;
+    height: 11%;
+    /* background: rgba(255, 255, 0, 0.5); */
+}

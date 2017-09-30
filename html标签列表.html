@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>标签列表</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="" rel="stylesheet">
+</head>
+
+<body>
+    ------------------------ <br>
+    <div>
+        div 只有一个属性 display: block; 基础
+    </div>
+    <nav> nav 这玩意 和dev似乎只是语义上的区别</nav>
+    <article> article 同上 </article>
+    <address> address 同上  多了个     font-style: italic; 属性(可能不同环境下有不同处理，在Chrome中是斜体)</address>
+    <main> main 标签 据说一个html中只准许出现一次？但我实际试验发现多次使用并没什么影响 </main>
+    <main> main 标签 据说一个html中只准许出现一次？ </main>
+    ------------------------ <br>
+    <p> p 组织段落</p>
+    ------------------------ <br> H系列段落标签，根据不同编号大小不同 <br> 具备属性 <br> display: block; <br> font-size:?em; <br> font-weight:
+    bold; <br> margin-before(margin-top) 1em <br> margin-after(margin-bottom) 1em<br>
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+    没有h7！ 上述标题的特点是，虽然字体大小导致容器本身的行高不同，但是通过不同的margin适配，最终使他们的总高度是相同的<br> ------------------------ <br>
+    <hr><br> hr 似乎只是一条线？<br> 在段落的基础上 增加如下属性 <br> border-style: inset; <br> border-width: 1px; <br> ------------------------ <br>
+    <div id="hr"> </div><br> ------------------------ <br>
+</body>
+<style>
+    #hr {
+        border-style: inset;
+        border-width: 1px;
+        margin: 0.5em auto;
+    }
+</style>
+
+</html>
