@@ -2,9 +2,8 @@ var config = require('./conf/config.js')
 var fs = require('fs');
 var bodyParser = require('body-parser');
 var path = require('path');
-let express = require('express');
-var fs = require('fs');
-let app = express();
+var express = require('express');
+var app = express();
 var server = require('http').createServer(app);
 var cookieParser = require('cookie-parser');
 app.use('/', express.static(__dirname));
@@ -38,7 +37,6 @@ function setup_res(req, res, res_date) {
 	setTimeout(() => {
 		res.end(res_date);
 	}, config.timeout)
-	// console.log("收到请求", req.method, req._parsedUrl.pathname, req.query);
 }
 
 function url_analysis(url, method) {
@@ -59,9 +57,7 @@ function url_analysis(url, method) {
 	});
 }
 
-async function get_res(url, method, res) {
 
-}
 
 
 app.use('*', async(req, res) => {
