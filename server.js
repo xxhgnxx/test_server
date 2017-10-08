@@ -6,7 +6,7 @@ var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
 var cookieParser = require('cookie-parser');
-app.use('/', express.static(__dirname+'/www'));
+app.use('/', express.static(__dirname + '/www'));
 var https = require('https');
 var privateKey = fs.readFileSync(path.join(__dirname, './conf/key/private.pem'), 'utf8');
 var certificate = fs.readFileSync(path.join(__dirname, './conf/key/file.crt'), 'utf8');
@@ -49,9 +49,8 @@ function url_analysis(url, method) {
 			var res_list = JSON.parse(data)
 			if (res_list) {
 				var tmp = res_list[url] || res_list[lv1_url] || res_list[lv2_url]
-			}
-			res_path = tmp ? config.res_path+(config.func_path[method] || config.func_path['other']) + tmp.data : ''
-			console.log(res_path);
+			} else console.log('res_list异常')
+			res_path = tmp ? config.res_path + (config.func_path[method] || config.func_path['other']) + tmp.data : ''
 			resolve(res_path);
 		});
 	});
