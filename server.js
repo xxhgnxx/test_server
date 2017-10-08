@@ -1,32 +1,60 @@
+
 var config = require('./conf/config.js')
 var fs = require('fs')
 var bodyParser = require('body-parser')
 var path = require('path')
 var express = require('express')
 var app = express()
-var server = require('http').createServer(app)
 var cookieParser = require('cookie-parser')
 app.use('/', express.static(__dirname + '/www'))
-var https = require('https')
 var privateKey = fs.readFileSync(path.join(__dirname, './conf/key/private.pem'), 'utf8')
 var certificate = fs.readFileSync(path.join(__dirname, './conf/key/file.crt'), 'utf8')
 var credentials = {
 	key: privateKey,
 	cert: certificate
 }
+
 app.use(cookieParser())
 app.use(bodyParser.json())
-var httpsServer = https.createServer(credentials, app)
 
-// 创建http服务器  
-server.listen(config.http_port, () => {
-	console.log('HTTP Server is running on: http://localhost:%s', config.http_port)
-})
 
+
+
+
+// 创建http服务器 
+var http= new Promise(resolve=> {
+	require('http').createServer(app).listen(config.http_port, () => {
+		console.log('------------http启动------------');
+		config.server_list.http.forEach(element=> {
+		   console.log(element);
+	   });
+	   resolve()
+	})
+  }); 
 // 创建https服务器  
-httpsServer.listen(config.ssl_port, () => {
-	console.log('HTTPS Server is running on: https://localhost:%s', config.ssl_port)
-})
+var https= new Promise(resolve => {
+	require('https').createServer(credentials, app).listen(config.ssl_port, () => {
+		console.log('------------https启动-----------');
+		config.server_list.https.forEach(element=> {
+		   console.log(element);
+	   });
+	})
+	resolve()	
+  }); 
+
+  Promise.all([http, https]).then(() => { 
+	console.log('--------------------------------'); 
+  });
+
+
+
+
+
+
+ 
+ 
+//   console.log('http访问地址',server_list.https);
+
 
 function setup_res(req, res, res_date) {
 	for (var i = 0; i < config.header.length; i++) {
