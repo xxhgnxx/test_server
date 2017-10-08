@@ -1,7 +1,7 @@
 
 
 module.exports = {
-    "timeout":200,
+    "timeout":200,   // 返回延迟，模拟网络阻塞时使用
     "header":[
         {"name": "Access-Control-Allow-Origin","set":"https://localhost:8080"},
         {"name":  "Access-Control-Allow-Headers","set":"*"},

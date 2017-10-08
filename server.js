@@ -61,6 +61,7 @@ function url_analysis(url, method) {
 
 app.use('*', async(req, res) => {
 	// console.log(req);
+	console.log("收到请求", req.protocol, req.method, req.headers.host, req._parsedUrl.pathname, req.query);
 	console.log(`收到${req.method.toLowerCase()}请求`);
 	console.log(req.originalUrl);
 	var res_path = await url_analysis(req.originalUrl, req.method.toLowerCase());
