@@ -12,5 +12,11 @@ module.exports = {
     ],
     "http_port":"7777",
     "ssl_port":"9999",
-    "res_path":"./res"
+    res_path:"./res",
+    func_path:{
+        "get":"/get",
+        "put":"/get",
+        "post":"/get",
+        "other":"/get",
+    }
 }

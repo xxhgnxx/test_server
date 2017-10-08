@@ -6,10 +6,10 @@ var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
 var cookieParser = require('cookie-parser');
-app.use('/', express.static(__dirname));
+app.use('/', express.static(__dirname+'/www'));
 var https = require('https');
-var privateKey = fs.readFileSync(path.join(__dirname, './res/key/private.pem'), 'utf8');
-var certificate = fs.readFileSync(path.join(__dirname, './res/key/file.crt'), 'utf8');
+var privateKey = fs.readFileSync(path.join(__dirname, './conf/key/private.pem'), 'utf8');
+var certificate = fs.readFileSync(path.join(__dirname, './conf/key/file.crt'), 'utf8');
 var credentials = {
 	key: privateKey,
 	cert: certificate
@@ -27,7 +27,6 @@ server.listen(config.http_port, function () {
 httpsServer.listen(config.ssl_port, function () {
 	console.log('HTTPS Server is running on: https://localhost:%s', config.ssl_port);
 });
-
 
 function setup_res(req, res, res_date) {
 	for (var i = 0; i < config.header.length; i++) {
@@ -51,7 +50,8 @@ function url_analysis(url, method) {
 			if (res_list) {
 				var tmp = res_list[url] || res_list[lv1_url] || res_list[lv2_url]
 			}
-			res_path = tmp ? tmp.data : ''
+			res_path = tmp ? config.res_path+(config.func_path[method] || config.func_path['other']) + tmp.data : ''
+			console.log(res_path);
 			resolve(res_path);
 		});
 	});
@@ -74,7 +74,3 @@ app.use('*', async(req, res) => {
 		res.status(200).send('无效请求');
 	}
 });
-
-
-
-
