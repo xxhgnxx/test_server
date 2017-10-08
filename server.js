@@ -1,11 +1,10 @@
-
 var config = require('./conf/config.js')
 var fs = require('fs')
-var bodyParser = require('body-parser')
+// var bodyParser = require('body-parser')
 var path = require('path')
 var express = require('express')
 var app = express()
-var cookieParser = require('cookie-parser')
+// var cookieParser = require('cookie-parser')
 app.use('/', express.static(__dirname + '/www'))
 var privateKey = fs.readFileSync(path.join(__dirname, './conf/key/private.pem'), 'utf8')
 var certificate = fs.readFileSync(path.join(__dirname, './conf/key/file.crt'), 'utf8')
@@ -13,48 +12,33 @@ var credentials = {
 	key: privateKey,
 	cert: certificate
 }
-
-app.use(cookieParser())
-app.use(bodyParser.json())
-
-
-
-
+// app.use(cookieParser())
+// app.use(bodyParser.json())
 
 // 创建http服务器 
-var http= new Promise(resolve=> {
+var http = new Promise(resolve => {
 	require('http').createServer(app).listen(config.http_port, () => {
 		console.log('------------http启动------------');
-		config.server_list.http.forEach(element=> {
-		   console.log(element);
-	   });
-	   resolve()
+		config.server_list.http.forEach(element => {
+			console.log(element);
+		});
+		resolve()
 	})
-  }); 
+});
 // 创建https服务器  
-var https= new Promise(resolve => {
+var https = new Promise(resolve => {
 	require('https').createServer(credentials, app).listen(config.ssl_port, () => {
 		console.log('------------https启动-----------');
-		config.server_list.https.forEach(element=> {
-		   console.log(element);
-	   });
+		config.server_list.https.forEach(element => {
+			console.log(element);
+		});
 	})
-	resolve()	
-  }); 
-
-  Promise.all([http, https]).then(() => { 
-	console.log('--------------------------------'); 
-  });
-
-
-
-
-
-
- 
- 
-//   console.log('http访问地址',server_list.https);
-
+	resolve()
+});
+// 等待服务器启动完成
+Promise.all([http, https]).then(() => {
+	console.log('------------------服务器启动完成------------------');
+});
 
 function setup_res(req, res, res_date) {
 	for (var i = 0; i < config.header.length; i++) {
@@ -88,7 +72,6 @@ function url_analysis(url, method) {
 }
 
 app.use('*', async(req, res) => {
-	// console.log(req)
 	// console.log("收到请求", req.protocol, req.method, req.headers.host, req._parsedUrl.pathname, req.query)
 	console.log(`收到${req.method.toLowerCase()}请求`)
 	console.log(decodeURIComponent(req.originalUrl))

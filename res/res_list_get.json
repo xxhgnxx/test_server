@@ -5,12 +5,12 @@
     "/activity/quiz/tempMatch/1": { "des": "五大联赛活动页接口", "data": "/result.json" },
     "/monitoring/creative/set-speed": { "des": "", "data": "/ok.json" },
     "/monitoring/creative/set-ctr": { "des": "", "data": "/ok.json" },
-    "/activity/quiz/leagues": { "des": "", "data": "/result.json" },
-    "/activity/quiz/zhongchao/": { "des": "", "data": "/chinese_super_quiz.json" },
-    "/activity/quiz/leagues/submit/": { "des": "", "data": "/ok.json" },
+    "/activity/quiz/leagues": { "des": "五大联赛活动页接口", "data": "/result.json" },
+    "/activity/quiz/zhongchao/": { "des": "中超竞猜活动页接口", "data": "/chinese_super_quiz.json" },
+    "/activity/quiz/leagues/submit/": { "des": "五大联赛提交接口", "data": "/ok.json" },
     "/activity/quiz/leagues/result/?mobile=13412312312": { "des": "", "data": "/ok.json" },
+    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
     "/recharge/apps": { "des": "", "data": "/recharge.json" },
     "/recharge/orderinfo?order_no=hgn": { "des": "", "data": "/recharge.json" },
-    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
     "/admin/monitoring/creative/list": { "des": "创意监控接口", "data": "/monitoring.json" }
 }
