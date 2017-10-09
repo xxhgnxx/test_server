@@ -1,10 +1,8 @@
 var config = require('./conf/config.js')
 var fs = require('fs')
-// var bodyParser = require('body-parser')
 var path = require('path')
 var express = require('express')
 var app = express()
-// var cookieParser = require('cookie-parser')
 app.use('/', express.static(__dirname + '/www'))
 var privateKey = fs.readFileSync(path.join(__dirname, './conf/key/private.pem'), 'utf8')
 var certificate = fs.readFileSync(path.join(__dirname, './conf/key/file.crt'), 'utf8')
@@ -12,7 +10,9 @@ var credentials = {
 	key: privateKey,
 	cert: certificate
 }
+// var cookieParser = require('cookie-parser')
 // app.use(cookieParser())
+// var bodyParser = require('body-parser')
 // app.use(bodyParser.json())
 
 // 创建http服务器 
