@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>唤醒app测试页</title>
+    <h1>在站外唤醒app时不能使用?x=x的传参模式 如果需要传参 请使用路由传参</h1>
+
+    <style>
+        h1 {
+            position: absolute;
+            margin: auto auto;
+            left: 0;
+            right: 0;
+            top: 20%;
+            width: 90%;
+            font-size: 3rem;
+        }
+
+        .test {
+            position: absolute;
+            margin: auto auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 40%;
+            text-align: center;
+            line-height: 250px;
+            height: 250px;
+            font-size: 3rem;
+            background: rgba(200, 0, 0, 1);
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div class="main">
+        <a class="test" onclick="test()"> 唤醒app</a>
+        <div>
+
+
+
+
+
+</body>
+
+<script>
+    window.browers = {};
+    var ua = navigator.userAgent.toLowerCase();
+    browers.iPad = ua.match(/ipad/);
+    browers.iPhone = ua.match(/iphone/);
+    browers.Android = ua.match(/android/);
+    browers.iOS = ua.match(/ipad|iphone|ios/);
+    browers.ie = ua.match(/iemobile/);
+    browers.isWifi = ua.match(/nettype\/wifi|technology\/wifi/);
+    browers.force_ssl = ua.match(/Android (5|6)/i);
+    browers.is_ios_6 = ua.match(/iOS 6/i);
+    browers.is_liveapp = ua.match(/LiveApp/i);
+    // 判断是否是app客户端内
+    var ua_dqd = ua.match(/NewsApp\/([\d\.]+)/i);
+
+
+    var tmp_url = 'https://test1-n.dongqiudi.com/webapp/pic1.html'
+    
+    function test() {
+        console.log('111');
+        if (browers.iOS) {
+            window.location = "https://front.dongqiudi.com/app.html?type=dongqiudi:///url/" + tmp_url
+        } else { // 安卓(其他)逻辑
+            location.href = 'dongqiudi:///url/' + tmp_url
+        }
+
+
+    }
+</script>
+
+</body>
+
+</html>

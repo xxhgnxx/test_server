@@ -14,7 +14,7 @@
             width: 23%;
             padding-left: 5%;
             height: 11%;
-            background: rgba(255, 255, 0, 0.5);
+            background: rgba(200, 0, 0, 1);
         }
     </style>
 
@@ -26,9 +26,9 @@
 
     <div class="main">
 
-        <a class="test" onclick="test()"></a>
+        <a class="test" onclick="test()"> 唤醒app</a>
 
-    <div>
+        <div>
 
 
 
@@ -37,11 +37,18 @@
 </body>
 
 <script>
-    var tmp_url =
-        'https://wx.tenpay.com/cgi-bin/mmpayweb-bin/checkmweb?prepay_id=wx20170929173332b5eb40a9ff0927786078&package=3679018575&redirect_url=https%3A%2F%2Ftest1-n.xiaohongdan.com%2Fwebapp%2Ffooterball_lottery.html%3Forder_no%3D201709291733317761189045378'
+    var tmp_url = 'https://www.baidu.com'
 
     function test() {
-        location.href = tmp_url
+        console.log('111');
+        if (browers.iOS) {
+            window.location =
+                "https://front.dongqiudi.com/app.html?type=dongqiudi:///url/"+tmp_url
+        } else { // 安卓(其他)逻辑
+            location.href = 'dongqiudi:///url/'+tmp_url
+        }
+
+
     }
 </script>
 
