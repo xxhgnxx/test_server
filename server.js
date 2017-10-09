@@ -73,8 +73,7 @@ function url_analysis(url, method) {
 
 app.use('*', async(req, res) => {
 	// console.log("收到请求", req.protocol, req.method, req.headers.host, req._parsedUrl.pathname, req.query)
-	console.log(`收到${req.method.toLowerCase()}请求`)
-	console.log(decodeURIComponent(req.originalUrl))
+	console.log(`收到${req.method.toLowerCase()}请求 ${decodeURIComponent(req.originalUrl)}`)
 	var res_path = await url_analysis(req.originalUrl, req.method.toLowerCase())
 	if (res_path == 'error') {
 		res.status(200).send('服务器工作异常')
