@@ -9,6 +9,7 @@
     "/activity/quiz/zhongchao/": { "des": "中超竞猜活动页接口", "data": "/chinese_super_quiz.json" },
     "/activity/quiz/leagues/submit/": { "des": "五大联赛提交接口", "data": "/ok.json" },
     "/activity/quiz/leagues/result/?mobile=13412312312": { "des": "", "data": "/ok.json" },
+    "/recharge/app": { "des": "充值产品页面", "data": "/app.json" },
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
     "/recharge/apps": { "des": "", "data": "/recharge.json" },
     "/recharge/orderinfo?order_no=hgn": { "des": "", "data": "/recharge.json" },
