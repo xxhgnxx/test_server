@@ -1,0 +1,82 @@
+{
+	"errCode": 0,
+	"errMesg": "",
+	"data": {
+		"comment_list": [{
+			"id": "59188267",
+			"up": 170,
+			"rank": 15076332823858,
+			"recommend": true,
+			"created_at": "2017-10-10 19:01:25",
+			"user_id": "537764",
+			"content": "\u56e2\u56e2\u5706\u5706",
+			"reply_total": "0"
+		}, {
+			"id": "59188304",
+			"up": 98,
+			"rank": 15077041926837,
+			"recommend": true,
+			"created_at": "2017-10-11 14:43:13",
+			"user_id": "2820975",
+			"content": "\u5728\u7ebf\u7684\u4eba",
+			"reply_total": "0"
+		}, {
+			"id": "59188309",
+			"up": 66,
+			"rank": 15077097434758,
+			"recommend": true,
+			"created_at": "2017-10-11 16:15:46",
+			"user_id": "537764",
+			"content": "\u9876\u7126\u5ea6\u8ba1\u591a\u4e45",
+			"reply_total": "0"
+		}],
+		"article": {
+			"id": "393415",
+			"title": "\u5b89\u5e05\uff1a\u6211\u4e0d\u4f1a\u5bf9\u7c73\u5170\u8bf4\u4e0d",
+			"share_title": "\u5b89\u5e05\uff1a\u6211\u4e0d\u4f1a\u5bf9\u7c73\u5170\u8bf4\u4e0d",
+			"share": "http:\/\/test1.dongqiudi.com\/article\/393415",
+			"description": "\u5b89\u5207\u6d1b\u8482\u79f0\u81ea\u5df1\u5728\u672a\u6765\u4e0d\u4f1a\u62d2\u7edd\u56de\u5230\u7c73\u5170\u7684\u673a\u4f1a\u3002\u4e48\u621121",
+			"type": "article",
+			"schema": "dongqiudi:\/\/\/news\/393415"
+		},
+		"user_list": [{
+			"id": "0",
+			"username": "\u706b\u661f\u7403\u8ff7999\u53f7",
+			"medal_id": 0,
+			"medal_desc": "",
+			"is_root": false,
+			"avatar": "http:\/\/test1-img1.dongqiudi.net\/www\/M00\/0B\/27\/100x100\/-\/-\/ChOOuljKNzGAag5UAAAQrsgeQ3A014.jpg"
+		}, {
+			"id": "537764",
+			"username": "\u6d4b\u8bd5\u8d26\u53f7\u4e0d\u52a0\u4eba",
+			"avatar": "http:\/\/img.dongqiudi.com\/uploads\/avatar\/2015\/07\/27\/W7mkjOB9Sj_thumb_1438009316656.jpg!avatarsmall",
+			"medal_id": "1",
+			"medal_desc": "\u5b98\u65b9\u6d4b\u8bd5",
+			"medal_url": "http:\/\/img1.dongqiudi.com\/fastdfs1\/M00\/63\/B3\/o4YBAFj5pYKAetOzAAAGhNXa-yY637.png",
+			"created_at": "2015-02-11 17:54:11",
+			"member_pendant_url": "http:\/\/test1-img1.dongqiudi.net\/www\/M00\/0C\/8F\/ChOOulj5tfyAKW6IAAAb6Ok1GNY199.png",
+			"member_scheme": "dongqiudi:\/\/\/news\/283702",
+			"team_id": "661",
+			"team_icon": "http:\/\/img.dongqiudi.com\/data\/pic\/661.png",
+			"is_root": false
+		}, {
+			"id": "2820975",
+			"username": "zhengduanyang",
+			"avatar": "http:\/\/img.dongqiudi.com\/uploads\/avatar\/2017\/04\/21\/v0jqOQ7ool_avatar.jpg!avatarsmall",
+			"medal_id": "6",
+			"medal_desc": "\u4f18\u79c0\u95ee\u7b54\u8005",
+			"medal_url": "http:\/\/img1.dongqiudi.com\/fastdfs1\/M00\/73\/0A\/o4YBAFkVpiiAG_oEAAAFt0Jju-Q203.png",
+			"created_at": "2017-02-09 11:29:04",
+			"member_pendant_url": "http:\/\/test1-img1.dongqiudi.net\/www\/M00\/0C\/8F\/ChOOulj5tfyAKW6IAAAb6Ok1GNY199.png",
+			"member_scheme": "dongqiudi:\/\/\/news\/283702",
+			"team_id": "2019",
+			"team_icon": "http:\/\/img.dongqiudi.com\/data\/pic\/2019.png",
+			"is_root": false
+		}],
+		"pendant": {
+			"status": true,
+			"icon": "http:\/\/img.dongqiudi.com\/uploads\/guajian\/shengdanlaoren.png",
+			"url": "dongqiudi:\/\/\/news\/262212"
+		}
+	}
+}
