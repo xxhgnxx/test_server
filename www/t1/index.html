@@ -1,0 +1,330 @@
+<!-- saved from url=(0045)https://n.dongqiudi.com/pre_analysis/50763804 -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="keywords" content="懂球帝,App,手机客户端">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>比赛分析</title>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #ececec;
+        }
+
+        img {
+            width: 20px;
+            margin: 0 5px 0 0;
+            vertical-align: middle;
+        }
+
+        .msg_box {
+            width: 94%;
+            left: 0;
+            right: 0;
+            margin: 15px auto;
+            background: #fff;
+            height: 400px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .box_title {
+            font-size: 12px;
+            color: #888;
+            padding: 15px;
+        }
+
+        .team_info {
+            height: 40px;
+            margin: 15px 0;
+        }
+
+        .team {
+            display: inline-block;
+            width: 30%;
+        }
+
+        .team img {
+            display: block;
+            width: 30px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        .vs {
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            vertical-align: top;
+        }
+
+        .silk_bag_title {
+            width: 100%;
+            font-size: 12px;
+            color: #888;
+            margin-top: 40px;
+        }
+
+        .silk_bag_title>hr {
+            color: #e9e9e9;
+            display: inline-block;
+            width: 34%;
+            vertical-align: middle;
+            opacity: .5;
+        }
+
+        .silk_bag_title>span {
+            width: 22%;
+            display: inline-block;
+        }
+
+        .silk_bag_body {
+            font-size: 22px;
+            color: #ffaa00;
+            font-weight: 900;
+            margin: 11% 0;
+        }
+
+        .silk_bag_foot {
+            padding: 3%;
+            text-align: left;
+            font-size: 12px;
+            color: #888;
+        }
+
+        .silk_bag_foot.msg {
+            line-height: 21px;
+            padding-bottom: 0;
+        }
+
+        .silk_bag_foot.correct {
+            text-align: center;
+            font-size: 15px;
+            color: #e0371b;
+        }
+
+        .silk_bag_foot.wrong {
+            text-align: center;
+            font-size: 15px;
+            color: #888;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .gray {
+            color: #888;
+        }
+
+        .green {
+            color: #16b13a;
+        }
+
+        .red {
+            color: #ea1600;
+        }
+
+        .pay_back_btn {
+            width: 42%;
+            height: 20px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-radius: 20px;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 900;
+            background: #16b13a;
+            text-align: center;
+        }
+
+        .pay_back_btn_shadow {
+            width: 42%;
+            height: 20px;
+            left: 0;
+            right: 0;
+            margin: -3px auto;
+            height: 1px;
+            -moz-box-shadow: 0px 3px 15px #16B13A;
+            -webkit-box-shadow: 0px 3px 15px #16B13A;
+            box-shadow: 0px 3px 15px #16B13A;
+        }
+
+        .pay_way_back {
+            position: fixed;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            background: rgba(0, 0, 0, 0.76);
+            opacity: 0;
+            z-index: 100;
+        }
+
+        .pay_way_back.show {
+            opacity: .7;
+        }
+
+        .success_box {
+            position: fixed;
+            text-align: center;
+            top: 30%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background: #fff;
+            width: 80%;
+            height: 200px;
+            border-radius: 5px;
+            z-index: 103;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            opacity: 0;
+        }
+        .success_box.show {
+            opacity: 1;
+        }
+        .success_btn {
+            left: 0;
+            right: 0;
+            margin: 20px auto;
+            margin-top: 30px;
+            width: 80%;
+            border: 1px solid #16b13a;
+            color: #fff;
+            background: #16b13a;
+            height: 35px;
+            line-height: 35px;
+            border-radius: 5px;
+        }
+
+        .success_title {
+            font-size: 18px;
+            vertical-align: middle;
+            height: 25px;
+            line-height: 25px;
+            margin: 10px 0;
+            margin-top: 50px;
+        }
+
+        .success_title img {
+            display: inline-block;
+            width: 25px;
+        }
+
+        .success_box span {
+            font-size: 10px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="msg_box">
+        <div class="box_title"> 10-31 19:35 中超 </div>
+        <div class="team_info">
+            <div class="team">
+                <img src="./890.png" alt=""> 北京中赫国安
+            </div>
+            <div class="vs">vs</div>
+            <div class="team">
+                <img src="./895.png" alt=""> 重庆当代力帆
+            </div>
+        </div>
+
+        <div class="silk_bag_title">
+            <hr>
+            <span> 锦 囊 推 荐 </span>
+            <hr>
+        </div>
+
+        <!-- 推荐内容 结果已知时添加 class gray-->
+        <div class="silk_bag_body gray">
+            北京中赫国安 0.5 胜
+        </div>
+
+
+        <!-- 未开赛 -->
+        <div class="silk_bag_foot hide">
+            经过懂球帝足球大数据分析，本场主队获胜概率是88.8% 亚盘建议投注主队让半球盘上盘！
+        </div>
+
+        <!-- 推荐争确 -->
+        <div class="silk_bag_foot correct hide">
+            <img src="./correct.png" alt=""> 推荐正确
+        </div>
+
+        <!-- 推荐错误 已退款-->
+        <div class="silk_bag_foot wrong hide">
+            推荐错误
+            <span class="green"> 已退款</span>
+        </div>
+
+        <!-- 推荐错误 未退款-->
+        <div class="silk_bag_foot pay_back_btn ">
+            立即领取退款 ￥118
+        </div>
+        <div class="pay_back_btn_shadow"></div>
+
+
+
+    </div>
+
+
+
+
+
+
+    <div class="pay_way_back hide" onclick=""> </div>
+    <div class="success_box">
+        <div class="success_title">
+            <img src="./correct_g.png" alt=""> 申请退款成功
+
+        </div>
+        <span>预计2小时内到账</span>
+        <div class="success_btn" onclick="loading_show('off')">
+            确定
+        </div>
+    </div>
+</body>
+<script>
+</script>
+<script src="./jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+    function loading_show(e) {
+        console.log(e);
+        var loading_box = $('.pay_way_back')
+        var msg_box = $('.success_box')
+        if (e == 'on') {
+            loading_box.removeClass('hide');
+            msg_box.removeClass('hide');
+            setTimeout(function () {
+                loading_box.addClass('show');
+                msg_box.addClass('show');
+            }, 0);
+        }
+        if (e == 'off') {
+            loading_box.removeClass('show');
+            msg_box.removeClass('show');
+            setTimeout(function () {
+                loading_box.addClass('hide');
+                msg_box.addClass('hide');
+            }, 500);
+        }
+    }
+    loading_show('on')
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="懂球帝,App,手机客户端" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no"
+  />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>退款说明</title>
+  <link rel="stylesheet" href="">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-size: 100%;
+    }
+  </style>
+</head>
+ 初始分享的
+ title：初始标题 <br>
+ content: 初始content <br>
+ url：http://www.baidu.com <br>
+ <br><br>
+ title:<br>
+ <textarea id="title_text" rows="3" cols="40">这里是标题现在十个字现在十五个现在二十个</textarea><br>
+ content:<br>
+ <textarea id="content_text" rows="3" cols="40">这里是摘要现在十个字现在十五个现在二十个</textarea><br>
+ url:<br>
+ <textarea id="url_text" rows="3" cols="40">http://www.baidu.com</textarea><br>
+ <button type="button" onclick='setup()'>自定义设置</button><br>
+ 
+ <br><br><br>
+ <button type="button" onclick='go()'>点击切换 http url</button><br>
+ 切换后 <br> 
+ title：修改过后的标题 <br>
+ content: 修改后的content <br>
+ url：http://www.dongqiudi.com <br>
+ <br><br><br><br><br>
+ <button type="button" onclick='go2()'>点击切换 https url</button><br>
+ 切换后 <br> 
+ title：修改过后的标题 <br>
+ content: 修改后的content <br>
+ url：https://www.dongqiudi.com <br>
+ <br><br><br><br><br>
+ <button type="button" onclick='go_pic()'>点击切换图片模式</button><br>
+ 切换后分享为图片 <br> 
+ title(如果能看到)：pic的标题 <br>
+ <br><br><br><br><br>
+ <br><br><br><br><br>
+ <br>----------<br><br><br><br>
+ <br><br><br><br><br>
+ <br><br>-------------<br><br><br>
+ end
+
+<body>
+
+  <article>
+
+
+  </article>
+  <script src="jquery-3.1.1.min.js"></script>
+  
+  <script type="text/javascript">
+    window.browers = {};
+    var ua = navigator.userAgent.toLowerCase();
+    browers.iPad = ua.match(/ipad/);
+    browers.iPhone = ua.match(/iphone/);
+    browers.Android = ua.match(/android/);
+    browers.iOS = ua.match(/ipad|iphone|ios/);
+    browers.ie = ua.match(/iemobile/);
+    browers.isWifi = ua.match(/nettype\/wifi|technology\/wifi/);
+    browers.force_ssl = ua.match(/Android (5|6)/i);
+    browers.is_ios_6 = ua.match(/iOS 6/i);
+    browers.is_liveapp = ua.match(/LiveApp/i);
+    browers.is_qq = ua.match(/qq/);
+    browers.is_weixin = ua.match(/micromessenger/);
+
+    function connectWebViewJavascriptBridge(callback) {
+      if (window.WebViewJavascriptBridge) {
+        callback(WebViewJavascriptBridge)
+      } else {
+        document.addEventListener('WebViewJavascriptBridgeReady', function () {
+          callback(WebViewJavascriptBridge)
+        }, false)
+      }
+    }
+
+
+
+    var shareurl = 'http://www.baidu.com'
+
+
+    connectWebViewJavascriptBridge(function (bridge) {
+          bridge.init(function (message, responseCallback) {});
+          bridge.callHandler('showshare', {
+            'is_picture': false
+          });
+          bridge.callHandler('showshare', {
+            'title': "初始标题",
+            'content': "初始content",
+            'url': shareurl
+            // 'url': location.href
+          })
+          bridge.callHandler('isShowTitle', {
+            'isShowTitle': true
+          });
+        });
+
+    if (browers.Android) {
+      console.log('share_an');
+      try {
+      console.log('share_set---appShare');
+        Android.appShare('{ "is_picture":false, "title":"初始标题", "content":"初始content", "url":"' + shareurl + '" }');
+        Android.isShowTitle('{"isShowTitle": true}');
+      console.log('appShare---share_end');
+        
+      } catch (e) {}
+    }
+
+
+
+    function sc() {
+      console.log('sc');
+
+    }
+
+
+  function setup() {
+
+   var  title_tmp =$('#title_text').val()
+   var url_tmp=$('#url_text').val()
+   var content_tmp =$('#content_text').val()
+    console.log('title_tmp',title_tmp);
+    console.log('url_tmp',url_tmp);
+    console.log('content_tmp',content_tmp);
+
+    connectWebViewJavascriptBridge(function (bridge) {
+          // bridge.init(function (message, responseCallback) {});
+          bridge.callHandler('showshare', {
+            'is_picture': false
+          });
+          bridge.callHandler('showshare', {
+            'title': title_tmp,
+            'content': content_tmp,
+            'url': url_tmp
+            // 'url': location.href
+          })
+          bridge.callHandler('isShowTitle', {
+            'isShowTitle': true
+          });
+        });
+    if (browers.Android) {
+      console.log('share_an');
+      try {
+      console.log('share_set---appShare');
+        Android.appShare('{ "is_picture":false, "title":"' + title_tmp + '", "content":"' + content_tmp + '", "url":"' + url_tmp + '" }');
+        Android.isShowTitle('{"isShowTitle": true}');
+      console.log('appShare---share_end');
+        
+      } catch (e) {}
+    }
+  }
+
+
+  function go() {
+    shareurl='http://www.dongqiudi.com'
+    console.log('go');
+
+    connectWebViewJavascriptBridge(function (bridge) {
+          // bridge.init(function (message, responseCallback) {});
+          bridge.callHandler('showshare', {
+            'is_picture': false
+          });
+          bridge.callHandler('showshare', {
+            'title': "修改后的标题",
+            'content': "修改后的content",
+            'url': shareurl
+            // 'url': location.href
+          })
+          bridge.callHandler('isShowTitle', {
+            'isShowTitle': true
+          });
+        });
+    if (browers.Android) {
+      console.log('share_an');
+      try {
+      console.log('share_set---appShare');
+        Android.appShare('{ "is_picture":false, "title":"修改后的标题", "content":"修改后的content", "url":"' + shareurl + '" }');
+        Android.isShowTitle('{"isShowTitle": true}');
+      console.log('appShare---share_end');
+        
+      } catch (e) {}
+    }
+  }
+
+  function go2() {
+    shareurl='https://www.dongqiudi.com'
+    console.log('go2');
+
+    connectWebViewJavascriptBridge(function (bridge) {
+          // bridge.init(function (message, responseCallback) {});
+          bridge.callHandler('showshare', {
+            'is_picture': false
+          });
+          bridge.callHandler('showshare', {
+            'title': "修改后的标题",
+            'content': "修改后的content",
+            'url': shareurl
+            // 'url': location.href
+          })
+          bridge.callHandler('isShowTitle', {
+            'isShowTitle': true
+          });
+        });
+    if (browers.Android) {
+      console.log('share_an');
+      try {
+      console.log('share_set---appShare');
+        Android.appShare('{ "is_picture":false, "title":"修改后的标题", "content":"修改后的content", "url":"' + shareurl + '" }');
+        Android.isShowTitle('{"isShowTitle": true}');
+      console.log('appShare---share_end');
+        
+      } catch (e) {}
+    }
+  }
+
+  function go_pic() {
+    shareurl='www.dongqiudi.com'
+    console.log('go_pic');
+
+    connectWebViewJavascriptBridge(function (bridge) {
+          bridge.callHandler('showshare', {
+            'is_picture': true
+          });
+        });
+    if (browers.Android) {
+      console.log('share_an');
+      try {
+      console.log('share_set---appShare');
+        Android.appShare('{ "is_picture":true, "title":"pic的标题"}');
+        Android.isShowTitle('{"isShowTitle": true}');
+      console.log('appShare---share_end');
+        
+      } catch (e) {}
+    }
+  }
+  </script>
+</body>
+<style>
+button{
+  background: green;
+  color: #fff;
+}
+textarea{
+  border: 1px dashed red;
+}
+</style>
+</html>

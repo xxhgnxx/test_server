@@ -1,0 +1,49 @@
+[{
+	"pgid": "1.3.1",
+	"aid": 111814,
+	"request_id": "d1a02e94be781bf34112fe7d949cc2f9",
+	"ad_type": "big_picture_txt",
+	"ad_source": {
+		"mk": 111814,
+		"image": [{
+			"pic": "https://img1.dongqiudi.com/fastdfs2/M00/27/D1/ChOqM1oJUnWAHfX0AAFU1xMhdM4007.jpg",
+			"w": 1080,
+			"h": 405
+		}],
+		"title": "与合伙人投资创业，终于完成今年小目标！",
+		"ios_link": "dongqiudi:///url/https://adv.myshow800.com/adv/r4ab3t",
+		"android_link": "dongqiudi:///url/https://adv.myshow800.com/adv/r4ab3t",
+		"label": "广告",
+		"label_color": "#f20cf2",
+		"threshold": 0
+	},
+	"position": "1",
+	"imp_mon_arr": ["https://dab.dongqiudi.com/imp/v3?ex=QvZPBY20oidb9cbHddET1i1v4jTBNS--A--s57AE--A--PxEhqLtDmoYGPAIhrnTnFvCIEujtA__&uid=109801&cid=111814&posid=100000046&ruleid=0&rtc=65&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=d1a02e94be781bf34112fe7d949cc2f9&apvc=5.7.5&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=1&pgid=1.3.1&platform=1&ex2="],
+	"click_mon_arr": ["https://dab.dongqiudi.com/click/v3?ex=QvZPBY20oidb9cbHddET1i1v4jTBNS--A--s57AE--A--PxEhqLtDmoYGPAIhrnTnFvCIEm74HNdw0Bk&uid=109801&cid=111814&posid=100000046&ruleid=0&rtc=65&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=d1a02e94be781bf34112fe7d949cc2f9&apvc=5.7.5&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=1&pgid=1.3.1&platform=1&ex2=QehQGY2o"],
+	"cache_image": [],
+	"cache_ad": []
+}, {
+	"pgid": "1.3.1",
+	"aid": 111637,
+	"request_id": "d1a02e94be781bf34112fe7d949cc2f9",
+	"ad_type": "picture_txt",
+	"ad_source": {
+		"mk": 111637,
+		"image": [{
+			"pic": "https://img1.dongqiudi.com/fastdfs2/M00/27/CA/ChOqM1oJOeyAZ71SAACdNQNutZw053.jpg",
+			"w": 240,
+			"h": 180
+		}],
+		"title": "贷款被拒？凭信用卡，手机申请10万贷款，当天到账",
+		"summary": "",
+		"ios_link": "dongqiudi:///url/https://www.yirendai.com/lp/140/2/?siteId=3008&utm_source=dqd&utm_campaign=IOS-M-X&utm_term=IOS-M-X-1110-2",
+		"android_link": "dongqiudi:///url/https://www.yirendai.com/lp/140/2/?siteId=3008&utm_source=dqd&utm_campaign=IOS-M-X&utm_term=IOS-M-X-1110-2",
+		"label": "广告",
+		"label_color": "#f20cf2"
+	},
+	"position": "4",
+	"imp_mon_arr": ["https://dab.dongqiudi.com/imp/v3?ex=QvZPBY20oide--A--M7DddET1l6oek2WHoEsoAaGKz8DdCqTgQs8wTJ2rOod3w9VNcMzLQ__&uid=109636&cid=111637&posid=100000064&ruleid=0&rtc=26&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=d1a02e94be781bf34112fe7d949cc2f9&apvc=5.7.5&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=4&pgid=1.3.1&platform=1&ex2="],
+	"click_mon_arr": ["https://dab.dongqiudi.com/click/v3?ex=QvZPBY20oide--A--M7DddET1l6oek2WHoEsoAaGKz8DdCqTgQs8wTJ2rOod3w9VNcIvfpNoHBtV&uid=109636&cid=111637&posid=100000064&ruleid=0&rtc=26&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=d1a02e94be781bf34112fe7d949cc2f9&apvc=5.7.5&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=4&pgid=1.3.1&platform=1&ex2=Su1WGoU_"],
+	"cache_image": [],
+	"cache_ad": []
+}]

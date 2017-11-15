@@ -14,5 +14,9 @@
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
     "/recharge/apps": { "des": "", "data": "/recharge.json" },
     "/recharge/orderinfo?order_no=hgn": { "des": "", "data": "/recharge.json" },
-    "/admin/monitoring/creative/list": { "des": "创意监控接口", "data": "/monitoring.json" }
+    "/admin/monitoring/creative/list": { "des": "创意监控接口", "data": "/monitoring.json" },
+    "/api/plandetail": { "des": "卖料", "data": "/plandetail.json" },
+    "/api/orderStatus": { "des": "卖料订单查询", "data": "/orderStatus.json" },
+    "/refund/apply": { "des": "退款", "data": "/apply.json" },
+    "/plat/v3": { "des": "广告", "data": "/ad.json" }
 }

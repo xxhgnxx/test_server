@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="懂球帝,App,手机客户端" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no"
+  />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>退款说明</title>
+  <link rel="stylesheet" href="">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-size: 100%;
+    }
+
+
+
+    article {
+      text-align: left;
+      margin: 0 5%;
+    }
+
+    article span {
+      font-size: 14px;
+    }
+
+    h4 {
+      margin-bottom: 6px;
+    }
+
+    .sc_btn {
+      margin: 20px 0;
+      background: #16b13a;
+      width: 100%;
+      height: 40px;
+      border-radius: 1px;
+      color: #fff;
+      text-align: center;
+      line-height: 40px;
+      vertical-align: middle;
+    }
+
+    .sc_btn img {
+      display: inline-block;
+      height: 20px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+
+<body>
+
+  <article>
+    <h4>什么情况下才会退款？</h4>
+    <span>两种情况下懂球帝会为您退款：<br>
+  情况一：您购买的方案，专家推荐错误的情况下，懂球帝会为您退回您购买方案的钱。<br>
+  情况二：您购买的方案，如果竞彩官方宣布由于特殊原因比赛取消，懂球帝会为您退回您购买方案的钱。</span>
+
+    <h4>会退我多少钱？</h4>
+    <span>懂球帝会全额退回您购买的方案的金额。</span>
+
+    <h4>钱会退到哪？</h4>
+    <span>Android设备：根据您购买方案时选择的支付方式（支付宝/微信），懂球帝会对应的把钱退回到您的支付宝/微信。<br>
+        iPhone设备：懂球帝会将钱退回到您提供的支付宝账号中（因为苹果设备的用户购买方案时是通过苹果内购完成购买的，而且苹果没有提供原路退回的功能，所以导致款项无法原路退回）。</span>
+
+    <h4>iPhone设备退款时为什么要我验证？</h4>
+    <span>因为您在苹果设备上购买方案时走的苹果内购的支付方式，但苹果没有提供原路退回的功能，所以为保证您退款的安全，需确认是您本人操作，所以会要求验证您当时在懂球帝绑定的手机号。</span>
+
+    <h4>退回的钱什么时间能到账？</h4>
+    <span>退款一般会3-5个工作日到账，请您及时查收。具体到账时间以银行为准。</span>
+
+    <h4>为什么会退款失败？</h4>
+    <span>Android设备：退款失败，请确认您的账户是否已经被注销或异常。<br>
+      iPhone设备：退款失败，请确认您提供的支付宝的账户没有被注销或异常。如果您的账户不存在问题，请确认您提供的支付宝账户是否实名认证（完善身份信息），并且开设了余额账户。 以上情况都不存在，但仍然无法完成退款，请您点击页面底部按钮，联系懂球帝客服。</span>
+
+    <h4>为什么有一些黑单的方案我不能退款？</h4>
+    <span>原因一：仅懂球帝5.7.5及以上版本支持退款功能，如果您不能退款，请升级您的懂球帝版本。<br>
+        原因二：仅带有“方案错误全额退款”标识的方案黑单后支持退款功能。<br>
+        原因三：退款周期为三个月，超过三个月后懂球帝将无法为您退款。三个月的期限自您购买方案时起算。</span>
+
+
+    <div onclick="sc()" class='sc_btn'>
+      <img src="./sc.png" alt=""> 在线客服
+    </div>
+  </article>
+
+  <script type="text/javascript">
+    window.browers = {};
+    var ua = navigator.userAgent.toLowerCase();
+    browers.iPad = ua.match(/ipad/);
+    browers.iPhone = ua.match(/iphone/);
+    browers.Android = ua.match(/android/);
+    browers.iOS = ua.match(/ipad|iphone|ios/);
+    browers.ie = ua.match(/iemobile/);
+    browers.isWifi = ua.match(/nettype\/wifi|technology\/wifi/);
+    browers.force_ssl = ua.match(/Android (5|6)/i);
+    browers.is_ios_6 = ua.match(/iOS 6/i);
+    browers.is_liveapp = ua.match(/LiveApp/i);
+    browers.is_qq = ua.match(/qq/);
+    browers.is_weixin = ua.match(/micromessenger/);
+
+    function sc() {
+      console.log('sc');
+      if (window.browers.Android && window.version != 128) {
+        location.href = "dongqiudi:///online_server";
+        return;
+      }
+      location.href = "dongqiudi:///online_server?channel=lottery&id=zucai&groupId=kf_10015_1505874792611&title=足彩充值&url=" + location.href;
+    }
+  </script>
+</body>
+
+</html>
