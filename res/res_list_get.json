@@ -18,5 +18,6 @@
     "/api/plandetail": { "des": "卖料", "data": "/plandetail.json" },
     "/api/orderStatus": { "des": "卖料订单查询", "data": "/orderStatus.json" },
     "/refund/apply": { "des": "退款", "data": "/apply.json" },
-    "/plat/v3": { "des": "广告", "data": "/ad.json" }
+    "/plat/v3": { "des": "广告", "data": "/ad.json" },
+    "/table": { "des": "广告 自定义表格", "data": "/table.json" }
 }

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Table Examples</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-table.min.css">
+    <!-- <link rel="stylesheet" href="//rawgit.com/vitalets/x-editable/master/dist/bootstrap3-editable/css/bootstrap-editable.css"> -->
+    <!-- <link rel="stylesheet" href="assets/examples.css"> -->
+    <script src="./jquery-3.1.1.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="./bootstrap-table.min.js"></script>
+    <script src="./moment.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20140204/json2.min.js"></script>
+    <![endif]-->
+
+    <style>
+        table {
+            /* width: 1440px; */
+            font-size: 10px;
+        }
+
+        .th-inner {
+            padding: 1px 5px !important;
+        }
+
+        td {
+            padding: 0 !important;
+        }
+
+        .data {
+            padding: 5px;
+        }
+
+        .go_to {
+            display: inline-block;
+            width: 200px;
+            background: red;
+            height: 20px;
+        }
+
+        .class_data0 {
+            background: #fff;
+        }
+
+        .class_data1 {
+            background: #16b13a;
+        }
+
+        .class_data2 {
+            background: #000;
+            opacity: .65;
+        }
+
+        thead {
+            background: #fafaff;
+        }
+
+        th.m_back,
+        th.d_back,
+        th.m_go,
+        th.d_go {
+            background: #f5f5f5;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="">
+        <table id="table" data-toolbar="#toolbar">
+        </table>
+    </div>
+
+    <!-- <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <div class="container" style="padding: 100px 50px 10px;">
+        <button type="button" class="btn btn-default">
+            左侧的 Popover
+        </button>
+        <button type="button" class="btn btn-primary">
+            顶部的 Popover
+        </button>
+        <button type="button" class="btn btn-success">
+            底部的 Popover
+        </button>
+        <button type="button" class="btn btn-warning">
+            右侧的 Popover
+        </button>
+    </div>
+    <script>
+        var $table = $('#table'),
+            $remove = $('#remove'),
+            selections = [];
+        var week_string = ['一', '二', '三', '四', '五', '六', '日']
+        var day_e = moment()
+        var isinit = false;
+        var update_timeout = 0;
+        var day_length = 31 // 表格展示日期跨度
+        initTable(day_e)
+
+        function initTable(day_e) {
+            var columns_day_structure = []
+            var columns_title_structure = []
+            var columns_week_structure = []
+            day_e = moment(day_e, "YYYY-MM-DD")
+            var day_s = moment(day_e).add(-(day_length - 1), 'days');
+            columns_title_structure[0] = {
+                title: '广告位名称',
+                field: 'name',
+                rowspan: 3,
+                align: 'center',
+                valign: 'middle',
+                width: "200px",
+                class: "name",
+                formatter: name_data_formatter,
+
+            }
+            columns_title_structure[1] = {
+                title: '<<',
+                field: 'm_back',
+                rowspan: 3,
+                align: 'center',
+                valign: 'middle',
+                width: "20px",
+                class: "m_back",
+
+            }
+            columns_title_structure[2] = {
+                title: '<',
+                field: 'd_back',
+                rowspan: 3,
+                align: 'center',
+                valign: 'middle',
+                width: "10px",
+                class: "d_back",
+            }
+            var tmp_length = (day_e.month() - day_s.month() + 12) % 12
+            for (let i = 0; i <= tmp_length; i++) {
+                var day_s_tmp = (i == 0) ? day_s.date() : 1
+                var colspan_tmp = day_length
+                if (tmp_length == 1) {
+                    colspan_tmp = i == 0 ? (day_s.daysInMonth() - day_s.date() + 1) : day_e.date()
+                }
+                if (tmp_length == 2) {
+                    colspan_tmp = i == 0 ? (day_s.daysInMonth() - day_s.date() + 1) : i == 1 ? moment(day_s).add(1,
+                        'months').daysInMonth() : day_e.date()
+                }
+                for (let k = day_s_tmp; k < day_s_tmp + colspan_tmp; k++) {
+                    columns_day_structure.push({
+                        field: 'd' + k,
+                        title: k,
+                        align: 'center',
+                        width: "20px",
+                    })
+                }
+                columns_title_structure.push({
+                    title: colspan_tmp == 1 ? (day_s.month() + 1 + i) : day_s.year() + '-' + (day_s.month() + 1 +
+                        i),
+                    colspan: colspan_tmp,
+                    align: 'center'
+                })
+            }
+            for (let l = day_s.day() - 1, n = 0; l < (day_length - 1) + day_s.day(); l++, n++) {
+                columns_week_structure.push({
+                    field: 'd' + n,
+                    title: week_string[(l + 7) % 7],
+                    align: 'center',
+                    width: "20px",
+                    formatter: day_data_formatter,
+                    class: "day_date",
+                })
+
+            }
+
+            columns_title_structure.push({
+                title: '>',
+                field: 'd_go',
+                rowspan: 3,
+                align: 'center',
+                valign: 'middle',
+                width: "10px",
+                class: "d_go",
+            })
+            columns_title_structure.push({
+                title: '>>',
+                field: 'm_go',
+                rowspan: 3,
+                align: 'center',
+                valign: 'middle',
+                width: "20px",
+                class: "m_go",
+            })
+
+            $table.bootstrapTable('removeAll');
+            $table.bootstrapTable({
+                width: "1440px",
+                columns: [columns_title_structure, columns_day_structure, columns_week_structure],
+            });
+
+            $table.bootstrapTable('refreshOptions', {
+                width: "1440px",
+                columns: [columns_title_structure, columns_day_structure, columns_week_structure],
+            });
+            if (!isinit) {
+                get_data()
+            } else {
+                clearTimeout(update_timeout)
+                update_timeout = setTimeout(get_data, 1000);
+            }
+
+        }
+
+
+        function get_data(day_s) {
+            console.log('get_data');
+            $.get('/table').then(
+                function (res) {
+                    isinit = true;
+                    var table_data = []
+                    var data = res.data
+                    for (let i = 0; i < data.length; i++) {
+                        const element = data[i];
+                        let tmp_data = {
+                            "name": {
+                                "id": element.id,
+                                "name": element.attributes.name
+                            }
+                        }
+                        for (let k = 0; k < element.meta.statistics.length; k++) {
+                            tmp_data["d" + k] = element.meta.statistics[k]
+                        }
+                        table_data.push(tmp_data)
+                    }
+                    $table.bootstrapTable('load', table_data)
+                    for (let k = 0; k < data.length; k++) {
+                        $table.bootstrapTable('mergeCells', {
+                            index: k,
+                            field: 'name',
+                            colspan: 3,
+                            class: "name"
+                        });
+                    }
+                    $table.bootstrapTable('mergeCells', {
+                        index: 0,
+                        field: 'd_go',
+                        colspan: 3,
+                        class: "",
+                        rowspan: data.length
+                    });
+
+                }
+            )
+        }
+
+        // 格式化日期数据
+        function day_data_formatter(value, row) {
+            // console.log(tmp);
+            var tmp = ' <div class="data class_data' + value.status + '" data-day="' + value.day + '">&nbsp</div> '
+            return tmp
+        }
+        // 格式化名称数据
+        function name_data_formatter(value, row) {
+            // console.log(tmp);
+            var tmp = ' <div " data-id="' + value.id + '">' + value.name + '</div> '
+            return tmp
+        }
+
+        function go_to(days) {
+            day_e = moment(day_e).add(days, 'days');
+            initTable(day_e)
+        }
+
+        $('body').on('click', 'th.d_back', function (e) {
+            go_to(-1)
+        });
+        $('body').on('click', 'th.d_go', function (e) {
+            go_to(1)
+        });
+        $('body').on('click', 'th.m_back', function (e) {
+            go_to(-day_length)
+        });
+        $('body').on('click', 'th.m_go', function (e) {
+            go_to(day_length)
+        });
+        $('body').on('click', 'td.day_date', function (e) {
+            console.log($(this).children("div").attr('data-day'));
+            console.log($(this).parent('tr').children(".name").children("div").attr('data-id'));
+
+
+
+        });
+
+    </script>
+</body>
+
+</html>
