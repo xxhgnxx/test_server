@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="懂球帝,App,手机客户端" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no"
+  />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>test</title>
+  <link rel="stylesheet" href="">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-size: 100%;
+    }
+  </style>
+</head>
+<br>
+<br>注:不传参数 和 空参数 是两种不同模式
+<br>
+<br> title:
+<input type="checkbox" class="checkbox" id="no_title">
+<label for="no_title">不传该参数</label>
+<br>
+<textarea id="title_text" rows="3" cols="40">这里是标题现在十个字现在十五个现在二十个</textarea>
+<br> content:
+<input type="checkbox" class="checkbox" id="no_content">
+<label for="no_content">不传该参数</label>
+<br>
+<textarea id="content_text" rows="3" cols="40">这里是摘要现在十个字现在十五个现在二十个</textarea>
+<br> url:
+<input type="checkbox" class="checkbox" id="no_url">
+<label for="no_url">不传该参数</label>
+<br>
+<textarea id="url_text" rows="3" cols="40">http://www.test.com</textarea>
+<br>
+<button type="button" onclick='setup(1)'>设置分享</button>
+<br>
+<button type="button" onclick='setup(2)'>唤醒分享</button>
+<br>
+<br>
+<br>
+<span id="error_msg"></span>
+<br>
+<button type="button" onclick='go_pic()'>点击切换图片模式</button>
+<br> 切换后分享为图片
+<br> title(如果能看到)：pic的标题
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>----------
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>-------------
+<br>
+<br>
+<br> end
+
+<body>
+
+  <article>
+
+
+  </article>
+  <script src="jquery-3.1.1.min.js"></script>
+
+  <script type="text/javascript">
+    console.log('111');
+    window.browers = {};
+    var ua = navigator.userAgent.toLowerCase();
+    browers.iPad = ua.match(/ipad/);
+    browers.iPhone = ua.match(/iphone/);
+    browers.Android = ua.match(/android/);
+    browers.iOS = ua.match(/ipad|iphone|ios/);
+    browers.ie = ua.match(/iemobile/);
+    browers.isWifi = ua.match(/nettype\/wifi|technology\/wifi/);
+    browers.force_ssl = ua.match(/Android (5|6)/i);
+    browers.is_ios_6 = ua.match(/iOS 6/i);
+    browers.is_liveapp = ua.match(/LiveApp/i);
+    browers.is_qq = ua.match(/qq/);
+    browers.is_weixin = ua.match(/micromessenger/);
+    var ua_dqd = ua.match(/NewsApp\/([\d\.]+)/i);
+    browers.ua_dqd = ua_dqd;
+
+    function connectWebViewJavascriptBridge(callback) {
+      if (window.WebViewJavascriptBridge) {
+        callback(WebViewJavascriptBridge)
+      } else {
+        document.addEventListener('WebViewJavascriptBridgeReady', function () {
+          callback(WebViewJavascriptBridge)
+        }, false)
+      }
+    }
+
+    var bridgeInit = false;
+
+    function connectWebViewJavascriptBridge(callback) {
+      if (window.WebViewJavascriptBridge) {
+        if (bridgeInit === false) {
+          WebViewJavascriptBridge.init(function (message, responseCallback) {});
+          bridgeInit = true;
+        }
+        callback && callback(WebViewJavascriptBridge);
+      } else {
+        document.addEventListener("WebViewJavascriptBridgeReady", function () {
+          if (bridgeInit === false) {
+            WebViewJavascriptBridge.init(function (message, responseCallback) {});
+            bridgeInit = true;
+          }
+          callback && callback(WebViewJavascriptBridge);
+        }, false);
+      }
+    }
+
+    // 设置评论栏分享按钮
+    function set_share(title, content, is_picture) {
+      var options = {
+        title: title || '', // 分享标题
+        content: content || '', // 分享摘要
+        is_picture: is_picture || false // 是否以图片模式分享
+      }
+
+      connectWebViewJavascriptBridge(function (bridge) {
+        bridge.callHandler("showshare", options);
+        bridge.callHandler('isShowTitle', {
+          'isShowTitle': true
+        });
+      });
+      if (browers.Android) {
+        try {
+          Android.appShare(JSON.stringify(options));
+          Android.isShowTitle('{"isShowTitle": true}');
+        } catch (e) {}
+      }
+
+    }
+
+
+
+
+    console.log(22222222);
+
+
+    function show_share_list(title, content, url) {
+      var options = {
+        title: title || '', // 分享标题
+        content: content || '', // 分享摘要
+        url: url || location.href // 分享的地址
+      }
+
+      if (browers.ua_dqd) { //在app内
+        if (browers.Android) {
+          Android.shareUrl("", title, content, ""
+            // url_tmp,
+            // title_tmp,
+            // content_tmp,
+            // "分享活动"
+          );
+        } else {
+          WebViewJavascriptBridge.callHandler("shareUrl", options);
+        }
+      } else {
+        console.log('不在app内');
+        // set_error_msg('不在app内')
+      }
+    }
+  </script>
+</body>
+<style>
+  button {
+    background: green;
+    color: #fff;
+  }
+
+  textarea {
+    border: 1px dashed green;
+  }
+
+  textarea[disabled] {
+    border: 1px dashed red;
+    background: darkgrey;
+  }
+
+  #error_msg {
+    color: red;
+  }
+</style>
+
+</html>

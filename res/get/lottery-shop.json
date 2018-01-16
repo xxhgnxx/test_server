@@ -1,0 +1,64 @@
+{
+    "data": {
+        "type": "lotteryshop",
+        "id": "1001",
+        "attributes": {
+            "address": "阜阳市颖泉区北京中医药大学泉水湾小区",
+            "description": "多年老店，诚信经营。本店选址考究，自营业以来频出大奖。欢迎各位彩民加我微信，一起切磋探讨，并承诺为您全天24小时出票，助您收米长红。",
+            "number": "3417017125",
+            "qq_group": "66666666",
+            "qq_url":"//shang.qq.com/wpa/qunwpa?idkey=b5e44c972cba2ccc2c87db0b83ae2e7811a4268ca063ca20f2ca0e6469a80105",
+            "wechat_group": "N15005582195",
+            "wechat_qr": "https://static1.dongqiudi.com/n/public/images/schoolRecruit/ma.jpg"
+        },
+        "relationships": {
+            "focus_images": {
+                "data": [{
+                    "type": "image",
+                    "id": "1001"
+                }, {
+                    "type": "image",
+                    "id": "1002"
+                }, {
+                    "type": "image",
+                    "id": "1003"
+                }]
+            },
+            "owner": {
+                "data": {
+                    "type": "people",
+                    "id": "10001"
+                }
+            }
+        }
+    },
+    "included": [{
+        "type": "people",
+        "id": "10001",
+        "attributes": {
+            "head_image": "https://img.dongqiudi.com/data/personpic/276086.png",
+            "nick_name": "牛老板",
+            "qq": "",
+            "wechat": "88888",
+            "wechat_qr": "https://static1.dongqiudi.com/n/public/images/schoolRecruit/ma.jpg"
+        }
+    }, {
+        "type": "image",
+        "id": "1001",
+        "attributes": {
+            "url": "https://img1.dongqiudi.com/fastdfs2/M00/34/49/ChOqM1ouQkGAFXntAAOlKTlVNUU521.jpg"
+        }
+    }, {
+        "type": "image",
+        "id": "1002",
+        "attributes": {
+            "url": "https://img1.dongqiudi.com/fastdfs2/M00/34/5F/ChNy21ouSl-AKWLAAAPX56JgaQA086.jpg"
+        }
+    }, {
+        "type": "image",
+        "id": "1003",
+        "attributes": {
+            "url": "https://img1.dongqiudi.com/fastdfs2/M00/34/4D/ChOqM1ouSnWAZyanAASDXOdzJdg862.jpg"
+        }
+    }]
+}

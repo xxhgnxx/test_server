@@ -1,0 +1,714 @@
+{
+    "err_code": 0,
+    "err_msg": "成功",
+    "data": {
+        "user_vote": [1, 2, 3],
+        "vote_status": 10,
+        "nickname": "",
+        "vote_count": 99912000,
+        "player_list": [{
+                "person_name_chs": "1球员",
+                "person_name_eng": "1英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def1.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def1.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "sound":"",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 0
+            },
+            {
+                "person_name_chs": "2球员",
+                "person_name_eng": "2英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def2.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def2.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 0
+            },
+            {
+                "person_name_chs": "3球员",
+                "person_name_eng": "3英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def3.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def3.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 0
+            },
+            {
+                "person_name_chs": "4球员",
+                "person_name_eng": "4英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def4.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def4.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": -10
+            },
+            {
+                "person_name_chs": "5球员",
+                "person_name_eng": "5英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def5.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def5.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 0
+            },
+            {
+                "person_name_chs": "6球员",
+                "person_name_eng": "6英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def6.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def6.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 0
+            },
+            {
+                "person_name_chs": "7球员",
+                "person_name_eng": "7英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def7.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def7.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 0
+            },
+            {
+                "person_name_chs": "8球员",
+                "person_name_eng": "8英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def8.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def8.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 0
+            },
+            {
+                "person_name_chs": "9球员",
+                "person_name_eng": "9英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def9.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def9.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 0
+            },
+            {
+                "person_name_chs": "10球员",
+                "person_name_eng": "10英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def10.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def10.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 0
+            },
+            {
+                "person_name_chs": "1球员",
+                "person_name_eng": "1英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def1.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def1.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 0
+            },
+            {
+                "person_name_chs": "2球员",
+                "person_name_eng": "2英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def2.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def2.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 0
+            },
+            {
+                "person_name_chs": "3球员",
+                "person_name_eng": "3英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def3.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def3.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 13
+            },
+            {
+                "person_name_chs": "4球员",
+                "person_name_eng": "4英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def4.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def4.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 14
+            },
+            {
+                "person_name_chs": "5球员",
+                "person_name_eng": "5英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def5.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def5.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 15
+            },
+            {
+                "person_name_chs": "6球员",
+                "person_name_eng": "6英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def6.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def6.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 16
+            },
+            {
+                "person_name_chs": "7球员",
+                "person_name_eng": "7英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def7.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def7.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 17
+            },
+            {
+                "person_name_chs": "8球员",
+                "person_name_eng": "8英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def8.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def8.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "http://10.18.7.108:7777/testimg/honor.png",
+
+                "vote_count": 18
+            },
+            {
+                "person_name_chs": "9球员",
+                "person_name_eng": "9英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def9.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def9.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+                "honor": "",
+
+                "vote_count": 19
+            },
+            {
+                "person_name_chs": "10球员",
+                "person_name_eng": "10英文名",
+
+                "head_src": "http://10.18.7.108:7777/testimg/head_def10.png",
+                "body_src": "http://10.18.7.108:7777/testimg/body_def10.png",
+
+                "team_logo": "https://img.dongqiudi.com/data/pic/676.png",
+                "team_name": "队名",
+
+                "nationality_logo": "https://img.dongqiudi.com/data/areapic/35.png",
+                "nationality_name": "国名",
+
+                "property": [{
+                        "property_name": "在场时间",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "进球",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "助攻",
+                        "property_data": "90"
+                    },
+                    {
+                        "property_name": "传球",
+                        "property_data": "90"
+                    }
+                ],
+
+
+                "vote_count": 20
+            }
+
+        ]
+    }
+}

@@ -1,23 +1,25 @@
-{
-    "@timestamp": "2017-11-06T16:22:21+08:00",
-    "server_addr": "10.19.92.105",
-    "remote_addr": "223.104.23.219",
-    "scheme": "http",
-    "host": "lottery.dongqiudi.com",
-    "method": "OPTIONS",
-    "uri": "/refund/apply?plan_id=23509&authorization=JiQWWtW4dgfEMQlTBXOTWzS4qdXYIHxJMz3d2YqJmrB78YCWQmeXDMcgMUr97cZ0",
-    "url": "/index.php",
-    "protocol": "HTTP/1.1",
-    "status": 200,
-    "size": 31,
-    "request_time": 0.002,
-    "upstream_time": "0.001",
-    "upstream_host": "127.0.0.1:9000",
-    "referer": "https://n.dongqiudi.com/webapp/dqd_pay.html?plan_id=23509&order_no=201711052112548757434648918",
-    "agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 NewsApp/5.7.6 NetType/4G Technology/LTE (iPhone; iOS 10.3.2; Scale/2.00) (modelIdentifier/iPhone7,2 )",
-    "xff": "223.104.23.219",
-    "uuid": "@uxe98w6yArfUQQKKcjdH9AghhHUBWA9OngrILsiRXTXxyGodinEiDjHOWqYDX65M9MwFSMoLShU=",
-    "authorization": "JiQWWtW4dgfEMQlTBXOTWzS4qdXYIHxJMz3d2YqJmrB78YCWQmeXDMcgMUr97cZ0",
-    "lang": "zh-cn",
-    "sign": "-"
+var a=0
+var b=0
+var key=''
+
+
+if (condition) {
+  a=1
+  // 。。。
+  a=2
+  // 。。。
+  a=3
+}else{
+  b=1
+  // 。。。
+  b=2
+  // 。。。
+  b=3
 }
+window
+a=2
+b=2
+a=3
+b=3
+// ....
+

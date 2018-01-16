@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta name="referrer" content="no-referrer"> -->
+    <meta name="referrer" content="origin">
+
+</head>
+
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $.ajaxSetup({
+        headers: {
+            'UUID': "123",
+            'Authorization': "444"
+        }
+    });
+
+    function hgn(url) {
+        console.log("test");
+        $.ajax({
+            type: 'get',
+            url: url,
+            success: function () {}
+        })
+    }
+
+    function img_hgn(url) {
+        (new Image()).src = url
+    }
+
+    function test() {
+        console.log("test1");
+        $.ajax({
+            type: 'get',
+            url: "https://pay.xiaohongdan.com/recharge/apps",
+            success: function () {}
+        })
+    }
+
+    function test2() {
+        console.log("test2");
+        $.get(
+            "https://pay.xiaohongdan.com/recharge/apps"
+        )
+    }
+
+    function img_test() {
+        (new Image()).src =
+            "https://pay.xiaohongdan.com/recharge/apps"
+
+    }
+
+
+var tttt="https://test1-api.dongqiudi.com/v2/activity/hisensetv/4074880"
+    function test3() {
+        var url =tttt
+        // 创建ajax对象
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.setRequestHeader('UUID', "123");
+        xhr.setRequestHeader('Authorization', "123123");
+        xhr.setRequestHeader('Referer', "123123");
+        xhr.send();
+    }
+
+    function test4() {
+        var url =tttt
+        // 创建ajax对象
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.send();
+    }
+</script>
+
+</html>

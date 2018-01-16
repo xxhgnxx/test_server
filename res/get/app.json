@@ -1,73 +1,112 @@
 {
-	"code": 0,
-	"message": "",
-	"data": {
-		"app": {
-			"id": "1",
-			"name": "159\u7ade\u5f69\u8db3\u7403-\u5145\u503c\u5361",
-			"rank": "3",
-			"des": "\u65b0\u7528\u6237\u4e13\u4eab\uff0c\u514520\u5f9788\uff1b\u7ade\u5f69\u6700\u9ad8\u52a0\u595610%\uff01",
-			"discount": "97",
-			"daily_quote": "1000000",
-			"sales": 47316,
-			"android_url": "http:\/\/down.159cai.com\/159jingcai\/159jczq.apk?version=1",
-			"ios_url": "https:\/\/itunes.apple.com\/cn\/app\/159jing-cai-zu-qiu-zu-qiu\/id1121573293?mt=8 ",
-			"rule": "\u5145\u503c\u91d1\u989d\u4e0d\u53ef\u63d0\u73b0\u53ea\u80fd\u7528\u4e8e\u8d2d\u5f69; \u4e2d\u5956\u540e\u5956\u91d1\u53ef\u4ee5\u63d0\u73b0\u3002",
-			"banner": "http:\/\/img1.dongqiudi.com\/fastdfs1\/M00\/4D\/47\/pIYBAFjce7KAZKVUAAAvShvjHCA984.jpg",
-			"banner2": "http:\/\/img1.dongqiudi.com\/fastdfs1\/M00\/4D\/5A\/o4YBAFjblMyAf8oPAAAurv9ke_o732.jpg",
-			"icon": "http:\/\/img1.dongqiudi.com\/fastdfs\/M00\/12\/52\/oYYBAFh4Rd6AFcL-AABrdr-l6Xg019.png",
-			"down_url": "https:\/\/itunes.apple.com\/cn\/app\/159jing-cai-zu-qiu-zu-qiu\/id1121573293?mt=8 "
-		},
-		"quotes": ["10", "50", "100", "500", "1000", "5000"],
-		"quote_items": [{
-			"id": "4",
-			"quote": "10",
-			"dt": "97",
-			"sale_price": "0"
-		}, {
-			"id": "6",
-			"quote": "50",
-			"dt": "97",
-			"sale_price": "0"
-		}, {
-			"id": "1",
-			"quote": "100",
-			"dt": "97",
-			"sale_price": "100"
-		}, {
-			"id": "3",
-			"quote": "500",
-			"dt": "97",
-			"sale_price": "4900"
-		}, {
-			"id": "5",
-			"quote": "1000",
-			"dt": "97",
-			"sale_price": "0"
-		}, {
-			"id": "2",
-			"quote": "5000",
-			"dt": "97",
-			"sale_price": "9800"
-		}],
-		"user_tel": "17778088926",
-		"is_other_pay": 1,
-		"pay_plat": 1,
-		"tips": ["1.\u76ee\u524d\u53ea\u652f\u6301\u5145\u503c\u670d\u52a1\uff0c\u4e0d\u652f\u6301\u8d2d\u5f69\u670d\u52a1\u54e6\uff5e", "2.\u5145\u503c\u5b8c\u6210\u540e\u8bf7\u4e0b\u8f7d\u6216\u767b\u5f55app\u8fdb\u884c\u8d2d\u5f69\uff1b", "3.159\u7ade\u5f69\u8db3\u7403-\u5145\u503c\u5361\u63d0\u73b0\u89c4\u5219\uff1a\u5145\u503c\u91d1\u989d\u4e0d\u53ef\u63d0\u73b0\u53ea\u80fd\u7528\u4e8e\u8d2d\u5f69; \u4e2d\u5956\u540e\u5956\u91d1\u53ef\u4ee5\u63d0\u73b0\u3002"],
-		"pay_ways": [{
-			"opt": "\u5fae\u4fe1",
-			"id": "weixin",
-			"pay_type": "weixin",
-			"is_show": true,
-			"channel": 1,
-			"des": "bfb-w"
-		}, {
-			"opt": "\u652f\u4ed8\u5b9d",
-			"id": "alipay",
-			"pay_type": "alipay",
-			"is_show": true,
-			"channel": 2,
-			"des": "[\u5907\u7528] \u4ea4\u6613\u53d7\u9650\u65f6\u4f7f\u7528(dqd-1)"
-		}]
-	}
+    "code": 0,
+    "message": "",
+    "data": {
+        "app": {
+            "id": "5",
+            "name": "懂球帝测试",
+            "rank": "7",
+            "des": "这个是内部测试用的",
+            "discount": "95",
+            "daily_quote": "0.01",
+            "sales": 430,
+            "android_url": "https://www.baidu.com/",
+            "ios_url": "https://www.baidu.com/",
+            "rule": "充值金额不可提现只能用于购彩; 中奖后奖金可以提现。",
+            "banner": "http://img1.dongqiudi.com/fastdfs/M00/12/1D/ooYBAFh3eDeATeVFAAAjRtarTXc346.jpg",
+            "banner2": "http://img1.dongqiudi.com/fastdfs/M00/12/52/oYYBAFh4SjqAOk2oAAA2d6mBODs727.jpg",
+            "icon": "http://img1.dongqiudi.com/fastdfs/M00/12/37/oYYBAFh3eC-ABiHxAABu-iFPqxA733.png",
+            "down_url": "https://www.baidu.com/"
+        },
+        "quotes": [
+            "0.01",
+            "0.1",
+            "1",
+            "5",
+            "50"
+        ],
+        "quote_items": [
+            {
+                "id": "28",
+                "quote": "0.01",
+                "dt": "97",
+                "sale_price": "0"
+            },
+            {
+                "id": "25",
+                "quote": "0.1",
+                "dt": "97",
+                "sale_price": "100"
+            },
+            {
+                "id": "29",
+                "quote": "1",
+                "dt": "97",
+                "sale_price": "0"
+            },
+            {
+                "id": "27",
+                "quote": "5",
+                "dt": "97",
+                "sale_price": "4900"
+            },
+            {
+                "id": "26",
+                "quote": "50",
+                "dt": "97",
+                "sale_price": "9800"
+            }
+        ],
+        "user_tel": false,
+        "is_other_pay": 1,
+        "pay_plat": 1,
+        "tips": [
+            "1.目前只支持充值服务，不支持购彩服务哦～",
+            "2.充值完成后请下载或登录app进行购彩；",
+            "3.懂球帝测试提现规则：充值金额不可提现只能用于购彩; 中奖后奖金可以提现。"
+        ],
+        "channel_rate": "0.01",
+        "pay_ways": [
+            {
+                "opt": "微信通道1",
+                "id": "weixin_ex",
+                "pay_type": "weixin_ex",
+                "is_show": true,
+                "channel": 1,
+                "des": ""
+            },
+            {
+                "opt": "微信通道2",
+                "id": "weixin",
+                "pay_type": "weixin",
+                "is_show": true,
+                "channel": 1,
+                "des": "bfb-w"
+            },
+            {
+                "opt": "支付宝通道3",
+                "id": "alipay_dqd_ex",
+                "pay_type": "alipay_ex",
+                "is_show": true,
+                "channel": 2,
+                "des": ""
+            },
+            {
+                "opt": "支付宝通道4",
+                "id": "alipay_dqd",
+                "pay_type": "alipay",
+                "is_show": true,
+                "channel": 2,
+                "des": "「备用」支付受限时使用"
+            },
+            {
+                "opt": "银行卡快捷",
+                "id": "unionpay",
+                "pay_type": "unionpay",
+                "is_show": true,
+                "channel": 6,
+                "des": ""
+            }
+        ]
+    }
 }

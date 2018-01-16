@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="懂球帝,App,手机客户端" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>退款说明</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-size: 100%;
+        }
+    </style>
+</head>
+<span>剪贴板被修改了</span>
+<button type="button" onclick='go("剪贴板被修改了")'>将剪贴板设置为上面的文字</button>
+<br>
+<span>剪贴板被修改了2222222222</span>
+<button type="button" onclick='go("剪贴板被修改了2222222222")'>将剪贴板设置为上面的文字22222</button>
+<br>
+<span>剪贴板被修改了3333333333</span>
+<button type="button" onclick='go("剪贴板被修改了3333333333")'>将剪贴板设置为上面的文字22222</button>
+<br>
+callback: <br>
+<span id="callback_msg"></span>
+
+<body>
+
+    <article>
+
+
+    </article>
+    <script src="jquery-3.1.1.min.js"></script>
+
+    <script type="text/javascript">
+        window.browers = {};
+        var ua = navigator.userAgent.toLowerCase();
+        browers.iPad = ua.match(/ipad/);
+        browers.iPhone = ua.match(/iphone/);
+        browers.Android = ua.match(/android/);
+        browers.iOS = ua.match(/ipad|iphone|ios/);
+        browers.ie = ua.match(/iemobile/);
+        browers.isWifi = ua.match(/nettype\/wifi|technology\/wifi/);
+        browers.force_ssl = ua.match(/Android (5|6)/i);
+        browers.is_ios_6 = ua.match(/iOS 6/i);
+        browers.is_liveapp = ua.match(/LiveApp/i);
+        browers.is_qq = ua.match(/qq/);
+        browers.is_weixin = ua.match(/micromessenger/);
+
+        var bridgeInit = false;
+        function connectWebViewJavascriptBridge(callback) {
+          if (window.WebViewJavascriptBridge) {
+            if (bridgeInit === false) {
+              WebViewJavascriptBridge.init(function (message, responseCallback) {});
+              bridgeInit = true;
+            }
+            callback && callback(WebViewJavascriptBridge);
+          } else {
+            document.addEventListener("WebViewJavascriptBridgeReady", function () {
+              if (bridgeInit === false) {
+                WebViewJavascriptBridge.init(function (message, responseCallback) {});
+                bridgeInit = true;
+              }
+              callback && callback(WebViewJavascriptBridge);
+            }, false);
+          }
+        }
+
+        function go(msg) {
+            connectWebViewJavascriptBridge(function (bridge) {
+                console.log('setclipboard_bridge');
+                bridge.callHandler('setclipboard', {
+                    'content': msg
+                }, function (obj) {
+                    $("#callback_msg").text("")
+                    $("#callback_msg").text(JSON.stringify(obj))
+                    console.log('setclipboard_call_back',obj);
+                });
+            });
+        }
+    </script>
+</body>
+<style>
+    button {
+        background: green;
+        color: #fff;
+    }
+
+    textarea {
+        border: 1px dashed red;
+    }
+</style>
+
+</html>

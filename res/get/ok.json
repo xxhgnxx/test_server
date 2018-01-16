@@ -1,7 +1,11 @@
 {
     "code": 0,
     "errCode": 0,
+    "err_code": 0,
     "status": 0,
+    "rs": true,
+    "msg": "身份证件照必上传 ,懂球号头像必填 ",
+    "url":"http://img.dongqiudi.com/uploads/avatar/2017/04/24/QJi2o5k3JE_avatar.jpg",
     "message": "成功",
     "id": "sdafas",
     "money": 100,

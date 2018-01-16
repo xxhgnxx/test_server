@@ -9,7 +9,7 @@
   />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <title>退款说明</title>
+  <title>设置分享功能</title>
   <link rel="stylesheet" href="">
   <style>
     body {
@@ -21,32 +21,32 @@
     }
   </style>
 </head>
- 初始分享的
- title：初始标题 <br>
- content: 初始content <br>
- url：http://www.baidu.com <br>
- <br><br>
- title:<br>
- <textarea id="title_text" rows="3" cols="40">这里是标题现在十个字现在十五个现在二十个</textarea><br>
- content:<br>
- <textarea id="content_text" rows="3" cols="40">这里是摘要现在十个字现在十五个现在二十个</textarea><br>
- url:<br>
- <textarea id="url_text" rows="3" cols="40">http://www.baidu.com</textarea><br>
- <button type="button" onclick='setup()'>自定义设置</button><br>
- 
- <br><br><br>
- <button type="button" onclick='go()'>点击切换 http url</button><br>
- 切换后 <br> 
- title：修改过后的标题 <br>
- content: 修改后的content <br>
- url：http://www.dongqiudi.com <br>
- <br><br><br><br><br>
- <button type="button" onclick='go2()'>点击切换 https url</button><br>
- 切换后 <br> 
- title：修改过后的标题 <br>
- content: 修改后的content <br>
- url：https://www.dongqiudi.com <br>
- <br><br><br><br><br>
+<br>
+<br>注:不传参数 和 空参数 是两种不同模式
+<br>
+<br> title:
+<input type="checkbox" class="checkbox" id="no_title">
+<label for="no_title">不传该参数</label>
+<br>
+<textarea id="title_text" rows="3" cols="40">这里是标题现在十个字现在十五个现在二十个</textarea>
+<br> content:
+<input type="checkbox" class="checkbox" id="no_content">
+<label for="no_content">不传该参数</label>
+<br>
+<textarea id="content_text" rows="3" cols="40">这里是摘要现在十个字现在十五个现在二十个</textarea>
+<br> url:
+<input type="checkbox" class="checkbox" id="no_url">
+<label for="no_url">不传该参数</label>
+<br>
+<textarea id="url_text" rows="3" cols="40">http://www.test.com</textarea>
+<br>
+<button type="button" onclick='setup(1)'>设置分享</button>
+<br>
+<button type="button" onclick='setup(2)'>唤醒分享</button>
+<br>
+<br>
+<br><span id="error_msg"></span>
+<br>
  <button type="button" onclick='go_pic()'>点击切换图片模式</button><br>
  切换后分享为图片 <br> 
  title(如果能看到)：pic的标题 <br>
@@ -64,7 +64,7 @@
 
   </article>
   <script src="jquery-3.1.1.min.js"></script>
-  
+
   <script type="text/javascript">
     window.browers = {};
     var ua = navigator.userAgent.toLowerCase();
@@ -79,7 +79,8 @@
     browers.is_liveapp = ua.match(/LiveApp/i);
     browers.is_qq = ua.match(/qq/);
     browers.is_weixin = ua.match(/micromessenger/);
-
+    var ua_dqd = ua.match(/NewsApp\/([\d\.]+)/i);
+    browers.ua_dqd = ua_dqd;
     function connectWebViewJavascriptBridge(callback) {
       if (window.WebViewJavascriptBridge) {
         callback(WebViewJavascriptBridge)
@@ -91,173 +92,168 @@
     }
 
 
-
-    var shareurl = 'http://www.baidu.com'
-
-
     connectWebViewJavascriptBridge(function (bridge) {
-          bridge.init(function (message, responseCallback) {});
-          bridge.callHandler('showshare', {
-            'is_picture': false
-          });
-          bridge.callHandler('showshare', {
-            'title': "初始标题",
-            'content': "初始content",
-            'url': shareurl
-            // 'url': location.href
-          })
-          bridge.callHandler('isShowTitle', {
-            'isShowTitle': true
-          });
-        });
-
-    if (browers.Android) {
-      console.log('share_an');
-      try {
-      console.log('share_set---appShare');
-        Android.appShare('{ "is_picture":false, "title":"初始标题", "content":"初始content", "url":"' + shareurl + '" }');
-        Android.isShowTitle('{"isShowTitle": true}');
-      console.log('appShare---share_end');
-        
-      } catch (e) {}
-    }
+      bridge.init(function (message, responseCallback) {});
+    });
 
 
+    var setup_list = []
+    $('.checkbox').change(function () {
+      // console.log($(this).prop('checked'), $(this).attr('id'));
+      setup_list[$(this).attr('id')] = $(this).prop('checked')
+      if ($(this).prop('checked')) {
+        $(this).next().next().next().attr('disabled', true)
+      } else {
+        $(this).next().next().next().attr('disabled', false)
+      }
+    })
 
-    function sc() {
-      console.log('sc');
 
-    }
+    function setup(type) {
+      // console.log(setup_list);
+      var title_tmp = $('#title_text').val()
+      var url_tmp = $('#url_text').val()
+      var content_tmp = $('#content_text').val()
+      var tmp_data = {}
+      if (!setup_list["no_title"]) {
+        tmp_data.title = title_tmp
+      } else {
+        delete tmp_data.title
+      }
+      if (!setup_list["no_url"]) {
+        tmp_data.url = url_tmp
+      } else {
+        delete tmp_data.content
+      }
+      if (!setup_list["no_content"]) {
+        tmp_data.content = content_tmp
+      } else {
+        delete tmp_data.url
+      }
+      console.log("ios", tmp_data);
+      // console.log("android", '{ "is_picture":false ' + title_setup + url_setup + content_setup + ' }');
+      // console.log("android", JSON.parse('{ "is_picture":false ' + title_setup + url_setup + content_setup + ' }'));
+      if (type == 2) {
+        console.log('唤醒h5分享');
+        if (browers.ua_dqd) { //在app内
+          let url = 'https://www.dongqiudi.com/article/462365';
+          if (browers.Android) {
+            Android.shareUrl("","","",""
+              // url_tmp,
+              // title_tmp,
+              // content_tmp,
+              // "分享活动"
+            );
+          } else {
+            WebViewJavascriptBridge.callHandler("shareUrl", tmp_data);
+          }
+        } else {
+          console.log('不在app内');
+          set_error_msg('不在app内')
+        }
+      }
 
 
-  function setup() {
-
-   var  title_tmp =$('#title_text').val()
-   var url_tmp=$('#url_text').val()
-   var content_tmp =$('#content_text').val()
-    console.log('title_tmp',title_tmp);
-    console.log('url_tmp',url_tmp);
-    console.log('content_tmp',content_tmp);
-
-    connectWebViewJavascriptBridge(function (bridge) {
+      if (type == 1) {
+        console.log('设置原生分享');
+        connectWebViewJavascriptBridge(function (bridge) {
           // bridge.init(function (message, responseCallback) {});
           bridge.callHandler('showshare', {
             'is_picture': false
           });
-          bridge.callHandler('showshare', {
-            'title': title_tmp,
-            'content': content_tmp,
-            'url': url_tmp
-            // 'url': location.href
-          })
+          bridge.callHandler('showshare', tmp_data)
           bridge.callHandler('isShowTitle', {
             'isShowTitle': true
           });
         });
-    if (browers.Android) {
-      console.log('share_an');
-      try {
-      console.log('share_set---appShare');
-        Android.appShare('{ "is_picture":false, "title":"' + title_tmp + '", "content":"' + content_tmp + '", "url":"' + url_tmp + '" }');
-        Android.isShowTitle('{"isShowTitle": true}');
-      console.log('appShare---share_end');
-        
-      } catch (e) {}
+        if (browers.Android) {
+          console.log('share_an');
+          try {
+            var tmp_an_share_setup=tmp_data
+            tmp_an_share_setup.is_picture=false
+            console.log('share_set---appShare');
+            Android.appShare(JSON.stringify(tmp_an_share_setup));
+            Android.isShowTitle(JSON.stringify({"isShowTitle": true}));
+            console.log('appShare---share_end');
+          } catch (e) {}
+        }
+      }
+
+
     }
-  }
 
 
-  function go() {
-    shareurl='http://www.dongqiudi.com'
-    console.log('go');
 
-    connectWebViewJavascriptBridge(function (bridge) {
-          // bridge.init(function (message, responseCallback) {});
-          bridge.callHandler('showshare', {
-            'is_picture': false
-          });
-          bridge.callHandler('showshare', {
-            'title': "修改后的标题",
-            'content': "修改后的content",
-            'url': shareurl
-            // 'url': location.href
-          })
-          bridge.callHandler('isShowTitle', {
-            'isShowTitle': true
-          });
+    function go_pic() {
+      shareurl = 'www.dongqiudi.com'
+      console.log('go_pic');
+
+      connectWebViewJavascriptBridge(function (bridge) {
+        bridge.callHandler('showshare', {
+          'is_picture': true
         });
-    if (browers.Android) {
-      console.log('share_an');
-      try {
-      console.log('share_set---appShare');
-        Android.appShare('{ "is_picture":false, "title":"修改后的标题", "content":"修改后的content", "url":"' + shareurl + '" }');
-        Android.isShowTitle('{"isShowTitle": true}');
-      console.log('appShare---share_end');
-        
-      } catch (e) {}
+      });
+      if (browers.Android) {
+        console.log('share_an');
+        try {
+          console.log('share_set---appShare');
+          Android.appShare('{ "is_picture":true, "title":"pic的标题"}');
+          Android.isShowTitle('{"isShowTitle": true}');
+          console.log('appShare---share_end');
+
+        } catch (e) {}
+      }
     }
+
+
+    function set_error_msg( msg ){
+$('#error_msg').text(msg)
+setTimeout(() => {
+  $('#error_msg').text("")
+}, 2000);
+    }
+
+
+    // 设置评论栏分享按钮
+function set_share(title, content, is_picture) {
+  var options = {
+    title: title || '', // 分享标题
+    content: content || '', // 分享摘要
+    is_picture: is_picture || false // 是否以图片模式分享
   }
 
-  function go2() {
-    shareurl='https://www.dongqiudi.com'
-    console.log('go2');
-
-    connectWebViewJavascriptBridge(function (bridge) {
-          // bridge.init(function (message, responseCallback) {});
-          bridge.callHandler('showshare', {
-            'is_picture': false
-          });
-          bridge.callHandler('showshare', {
-            'title': "修改后的标题",
-            'content': "修改后的content",
-            'url': shareurl
-            // 'url': location.href
-          })
-          bridge.callHandler('isShowTitle', {
-            'isShowTitle': true
-          });
-        });
-    if (browers.Android) {
-      console.log('share_an');
-      try {
-      console.log('share_set---appShare');
-        Android.appShare('{ "is_picture":false, "title":"修改后的标题", "content":"修改后的content", "url":"' + shareurl + '" }');
-        Android.isShowTitle('{"isShowTitle": true}');
-      console.log('appShare---share_end');
-        
-      } catch (e) {}
-    }
+  connectWebViewJavascriptBridge(function (bridge) {
+    bridge.callHandler("showshare", options);
+  });
+  if (browers.Android) {
+    try {
+      Android.appShare(JSON.stringify(options));
+      Android.isShowTitle('{"isShowTitle": true}');
+    } catch (e) {}
   }
 
-  function go_pic() {
-    shareurl='www.dongqiudi.com'
-    console.log('go_pic');
 
-    connectWebViewJavascriptBridge(function (bridge) {
-          bridge.callHandler('showshare', {
-            'is_picture': true
-          });
-        });
-    if (browers.Android) {
-      console.log('share_an');
-      try {
-      console.log('share_set---appShare');
-        Android.appShare('{ "is_picture":true, "title":"pic的标题"}');
-        Android.isShowTitle('{"isShowTitle": true}');
-      console.log('appShare---share_end');
-        
-      } catch (e) {}
-    }
-  }
+
+}
   </script>
 </body>
 <style>
-button{
-  background: green;
-  color: #fff;
-}
-textarea{
-  border: 1px dashed red;
-}
+  button {
+    background: green;
+    color: #fff;
+  }
+
+  textarea {
+    border: 1px dashed green;
+  }
+
+  textarea[disabled] {
+    border: 1px dashed red;
+    background: darkgrey;
+  }
+  #error_msg{
+    color:red;
+  }
 </style>
+
 </html>

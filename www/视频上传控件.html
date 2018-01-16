@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>标签列表</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="" rel="stylesheet">
+</head>
+<script src="jquery-3.1.1.min.js"></script>
+
+<body>
+
+        <div class="input-row">
+                <div class="input-name" style="vertical-align: top;position: relative;top: 2px;"><span>视频 :</span></div>
+                <div class="video-control" style="text-align: left">
+                    <span>视频尺寸：640*360 按屏幕宽 16:9</span>视频大小 ≤10M <span class="tip"></span><br>
+                    <div class="preview_box">
+                    <video class="preview"  id="video_src" autoplay src=""  poster="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22640%22%20height%3D%22360%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1605506442d%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A32pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1605506442d%22%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22236.953125%22%20y%3D%22194.25%22%3E640x360%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" controls> 
+                                                </video> 
+                    </div>
+                        <div class="input-row upway">
+                            <input class="video_input" id="" type="file" accept="audio/mp4, video/mp4"/>
+                            <!-- <br><label type="button" class="btn btn-default" for="1">本地上传</label> -->
+                        </div>
+                        <br>
+                        视频支持mp4格式。
+                </div>
+            </div>
+</body>
+<style>
+    
+
+</style>
+
+
+<script>
+    //本地上传视频动作
+$(".video_input").on("change", function (e) {
+    if (e.target.files.length == 0) {
+        console.log('未选取');
+        return;
+    }
+    var file = e.target.files[0]; //获取文件数据
+    var this_ele = $(this);
+ 
+    var file = $('.video_input').prop("files")[0]
+
+    var reader = new FileReader();
+   reader.readAsDataURL(file);
+   reader.onload = function () {
+     console.log(reader.result);
+    $("#video_src").attr("src",reader.result)
+    getVideoDimensionsOf(reader.result).then(function (data) {
+        console.log(data);
+    })
+    return reader.result
+   };
+   reader.onerror = function (error) {
+    //  console.log('Error: ', error);
+   };
+
+
+
+    // var reader = new FileReader();
+    // reader.readAsDataURL(file); // 读取文件
+    // reader.onprogress = function () {
+    //     var tiptxt = '上传中,请稍等...';
+    //     this_ele.parents(".video-control").find(".tip").empty().append(tiptxt);
+    // }
+    // var img_index = $(this).index('input[type="file"]');
+    // // 图片上传服务端
+    // var form_data = new FormData();
+    // var file_data = this_ele.prop("files")[0];
+    
+    // form_data.append("files", file_data);
+    // 把上传的数据放入form_data
+    // $.ajax({
+    //     type: "POST", // 上传文件要用POST
+    //     url: get_url + '/admin/upload/?type_id=' + creative_type_id,
+    //     crossDomain: true, // 如果用到跨域，需要后台开启CORS
+    //     processData: false,
+    //     contentType: false,
+    //     data: form_data,
+    //     success: function (data) {
+    //         if (data.code === 0) {
+    //             // 渲染文件
+    //             var tipsuccess = '上传成功';
+    //             this_ele.parents(".video-control").find(".tip").empty().append(tipsuccess);
+
+    //             tmp_video_url = data.data.video_url
+    //             console.log(tmp_video_url);
+    //             // $("#video_src").src=tmp_video_url
+    //             $("#video_src").attr("src",tmp_video_url)
+    //             // $("#video_src").load();
+    //             // if (temp_name == "big_picture_txt" || temp_name == "big_picture_txt_download") {
+    //             //     var tag_no = $("input[name='radio_pic_tag']:checked").val()
+    //             //     var img = '<img class="preview new-img" src="' + tmp_video_url + pic_tag_list[tag_no] + '" alt="preview"/>';
+    //             // } else {
+    //             //     var img = '<img class="preview new-img" src="' + tmp_video_url + '" alt="preview"/>';
+    //             // }
+    //             // this_ele.parents(".pic-control").find(".preview_box").empty().append(img);
+
+    //         } else {
+    //             var tiperror = data.message + '!';
+    //             this_ele.parents(".pic-control").find(".tip").empty().append(tiperror);
+    //         }
+    //     },
+    //     dataType: "json"
+    // });
+});
+
+
+function getVideoDimensionsOf(url){
+	return new Promise(function(resolve){
+		// create the video element
+		let video = document.createElement('video');
+
+		// place a listener on it
+		video.addEventListener( "loadedmetadata", function () {
+            console.log('loadedmetadata');
+			// retrieve dimensions
+			let height = this.videoHeight;
+            let width = this.videoWidth;
+			// send back result
+			resolve({
+				height : height,
+				width : width
+			});
+		}, false );
+
+		// start download meta-datas
+		video.src = url;
+	});
+}
+
+function getBase64(file) {
+   var reader = new FileReader();
+   reader.readAsDataURL(file);
+   reader.onload = function () {
+    //  console.log(reader.result);
+    return reader.result
+   };
+   reader.onerror = function (error) {
+    //  console.log('Error: ', error);
+   };
+}
+
+
+
+
+
+// ---- Usation ---- //
+// getVideoDimensionsOf("http://clips.vorwaerts-gmbh.de/VfE_html5.mp4")
+//    .then(function(dimensions){
+// 	console.log("Video width: " + dimensions.width) ;
+// 	console.log("Video height: " + dimensions.height) ;
+//     });
+</script>
+</html>

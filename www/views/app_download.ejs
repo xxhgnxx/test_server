@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>appdownload</title>
+
+</head>
+<body>
+   <ul>
+<% for(var i=0; i<body.length; i++) 
+{%>
+   <li><a href="/app_down/<%= body[i] %>"><%= body[i] %></a></li>
+<% } %>
+</ul>
+
+</body>
+</html>

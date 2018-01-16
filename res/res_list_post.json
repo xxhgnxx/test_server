@@ -1,9 +1,17 @@
 {
-    "/activity/quiz/tempMatch/submit/1": { "des": "创意监控接口", "data": "/ok.json" },
-    "/activity/quiz/leagues/submit/1": { "des": "创意监控接口", "data": "/ok.json" },
-    "/activity/quiz/leagues/submit/": { "des": "创意监控接口", "data": "/ok.json" },
-    "/activity/quiz/zhongchao/submit/": { "des": "创意监控接口", "data": "/ok.json" },
-    "/activity/quiz/leagues/result/": { "des": "创意监控接口", "data": "/ok.json" },
-    "/activity/quiz/zhongchao/send_code/": { "des": "创意监控接口", "data": "/ok.json" },
-    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用"        
+    "/hgn/activity/quiz/tempMatch/submit/1": { "des": "创意监控接口", "data": "/ok.json" },
+    "/hgn/activity/quiz/leagues/submit/1": { "des": "创意监控接口", "data": "/ok.json" },
+    "/hgn/activity/quiz/leagues/submit/": { "des": "创意监控接口", "data": "/ok.json" },
+    "/hgn/activity/quiz/zhongchao/submit/": { "des": "创意监控接口", "data": "/ok.json" },
+    "/hgn/activity/quiz/leagues/result/": { "des": "创意监控接口", "data": "/ok.json" },
+    "/hgn/activity/quiz/zhongchao/send_code/": { "des": "创意监控接口", "data": "/ok.json" },
+    "/hgn/v2/activity/hantai/userstate": { "des": "韩泰轮胎，助力皇马，状态请求", "data": "/userstate.json" },
+    "/hgn/v2/activity/hantai/startlightcommit": { "des": "韩泰轮胎，助力皇马，点亮动作", "data": "/startlightcommit.json" },
+    "/hgn/v2/activity/hantai/lottery": { "des": "韩泰轮胎，助力皇马，抽奖", "data": "/lottery.json" },
+    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用"   ,
+    "/hgn/v2/live/pic": { "des": "上传图片", "data": "/ok.json" },
+    "/hgn/uploads": { "des": "上传图片", "data": "/pic_upload_ok.json" },
+    "/hgn/settle": { "des": "上传图片", "data": "/ok.json" },
+    "/hgn/v2/activity/live_quiz/card": { "des": "上传图片", "data": "/card.json" }
+
 }

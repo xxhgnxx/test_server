@@ -1,0 +1,58 @@
+
+
+
+ Version/4.0 Chrome/57.0.2987.132 
+ Access-Control-Request-Headers	authorization,uuid
+ Accept	*/*
+ Referer	https://n.xiaohongdan.com/webapp/footerball_lottery.html?way=native
+ Accept-Encoding	gzip, deflate
+ Accept-Language	zh-CN,en-US;q=0.8
+ X-Requested-With	com.dongqiudi.news
+
+
+
+
+ Version/4.0 Chrome/62.0.3202.84 
+Access-Control-Request-Headers	authorization,uuid
+Accept	*/*
+Accept-Encoding	gzip, deflate
+Accept-Language	zh-CN,en-US;q=0.9
+X-Requested-With	com.dongqiudi.news
+
+
+
+
+
+
+
+
+
+
+
+HTTP/1.1 200 OK
+Server	nginx/1.10.3
+Date	Fri, 01 Dec 2017 10:58:44 GMT
+Content-Type	text/html; charset=UTF-8
+Vary	Accept-Encoding
+Access-Control-Allow-Origin	https://n.xiaohongdan.com
+Access-Control-Allow-Headers	Authorization,UUID,Content-Type,Content-Length,Transfer-Encoding,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,X-Requested-With
+Access-Control-Allow-Credentials	true
+Access-Control-Allow-Methods	GET,POST,OPTIONS
+Cache-Control	no-cache, must-revalidate
+Content-Encoding	gzip
+Transfer-Encoding	chunked
+Connection	Keep-alive
+
+
+HTTP/1.1 200 OK
+Server	nginx/1.10.3
+Date	Fri, 01 Dec 2017 10:57:51 GMT
+Content-Type	text/html; charset=UTF-8
+Vary	Accept-Encoding
+Access-Control-Allow-Headers	Authorization,UUID,Content-Type,Content-Length,Transfer-Encoding,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,X-Requested-With
+Access-Control-Allow-Credentials	true
+Access-Control-Allow-Methods	GET,POST,OPTIONS
+Cache-Control	no-cache, must-revalidate
+Content-Encoding	gzip
+Transfer-Encoding	chunked
+Connection	Keep-alive

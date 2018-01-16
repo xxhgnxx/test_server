@@ -1,344 +1,69 @@
-<!-- saved from url=(0045)https://n.dongqiudi.com/pre_analysis/50763804 -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <meta name="keywords" content="懂球帝,App,手机客户端">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>比赛分析</title>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="stylesheet" href="./比赛分析_files/pre_analysis.css">
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+  
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui"> -->
+    <meta id="viewport" name="viewport" content="width=375px, user-scalable=no" />
+    <!-- <meta id="viewport" name="viewport" content="width=device-width,user-scalable=no,target-densitydpi=device-dpi"/>
+    <script type="text/javascript">
+        // var viewport = document.getElementById('viewport');
+    
+        // var w =  window.innerWidth;
+    
+        // viewport.content += 'initial-scale=' + parseFloat(375 / w);
+    
+        var base = 375;
+        // baseScale = document.documentElement.clientWidth / base;
+        var baseScale = screen.width / base;
+        // document.body.style.zoom = scale;
+        if (window.scaleType != '1') {
+            var meta = document.querySelector('meta[name="viewport"]');
+            meta.setAttribute('content', 'width=' + base + ',initial-scale=' + baseScale + ',maximum-scale=' + baseScale + ', minimum-scale=' + baseScale + ',user-scalable=0,target-densitydpi=device-dpi');
+        }
+      </script> -->
+    <title>韩泰轮胎助力皇马之月</title>
+    <style>
+    
+        .lv1 {
+            position: absolute;
+            color: #000;
+            /* font-size: 12px; */
+            
+        }
+        .lv2{
+            font-size: 12px;
+            position: absolute;
+        }
+        .lv3{
+            font-size: 12px;
+            
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="sum">猜胜负(0人参与)</nav>
-    <div class="container">
-        <p id="forecast"></p>
-        <ul class="vote_con">
-            <li>
-                <div id="home" class="vote_view">
-                    <div class="vote_box">
-                        <div class="progress_con">
-                            <div class="progress">
-                                <bold>0%</bold>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom_vote" data-vote="1">
-                        <span></span>支持</div>
-                    <p>
-                        <img src="./比赛分析_files/895.png">
-                        <span>主胜</span>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div id="draw" class="vote_view">
-                    <div class="vote_box">
-                        <div class="progress_con">
-                            <div class="progress">
-                                <bold>0%</bold>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom_vote" data-vote="2">
-                        <span></span>支持</div>
-                    <p>
-                        <span>平局</span>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div id="away" class="vote_view">
-                    <div class="vote_box">
-                        <div class="progress_con">
-                            <div class="progress">
-                                <bold>0%</bold>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom_vote" data-vote="3">
-                        <span></span>支持</div>
-                    <p>
-                        <img src="./比赛分析_files/890.png">
-                        <span>客胜</span>
-                    </p>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div id="el_analysis">
-        <nav>亚盘锦囊
-            <img src="./比赛分析_files/q.png" alt="">
-        </nav>
-        <article class="con">
-            <div class="silk_bag_box">
-                <div class="silk_bag_container" onclick="set_way('on')">
-
-                    <!-- 标题 -->
-                    <div class="silk_bag_title hide">
-                        <hr>
-                        <span> 锦 囊 推 荐 </span>
-                        <hr>
-                    </div>
-
-                    <!-- 推荐内容 结果已知时添加 class gray-->
-                    <div class="silk_bag_body hide">
-                        北京中赫国安 0.5 胜
-                    </div>
-
-                    <!-- 推荐争确 -->
-                    <div class="silk_bag_foot correct hide">
-                        <img src="./比赛分析_files/correct.png" alt=""> 推荐正确
-                    </div>
-
-                    <!-- 推荐错误 已退款-->
-                    <div class="silk_bag_foot wrong hide">
-                        推荐错误
-                        <span class="green"> 已退款</span>
-                    </div>
-
-                    <!-- 推荐错误 未退款-->
-                    <div class="silk_bag_foot pay_back_btn hide">
-                        立即领取退款 ￥118
-                    </div>
-                    <div class="pay_back_btn_shadow hide"></div>
-
-                    <!-- 购买 -->
-                    <div class="silk_bag_foot hide">
-                        经过懂球帝足球大数据分析，本场主队获胜概率是88.8% 亚盘建议投注主队让半球盘上盘！
-                    </div>
-
-
-                    <!-- 已购买 -->
-                    <div class="silk_bag_foot hide">
-                        经过懂球帝足球大数据分析，本场主队获胜概率是88.8% 亚盘建议投注主队让半球盘上盘！
-                    </div>
-
-                    <!-- 购买内容 -->
-                    <div class="chance ">
-                        <span>99</span>%
-                        <br> 命中率
-                    </div>
-                    <img class="silk_bag_img " src="./比赛分析_files/p1.png" alt="">
-                    <div class="silk_bag_foot msg ">
-                        首创基本面量化大数据分析系统，助彩民杀庄成功
-                        <br>
-                        <span class="red">￥118</span>查看，若错误全额退款！
-                    </div>
-                </div>
-
-            </div>
-
-        </article>
-        <!-- 支付类型选择框 -->
-        <div id="" class="pay_way_box hide">
-            <div class="confirm_title">请选择支付方式</div>
-            <ul class="kind_list">
-                <li class="weixin"  id='0' onclick="select(this)">微信付款
-                    <b class="list_tips"></b>
-                    <span class="sel"></span>
-                </li>
-                <li class="alipay" id='1' onclick="select(this)">支付宝付款
-                    <b class="list_tips"></b>
-                    <span class=""></span>
-                </li>
-            </ul>
-            <div class="makeSure">
-                <div class="paybtn" onclick="gopay()">去支付</div>
-                <div class="amount">
-                    <span>应付金额</span>￥0
-                </div>
-            </div>
+    <div class="lv1">
+        <div class="lv2">
+            哈哈哈
         </div>
-        <!-- 支正在支付框 -->
-        <div id="paying_box" class="paying_box hide">
-            <div class="paying_box_title">正在支付...</div>
-            <div class='btn pay_retry' onclick="end_pay()">
-                放弃支付
-            </div>
-            <div class='btn pay_ok' onclick="end_pay()">
-                已完成支付
-            </div>
+        <div class="lv2">
+            呵呵呵
         </div>
-        <!-- 支付遇到问题框 -->
-        <div id="problem_box" class="paying_box hide">
-            <div class="paying_box_title">支付遇到问题</div>
-            <div class='btn pay_retry' onclick="end_pay()">
-                放弃支付
-            </div>
-            <div class='btn pay_ok' onclick="onlineService()">
-                联系客服
-            </div>
+        <div class="lv3">
+            呵呵呵
+        </div>
+        <div class="lv3">
+            呵呵呵
         </div>
     </div>
-    <div class="pay_way_back hide" onclick="cancel_set_way()">  
-        <div class="loading_icon_box hide">
-                <img src="./比赛分析_files/loading.gif" alt="">
-                加载中...
-        </div>
-    </div>
-</body>
-
-    <script src="./比赛分析_files/jquery-3.1.1.min.js"></script>
-    <script src="./比赛分析_files/pre_analysis.js"></script>
-    <script type="text/javascript">
-        var pageParams = {
-            UUID: "",
-            match_id: "50763804",
-            apiDomain: "//api.dongqiudi.com"
-        };
-        $(function () {
-            var vote_data = null;
-            var clicked = false;
-            var click_loaded = false;
-            var click_allowed = false;
-
-            function pre_init() {
-                $.ajaxSetup({
-                    headers: {
-                        'UUID': pageParams.UUID
-                    }
-                });
-                $.ajax({
-                    type: 'get',
-                    url: pageParams.apiDomain + "/v2/vote/result/match/" + pageParams.match_id,
-                    success: function (data) {
-                        vote_data = data;
-                        init();
-                    }
-                });
-                $.ajax({
-                    type: 'get',
-                    url: pageParams.apiDomain + "/data/new/pre_analysis/" + pageParams.match_id,
-                    success: function (data) {
-                        document.getElementById("el_analysis").innerHTML = data;
-                        $('#home img').attr('src', $('#home_img').val());
-                        $('#away img').attr('src', $('#away_img').val());
-                    }
-                });
-            }
-
-            function init() {
-                if (vote_data.errCode == 0) {
-                    $('#forecast').text(vote_data.data.name);
-                    if (vote_data.data.select_opt.length != 0) {
-                        clicked = true;
-                        click_loaded = true;
-                        $('.bottom_vote span').addClass('voted');
-                        $('.bottom_vote').addClass('clicked');
-                        $("[data-vote='" + vote_data.data.select_opt[0] + "']").html('<span></span>已支持').removeClass(
-                            'clicked');
-                    }
-                    if (vote_data.data.total_num) {
-                        $('nav.sum').html('猜胜负(' + vote_data.data.total_num + '人参与)');
-                        vote_down(vote_data.data.data);
-                    }
-                    if (vote_data.data.start_time) {
-                        var date = new Date(vote_data.data.start_time.replace(/-/g, "/")).getTime();
-                        var now_date = new Date().getTime();
-                        if (now_date < date) {
-                            click_allowed = true;
-                        } else {
-                            $('.bottom_vote span').addClass('voted');
-                            $('.bottom_vote').addClass('clicked');
-                        }
-                    }
-                }
-            }
-            pre_init();
-
-            $('.bottom_vote').click(function () {
-                if (!click_allowed && vote_data.errCode == 0) {
-                    $('#mask span').text('不能再预测啦~记得下次赛前来');
-                    $('#mask').fadeIn(400);
-                    setTimeout(function () {
-                        $('#mask').fadeOut(400);
-                    }, 1000);
-                    return false;
-                }
-                if (!clicked) {
-                    clicked = true;
-                    var e = $(this);
-
-                    $.ajax({
-                        type: 'post',
-                        data: {
-                            match_id: pageParams.match_id,
-                            opt_id: e.attr('data-vote')
-                        },
-                        url: pageParams.apiDomain + "/v2/vote/match/" + pageParams.match_id
-                    });
-
-                    if (vote_data.errCode == 0) {
-                        vote_data.data.data.forEach(function (obj, j) {
-                            if (parseInt(e.attr('data-vote') - 1) == j) {
-                                obj.num = parseInt(obj.num) + 1;
-                            } else {
-                                obj.num = parseInt(obj.num)
-                            }
-                        });
-                        vote_down(vote_data.data.data);
-                        $('.bottom_vote span').addClass('voted');
-                        $('.bottom_vote').addClass('clicked');
-                        e.html('<span></span>已支持').removeClass('clicked');
-                        if (vote_data.data) {
-                            $('nav.sum').html('猜胜负(' + parseInt(parseInt(vote_data.data.total_num) + 1) +
-                                '人参与)')
-                        }
-                    } else {
-                        $('#mask span').text('猜胜负暂不可用～');
-                        $('.bottom_vote span').addClass('voted');
-                        $('.bottom_vote').addClass('clicked');
-                        $('#mask').fadeIn(400);
-                        setTimeout(function () {
-                            $('#mask').fadeOut(400);
-                        }, 1000);
-
-                        //        var data = [];
-                        //        for(var i=0;i<3;i++){
-                        //          var obj = {num:0};
-                        //          if(parseInt(e.attr('data-vote')-1) == i){
-                        //            obj.num = 1;
-                        //          }
-                        //          data.push(obj);
-                        //        }
-                        //        vote_down(data);
-                        //        e.html('<span class="voted"></span>已支持');
-                        //        $('nav.sum').html('猜胜负(1人参与)')
-                    }
-                    click_loaded = true;
-                } else if (clicked && click_loaded) {
-                    $('#mask').fadeIn(400);
-                    setTimeout(function () {
-                        $('#mask').fadeOut(400);
-                    }, 1000)
-                }
-            });
-        })
-        var tab_jump = function (where) {
-            var jump_list = ['', '', '', '', 'odds']
-            var jump_to = 'tab://'
-            var ua = navigator.userAgent.toLowerCase();
-            var ua_dqd = ua.match(/NewsApp\/([\d\.]+)/i);
-            var version = ua_dqd ? parseInt(ua_dqd[1].replace(eval('/\\./ig'), '')) : null;
-            if (browers.iOS && version && version >= 572) {
-                jump_to += jump_list[where]
-            } else if (browers.Android && version && version >= 125) {
-                jump_to += jump_list[where]
-            } else {
-                jump_to += where
-            }
-            location.replace(jump_to)
-            console.log(ua);
-            console.log(version);
-        }
-    </script>
-
-
 </body>
 
 </html>

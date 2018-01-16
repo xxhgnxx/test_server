@@ -42,7 +42,8 @@
     <div class="main">
         <a class="test" onclick="test()"> 唤醒app</a>
         <div>
-
+            <a id="test_a" href="https://front.dongqiudi.com/app.html?type=dongqiudi:///url/http://10.18.7.108:8080/webapp/hankook.html">t't't't't't't't't't't't't't</a>
+            
 
 
 
@@ -65,17 +66,19 @@
     var ua_dqd = ua.match(/NewsApp\/([\d\.]+)/i);
 
 
-    var tmp_url = 'https://test1-n.dongqiudi.com/webapp/pic1.html'
+    // var tmp_url = 'https://test1-n.dongqiudi.com/webapp/pic1.html'
+    var tmp_url = 'http://10.18.7.108:8080/webapp/hankook.html'
     
     function test() {
         console.log('111');
         if (browers.iOS) {
-            window.location = "https://front.dongqiudi.com/app.html?type=dongqiudi:///url/" + tmp_url
+            console.log(222);
+            // window.location.href = "https://front.dongqiudi.com/app.html?type=dongqiudi:///url/" + tmp_url
+            $('#test_a').click()
         } else { // 安卓(其他)逻辑
+            console.log(333);
             location.href = 'dongqiudi:///url/' + tmp_url
         }
-
-
     }
 </script>
 

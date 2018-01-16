@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="懂球帝,App,手机客户端" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no"
+  />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>应用宝跳转测试</title>
+  <link rel="stylesheet" href="">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-size: 100%;
+    }
+  </style>
+</head>
+应用宝地址：
+<br>
+<textarea id="app_store" rows="4" cols="50"></textarea>
+<br> 内部schemas：
+
+<br>
+<textarea id="schemas" rows="4" cols="50"></textarea>
+<br> 转码后内部schemas：
+<br>
+<textarea id="change_schemas" rows="5" cols="50"  readonly="readonly"></textarea>
+<br> 最终地址
+<br>
+<textarea id="jump_url" rows="8" cols="50"  readonly="readonly"></textarea>
+<br>
+<button type="button" onclick='jump()' >跳转</button>
+<br>
+
+<br>
+<br>
+<br>
+
+
+<body>
+
+  <article>
+
+
+  </article>
+  <script src="jquery-3.1.1.min.js"></script>
+
+  <script type="text/javascript">
+    window.browers = {};
+    var ua = navigator.userAgent.toLowerCase();
+    browers.iPad = ua.match(/ipad/);
+    browers.iPhone = ua.match(/iphone/);
+    browers.Android = ua.match(/android/);
+    browers.iOS = ua.match(/ipad|iphone|ios/);
+    browers.ie = ua.match(/iemobile/);
+    browers.isWifi = ua.match(/nettype\/wifi|technology\/wifi/);
+    browers.force_ssl = ua.match(/Android (5|6)/i);
+    browers.is_ios_6 = ua.match(/iOS 6/i);
+    browers.is_liveapp = ua.match(/LiveApp/i);
+    browers.is_qq = ua.match(/qq/);
+    browers.is_weixin = ua.match(/micromessenger/);
+
+
+    // 默认值
+    var app_store_url = 'http://a.app.qq.com/o/simple.jsp?pkgname=com.dongqiudi.news&ckey=CK1370460816530'
+    var schemas_url = "dongqiudi:///article/393756"
+    var change_schemas_url = encodeURIComponent(schemas_url)
+    var jump_url = app_store_url + "&android_schema=" + change_schemas_url
+    $("#app_store").text(app_store_url)
+    $("#schemas").text(schemas_url)
+    $("#change_schemas").text(change_schemas_url)
+    $("#jump_url").text(jump_url)
+
+    $("#app_store").change(function () {
+      console.log($("#app_store").val());
+      app_store_url = $("#app_store").val()
+      jump_url = app_store_url + "&android_schema=" + change_schemas_url
+      $("#jump_url").text(jump_url)
+
+    })
+
+    $("#schemas").change(function () {
+      schemas_url = $("#schemas").val()
+      change_schemas_url = encodeURIComponent(schemas_url)
+      console.log(change_schemas_url);
+      $("#change_schemas").text(change_schemas_url)
+      jump_url = app_store_url + "&android_schema=" + change_schemas_url
+      $("#jump_url").text(jump_url)
+
+    })
+
+
+
+
+    function jump() {
+      window.location = jump_url
+    }
+  </script>
+</body>
+<style>
+  button {
+    background: green;
+    color: #fff;
+  }
+
+  textarea {
+    border: 1px dashed red;
+  }
+</style>
+
+</html>

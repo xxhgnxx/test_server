@@ -1,110 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<span>网络异常，请稍后再试</span>
+<style lang="">
+    span{
+        color: #fff;
+        padding:20px;
+        background: red;
 
-<head>
-    <meta charset="UTF-8">
-    <title>神秘测试页</title>
-
-
-    <style>
-        .test2 {
-            position: absolute;
-            top: 55%;
-            left: 36%;
-            width: 23%;
-            padding-left: 5%;
-            height: 11%;
-            background: rgba(0, 200, 0, 1);
-        }
-        .test {
-            position: absolute;
-            top: 75%;
-            left: 36%;
-            width: 23%;
-            padding-left: 5%;
-            height: 11%;
-            background: rgba(200, 0, 0, 1);
-        }
-        .title_div{
-            width: 100%;
-    display: -webkit-flex;
-    display: inline-flex;
-        }
-    </style>
-
-
-
-</head>
-
-<body>
-
-    <div class="main">
-
-<div class='title_div'>
-   <div>
-        <hr>
-   </div> 
-    <span>gogogog</span>
-    <div>
-            <hr>
-       </div> 
-</div>
-
-            http://192.168.1.108:8080/webapp/dqd_pay.html?plan_id=123
-            <a class="test2" onclick="test2()"> 打开测试页</a>
-            
-        <a class="test" onclick="test()"> 唤醒app</a>
-
-        <div>
-
-
-
-
-
-</body>
-<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
-<script src="./print.js"></script>
-<script type="text/javascript">
-    document.write(returnCitySN["cip"] + ',' + returnCitySN["cname"])
-</script>
-
-<script>
-    var tmp_url = 'https://www.baidu.com'
-
-    function test() {
-        console.log('111');
-        if (browers.iOS) {
-            window.location =
-                "https://front.dongqiudi.com/app.html?type=dongqiudi:///url/" + tmp_url
-        } else { // 安卓(其他)逻辑
-            location.href = 'dongqiudi:///url/' + tmp_url
-        }
-
+        position: fixed;
+    /* display: block; */
+    color: #fff;
+    border-radius: 5px;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    /* -webkit-transform: translateX(-50%); */
+    z-index: 2000;
     }
-    function test2() {
-        location.href='dongqiudi://v1/other/url/http://10.18.7.108:8080/webapp/dqd_pay.html?plan_id=123'
-    }
-
-    function find(str) {
-        var tmp = []
-        var ip_list = {}
-        myprint.forEach(function (element) {
-            if (element.uri.indexOf(str) >= 0) {
-                tmp.push(element)
-                if (ip_list[element.remote_addr]) {
-                    ip_list[element.remote_addr]++
-                } else {
-                    ip_list[element.remote_addr] = 1
-                }
-            }
-
-        }, this);
-        console.log(tmp);
-        console.log(ip_list);
-
-    }
-</script>
-
-</body>
-
-</html>
+</style>

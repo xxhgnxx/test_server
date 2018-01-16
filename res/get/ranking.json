@@ -1,0 +1,35 @@
+{
+    "errCode": 0,
+    "message": "成功",
+    "data": {
+        "vote_count": 12000,
+        
+        "player_list": [{
+
+                "person_name_chs": "中文名",
+                "person_name_eng": "英文名",
+
+                "head_src": "头像地址",
+                "body_src": "立绘地址",
+
+                "team_logo": "队标",
+                "team_name": "队名",
+
+                "nationality_logo": "国旗",
+                "nationality_name": "国名",
+
+                "playing_time": 0,
+                "goals": 0,
+                "assists": 0,
+                "pass": 0,
+                
+                "honor": [0, 0, 0, 0, 0],
+
+                "vote_count":0
+            }
+
+        ]
+
+
+    }
+}
