@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>img_tmp</title>
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <meta name="format-detection" content="telephone=no" />
+</head>
+<body>
+
+          <div class="input-row upway">
+              <input class="" id="file_input" type="file"/>
+              <br><label type="button" class="btn" for="file_input">本地上传</label>
+          </div>
+
+<% for(var i=0; i<body.length; i++) 
+{%>
+   <div><img class="tmp_img" src="<%= body[i].url %>" >      <a href="<%= body[i].url %>"> <%= body[i].name %>  </a>          </div>
+<% } %>
+
+
+
+<style>
+.tmp_img{
+    display: block;
+height:60px;
+}
+body{
+  background:#888;
+}
+#file_input{
+    display: none;
+}
+.btn{
+  background:#fff;
+  color:#000;
+height:30px;
+width:60px;
+}
+</style>
+
+<script src="jquery-3.1.1.min.js"></script>
+
+<script>
+  
+$("#file_input").on("change", function (e) {
+    if (e.target.files.length == 0) {
+        console.log('未选取');
+        return;
+    }
+    var file = e.target.files[0]; //获取图片资源
+    // var this_ele = $(this);
+
+
+    // 图片上传服务端
+    var form_data = new FormData();
+    var file_data = $(this).prop("files")[0];
+    var file_index = "file";
+    form_data.append(file_index, file_data);
+    // 把上传的数据放入form_data
+    $.ajax({
+        type: "POST", 
+        url: '/upload',
+        data: form_data,
+                processData: false,
+        contentType: false,
+        success: function (data) {
+          console.log(data)
+           location.reload();
+        },
+        dataType: "json"
+    });
+});
+
+
+</script>
+</body>
+</html>

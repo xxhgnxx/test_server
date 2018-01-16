@@ -11,17 +11,56 @@ var credentials = {
 	cert: certificate
 }
 
+// 文件上传模块
+var multer = require('multer');
+
+var storage = multer.diskStorage({
+	destination: function (req, file, cb) {
+		cb(null, './www/public/images/')
+	},
+	filename: function (req, file, cb) {
+		console.log(file.originalname);
+		var fileFormat = (file.originalname).split(".");
+		cb(null, Date.now() + '-' + file.originalname + "." + fileFormat[fileFormat.length - 1]);
+	}
+})
+
+var upload = multer({
+	storage
+}).single('file')
+// 实例化上传模块(前端使用参数名为file)
+app.post('/upload', upload, function (req, res, next) {
+	var file = req.file;
+	console.log('文件类型：%s', file.mimetype);
+	console.log('原始文件名：%s', file.originalname);
+	console.log('文件大小：%s', file.size);
+	console.log('文件保存路径：%s', file.path);
+	res.send({
+		ret_code: '0'
+	});
+});
+
+
+
+
 // ejs模板相关配置
 //设置模板视图的目录
-app.set("views","./www/views");
+app.set("views", "./www/views");
 //设置是否启用视图编译缓存，启用将加快服务器执行效率
-app.set("view cache",false);
+app.set("view cache", false);
 //设置模板引擎的格式即运用何种模板引擎
-app.set("view engine","ejs");
+app.set("view engine", "ejs");
 
 //设置路由
-app.get("/app",function(req,res){
-    res.render("app_download",{body:fs.readdirSync('./www/app_down')});
+app.get("/app", function (req, res) {
+	res.render("app_download", {
+		body: fs.readdirSync('./www/app_down')
+	});
+});
+app.get("/img", function (req, res) {
+	res.render("img_tmp", {
+		body: get_file_list('./www/public/images')
+	});
 });
 app.get('/test', async(req, res) => {
 	res.redirect('http://10.18.7.108:8080/webapp/soccer_hero.html');
@@ -112,20 +151,29 @@ app.use('*', async(req, res) => {
 
 
 // 递归循环遍历目录
-// function walk(path){
-// 	var fileList = [];
-// 	var dirList = fs.readdirSync(path);
-// 	dirList.forEach(function(item){
-// 		if(fs.statSync(path + '/' + item).isDirectory()){
-// 			walk(path + '/' + item);
-// 		}else{
-// 			fileList.push(path + '/' + item);
-// 		}
-// 	});
-// 	return fileList
-// }
-
-
-
-
-console.log(walk('./www/app_down'));
+function get_file_list(path) {
+	var fileList = [];
+	function walk(path) {
+		var dirList = fs.readdirSync(path);
+		dirList.forEach(function (item) {
+			if (fs.statSync(path + '/' + item).isDirectory()) {
+				walk(path + '/' + item);
+			} else {
+				if (item != '.DS_Store') {
+					fileList.push({
+						name: item,
+						url: path.replace("./www", "") + '/' + item
+					});
+				}
+			}
+		});
+		return fileList
+	}
+	return walk(path).sort(function(val1, val2){
+		//读取文件信息
+		var stat1 = fs.statSync('./www' + val1.url);
+		var stat2 = fs.statSync('./www' + val2.url);
+		//根据时间从最新到最旧排序
+		return stat2.mtime - stat1.mtime;
+	 });
+}

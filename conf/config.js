@@ -13,9 +13,9 @@ var ssl_port = '9999'
 var res_path = "./res"
 var func_path = {
     "get": "/get",
-    "put": "/get",
-    "post": "/get",
-    "other": "/get",
+    "put": "/put",
+    "post": "/post",
+    "other": "/other",
 }
 var server_list = {
     http: ['http://localhost:' + http_port],
@@ -28,7 +28,7 @@ IPv4.forEach(ip => {
 
 
 module.exports = {
-    "timeout": 200, // 返回延迟，模拟网络阻塞时使用
+    "timeout": 2000, // 返回延迟，模拟网络阻塞时使用
     "header": [{
             "name": "Access-Control-Allow-Origin",
             "set": "https://localhost:8080"
