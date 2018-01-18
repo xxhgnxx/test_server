@@ -1,3 +1,4 @@
+var moment = require('moment')
 var config = require('./conf/config.js')
 var fs = require('fs')
 var path = require('path')
@@ -19,9 +20,7 @@ var storage = multer.diskStorage({
 		cb(null, './www/public/images/')
 	},
 	filename: function (req, file, cb) {
-		console.log(file.originalname);
-		var fileFormat = (file.originalname).split(".");
-		cb(null, Date.now() + '-' + file.originalname + "." + fileFormat[fileFormat.length - 1]);
+		cb(null, Date.now() + '-' + file.originalname);
 	}
 })
 
@@ -31,6 +30,7 @@ var upload = multer({
 // 实例化上传模块(前端使用参数名为file)
 app.post('/upload', upload, function (req, res, next) {
 	var file = req.file;
+	console.log(time()+'文件上传');
 	console.log('文件类型：%s', file.mimetype);
 	console.log('原始文件名：%s', file.originalname);
 	console.log('文件大小：%s', file.size);
@@ -75,7 +75,7 @@ var http = new Promise(resolve => {
 	require('http').createServer(app).listen(config.http_port, () => {
 		console.log('------------http启动------------');
 		config.server_list.http.forEach(element => {
-			console.log(element);
+			console.log(time()+element);
 		});
 		resolve()
 	})
@@ -83,7 +83,7 @@ var http = new Promise(resolve => {
 // 创建https服务器  
 var https = new Promise(resolve => {
 	require('https').createServer(credentials, app).listen(config.ssl_port, () => {
-		console.log('------------https启动-----------');
+		console.log('------------https启动------------');
 		config.server_list.https.forEach(element => {
 			console.log(element);
 		});
@@ -92,7 +92,7 @@ var https = new Promise(resolve => {
 });
 // 等待服务器启动完成
 Promise.all([http, https]).then(() => {
-	console.log('------------------服务器启动完成------------------');
+	console.log('------------------服务器启动完成-----%s-----',time());
 });
 
 function setup_res(req, res, res_date) {
@@ -130,8 +130,8 @@ function url_analysis(url, method) {
 
 
 app.use('*', async(req, res) => {
-	// console.log("收到请求", req.protocol, req.method, req.headers.host, req._parsedUrl.pathname, req.query)
-	console.log(`收到${req.method.toLowerCase()}请求 ${decodeURIComponent(req.originalUrl)}`)
+	// console.log(time()+"收到请求", req.protocol, req.method, req.headers.host, req._parsedUrl.pathname, req.query)
+	console.log(time()+`收到${req.method.toLowerCase()}请求 ${decodeURIComponent(req.originalUrl)}`)
 	var res_path = await url_analysis(req._parsedUrl.pathname, req.method.toLowerCase())
 	if (res_path == 'error') {
 		res.status(200).send('服务器工作异常')
@@ -142,7 +142,7 @@ app.use('*', async(req, res) => {
 			setup_res(req, res, data)
 		})
 	} else {
-		console.log("无效请求", req.url)
+		console.log(time()+"无效请求", req.url)
 		res.status(404).send('无效请求')
 	}
 })
@@ -176,4 +176,9 @@ function get_file_list(path) {
 		//根据时间从最新到最旧排序
 		return stat2.mtime - stat1.mtime;
 	 });
+}
+
+
+function time(){
+return moment().format('hh:mm')+"-"
 }
