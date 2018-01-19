@@ -1,25 +1,129 @@
-var a=0
-var b=0
-var key=''
+`id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增列',
+  `md5` varchar(32) NOT NULL,
+  `agent_id` int(11) NOT NULL COMMENT '代理商id',
+  `agent` char(20) NOT NULL DEFAULT '' COMMENT '代理商',
+  `customer_id` int(11) NOT NULL COMMENT '客户id',
+  `customer` char(20) NOT NULL DEFAULT '""' COMMENT '客户',
+  `ios_link` varchar(250) NOT NULL DEFAULT '' COMMENT '落地页url',
+  `ios_deeplink` varchar(250) NOT NULL DEFAULT '',
+  `android_link` varchar(250) NOT NULL DEFAULT '',
+  `android_deeplink` varchar(250) NOT NULL DEFAULT '',
+  `image1` varchar(200) NOT NULL DEFAULT '' COMMENT '素材1',
+  `image2` varchar(200) NOT NULL DEFAULT '""' COMMENT '素材2',
+  `image3` varchar(200) NOT NULL DEFAULT '""' COMMENT '素材3',
+  `title` varchar(200) NOT NULL DEFAULT '' COMMENT '标题',
+  `data` text NOT NULL COMMENT '第三方原始数据',
+ 
+
+  
 
 
-if (condition) {
-  a=1
-  // 。。。
-  a=2
-  // 。。。
-  a=3
-}else{
-  b=1
-  // 。。。
-  b=2
-  // 。。。
-  b=3
+{
+  items: [
+    {
+      id:"100001",
+      agent_id:"800001",
+      agent:"agent800001",
+      customer_id:"900001",
+      customer:"customer900001",
+      ios_link:"https://www.baidu.com",
+      ios_deeplink:"https://www.baidu.com",
+      android_link:"https://www.baidu.com",
+      android_deeplink:"https://www.baidu.com",
+      image1:"http://10.18.7.108:7777/public/images/1516245612729-110-110.jpg",
+      image2:"http://10.18.7.108:7777/public/images/1516172133468-750-421-3.jpg",
+      image3:"http://10.18.7.108:7777/public/images/1516108867992-%E4%BF%A1%E6%81%AF%E6%B5%81%E5%B0%8F%E5%9B%BE-180-135.jpg.jpg",
+      title:"这是title1这是title1这是title1这是title1end",
+      status:1,
+    },
+    {
+      id:"100001",
+      agent_id:"800001",
+      agent:"agent800001",
+      customer_id:"900001",
+      customer:"customer900001",
+      ios_link:"https://www.baidu.com",
+      ios_deeplink:"https://www.baidu.com",
+      android_link:"https://www.baidu.com",
+      android_deeplink:"https://www.baidu.com",
+      image1:"http://10.18.7.108:7777/public/images/1516245612729-110-110.jpg",
+      image2:"http://10.18.7.108:7777/public/images/1516245612729-110-110.jpg",
+      image3:"http://10.18.7.108:7777/public/images/1516245612729-110-110.jpg",
+      title:"这是title1这是title1这是title1这是title1end",
+      status:1,
+    },
+    {
+      id:"100002",
+      agent_id:"800002",
+      agent:"agent800002",
+      customer_id:"900002",
+      customer:"customer900002",
+      ios_link:"https://www.baidu.com",
+      ios_deeplink:"https://www.baidu.com",
+      android_link:"",
+      android_deeplink:"",
+      image1:"http://10.18.7.108:7777/public/images/1516108867992-%E4%BF%A1%E6%81%AF%E6%B5%81%E5%B0%8F%E5%9B%BE-180-135.jpg.jpg",
+      image2:"",
+      image3:"",
+      title:"这是title2这是title2这是title2这是title2end",
+      status:0,
+    },
+    {
+      id:"100003",
+      agent_id:"800003",
+      agent:"agent800003",
+      customer_id:"900003",
+      customer:"customer900003",
+      ios_link:"https://www.baidu.com",
+      ios_deeplink:"",
+      android_link:"",
+      android_deeplink:"https://www.baidu.com",
+      image1:"http://10.18.7.108:7777/public/images/1516245612729-110-110.jpg",
+      image2:"http://10.18.7.108:7777/public/images/1516172133468-750-421-3.jpg",
+      image3:"",
+      title:"这是title3这是title3这是title3这是title3end",
+      status:-1,
+    },
+  ],
+  pagination: {
+    current_page: 1,
+    next_page: 2,
+    page_size: 100,
+    prev_page: 1,
+    total: 13428,
+    total_pages: 135
+  }
 }
-window
-a=2
-b=2
-a=3
-b=3
-// ....
 
+
+
+`id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+`name` char(20) NOT NULL DEFAULT '',
+`agent_id` int(11) NOT NULL,
+`agent_name` char(20) NOT NULL DEFAULT '',
+`trade` char(20) NOT NULL DEFAULT '',
+`domain` varchar(250) NOT NULL DEFAULT '""',
+`domain_num` int(11) NOT NULL DEFAULT '0',
+`scheme` varchar(250) NOT NULL DEFAULT '""',
+`scheme_num` int(11) NOT NULL DEFAULT '0',
+`create_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+`update_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE 
+[{
+  id:'',
+  name:'',
+  agent_id:'',
+  agent_name:'',
+  domain:'',
+  domain_num:'',
+  scheme:'',
+  scheme_num:'',
+},{
+  id:'',
+  name:'',
+  agent_id:'',
+  agent_name:'',
+  domain:'',
+  domain_num:'',
+  scheme:'',
+  scheme_num:'',
+}]
