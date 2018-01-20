@@ -2,8 +2,8 @@
     "err_code": 0,
     "err_msg": "\u6210\u529f",
     "data": {
-        "user_vote": [1, 2, 3],
-        "vote_status": 10,
+        "user_vote": [0, 0, 0],
+        "vote_status": 0,
         "nickname": "NO.212391",
         "vote_count": 212391,
         "totle": "62",
