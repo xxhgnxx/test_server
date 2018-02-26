@@ -1,49 +1,61 @@
 [{
 	"pgid": "1.3.1",
-	"aid": 111814,
-	"request_id": "d1a02e94be781bf34112fe7d949cc2f9",
+	"aid": 116903,
+	"request_id": "50cffc076fa052afb192fc846e0f26e1",
 	"ad_type": "big_picture_txt",
 	"ad_source": {
-		"mk": 111814,
+		"mk": 116903,
 		"image": [{
-			"pic": "https://img1.dongqiudi.com/fastdfs2/M00/27/D1/ChOqM1oJUnWAHfX0AAFU1xMhdM4007.jpg",
+			"pic": "https://img1.dongqiudi.com/fastdfs2/M00/4B/A6/ChOqM1p7CLqAVg2nAAFbN-9WS6M598.jpg?watermark/1/image/aHR0cHM6Ly9pbWcxLmRvbmdxaXVkaS5jb20vZmFzdGRmczIvTTAwLzJCLzdGL0NoTnkyMW9VOGpTQVdKaDJBQUEzdTgta1dhZzY3MC5wbmc=/",
 			"w": 1080,
 			"h": 405
 		}],
-		"title": "与合伙人投资创业，终于完成今年小目标！",
-		"ios_link": "dongqiudi:///url/https://adv.myshow800.com/adv/r4ab3t",
-		"android_link": "dongqiudi:///url/https://adv.myshow800.com/adv/r4ab3t",
+		"title": "广告位置定向---cpm--6",
+		"ios_link": "dongqiudi:///url/https://test-voc.dongqiudi.com/to?t=r&k=bc5a8d0d2ce610b65af574bc0b73fbbe&a=http%3A%2F%2Fs.qdtech.ai%2Fdynamic%2Fsurvey_dynamic.php%3Fos%3Dios%26imei%3D__IMEI__%26idfa%3D__IDFA__%26ip%3D__IP__%26ts%3D__TS__%26ua%3D__UA__%26dynamic_survey_id%3D2501%26pf%3Ddqd%26mp%3D1080%26ctp%3DE%26ctct%3DT",
+		"android_link": "dongqiudi:///url/https://test-voc.dongqiudi.com/to?t=r&k=bc5a8d0d2ce610b65af574bc0b73fbbe&a=http%3A%2F%2Fs.qdtech.ai%2Fdynamic%2Fsurvey_dynamic.php%3Fos%3Dios%26imei%3D__IMEI__%26idfa%3D__IDFA__%26ip%3D__IP__%26ts%3D__TS__%26ua%3D__UA__%26dynamic_survey_id%3D2501%26pf%3Ddqd%26mp%3D1080%26ctp%3DE%26ctct%3DT",
 		"label": "广告",
 		"label_color": "#f20cf2",
-		"threshold": 0
+		"threshold": 0,
+		"inlabel": ""
 	},
 	"position": "1",
-	"imp_mon_arr": ["https://dab.dongqiudi.com/imp/v3?ex=QvZPBY20oidb9cbHddET1i1v4jTBNS--A--s57AE--A--PxEhqLtDmoYGPAIhrnTnFvCIEujtA__&uid=109801&cid=111814&posid=100000046&ruleid=0&rtc=65&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=d1a02e94be781bf34112fe7d949cc2f9&apvc=5.7.5&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=1&pgid=1.3.1&platform=1&ex2="],
-	"click_mon_arr": ["https://dab.dongqiudi.com/click/v3?ex=QvZPBY20oidb9cbHddET1i1v4jTBNS--A--s57AE--A--PxEhqLtDmoYGPAIhrnTnFvCIEm74HNdw0Bk&uid=109801&cid=111814&posid=100000046&ruleid=0&rtc=65&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=d1a02e94be781bf34112fe7d949cc2f9&apvc=5.7.5&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=1&pgid=1.3.1&platform=1&ex2=QehQGY2o"],
+	"imp_mon_arr": ["https://test-dab.dongqiudi.com/imp/v3?ex=kkqblp--A--vVwbX6iN0L--B--oInw8vwdjSDj8G5NPCV3idmD0mBX47qV5nRrj3ll3qqejlLw__&uid=113520&cid=116903&posid=100000046&ruleid=1001&rtc=165&algid=1000&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=50cffc076fa052afb192fc846e0f26e1&apvc=5.9.1&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=1&pgid=1.3.1&platform=1&ex2=&tpt=4"],
+	"click_mon_arr": ["https://test-dab.dongqiudi.com/click/v3?ex=kkqblp--A--vVwbX6iN0L--B--oInw8vwdjSDj8G5NPCV3idmD0mBX47qV5nRrj3ll3qqen59IyYsXkN&uid=113520&cid=116903&posid=100000046&ruleid=1001&rtc=165&algid=1000&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=50cffc076fa052afb192fc846e0f26e1&apvc=5.9.1&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=1&pgid=1.3.1&platform=1&ex2=m1WDiJs_&tpt=4"],
 	"cache_image": [],
-	"cache_ad": []
+	"cache_ad": [],
+	"last_modify": 0,
+	"schedule": [],
+	"directional": {}
 }, {
 	"pgid": "1.3.1",
-	"aid": 111637,
-	"request_id": "d1a02e94be781bf34112fe7d949cc2f9",
-	"ad_type": "picture_txt",
+	"aid": 116874,
+	"request_id": "50cffc076fa052afb192fc846e0f26e1",
+	"ad_type": "video_with_title",
 	"ad_source": {
-		"mk": 111637,
+		"mk": 116874,
 		"image": [{
-			"pic": "https://img1.dongqiudi.com/fastdfs2/M00/27/CA/ChOqM1oJOeyAZ71SAACdNQNutZw053.jpg",
-			"w": 240,
-			"h": 180
+			"pic": "https://img1.dongqiudi.com/fastdfs2/M00/3D/9C/ChNy21pMRcqAJZ8NAAFzoQ2m1dw770.jpg",
+			"w": 750,
+			"h": 421
 		}],
-		"title": "贷款被拒？凭信用卡，手机申请10万贷款，当天到账",
-		"summary": "",
-		"ios_link": "dongqiudi:///url/https://www.yirendai.com/lp/140/2/?siteId=3008&utm_source=dqd&utm_campaign=IOS-M-X&utm_term=IOS-M-X-1110-2",
-		"android_link": "dongqiudi:///url/https://www.yirendai.com/lp/140/2/?siteId=3008&utm_source=dqd&utm_campaign=IOS-M-X&utm_term=IOS-M-X-1110-2",
+		"video_url": "https://img1.dongqiudi.com/fastdfs2/M00/4B/D7/ChOqM1p7x6mAJY4ZADMI7x8XY-0463.mp4",
+		"video_time": 15000,
+		"title": "汇量测试",
+		"ios_link": "dongqiudi:///url/https://test-voc.dongqiudi.com/to?t=r&k=94cf3d74eccafd3b30fe0a960d88a796&a=https%3A%2F%2Frd.kuaigames.com%2F%3Fcid%3Dchn5a70278ac8e20",
+		"android_link": "dongqiudi:///url/https://test-voc.dongqiudi.com/to?t=r&k=94cf3d74eccafd3b30fe0a960d88a796&a=https%3A%2F%2Frd.kuaigames.com%2F%3Fcid%3Dchn5a70278ac8e20",
 		"label": "广告",
-		"label_color": "#f20cf2"
+		"label_color": "#f20cf2",
+		"video_label": "了解更多",
+		"vflow": "3",
+		"inlabel": "",
+		"direction": 2
 	},
 	"position": "4",
-	"imp_mon_arr": ["https://dab.dongqiudi.com/imp/v3?ex=QvZPBY20oide--A--M7DddET1l6oek2WHoEsoAaGKz8DdCqTgQs8wTJ2rOod3w9VNcMzLQ__&uid=109636&cid=111637&posid=100000064&ruleid=0&rtc=26&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=d1a02e94be781bf34112fe7d949cc2f9&apvc=5.7.5&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=4&pgid=1.3.1&platform=1&ex2="],
-	"click_mon_arr": ["https://dab.dongqiudi.com/click/v3?ex=QvZPBY20oide--A--M7DddET1l6oek2WHoEsoAaGKz8DdCqTgQs8wTJ2rOod3w9VNcIvfpNoHBtV&uid=109636&cid=111637&posid=100000064&ruleid=0&rtc=26&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=d1a02e94be781bf34112fe7d949cc2f9&apvc=5.7.5&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=4&pgid=1.3.1&platform=1&ex2=Su1WGoU_"],
+	"imp_mon_arr": ["https://test-dab.dongqiudi.com/imp/v3?ex=kkqblp--A--vVwbX6iN3L--B--oIn1e5lrUd8XGk7r5DyLnnaA6TKrZgz87eA4xjdNfwRKbFOQhG&uid=113490&cid=116874&posid=100000064&ruleid=1001&rtc=133&algid=1000&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=50cffc076fa052afb192fc846e0f26e1&apvc=5.9.1&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=4&pgid=1.3.1&platform=1&ex2=&tpt=0"],
+	"click_mon_arr": ["https://test-dab.dongqiudi.com/click/v3?ex=kkqblp--A--vVwbX6iN3L--B--oIn1e5lrUd8XGk7r5DyLnnaA6TKrZgz87eA4xjdNfwRKbFOhRaR--B--O0E04_&uid=113490&cid=116874&posid=100000064&ruleid=1001&rtc=133&algid=1000&androidid=__ANDROIDID__&os=ios&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=50cffc076fa052afb192fc846e0f26e1&apvc=5.9.1&qt=__TT__&cp=__CP__&uuid=@s/KrtEBaMF+CBHJ38K6SPMWaB3zurgRXOAcB/9iTDLYiSmjMaL6wPzM15SzHia9LgDJ9C+7RueE=&position=4&pgid=1.3.1&platform=1&ex2=klWHiZ2w&tpt=0"],
 	"cache_image": [],
-	"cache_ad": []
+	"cache_ad": [],
+	"last_modify": 0,
+	"schedule": [],
+	"directional": {}
 }]

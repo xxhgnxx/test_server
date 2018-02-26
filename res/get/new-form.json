@@ -1,0 +1,327 @@
+{
+	"living": [],
+	"matchLiving": [],
+	"matchSample": {
+		"relate_type": "match",
+		"relate_id": "50781968",
+		"match_id": "50781968",
+		"competition_id": "3",
+		"competition_name": "\u897f\u7532",
+		"group_id": "0",
+		"group_name": "",
+		"gameweek": "20",
+		"status": "Played",
+		"minute": "90",
+		"date_utc": "2018-01-20",
+		"time_utc": "17:30:00",
+		"start_play": "2018-01-20 17:30:00",
+		"minute_extra": null,
+		"minute_period": null,
+		"suretime": "1",
+		"team_A_id": "50001762",
+		"team_A_name": "\u6bd4\u5229\u4e9a\u96f7\u4e9a\u5c14",
+		"team_A_logo": "https:\/\/img.dongqiudi.com\/data\/pic\/2023.png",
+		"team_B_id": "50001775",
+		"team_B_name": "\u83b1\u4e07\u7279",
+		"team_B_logo": "https:\/\/img.dongqiudi.com\/data\/pic\/2036.png",
+		"sort_timestamp": 1516440600,
+		"fs_A": "2",
+		"fs_B": "1",
+		"hts_A": "1",
+		"hts_B": "0",
+		"ets_A": "",
+		"ets_B": "",
+		"ps_A": "",
+		"ps_B": "",
+		"as_A": "2",
+		"as_B": "1",
+		"livingTv": "",
+		"livingFlag": false,
+		"noZhiboSource": "",
+		"onlySem": true,
+		"zhanbaoFlag": false,
+		"eventFlag": false,
+		"match_plan_num": "17",
+		"intermission": 0
+	},
+	"matchAnalysis": {
+		"url": "https:\/\/n.dongqiudi.com\/pre_analysis\/50781968?platform=iphone&version=587"
+	},
+	"matchSK": {
+		"url": "https:\/\/api.dongqiudi.com\/data\/event\/match\/50781968"
+	},
+	"matchOdds": {
+		"url": "https:\/\/api.dongqiudi.com\/data\/odds\/tab\/50781968"
+	},
+	"matchJijin": {
+		"article_id": null
+	},
+	"matchFormation": {
+		"formationFlag": true,
+		"attendance_rate": "",
+		"team_A": {
+			"team_id": 50001762,
+			"team_name": "\u6bd4\u5229\u4e9a\u96f7\u4e9a\u5c14",
+			"formation_pic": 8,
+			"formation": "hgn",
+			"lineups": [{
+				"person_id": 50013822,
+				"person": "\u963f\u68ee\u970d",
+				"shirtnumber": "1",
+				"position_x": "GK",
+				"position_y": "C",
+				"p":1
+			}, {
+				"person_id": 50045133,
+				"person": "\u9a6c\u91cc\u5965-\u52a0\u65af\u5e15\u5c14",
+				"shirtnumber": "2",
+				"position_x": "D1",
+				"position_y": "R",
+				"p":2
+			}, {
+				"person_id": 50118345,
+				"person": "\u963f\u5c14\u74e6\u7f57-\u5188\u8428\u96f7\u65af",
+				"shirtnumber": "3",
+				"position_x": "D1",
+				"position_y": "CL",
+				"p":3
+			}, {
+				"person_id": 50045197,
+				"person": "\u8c6a\u6885-\u79d1\u65af\u5854",
+				"shirtnumber": "11",
+				"position_x": "D1",
+				"position_y": "L",
+				"p":4
+			}, {
+				"person_id": 50003145,
+				"person": "\u535a\u5185\u62c9",
+				"shirtnumber": "23",
+				"position_x": "D1",
+				"position_y": "CR",
+				"p":5
+			}, {
+				"person_id": 50095408,
+				"person": "\u5207\u91cc\u820d\u592b",
+				"shirtnumber": "7",
+				"position_x": "A",
+				"position_y": "CL",
+				"p":6
+			}, {
+				"person_id": 50249701,
+				"person": "\u798f\u5c14\u7eb3\u5c14\u65af",
+				"shirtnumber": "8",
+				"position_x": "AM",
+				"position_y": "C",
+				"p":7
+			}, {
+				"person_id": 50136854,
+				"person": "\u5361\u65af\u8482\u5217\u970d",
+				"shirtnumber": "10",
+				"position_x": "M",
+				"position_y": "R",
+				"p":8
+			}, {
+				"person_id": 50122861,
+				"person": "\u7279\u91cc\u683c\u7f57\u65af",
+				"shirtnumber": "14",
+				"position_x": "M",
+				"position_y": "L",
+				"p":9
+			}, {
+				"person_id": 50233443,
+				"person": "\u7f57\u5fb7\u91cc-\u57c3\u5c14\u5357\u5fb7\u65af",
+				"shirtnumber": "16",
+				"position_x": "DM",
+				"position_y": "C",
+				"p":10
+			}, {
+				"person_id": 50195527,
+				"person": "\u4e8e\u7eb3\u5c14",
+				"shirtnumber": "15",
+				"position_x": "A",
+				"position_y": "CR",
+				"p":11
+			}],
+			"sub": [{
+				"person_id": 50048287,
+				"person": "\u5df4\u5c14\u535a\u8428",
+				"shirtnumber": "25",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50204561,
+				"person": "\u963f\u5fb7\u91cc\u5b89-\u9a6c\u6797",
+				"shirtnumber": "5",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50059408,
+				"person": "\u7ef4\u514b\u6258-\u9c81\u4f0a\u65af",
+				"shirtnumber": "6",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50015754,
+				"person": "\u9c81\u5361\u7ef4\u7eb3",
+				"shirtnumber": "22",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50202399,
+				"person": "\u62c9\u7c73\u7f57-\u683c\u62c9",
+				"shirtnumber": "26",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50192149,
+				"person": "R-\u9a6c\u4e01\u5185\u65af",
+				"shirtnumber": "24",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50254186,
+				"person": "\u62c9\u74e6",
+				"shirtnumber": "28",
+				"position_x": null,
+				"position_y": null
+			}]
+		},
+		"team_B": {
+			"team_id": 50001775,
+			"team_name": "\u83b1\u4e07\u7279",
+			"formation_pic": 22,
+			"formation": "hgn",
+			"lineups": [{
+				"person_id": 50094407,
+				"person": "\u5965\u8036\u5c14",
+				"shirtnumber": "13",
+				"position_x": "GK",
+				"position_y": "C",
+				"p":1
+			}, {
+				"person_id": 50253356,
+				"person": "\u7f57\u8d1d\u5c14",
+				"shirtnumber": "4",
+				"position_x": "D1",
+				"position_y": "CR",
+				"p":2
+			}, {
+				"person_id": 50042172,
+				"person": "\u8c6a\u5c14\u8d6b-\u79d1\u514b",
+				"shirtnumber": "12",
+				"position_x": "D1",
+				"position_y": "R",
+				"p":3
+			}, {
+				"person_id": 50096312,
+				"person": "\u6ce2\u65af\u8482\u6208",
+				"shirtnumber": "15",
+				"position_x": "D1",
+				"position_y": "CL",
+				"p":4
+			}, {
+				"person_id": 50086204,
+				"person": "\u5362\u7eb3",
+				"shirtnumber": "22",
+				"position_x": "D1",
+				"position_y": "L",
+				"p":5
+			}, {
+				"person_id": 50092356,
+				"person": "\u675c\u5e93\u96f7",
+				"shirtnumber": "5",
+				"position_x": "M",
+				"position_y": "CL",
+				"p":6
+			}, {
+				"person_id": 50184993,
+				"person": "\u83b1\u5c14\u9a6c",
+				"shirtnumber": "8",
+				"position_x": "DM",
+				"position_y": "C",
+				"p":7
+			}, {
+				"person_id": 50167488,
+				"person": "\u83ab\u62c9\u83b1\u65af",
+				"shirtnumber": "11",
+				"position_x": "M",
+				"position_y": "L",
+				"p":8
+			}, {
+				"person_id": 50172815,
+				"person": "\u8428\u8428-\u5362\u5b63\u5947",
+				"shirtnumber": "20",
+				"position_x": "M",
+				"position_y": "CR",
+				"p":9
+			}, {
+				"person_id": 50219750,
+				"person": "\u535a\u963f\u6ed5",
+				"shirtnumber": "21",
+				"position_x": "A",
+				"position_y": "C",
+				"p":10
+			}, {
+				"person_id": 50179201,
+				"person": "\u6770\u68ee-\u96f7\u6885\u585e\u7f57",
+				"shirtnumber": "23",
+				"position_x": "M",
+				"position_y": "R",
+				"p":11
+			}],
+			"sub": [{
+				"person_id": 50199019,
+				"person": "\u8c6a\u5c14\u8d6b-\u79d1\u514b",
+				"shirtnumber": "27",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50159334,
+				"person": "\u5207\u9a6c",
+				"shirtnumber": "6",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50013826,
+				"person": "\u4f69\u5fb7\u7f57-\u6d1b\u4f69\u65af",
+				"shirtnumber": "19",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50200267,
+				"person": "\u5df4\u5c14\u5e0c",
+				"shirtnumber": "10",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50098469,
+				"person": "\u574e\u5e15\u5c3c\u4e9a",
+				"shirtnumber": "24",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50142687,
+				"person": "\u9a6c\u8482",
+				"shirtnumber": "9",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50183127,
+				"person": "\u4f0a\u7ef4-\u6d1b\u4f69\u65af",
+				"shirtnumber": "14",
+				"position_x": null,
+				"position_y": null
+			}]
+		},
+		"referee": "Jos\u00e9 Gonz\u00e1lez",
+		"weather": "\u591a\u4e91",
+		"temperature": "13\u2103\uff5e14\u2103",
+		"field": "\u9676\u74f7\u7403\u573a"
+	},
+	"TVList": "",
+	"commitLiveSource": 0,
+	"matchGuess": {
+		"url": "https:\/\/n.dongqiudi.com\/webapp\/lottery-quiz.html#\/home\/781968",
+		"content": "\u7ade\u731c"
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"living": [],
+	"matchLiving": [],
+	"matchSample": {
+		"relate_type": "match",
+		"relate_id": "50906109",
+		"match_id": "50906109",
+		"competition_id": "643",
+		"competition_name": "\u53cb\u8c0a\u8d5b",
+		"group_id": "0",
+		"group_name": "",
+		"gameweek": "",
+		"status": "Fixture",
+		"minute": "",
+		"date_utc": "2018-02-03",
+		"time_utc": "15:00:00",
+		"start_play": "2018-02-03 15:00:00",
+		"minute_extra": null,
+		"minute_period": null,
+		"suretime": "1",
+		"team_A_id": "50001590",
+		"team_A_name": "\u83ab\u65af\u79d1\u65af\u5df4\u8fbe",
+		"team_A_logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1844.png",
+		"team_B_id": "50012355",
+		"team_B_name": "\u6cb3\u5317\u534e\u590f\u5e78\u798f",
+		"team_B_logo": "https:\/\/img.dongqiudi.com\/data\/pic\/21563.png",
+		"sort_timestamp": 1517641200,
+		"fs_A": "",
+		"fs_B": "",
+		"hts_A": "",
+		"hts_B": "",
+		"ets_A": "",
+		"ets_B": "",
+		"ps_A": "",
+		"ps_B": "",
+		"as_A": null,
+		"as_B": null,
+		"livingTv": "\u76f4\u64ad\u4fe1\u606f\u5f85\u66f4\u65b0",
+		"livingFlag": false,
+		"noZhiboSource": "",
+		"onlySem": true,
+		"zhanbaoFlag": false,
+		"eventFlag": false,
+		"match_plan_num": 0,
+		"intermission": 0
+	},
+	"matchAnalysis": {
+		"url": "https:\/\/n.dongqiudi.com\/pre_analysis\/50906109?platform=iphone&version=587"
+	},
+	"matchSK": {
+		"url": "https:\/\/api.dongqiudi.com\/data\/event\/match\/50906109"
+	},
+	"matchOdds": {
+		"url": "https:\/\/api.dongqiudi.com\/data\/odds\/tab\/50906109"
+	},
+	"matchJijin": {
+		"article_id": null
+	},
+	"matchFormation": {
+		"formationFlag": true,
+		"attendance_rate": "",
+		"team_A": {
+			"team_id": 50001590,
+			"team_name": "\u83ab\u65af\u79d1\u65af\u5df4\u8fbe",
+			"formation_pic": "",
+			"formation": "",
+			"lineups": [],
+			"sub": []
+		},
+		"team_B": {
+			"team_id": 50012355,
+			"team_name": "\u6cb3\u5317\u534e\u590f\u5e78\u798f",
+			"formation_pic": 33,
+			"formation": "",
+			"lineups": [],
+			"sub": []
+		},
+		"referee": "\u6682\u65e0\u4fe1\u606f",
+		"weather": "",
+		"temperature": "",
+		"field": "\u6682\u65e0\u4fe1\u606f"
+	},
+	"TVList": "\u76f4\u64ad\u4fe1\u606f\u5f85\u66f4\u65b0",
+	"commitLiveSource": 0
+}

@@ -1,0 +1,16 @@
+{
+  "err_code": 0,
+  "msg": "",
+  "data": {
+    "time_img": "",
+    "total_amount": "",
+    "start_day": "今天",
+    "start_time": "18:00",
+    "card_number": "1",
+    "is_card_code": "1",
+    "live_address": "",
+    "username": "小迷妹",
+    "r_code": "AJ34A",
+    "unit":""
+  }
+}

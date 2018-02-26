@@ -2,15 +2,19 @@
   "err_code": 0,
   "msg": "",
   "data": {
-      "time_img": "http://img1.dongqiudi.com/fastdfs2/M00/40/6E/ChOqM1pW0s-AM-X5AABJviYaevk097.png",
-      "total_amount": "20000",
-      "start_day": "今天",
-      "start_time": "18:00",
-      "card_number": "1",
-      "is_card_code": "0",
-      "live_address": "http://www.baidu.com",
-      "username": "小迷妹",
-      "r_code": "AJ34A",
-      "unit":"元"
+    "time_img": "https://dqdimgs.b0.upaiyun.com/uploads/attachments/quiz/202/8nx8Zwai7CYSo733F2eX.png",
+    "total_amount": "10000",
+    "start_day": "??",
+    "start_time": "??",
+    "card_number": "0",
+    "is_card_code": 1,
+    "live_address": "",
+    "username": "弹幕44",
+    "r_code": "98TBQ",
+    "unit": "元",
+
+    "kwasitemid": "777"
+
+
   }
 }

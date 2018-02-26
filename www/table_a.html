@@ -3,14 +3,19 @@
 
 <head>
     <title>Bootstrap Table Examples</title>
-    <link rel="stylesheet" href="./bootstrap.min.css">
-    <link rel="stylesheet" href="./bootstrap-table.min.css">
+    <!-- <link rel="stylesheet" href="./bootstrap.min.css"> -->
+    <link rel="stylesheet" href="http://adm.dongqiudi.com:8002/packages/admin/AdminLTE/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://10.18.7.108:7777/bootstrap-table.min.css">
     <!-- <link rel="stylesheet" href="//rawgit.com/vitalets/x-editable/master/dist/bootstrap3-editable/css/bootstrap-editable.css"> -->
     <!-- <link rel="stylesheet" href="assets/examples.css"> -->
-    <script src="./jquery-3.1.1.min.js"></script>
-    <script src="./bootstrap.min.js"></script>
-    <script src="./bootstrap-table.min.js"></script>
-    <script src="./moment.js"></script>
+    <!-- <script src="./jquery-3.1.1.min.js"></script> -->
+    <script src="http://adm.dongqiudi.com:8002/packages/admin/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- <script src="./bootstrap.min.js"></script> -->
+    <script src="http://adm.dongqiudi.com:8002/packages/admin/AdminLTE/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="./bootstrap-table.min.js"></script> -->
+    <script src="http://adm.dongqiudi.com:8002/dsp/static/js/bootstrap-table.min.js"></script>
+    <!-- <script src="./moment.js"></script> -->
+    <script src="http://adm.dongqiudi.com:8002/dsp/static/js/moment.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -236,7 +241,9 @@
                             tmp_data["d" + k] = element.meta.statistics[k]
                         }
                         table_data.push(tmp_data)
+                        
                     }
+                    console.log(table_data)
                     $table.bootstrapTable('load', table_data)
                     for (let k = 0; k < data.length; k++) {
                         $table.bootstrapTable('mergeCells', {

@@ -1,5 +1,5 @@
-item = [{ code: 1, name: "电商", children: [] }, ]
-t = [
+var item = [{ code: 1, name: "电商", children: [] }, ]
+var tyle_list = [
   { code: 1, name: "电商", children: [
     { code: 101, name: "商城", children: [] },
     { code: 102, name: "团购", children: [] },

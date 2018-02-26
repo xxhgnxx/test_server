@@ -12,6 +12,6 @@
     "/hgn/v2/live/pic": { "des": "上传图片", "data": "/ok.json" },
     "/hgn/uploads": { "des": "上传图片", "data": "/pic_upload_ok.json" },
     "/hgn/settle": { "des": "上传图片", "data": "/ok.json" },
-    "/hgn/v2/activity/live_quiz/card": { "des": "上传图片", "data": "/card.json" }
-
+    "/hgn/v2/activity/live_quiz/card": { "des": "上传图片", "data": "/card.json" },
+    "/hgn/v2/activity/spring_2018_warmup/up": { "des": "新春预热", "data": "/spring_2018.json" }
 }

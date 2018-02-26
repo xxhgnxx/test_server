@@ -1,0 +1,301 @@
+{
+	"living": [],
+	"matchLiving": [],
+	"matchSample": {
+		"relate_type": "match",
+		"relate_id": "50888257",
+		"match_id": "50888257",
+		"competition_id": "226",
+		"competition_name": "\u4e9a\u51a0",
+		"group_id": "0",
+		"group_name": "",
+		"gameweek": "",
+		"status": "Played",
+		"minute": "90",
+		"date_utc": "2018-01-30",
+		"time_utc": "13:30:00",
+		"start_play": "2018-01-30 13:30:00",
+		"minute_extra": null,
+		"minute_period": null,
+		"suretime": "1",
+		"team_A_id": "50000976",
+		"team_A_name": "\u4f50\u5e03\u963f\u6c49",
+		"team_A_logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1167.png",
+		"team_B_id": "50012032",
+		"team_B_name": "\u827e\u624e\u5a01\u5c14",
+		"team_B_logo": "https:\/\/img.dongqiudi.com\/data\/pic\/20937.png",
+		"sort_timestamp": 1517290200,
+		"fs_A": "3",
+		"fs_B": "1",
+		"hts_A": "1",
+		"hts_B": "1",
+		"ets_A": "",
+		"ets_B": "",
+		"ps_A": "",
+		"ps_B": "",
+		"as_A": "3",
+		"as_B": "1",
+		"livingTv": "",
+		"livingFlag": false,
+		"noZhiboSource": "",
+		"onlySem": true,
+		"zhanbaoFlag": false,
+		"eventFlag": false,
+		"match_plan_num": 0,
+		"intermission": 0
+	},
+	"matchAnalysis": {
+		"url": "https:\/\/n.dongqiudi.com\/pre_analysis\/50888257?platform=iphone&version=587"
+	},
+	"matchSK": {
+		"url": "https:\/\/api.dongqiudi.com\/data\/event\/match\/50888257"
+	},
+	"matchOdds": {
+		"url": "https:\/\/api.dongqiudi.com\/data\/odds\/tab\/50888257"
+	},
+	"matchJijin": {
+		"article_id": null
+	},
+	"matchFormation": {
+		"formationFlag": false,
+		"attendance_rate": "",
+		"team_A": {
+			"team_id": 50000976,
+			"team_name": "\u4f50\u5e03\u963f\u6c49",
+			"formation_pic": "",
+			"formation": "",
+			"lineups": [{
+				"person_id": 50107481,
+				"person": "\u9a6c\u624e\u8d6b\u91cc",
+				"shirtnumber": "12",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50175896,
+				"person": "\u5185\u8d3e\u9a6c\u8fea",
+				"shirtnumber": "2",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50172128,
+				"person": "\u7a46\u7f55\u9ed8\u5fb7\u624e\u5fb7",
+				"shirtnumber": "3",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50088385,
+				"person": "\u683c\u97e6\u5217\u897f\u963f\u5c3c",
+				"shirtnumber": "5",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50218667,
+				"person": "\u8428\u5854\u91cc",
+				"shirtnumber": "33",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50091393,
+				"person": "\u6cd5\u8d6b\u96f7\u8fea\u5c3c",
+				"shirtnumber": "34",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50143844,
+				"person": "\u7a46\u7f55\u9ed8\u5fb7-\u4faf\u585e\u5c3c",
+				"shirtnumber": "7",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50091389,
+				"person": "\u5854\u5e03\u91cc\u5179",
+				"shirtnumber": "11",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50171966,
+				"person": "\u5e03\u54c8\u59c6\u4e39",
+				"shirtnumber": "88",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50008117,
+				"person": "\u62c9\u8d3e\u5df4\u624e\u8d6b",
+				"shirtnumber": "30",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50111086,
+				"person": "\u57fa\u7f57\u65af",
+				"shirtnumber": "99",
+				"position_x": null,
+				"position_y": null
+			}],
+			"sub": [{
+				"person_id": 50034773,
+				"person": "\u8428\u8fea\u5409",
+				"shirtnumber": "1",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50437024,
+				"person": "\u4f0a\u65af\u6885\u5229",
+				"shirtnumber": "44",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50034762,
+				"person": "\u54c8\u8fbe\u8fea\u6cd5",
+				"shirtnumber": "8",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50116224,
+				"person": "\u62c9\u6bd4-\u963f\u5854\u4e9a",
+				"shirtnumber": "9",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50034169,
+				"person": "\u62c9\u8d6b\u9a6c\u5c3c",
+				"shirtnumber": "10",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50218671,
+				"person": "\u963f\u5df4\u897f",
+				"shirtnumber": "17",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50407877,
+				"person": "\u7a46\u7f55\u9ed8\u5fb7-\u963f\u7c73\u5c3c",
+				"shirtnumber": "31",
+				"position_x": null,
+				"position_y": null
+			}]
+		},
+		"team_B": {
+			"team_id": 50012032,
+			"team_name": "\u827e\u624e\u5a01\u5c14",
+			"formation_pic": "",
+			"formation": "",
+			"lineups": [{
+				"person_id": 50232577,
+				"person": "A. Paul",
+				"shirtnumber": "12",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50280501,
+				"person": "Lalramhmunmawia",
+				"shirtnumber": "25",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50430684,
+				"person": "R. Laldinliana",
+				"shirtnumber": "26",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50430685,
+				"person": "C. Lalrosanga",
+				"shirtnumber": "29",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50243653,
+				"person": "Masih Saighani",
+				"shirtnumber": "5",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50254375,
+				"person": "A. Zohmingmawia",
+				"shirtnumber": "11",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50174675,
+				"person": "D. Lalrinmuana",
+				"shirtnumber": "17",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50009373,
+				"person": "\u4f0a\u5185\u65af\u5e93",
+				"shirtnumber": "22",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50280530,
+				"person": "K. Lalthathanga",
+				"shirtnumber": "24",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50051066,
+				"person": "S. Malsawmtluanga",
+				"shirtnumber": "28",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50211127,
+				"person": "A. Jaryan",
+				"shirtnumber": "20",
+				"position_x": null,
+				"position_y": null
+			}],
+			"sub": [{
+				"person_id": 50254578,
+				"person": "Lalawmpuia",
+				"shirtnumber": "44",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50432078,
+				"person": "H. Mawia",
+				"shirtnumber": "31",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50280510,
+				"person": "Rochharzela",
+				"shirtnumber": "7",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50280570,
+				"person": "L. Fanai",
+				"shirtnumber": "18",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50432080,
+				"person": "Lalkhawpuimawia ",
+				"shirtnumber": "9",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50280516,
+				"person": "J. Lalrawngbawla",
+				"shirtnumber": "13",
+				"position_x": null,
+				"position_y": null
+			}, {
+				"person_id": 50254576,
+				"person": "W. Lalnunfela",
+				"shirtnumber": "49",
+				"position_x": null,
+				"position_y": null
+			}]
+		},
+		"referee": "G. Robesh",
+		"weather": "\u5929\u6674",
+		"temperature": "1\u2103\uff5e2\u2103",
+		"field": "Fol\u0101d Shahr Stadium"
+	},
+	"TVList": "",
+	"commitLiveSource": 0
+}

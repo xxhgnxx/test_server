@@ -2,110 +2,333 @@
     "code": 0,
     "message": "",
     "data": {
-        "app": {
-            "id": "5",
-            "name": "懂球帝测试",
-            "rank": "7",
-            "des": "这个是内部测试用的",
-            "discount": "95",
-            "daily_quote": "0.01",
-            "sales": 430,
-            "android_url": "https://www.baidu.com/",
-            "ios_url": "https://www.baidu.com/",
-            "rule": "充值金额不可提现只能用于购彩; 中奖后奖金可以提现。",
-            "banner": "http://img1.dongqiudi.com/fastdfs/M00/12/1D/ooYBAFh3eDeATeVFAAAjRtarTXc346.jpg",
-            "banner2": "http://img1.dongqiudi.com/fastdfs/M00/12/52/oYYBAFh4SjqAOk2oAAA2d6mBODs727.jpg",
-            "icon": "http://img1.dongqiudi.com/fastdfs/M00/12/37/oYYBAFh3eC-ABiHxAABu-iFPqxA733.png",
-            "down_url": "https://www.baidu.com/"
-        },
-        "quotes": [
-            "0.01",
-            "0.1",
-            "1",
-            "5",
-            "50"
-        ],
-        "quote_items": [
+        "notice":true,
+        "apps": [
             {
-                "id": "28",
-                "quote": "0.01",
-                "dt": "97",
-                "sale_price": "0"
+                "id": "16",
+                "name": "开心中彩票-充值卡",
+                "rank": "15",
+                "des": "新用户专享豪礼充20送88元红包券，竞彩足球2串1串关加奖10%。",
+                "discount": "97",
+                "daily_quote": "100000",
+                "sales": 72,
+                "android_url": "http://cai.webxgame.com/down_apk/yileapp_dongqiudi_zipaligned.apk",
+                "ios_url": "",
+                "rule": "充值的金额不可提现只能用于购彩；中奖后奖金即可提现。",
+                "banner": "http://img1.dongqiudi.com/www/M00/0F/C3/ChOOull4a86AQPMWAAArQnJXciY317.jpg",
+                "banner2": "http://img1.dongqiudi.com/www/M00/0F/C3/ChOOull4a9eAMSgRAAArQnJXciY266.jpg",
+                "icon": "http://img1.dongqiudi.com/www/M00/0F/C3/ChOOull4a9KAdMpLAAArQnJXciY881.jpg",
+                "down_url": "",
+                "quotes": [
+                    "0.01",
+                    "10",
+                    "200"
+                ]
             },
             {
-                "id": "25",
-                "quote": "0.1",
-                "dt": "97",
-                "sale_price": "100"
+                "id": "6",
+                "name": "人人彩票-充值卡",
+                "rank": "8",
+                "des": "注册即享80元红单大礼包，彩神（中奖2405万）带你天天红单！",
+                "discount": "97",
+                "daily_quote": "1000000",
+                "sales": 432,
+                "android_url": "https://cai310.cn/ent.ashx?ent=10127&tid=10127&redirectandroidnative=1",
+                "ios_url": "https://cai310.cn/ent.ashx?ent=10127&tid=10127&tyid=54&redirectiosnative=1",
+                "rule": "充值金额只能购彩不能提现，中奖金额可全部提取，信用卡充值不可提现",
+                "banner": "http://img1.dongqiudi.com/fastdfs1/M00/4D/47/pIYBAFjce8aAQKd9AAArjJYZHAc989.jpg",
+                "banner2": "http://img1.dongqiudi.com/fastdfs1/M00/4D/5C/o4YBAFjbliuAEPEfAAAwS8J1uDY837.jpg",
+                "icon": "http://img1.dongqiudi.com/fastdfs1/M00/2E/14/o4YBAFjGDv6AWmvFAABFvsYgTVY622.png",
+                "down_url": "https://cai310.cn/ent.ashx?ent=10127&tid=10127&tyid=54&redirectiosnative=1",
+                "quotes": [
+                    "10",
+                    "100",
+                    "500",
+                    "1000",
+                    "5000"
+                ]
             },
             {
-                "id": "29",
-                "quote": "1",
-                "dt": "97",
-                "sale_price": "0"
+                "id": "5",
+                "name": "懂球帝测试",
+                "rank": "7",
+                "des": "这个是内部测试用的",
+                "discount": "95",
+                "daily_quote": "0.01",
+                "sales": 506,
+                "android_url": "https://www.baidu.com/",
+                "ios_url": "https://www.baidu.com/",
+                "rule": "充值金额不可提现只能用于购彩; 中奖后奖金可以提现。",
+                "banner": "http://img1.dongqiudi.com/fastdfs/M00/12/1D/ooYBAFh3eDeATeVFAAAjRtarTXc346.jpg",
+                "banner2": "http://img1.dongqiudi.com/fastdfs/M00/12/52/oYYBAFh4SjqAOk2oAAA2d6mBODs727.jpg",
+                "icon": "http://img1.dongqiudi.com/fastdfs/M00/12/37/oYYBAFh3eC-ABiHxAABu-iFPqxA733.png",
+                "down_url": "https://www.baidu.com/",
+                "quotes": [
+                    "0.01",
+                    "0.1",
+                    "1",
+                    "5",
+                    "50"
+                ]
             },
             {
-                "id": "27",
-                "quote": "5",
-                "dt": "97",
-                "sale_price": "4900"
+                "id": "20",
+                "name": "全民彩票-充值卡",
+                "rank": "6",
+                "des": "一站式投注 简单透明；实时资讯 轻松掌握；即时提现 资金安全。便捷支付：提供储蓄卡、信用卡、手机充值卡等多种充值方式；简单投注：一站式简单投注操作，轻松购彩，简单中奖；专业数据：最新最全的资讯爆料，质量有保障，让你轻松中大奖；优质服务： 7*24小时在线客服，账户明细实时查询，中奖提款10分钟到账。",
+                "discount": "95",
+                "daily_quote": "10000000",
+                "sales": 48,
+                "android_url": "http://down.159cai.com/dongqiudiqmcpaz/qmcp.apk",
+                "ios_url": "https://itunes.apple.com/cn/app/id1195773255?mt=8",
+                "rule": "充值金额计入账户余额，单笔充值金额需消费30%方可提现。",
+                "banner": "http://img1.dongqiudi.com/www/M00/14/B4/ChOOuloNczKAHlGqAABHiVTM8UQ940.png",
+                "banner2": "http://img1.dongqiudi.com/www/M00/14/B4/ChOOuloNcziAfOX5AABBX2TQEh4295.png",
+                "icon": "http://img1.dongqiudi.com/www/M00/14/B4/ChOOuloNcyyAQr3JAABEtwFeWeM718.png",
+                "down_url": "https://itunes.apple.com/cn/app/id1195773255?mt=8",
+                "quotes": [
+                    "0.01",
+                    "50",
+                    "100",
+                    "500",
+                    "1000",
+                    "5000"
+                ]
             },
             {
-                "id": "26",
-                "quote": "50",
-                "dt": "97",
-                "sale_price": "9800"
+                "id": "18",
+                "name": "连连中彩票-充值卡",
+                "rank": "6",
+                "des": "新用户专享，充20得88；竞彩最高加奖10%！",
+                "discount": "97",
+                "daily_quote": "10000000",
+                "sales": 237,
+                "android_url": "http://ld.15988.com/a/llzdongqiudiaz/llzaz.apk",
+                "ios_url": "",
+                "rule": "充值金额不可提现只能用于购彩; 中奖后奖金可以提现。",
+                "banner": "http://img1.dongqiudi.com/www/M00/13/2A/ChOOulnwUnKAeM6aAAA9IKcTNjE397.jpg",
+                "banner2": "http://img1.dongqiudi.com/www/M00/13/2A/ChOOulnwUnqADvEQAAArQnJXciY364.jpg",
+                "icon": "http://img1.dongqiudi.com/www/M00/13/2A/ChOOulnwUmmAJHM0AACAuo2d85I839.png",
+                "down_url": "",
+                "quotes": [
+                    "0.01",
+                    "50",
+                    "100",
+                    "500",
+                    "1000",
+                    "5000"
+                ]
+            },
+            {
+                "id": "17",
+                "name": "傲赢彩票-充值卡",
+                "rank": "6",
+                "des": "幸运转盘最高得1888元；追号不中全额返；玩游戏赢4999元彩金！",
+                "discount": "97",
+                "daily_quote": "10000000",
+                "sales": 224,
+                "android_url": "http://mobile.jscp518.com/android/aoying.apk",
+                "ios_url": "https://itunes.apple.com/cn/app/id1179709781?mt=8",
+                "rule": "充值金额将以彩金卡的形式到账，可使用于购彩但不可直接提现，中奖奖金可直接提现；充值金额不可参加平台竞彩加奖活动。",
+                "banner": "http://img1.dongqiudi.com/www/M00/12/09/ChOOulm_pdGAGgHjAAAr3O0DQD8551.png",
+                "banner2": "http://img1.dongqiudi.com/www/M00/12/09/ChOOulm_q6WAPEA6AAAr3O0DQD8889.png",
+                "icon": "http://img1.dongqiudi.com/www/M00/12/09/ChOOulm_rRGAYQTOAAAqARJC4xQ377.png",
+                "down_url": "https://itunes.apple.com/cn/app/id1179709781?mt=8",
+                "quotes": [
+                    "0.01",
+                    "10",
+                    "50",
+                    "100",
+                    "500",
+                    "1000",
+                    "5000"
+                ]
+            },
+            {
+                "id": "10",
+                "name": "乐盈彩票-充值卡",
+                "rank": "6",
+                "des": "幸运转盘最高得1888元；追号不中全额返；玩游戏赢4999元彩金！",
+                "discount": "97",
+                "daily_quote": "10000000",
+                "sales": 203,
+                "android_url": "http://mobile.jdd.com/android/lyc_dqd.apk",
+                "ios_url": "https://itunes.apple.com/cn/app/id1179709781?mt=8",
+                "rule": "充值金额将以彩金卡的形式到账，可使用于购彩但不可直接提现，中奖奖金可直接提现；充值金额不可参加平台竞彩加奖活动。",
+                "banner": "http://img1.dongqiudi.com/fastdfs1/M00/68/71/pIYBAFkCsZCAAOTYAABPkt4bVco563.jpg",
+                "banner2": "http://img1.dongqiudi.com/fastdfs1/M00/68/71/pIYBAFkCsZKAH-LQAABD__Ia33E746.jpg",
+                "icon": "http://img1.dongqiudi.com/fastdfs1/M00/68/71/pIYBAFkCsYWAaQ23AAAqARJC4xQ879.png",
+                "down_url": "https://itunes.apple.com/cn/app/id1179709781?mt=8",
+                "quotes": [
+                    "10",
+                    "50",
+                    "100",
+                    "500",
+                    "1000",
+                    "5000"
+                ]
+            },
+            {
+                "id": "3",
+                "name": "我去彩票站-充值卡",
+                "rank": "5",
+                "des": "新用户专属118元大礼包，签到再送300元彩金，投注还可畅领红包！",
+                "discount": "97",
+                "daily_quote": "1000000",
+                "sales": 12877,
+                "android_url": "http://r.dididapiao.com/client/woqutzz_android_v1_3_9-100137.apk",
+                "ios_url": "https://itunes.apple.com/us/app/wo-qu-cai-piao-zhan-zui-zhi/id1057517018?mt=8",
+                "rule": "固定单关加奖10%，首次投注最高得3888元！新用户再送50元礼包！  ",
+                "banner": "http://img1.dongqiudi.com/fastdfs1/M00/4D/47/pIYBAFjce7yAY23WAAAZy3-Jvk8780.jpg",
+                "banner2": "http://img1.dongqiudi.com/fastdfs1/M00/4D/5A/o4YBAFjblK6AB77bAAAc_NKEvLc825.jpg",
+                "icon": "http://img1.dongqiudi.com/fastdfs/M00/12/38/ooYBAFh4Q7CALICuAABLAY638qw466.png",
+                "down_url": "https://itunes.apple.com/us/app/wo-qu-cai-piao-zhan-zui-zhi/id1057517018?mt=8",
+                "quotes": [
+                    "10",
+                    "50",
+                    "100",
+                    "500",
+                    "1000",
+                    "5000"
+                ]
+            },
+            {
+                "id": "9",
+                "name": "彩猫彩票-充值卡",
+                "rank": "4",
+                "des": "竞彩加奖10%,还有新用户充值满50得100活动给更懂球的你!",
+                "discount": "97",
+                "daily_quote": "5000000",
+                "sales": 715,
+                "android_url": "http://download.fcaimao.com/market_dongqiudi.apk",
+                "ios_url": "https://itunes.apple.com/cn/app/id1096440609?mt=8",
+                "rule": "1为防止洗钱，恶意提款，信用卡套现等行为，单笔充值金额消费不满30%，提款时加收10%异常提款处理手续费，情节严重经客服核实则直接不予通过. 2懂球帝充值的钱为红包性质，可使用于购彩但不可直接提现. 3中奖奖金可直接提现.",
+                "banner": "http://img1.dongqiudi.com/fastdfs1/M00/4D/F4/o4YBAFjce9iAFfnDAAAoCRoR-kM532.jpg",
+                "banner2": "http://img1.dongqiudi.com/fastdfs1/M00/4C/AD/pIYBAFjblGWAKhtrAAAnLCbsiUw836.jpg",
+                "icon": "http://img1.dongqiudi.com/fastdfs1/M00/4B/E0/pIYBAFjaKaKAQfcIAAAS1uD8qEQ692.png",
+                "down_url": "https://itunes.apple.com/cn/app/id1096440609?mt=8",
+                "quotes": [
+                    "10",
+                    "50",
+                    "100",
+                    "500",
+                    "1000",
+                    "5000"
+                ]
+            },
+            {
+                "id": "1",
+                "name": "159竞彩足球-充值卡",
+                "rank": "3",
+                "des": "新用户专享，充20得88；竞彩最高加奖10%！",
+                "discount": "97",
+                "daily_quote": "1000000",
+                "sales": 47316,
+                "android_url": "http://down.159cai.com/159jingcai/159jczq.apk?version=1",
+                "ios_url": "https://itunes.apple.com/cn/app/159jing-cai-zu-qiu-zu-qiu/id1121573293?mt=8 ",
+                "rule": "充值金额不可提现只能用于购彩; 中奖后奖金可以提现。",
+                "banner": "http://img1.dongqiudi.com/fastdfs1/M00/4D/47/pIYBAFjce7KAZKVUAAAvShvjHCA984.jpg",
+                "banner2": "http://img1.dongqiudi.com/fastdfs1/M00/4D/5A/o4YBAFjblMyAf8oPAAAurv9ke_o732.jpg",
+                "icon": "http://img1.dongqiudi.com/fastdfs/M00/12/52/oYYBAFh4Rd6AFcL-AABrdr-l6Xg019.png",
+                "down_url": "https://itunes.apple.com/cn/app/159jing-cai-zu-qiu-zu-qiu/id1121573293?mt=8 ",
+                "quotes": [
+                    "10",
+                    "50",
+                    "100",
+                    "500",
+                    "1000",
+                    "5000"
+                ]
+            },
+            {
+                "id": "8",
+                "name": "约彩365-充值卡",
+                "rank": "2",
+                "des": "注册即送5元，彩票看得见，安全可靠！",
+                "discount": "97",
+                "daily_quote": "5000000",
+                "sales": 1429,
+                "android_url": "http://download.yuecai365.com/cp365/version/android/android_cp365-27001100234-release.apk",
+                "ios_url": "https://itunes.apple.com/cn/app/cai-piao365/id424758639",
+                "rule": "为防止少数用户利用365进行套现和洗钱行为，办理提款时涉嫌洗钱行为（充值预付款购彩不到30%）我们将拒绝办理。盈利的全部资金可直接提现，同时提款1万元以下，手续费2元。",
+                "banner": "http://img1.dongqiudi.com/fastdfs1/M00/4D/47/pIYBAFjce-GAX19EAAAc1sqZHtk678.jpg",
+                "banner2": "http://img1.dongqiudi.com/fastdfs1/M00/4D/59/o4YBAFjbkuOAWDy8AAAfrlUJVgE489.jpg",
+                "icon": "http://img1.dongqiudi.com/fastdfs1/M00/30/97/pIYBAFjHkd-ARN-5AAAqRm3qxHo904.png",
+                "down_url": "https://itunes.apple.com/cn/app/cai-piao365/id424758639",
+                "quotes": [
+                    "10",
+                    "50",
+                    "100",
+                    "500",
+                    "1000",
+                    "5000"
+                ]
+            },
+            {
+                "id": "7",
+                "name": "烤鱼彩票-充值卡",
+                "rank": "1",
+                "des": "篮球竞彩场场加奖，最高加奖15%，新用户立送33",
+                "discount": "15",
+                "daily_quote": "500000",
+                "sales": 4404,
+                "android_url": "https://m.8win.com/app/dl/apk?channel=1426",
+                "ios_url": "https://itunes.apple.com/cn/app/id848995746?ls=1&mt=8",
+                "rule": "本次充值金额不可提现，可提款金额仅为用户投注中奖奖金",
+                "banner": "http://img1.dongqiudi.com/www/M00/0E/32/ChOOullHkdeAfCHPAAH2lH8C4G4790.jpg",
+                "banner2": "http://img1.dongqiudi.com/www/M00/0E/32/ChOOullHkZSAVLsLAAIcLUz9eL8585.jpg",
+                "icon": "http://img1.dongqiudi.com/www/M00/0E/32/ChOOullHkbuAY9DRAACEk6S_f1I690.jpg",
+                "down_url": "https://itunes.apple.com/cn/app/id848995746?ls=1&mt=8",
+                "quotes": [
+                    "0.01",
+                    "50",
+                    "100",
+                    "500",
+                    "1000",
+                    "5000"
+                ]
+            },
+            {
+                "id": "4",
+                "name": "卓易彩票-充值卡",
+                "rank": "0",
+                "des": "姚记扑克旗下明星产品，大品牌更安全，活动最高可得4999元红包！",
+                "discount": "97",
+                "daily_quote": "1000000",
+                "sales": 20682,
+                "android_url": "http://www.zhuoyicp.com/21003003130.apk",
+                "ios_url": "https://itunes.apple.com/cn/app/zhuo-yi-cai-piao-cai-min-bi/id950940269?l=en&mt=8",
+                "rule": "充值金额不可提现只能用于购彩; 中奖后奖金可以提现。",
+                "banner": "http://img1.dongqiudi.com/www/M00/0E/2D/ChOOullHgB6AY98nAAIcLUz9eL8278.jpg",
+                "banner2": "http://img1.dongqiudi.com/www/M00/0E/2D/ChOOullHgCqAP0xdAANhictPyyk701.jpg",
+                "icon": "http://img1.dongqiudi.com/www/M00/0E/2D/ChOOullHgEyAePYpAAIcLUz9eL8760.jpg",
+                "down_url": "https://itunes.apple.com/cn/app/zhuo-yi-cai-piao-cai-min-bi/id950940269?l=en&mt=8",
+                "quotes": [
+                    "10",
+                    "50",
+                    "100",
+                    "500",
+                    "1000",
+                    "5000"
+                ]
             }
         ],
-        "user_tel": false,
-        "is_other_pay": 1,
-        "pay_plat": 1,
-        "tips": [
-            "1.目前只支持充值服务，不支持购彩服务哦～",
-            "2.充值完成后请下载或登录app进行购彩；",
-            "3.懂球帝测试提现规则：充值金额不可提现只能用于购彩; 中奖后奖金可以提现。"
-        ],
-        "channel_rate": "0.01",
-        "pay_ways": [
+        "recommends": [
             {
-                "opt": "微信通道1",
-                "id": "weixin_ex",
-                "pay_type": "weixin_ex",
-                "is_show": true,
-                "channel": 1,
-                "des": ""
+                "id": "5",
+                "name": "懂球帝测试",
+                "tip": "95折",
+                "banner": "http://img1.dongqiudi.com/fastdfs/M00/12/1D/ooYBAFh3eDeATeVFAAAjRtarTXc346.jpg",
+                "type": 1,
+                "discount": "95"
             },
             {
-                "opt": "微信通道2",
-                "id": "weixin",
-                "pay_type": "weixin",
-                "is_show": true,
-                "channel": 1,
-                "des": "bfb-w"
-            },
-            {
-                "opt": "支付宝通道3",
-                "id": "alipay_dqd_ex",
-                "pay_type": "alipay_ex",
-                "is_show": true,
-                "channel": 2,
-                "des": ""
-            },
-            {
-                "opt": "支付宝通道4",
-                "id": "alipay_dqd",
-                "pay_type": "alipay",
-                "is_show": true,
-                "channel": 2,
-                "des": "「备用」支付受限时使用"
-            },
-            {
-                "opt": "银行卡快捷",
-                "id": "unionpay",
-                "pay_type": "unionpay",
-                "is_show": true,
-                "channel": 6,
-                "des": ""
+                "id": 1,
+                "name": "159竞彩足球-充值卡",
+                "tip": "最高加奖10%",
+                "banner": "http://img1.dongqiudi.com/fastdfs1/M00/4D/47/pIYBAFjce7KAZKVUAAAvShvjHCA984.jpg",
+                "type": 2,
+                "discount": "97"
             }
         ]
     }

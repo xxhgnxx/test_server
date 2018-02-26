@@ -1,0 +1,50 @@
+html,body{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.list_main{
+  position: absolute;
+  font-size: 0;
+  top: 0;
+  left:0;
+  right:0;
+  margin: auto;
+  width: 640px;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+}
+.tag_group{
+  position: relative;
+  font-size: 16px;
+  margin: 5px;
+  width:130px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding:8px 12px;
+  border: 1px solid red;
+  vertical-align: text-top;
+  background: rgba(240, 103, 103, 0.164);
+  border-radius: 5px;
+}
+.tag_group:nth-of-type(2n){
+  background: rgba(103, 240, 121, 0.164)
+}
+.tag_lv1{
+  display: inline-block;
+  /* border: 1px solid red; */
+  border-radius: 5px;
+  
+  margin: 2px;
+  padding: 0 3px;
+  background: rgba(236, 52, 52, 0.164)
+}
+.tag_lv2{
+  margin: 2px;
+  padding:3px;
+  border-radius: 5px;
+  
+  margin-left: 20px;
+  display: inline-block;
+  /* border: 1px solid red; */
+  background: rgba(236, 52, 52, 0.164)
+}

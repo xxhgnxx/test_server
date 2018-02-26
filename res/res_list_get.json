@@ -15,9 +15,10 @@
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
     
     "/lottery-shop": { "des": "店铺推荐", "data": "/lottery-shop.json" },
+    "/hgn/plat/v3": { "des": "文章页广告", "data": "/ad.json" },
     
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
-    "/recharge/app": { "des": "充值产品页面", "data": "/app.json" },
+    "/recharge/apps": { "des": "充值产品页面", "data": "/app.json" },
     "/recharge/orderinfo?order_no=hgn": { "des": "", "data": "/recharge.json" },
     "/admin/monitoring/creative/list": { "des": "创意监控接口", "data": "/monitoring.json" },
     "/api/plandetail": { "des": "卖料", "data": "/plandetail.json" },
@@ -26,5 +27,10 @@
     "/plat/v3": { "des": "广告", "data": "/ad.json" },
     "/table": { "des": "广告 自定义表格", "data": "/table.json" },
     "/hgn/sms": { "des": "手机验证码", "data": "/msm.json" },
-    "/hgn/v2/activity/live_quiz/index": { "des": "手机验证码", "data": "/live_quiz.json" }
+    "/hgn/v2/activity/live_quiz/index": { "des": "谁是懂球帝", "data": "/live_quiz.json" },
+    "/hgn/app/kwas/uInfo": { "des": "谁是懂球帝2", "data": "/live_quiz.json" },
+    "/hgn/app/kwas/nextLive": { "des": "谁是懂球帝3", "data": "/live_quiz.json" },
+    "/hgn/data/detail/match/": { "des": "阵型信息", "data": "/match.json" },
+    "/hgn/plan/index": { "des": "专家", "data": "/plan.json" },
+    "/hgn/v2/activity/spring_2018_warmup/index": { "des": "新春预热", "data": "/spring_2018.json" }
 }
