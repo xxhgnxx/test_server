@@ -1,58 +1,44 @@
-
-
-
- Version/4.0 Chrome/57.0.2987.132 
- Access-Control-Request-Headers	authorization,uuid
- Accept	*/*
- Referer	https://n.xiaohongdan.com/webapp/footerball_lottery.html?way=native
- Accept-Encoding	gzip, deflate
- Accept-Language	zh-CN,en-US;q=0.8
- X-Requested-With	com.dongqiudi.news
-
-
-
-
- Version/4.0 Chrome/62.0.3202.84 
-Access-Control-Request-Headers	authorization,uuid
-Accept	*/*
-Accept-Encoding	gzip, deflate
-Accept-Language	zh-CN,en-US;q=0.9
-X-Requested-With	com.dongqiudi.news
-
-
-
-
-
-
-
-
-
-
-
-HTTP/1.1 200 OK
-Server	nginx/1.10.3
-Date	Fri, 01 Dec 2017 10:58:44 GMT
-Content-Type	text/html; charset=UTF-8
-Vary	Accept-Encoding
-Access-Control-Allow-Origin	https://n.xiaohongdan.com
-Access-Control-Allow-Headers	Authorization,UUID,Content-Type,Content-Length,Transfer-Encoding,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,X-Requested-With
-Access-Control-Allow-Credentials	true
-Access-Control-Allow-Methods	GET,POST,OPTIONS
-Cache-Control	no-cache, must-revalidate
-Content-Encoding	gzip
-Transfer-Encoding	chunked
-Connection	Keep-alive
-
-
-HTTP/1.1 200 OK
-Server	nginx/1.10.3
-Date	Fri, 01 Dec 2017 10:57:51 GMT
-Content-Type	text/html; charset=UTF-8
-Vary	Accept-Encoding
-Access-Control-Allow-Headers	Authorization,UUID,Content-Type,Content-Length,Transfer-Encoding,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,X-Requested-With
-Access-Control-Allow-Credentials	true
-Access-Control-Allow-Methods	GET,POST,OPTIONS
-Cache-Control	no-cache, must-revalidate
-Content-Encoding	gzip
-Transfer-Encoding	chunked
-Connection	Keep-alive
+{
+  "code": 0,
+  "errCode": 0,
+  "err_code": 0,
+  "status": 0,
+  "rs": true,
+  "msg": "身份证件照必上传 ,懂球号头像必填 ",
+  "url":"http://img.dongqiudi.com/uploads/avatar/2017/04/24/QJi2o5k3JE_avatar.jpg",
+  "message": "成功",
+  "id": "sdafas",
+  "money": 100,
+  "re": 1,
+  "data": {
+      "id": 43,
+      "username": "六个字的名字",
+      "email": null,
+      "avatar": "http://img.dongqiudi.com/uploads/avatar/2017/04/24/QJi2o5k3JE_avatar.jpg!avatarsmall",
+      "avatar_medium": null,
+      "avatar_small": null,
+      "gender": "male",
+      "phone_number": null,
+      "region_id": 476,
+      "lang": "zh-cn",
+      "created_ip": "111.197.82.49",
+      "logined_ip": "124.207.6.82",
+      "logined_at": "2017-09-05 12:11:45",
+      "phone_country": null,
+      "is_admin": 1,
+      "hometeam": 475,
+      "medal_id": 6,
+      "medal_desc": "圈主",
+      "mention": 1,
+      "reply": 1,
+      "silent": 1,
+      "blocked": 0,
+      "type": "normal",
+      "created_at": "2014-04-14 21:03:59",
+      "unlock_at": null,
+      "default_address_id": null,
+      "phone_province": null,
+      "phone_operator": null,
+      "ext": "{\"club_id\":\"1\"}"
+  }
+}

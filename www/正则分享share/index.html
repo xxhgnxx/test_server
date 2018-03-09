@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"> -->
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>正则分享</title>
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <style>
+    html,
+    body {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      font-family: "PingFang SC", "Microsoft YaHei", "微软雅黑", "Helvetica", "STHeiti",
+      "WenQuanYi Micro Hei", "SimSun", "sans-serif";
+      color: #333;
+
+      height: 100%;
+      width: 100%;
+      background: #fff;
+      /* 无惯性滚动 */
+      -webkit-overflow-scrolling:auto; 
+    }
+
+  </style>
+  <script type="text/javascript" src="{{VUE_CDN}}"></script>
+  <script type="text/javascript">
+    // document.getElementsByTagName('html')[0].style.fontSize = (document.documentElement.getBoundingClientRect().width ||
+    //   window.screen.width) / 20 + 'px'
+    var mainData = {}
+    window.browers = {}
+    var ua = navigator.userAgent.toLowerCase()
+    browers.iPad = ua.match(/ipad/)
+    browers.iPhone = ua.match(/iphone/)
+    browers.Android = ua.match(/android/)
+    browers.iOS = ua.match(/ipad|iphone|ios/)
+    browers.ie = ua.match(/iemobile/)
+    browers.isWifi = ua.match(/nettype\/wifi|technology\/wifi/)
+    browers.force_ssl = ua.match(/Android (5|6)/i)
+    browers.is_ios_6 = ua.match(/iOS 6/i)
+    browers.is_liveapp = ua.match(/LiveApp/i)
+    // 判断是否是app客户端内
+    var ua_dqd = ua.match(/NewsApp\/([\d\.]+)/i)
+
+    var bridgeInit = false
+
+    function connectWebViewJavascriptBridge(callback) {
+      if (window.WebViewJavascriptBridge) {
+        if (bridgeInit === false) {
+          WebViewJavascriptBridge.init(function (message, responseCallback) {})
+          bridgeInit = true
+        }
+        callback && callback(WebViewJavascriptBridge)
+      } else {
+        document.addEventListener('WebViewJavascriptBridgeReady', function () {
+          if (bridgeInit === false) {
+            WebViewJavascriptBridge.init(function (message, responseCallback) {})
+            bridgeInit = true
+          }
+          callback && callback(WebViewJavascriptBridge)
+        }, false)
+      }
+    }
+
+    // 获取url参数
+    function _getQuery(name) {
+      var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)')
+      var tmp = location.href.split('?').pop()
+      // var r = tmp.substr(1).match(reg);
+      var r = tmp.match(reg)
+      if (r != null) return unescape(r[2])
+      return ''
+    }
+  </script>
+</body>
+
+</html>

@@ -63,8 +63,15 @@ app.get("/img", function (req, res) {
 	});
 });
 app.get('/test', async(req, res) => {
-	res.redirect('http://10.18.7.108:8080/webapp/soccer_hero.html?username=hgn&code=kkk');
+	res.redirect('http://10.18.7.108:7777/test.html');
 })
+app.get('/tt', async(req, res) => {
+	res.redirect('http://10.18.7.108:8080/webapp/plan.html');
+})
+
+
+
+
 // var cookieParser = require('cookie-parser')
 // app.use(cookieParser())
 // var bodyParser = require('body-parser')

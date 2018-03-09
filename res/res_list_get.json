@@ -32,5 +32,7 @@
     "/hgn/app/kwas/nextLive": { "des": "谁是懂球帝3", "data": "/live_quiz.json" },
     "/hgn/data/detail/match/": { "des": "阵型信息", "data": "/match.json" },
     "/hgn/plan/index": { "des": "专家", "data": "/plan.json" },
-    "/hgn/v2/activity/spring_2018_warmup/index": { "des": "新春预热", "data": "/spring_2018.json" }
+    "/hgn/v2/activity/spring_2018_warmup/index": { "des": "新春预热", "data": "/spring_2018.json" },
+    "/hgn/test": { "des": "test", "data": "/test.json" },
+    "/hgn/send_exg": { "des": "test", "data": "/ok.json" }
 }
