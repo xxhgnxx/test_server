@@ -1,0 +1,142 @@
+{
+    "total": [{
+        "season": {
+            "name": "2018"
+        },
+        "team": {
+            "id": "1173",
+            "name": "\u5168\u5317\u73b0\u4ee3"
+        },
+        "list": [{
+            "title": "\u51fa\u573a",
+            "value": "0"
+        }, {
+            "title": "\u9996\u53d1",
+            "value": "0"
+        }, {
+            "title": "\u8fdb\u7403",
+            "value": "0"
+        }, {
+            "title": "\u52a9\u653b",
+            "value": "0"
+        }, {
+            "title": "\u9ec4\u724c",
+            "value": "0"
+        }, {
+            "title": "\u7ea2\u724c",
+            "value": "0"
+        }, {
+            "title": "\u66ff\u8865",
+            "value": "0"
+        }]
+    }],
+    "league": [{
+        "competition": {
+            "id": "117",
+            "name": "\u97e9\u56fd\u7ecf\u5178K\u8054\u8d5b",
+            "short_name": "K\u8054\u8d5b",
+            "logo": "https:\/\/img.dongqiudi.com\/soccer\/data\/logo\/competition\/default.png"
+        },
+        "season": {
+            "id": "10212",
+            "name": "2018",
+            "season": "2018"
+        },
+        "team": {
+            "id": "1173",
+            "name": "\u5168\u5317\u73b0\u4ee3",
+            "short_name": "\u5168\u5317\u73b0\u4ee3",
+            "logo": "https:\/\/img.dongqiudi.com\/soccer\/data\/logo\/team\/11731111.png"
+        },
+        "id": "2500332",
+        "base_info": {
+            "appearances": "0",
+            "starts": "0",
+            "goals": "0",
+            "assists": "0",
+            "substitute_in": "0",
+            "avg_appearances_time": "-"
+        },
+        "attack": {
+            "goals": "0",
+            "shots": "-",
+            "fouled": "-",
+            "offsides": "-",
+            "avg_goals": "-",
+            "freq_goals": "-",
+            "shots_on_target_rate": "-"
+        },
+        "pass": {
+            "assists": "0",
+            "passes": "-",
+            "key_passes": "-",
+            "success_pass_rate": "-"
+        },
+        "defense": {
+            "avg_tackles": "-",
+            "avg_interceptions": "-",
+            "avg_clearances": "-"
+        },
+        "discipline": {
+            "fouls": "-",
+            "yellow_cards": "0",
+            "red_cards": "0",
+            "appearances_time": "0"
+        }
+    }],
+    "cup": [{
+        "competition": {
+            "id": "226",
+            "name": "\u4e9a\u6d32\u8db3\u7403\u51a0\u519b\u8054\u8d5b",
+            "short_name": "\u4e9a\u51a0",
+            "logo": "https:\/\/img.dongqiudi.com\/soccer\/data\/logo\/competition\/default.png"
+        },
+        "season": {
+            "id": "10172",
+            "name": "2018",
+            "season": "2018"
+        },
+        "team": {
+            "id": "1173",
+            "name": "\u5168\u5317\u73b0\u4ee3",
+            "short_name": "\u5168\u5317\u73b0\u4ee3",
+            "logo": "https:\/\/img.dongqiudi.com\/soccer\/data\/logo\/team\/11731111.png"
+        },
+        "id": "2498098",
+        "base_info": {
+            "appearances": "0",
+            "starts": "0",
+            "goals": "0",
+            "assists": "0",
+            "substitute_in": "0",
+            "avg_appearances_time": "-"
+        },
+        "attack": {
+            "goals": "0",
+            "shots": "-",
+            "fouled": "-",
+            "offsides": "-",
+            "avg_goals": "-",
+            "freq_goals": "-",
+            "shots_on_target_rate": "-"
+        },
+        "pass": {
+            "assists": "0",
+            "passes": "-",
+            "key_passes": "-",
+            "success_pass_rate": "-"
+        },
+        "defense": {
+            "avg_tackles": "-",
+            "avg_interceptions": "-",
+            "avg_clearances": "-"
+        },
+        "discipline": {
+            "fouls": "-",
+            "yellow_cards": "0",
+            "red_cards": "0",
+            "appearances_time": "0"
+        }
+    }],
+    "international": []
+}

@@ -41,6 +41,7 @@
 <textarea id="url_text" rows="3" cols="40">http://www.test.com</textarea>
 <br>
 <button type="button" onclick='setup(1)'>设置分享</button>
+<button type="button" onclick='show_share_btn()'>显示分享</button>
 <br>
 <!-- <button type="button" onclick='setup(2)'>唤醒分享</button> -->
 <br>
@@ -214,8 +215,8 @@ setTimeout(() => {
     }
 
 
-    // 设置评论栏分享按钮
-function set_share(title, content, is_picture) {
+    // 显示外链容器右上角分享按钮
+function show_share_btn(title, content, is_picture) {
   var options = {
     title: title || '', // 分享标题
     content: content || '', // 分享摘要
@@ -223,17 +224,17 @@ function set_share(title, content, is_picture) {
   }
 
   connectWebViewJavascriptBridge(function (bridge) {
-    bridge.callHandler("showshare", options);
+    // bridge.callHandler("showshare", options);
+    bridge.callHandler('isShowTitle', {
+            'isShowTitle': true
+          });
   });
   if (browers.Android) {
     try {
-      Android.appShare(JSON.stringify(options));
+      // Android.appShare(JSON.stringify(options));
       Android.isShowTitle('{"isShowTitle": true}');
     } catch (e) {}
   }
-
-
-
 }
   </script>
 </body>

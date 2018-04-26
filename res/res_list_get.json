@@ -30,9 +30,14 @@
     "/hgn/v2/activity/live_quiz/index": { "des": "谁是懂球帝", "data": "/live_quiz.json" },
     "/hgn/app/kwas/uInfo": { "des": "谁是懂球帝2", "data": "/live_quiz.json" },
     "/hgn/app/kwas/nextLive": { "des": "谁是懂球帝3", "data": "/live_quiz.json" },
-    "/hgn/data/detail/match/": { "des": "阵型信息", "data": "/match.json" },
+    "/hgn/data/person/match": { "des": "阵型信息", "data": "/match.json" },
     "/hgn/plan/index": { "des": "专家", "data": "/plan.json" },
     "/hgn/v2/activity/spring_2018_warmup/index": { "des": "新春预热", "data": "/spring_2018.json" },
     "/hgn/test": { "des": "test", "data": "/test.json" },
-    "/hgn/send_exg": { "des": "test", "data": "/ok.json" }
+    "/hgn/v2/activity/brshow/getinfo": { "des": "拜仁夺冠的活动页", "data": "/user_info.json" },
+    "/hgn/send_exg": { "des": "test", "data": "/ok.json" },
+    "/hgn/v2/activity/teaminfo/create": { "des": "球赛报名", "data": "/create.json" },
+    "/hgn/data/overview/match": { "des": "球赛报名", "data": "/match_event.json" },
+    "/hgn/data/v1/person/statistic_new": { "des": "球赛报名", "data": "/statistic_new.json" },
+    "/hgn/api/adidas-club/verification-code": { "des": "adidas用户信息", "data": "/verification.json" }  
 }

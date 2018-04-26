@@ -63,11 +63,13 @@ app.get("/img", function (req, res) {
 	});
 });
 app.get('/test', async(req, res) => {
-	res.redirect('http://10.18.7.108:7777/test.html');
+	res.redirect('http://10.18.7.108:7777/双向绑定分享');
 })
 app.get('/tt', async(req, res) => {
-	res.redirect('http://10.18.7.108:8080/webapp/plan.html');
+	res.redirect('http://10.18.7.108:8083/webapp/career-stats/career-stats.html?id=123123123');
 })
+
+
 
 
 
@@ -150,7 +152,7 @@ app.use('*', async(req, res) => {
 		})
 	} else {
 		console.log(time()+"无效请求", req.url)
-		res.status(404).send('无效请求')
+		res.status(400).send('无效请求')
 	}
 })
 

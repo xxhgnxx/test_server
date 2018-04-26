@@ -1,0 +1,443 @@
+{
+    "status": "Played",
+    "article": [],
+    "events": {
+        "11": {
+            "minute": "11",
+            "teamAEvents": [],
+            "teamBEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/G.png",
+                    "person": "埃尔沙哈特",
+                    "person_href": "dongqiudi:///player/50261647",
+                    "person_id": "50261647",
+                    "score": "0-1"
+                }
+            ]
+        },
+        "14": {
+            "minute": "14",
+            "teamAEvents": [],
+            "teamBEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/YC.png",
+                    "person": "莫哈纳德-萨勒姆",
+                    "person_href": "dongqiudi:///player/50055704",
+                    "person_id": "50055704",
+                    "score": ""
+                }
+            ]
+        },
+        "35": {
+            "minute": "35",
+            "teamAEvents": [],
+            "teamBEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/YC.png",
+                    "person": "埃尔沙哈特",
+                    "person_href": "dongqiudi:///player/50261647",
+                    "person_id": "50261647",
+                    "score": ""
+                }
+            ]
+        },
+        "36": {
+            "minute": "36",
+            "teamAEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/YC.png",
+                    "person": "丹尼尔-戈马",
+                    "person_href": "dongqiudi:///player/50079775",
+                    "person_id": "50079775",
+                    "score": ""
+                }
+            ],
+            "teamBEvents": []
+        },
+        "42": {
+            "minute": "42",
+            "teamAEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/YC.png",
+                    "person": "罗德里戈-田畑",
+                    "person_href": "dongqiudi:///player/50007197",
+                    "person_id": "50007197",
+                    "score": ""
+                }
+            ],
+            "teamBEvents": []
+        },
+        "43": {
+            "minute": "43",
+            "teamAEvents": [],
+            "teamBEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/SI.png",
+                    "person": "穆罕默德-法耶兹",
+                    "person_href": "dongqiudi:///player/50053690",
+                    "person_id": "50053690",
+                    "score": ""
+                },
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/SO.png",
+                    "person": "莫哈纳德-萨勒姆",
+                    "person_href": "dongqiudi:///player/50055704",
+                    "person_id": "50055704",
+                    "score": ""
+                }
+            ]
+        },
+        "53": {
+            "minute": "53",
+            "teamAEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/YC.png",
+                    "person": "贡萨洛-比埃拉",
+                    "person_href": "dongqiudi:///player/50093841",
+                    "person_id": "50093841",
+                    "score": ""
+                }
+            ],
+            "teamBEvents": []
+        },
+        "55": {
+            "minute": "55",
+            "teamAEvents": [],
+            "teamBEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/G.png",
+                    "person": "奥马尔-阿卜杜勒拉赫曼",
+                    "person_href": "dongqiudi:///player/50045765",
+                    "person_id": "50045765",
+                    "score": "0-2"
+                }
+            ]
+        },
+        "58": {
+            "minute": "58",
+            "teamAEvents": [],
+            "teamBEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/G.png",
+                    "person": "马库斯-贝里",
+                    "person_href": "dongqiudi:///player/50005068",
+                    "person_id": "50005068",
+                    "score": "0-3"
+                },
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/AS.png",
+                    "person": "塩谷司",
+                    "person_href": "dongqiudi:///player/50114917",
+                    "person_id": "50114917",
+                    "score": ""
+                }
+            ]
+        },
+        "59": {
+            "minute": "59",
+            "teamAEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/SI.png",
+                    "person": "阿卜杜勒拉赫曼-哈拉齐",
+                    "person_href": "dongqiudi:///player/50203432",
+                    "person_id": "50203432",
+                    "score": ""
+                },
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/SO.png",
+                    "person": "丹尼尔-戈马",
+                    "person_href": "dongqiudi:///player/50079775",
+                    "person_id": "50079775",
+                    "score": ""
+                }
+            ],
+            "teamBEvents": []
+        },
+        "64": {
+            "minute": "64",
+            "teamAEvents": [],
+            "teamBEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/SI.png",
+                    "person": "赖扬-穆罕默德",
+                    "person_href": "dongqiudi:///player/50136682",
+                    "person_id": "50136682",
+                    "score": ""
+                },
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/SO.png",
+                    "person": "埃尔沙哈特",
+                    "person_href": "dongqiudi:///player/50261647",
+                    "person_id": "50261647",
+                    "score": ""
+                }
+            ]
+        },
+        "78": {
+            "minute": "78",
+            "teamAEvents": [],
+            "teamBEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/G.png",
+                    "person": "马库斯-贝里",
+                    "person_href": "dongqiudi:///player/50005068",
+                    "person_id": "50005068",
+                    "score": "0-4"
+                },
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/AS.png",
+                    "person": "卡约",
+                    "person_href": "dongqiudi:///player/50211002",
+                    "person_id": "50211002",
+                    "score": ""
+                }
+            ]
+        },
+        "81": {
+            "minute": "81",
+            "teamAEvents": [],
+            "teamBEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/SI.png",
+                    "person": "艾哈迈德-哈利勒",
+                    "person_href": "dongqiudi:///player/50045767",
+                    "person_id": "50045767",
+                    "score": ""
+                },
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/SO.png",
+                    "person": "阿米尔-阿卜杜勒拉赫曼",
+                    "person_href": "dongqiudi:///player/50067701",
+                    "person_id": "50067701",
+                    "score": ""
+                }
+            ]
+        },
+        "85": {
+            "minute": "85",
+            "teamAEvents": [
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/G.png",
+                    "person": "塞巴斯蒂安-索里亚",
+                    "person_href": "dongqiudi:///player/50048317",
+                    "person_id": "50048317",
+                    "score": "1-4"
+                },
+                {
+                    "minute_extra": "0",
+                    "event_pic": "https://img.dongqiudi.com/soccer/data/logo/event/AS.png",
+                    "person": "穆罕默德-朱马",
+                    "person_href": "dongqiudi:///player/50134630",
+                    "person_id": "50134630",
+                    "score": ""
+                }
+            ],
+            "teamBEvents": []
+        }
+    },
+    "statistics": {
+        "team_A": {
+            "id": "2890",
+            "name": "赖扬",
+            "short_name": "赖扬",
+            "logo": "https://img.dongqiudi.com/data/pic/3505.png",
+            "href": "dongqiudi:///team/50002890"
+        },
+        "team_B": {
+            "id": "3125",
+            "name": "艾因",
+            "short_name": "艾因",
+            "logo": "https://img.dongqiudi.com/data/pic/3846.png",
+            "href": "dongqiudi:///team/50003125"
+        },
+        "list": [
+            {
+                "en_type": "",
+                "type": "控球率",
+                "team_A": {
+                    "value": "56",
+                    "per": 56,
+                    "class": ""
+                },
+                "team_B": {
+                    "value": "44",
+                    "per": 44,
+                    "class": "ranks_l"
+                }
+            },
+            {
+                "en_type": "",
+                "type": "射门",
+                "team_A": {
+                    "value": "15",
+                    "per": 58,
+                    "class": ""
+                },
+                "team_B": {
+                    "value": "11",
+                    "per": 42,
+                    "class": "ranks_l"
+                }
+            },
+            {
+                "en_type": "",
+                "type": "射正",
+                "team_A": {
+                    "value": "2",
+                    "per": 22,
+                    "class": "ranks_l"
+                },
+                "team_B": {
+                    "value": "7",
+                    "per": 78,
+                    "class": ""
+                }
+            },
+            {
+                "en_type": "",
+                "type": "封堵",
+                "team_A": {
+                    "value": "3",
+                    "per": 60,
+                    "class": ""
+                },
+                "team_B": {
+                    "value": "2",
+                    "per": 40,
+                    "class": "ranks_l"
+                }
+            },
+            {
+                "en_type": "",
+                "type": "任意球",
+                "team_A": {
+                    "value": "21",
+                    "per": 54,
+                    "class": ""
+                },
+                "team_B": {
+                    "value": "18",
+                    "per": 46,
+                    "class": "ranks_l"
+                }
+            },
+            {
+                "en_type": "",
+                "type": "角球",
+                "team_A": {
+                    "value": "8",
+                    "per": 80,
+                    "class": ""
+                },
+                "team_B": {
+                    "value": "2",
+                    "per": 20,
+                    "class": "ranks_l"
+                }
+            },
+            {
+                "en_type": "",
+                "type": "越位",
+                "team_A": {
+                    "value": "5",
+                    "per": 83,
+                    "class": ""
+                },
+                "team_B": {
+                    "value": "1",
+                    "per": 17,
+                    "class": "ranks_l"
+                }
+            },
+            {
+                "en_type": "",
+                "type": "换人",
+                "team_A": {
+                    "value": "1",
+                    "per": 25,
+                    "class": "ranks_l"
+                },
+                "team_B": {
+                    "value": "3",
+                    "per": 75,
+                    "class": ""
+                }
+            },
+            {
+                "en_type": "",
+                "type": "犯规",
+                "team_A": {
+                    "value": "13",
+                    "per": 39,
+                    "class": "ranks_l"
+                },
+                "team_B": {
+                    "value": "20",
+                    "per": 61,
+                    "class": ""
+                }
+            },
+            {
+                "en_type": "",
+                "type": "黄牌",
+                "team_A": {
+                    "value": "3",
+                    "per": 60,
+                    "class": ""
+                },
+                "team_B": {
+                    "value": "2",
+                    "per": 40,
+                    "class": "ranks_l"
+                }
+            }
+        ]
+    },
+    "relateArticle": [
+        {
+            "id": "621077",
+            "title": "奥马尔亚冠再现无解任意球，魔鬼脚法踢得对手门将没反应",
+            "schema": "dongqiudi:///video_detail/621077",
+            "thumb": "https://img1.dongqiudi.com/fastdfs2/M00/68/BF/180x135/crop/-/ChNy21rVPEuAZnd9AAEt-EZxL58556.jpg",
+            "type": "video",
+            "description": null,
+            "b_description": "",
+            "time": "04-17 08:40",
+            "pc_show_time": "04-17 08:40:46",
+            "commentsTotal": 111
+        },
+        {
+            "id": "620327",
+            "title": "西亚亚冠小组赛最后一轮，阿尔艾因客场力争不败出线",
+            "schema": "dongqiudi:///news/620327",
+            "thumb": "https://img1.dongqiudi.com/fastdfs2/M00/68/7C/180x135/crop/-/ChOqM1rUVbCAIelUAAFHU8IiOrM553.jpg",
+            "type": "article",
+            "description": "",
+            "b_description": "",
+            "time": "04-16 20:25",
+            "pc_show_time": "04-16 20:25:21",
+            "commentsTotal": 34
+        }
+    ],
+    "gifCollection": []
+}

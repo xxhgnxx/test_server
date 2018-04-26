@@ -1,46 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="lv1">
+    <div class='cut'>这是五个字这是十个字</div>
+    <div class='full'>俩字</div>
+</div>
 
-<head>
-    <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui"> -->
-    <!-- <meta id="viewport" name="viewport" content="width=375px, user-scalable=no" /> -->
-    <meta id="viewport" name="viewport" content="width=device-width"/>
-    <!-- <meta id="viewport" name="viewport" content="width=device-width,user-scalable=no,target-densitydpi=device-dpi"/>
-    <script type="text/javascript">
-        // var viewport = document.getElementById('viewport');
-    
-        // var w =  window.innerWidth;
-    
-        // viewport.content += 'initial-scale=' + parseFloat(375 / w);
-    
-        var base = 375;
-        // baseScale = document.documentElement.clientWidth / base;
-        var baseScale = screen.width / base;
-        // document.body.style.zoom = scale;
-        if (window.scaleType != '1') {
-            var meta = document.querySelector('meta[name="viewport"]');
-            meta.setAttribute('content', 'width=' + base + ',initial-scale=' + baseScale + ',maximum-scale=' + baseScale + ', minimum-scale=' + baseScale + ',user-scalable=0,target-densitydpi=device-dpi');
-        }
-      </script> -->
-    <title>韩泰轮胎助力皇马之月</title>
-    <style>
-    
-        .test {
-           width: 1rem;
-           height: 1rem;
-           background: red;
-            
-        }
-     
-    </style>
-</head>
+<style>
+    .lv1 {
+        background: rgba(255, 0, 0, .2);
+        /* max-width: 150px; */
+        display: inline-block;
+        position: relative;
+    }
 
-<body>
-    <div class="test"></div>
-</body>
-<script>
-    document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.getBoundingClientRect().width / 10 + 'px';
+    .cut {
+        background: rgba(0, 0, 255, .2);
+        display: inline-block;
 
-</script>
-</html>
+        width: auto;
+        max-width: 150px;
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: top;
+
+
+        box-sizing: border-box;
+        padding-right: 40px;
+    }
+
+    .full {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+</style>

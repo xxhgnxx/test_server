@@ -13,5 +13,8 @@
     "/hgn/uploads": { "des": "上传图片", "data": "/pic_upload_ok.json" },
     "/hgn/settle": { "des": "上传图片", "data": "/ok.json" },
     "/hgn/v2/activity/live_quiz/card": { "des": "上传图片", "data": "/card.json" },
-    "/hgn/v2/activity/spring_2018_warmup/up": { "des": "新春预热", "data": "/spring_2018.json" }
+    "/hgn/v2/activity/spring_2018_warmup/up": { "des": "新春预热", "data": "/spring_2018.json" },
+    "/hgn/v2/activity/teaminfo/create": { "des": "球赛报名", "data": "/create.json" },
+    "/hgn/api/adidas-club/verification-code": { "des": "adidas用户查询", "data": "/verification.json" }, 
+    "/hgn/api/adidas-club/register": { "des": "adidas用户注册", "data": "/register.json" }
 }

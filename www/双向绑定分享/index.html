@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>数据绑定分享</title>
+
+</head>
+
+<body>
+
+  <div class="main">
+    <button onclick="setTest()">set t1=123</button>
+    <input type="text" h-data='t1'>
+    <div id="output" h-data='t1'></div>
+    <input type="text" h-data='t1'>
+  </div>
+
+
+  <script>
+    
+    let app = {}
+
+Object.defineProperty(app, 'testData', {
+  configurable: true, // 描述该属性的描述符能否被改变，默认值为 false
+  enumerable: true, // 能否被遍历，比如 for in，默认值为 false
+  get: function () { // 取值的时候调用，object.test，默认值为 false
+    console.log('数据被修改了')
+    return test
+  },
+  set: function (newValue) { // 设置值的时候使用
+    console.log('数据被获取了')
+    test = newValue
+  }
+})
+
+function defData(name, value) {
+  Object.defineProperty(app, name, {
+    configurable: true,
+    enumerable: true,
+    get: function () {
+      console.log('数据读取， get')
+      return value
+    },
+    set: function (newValue) { // 设置值的时候使用
+      console.log('数据修改 set', newValue)
+      updataFn()
+    }
+  })
+}
+
+defData('t1','')
+
+function updataFn(fn) {
+
+}
+
+function setTest() {
+  app.t1 = 123
+}
+
+  </script>
+  <style>
+    html,
+    body {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      font-family: "PingFang SC", "Microsoft YaHei", "微软雅黑", "Helvetica", "STHeiti",
+      "WenQuanYi Micro Hei", "SimSun", "sans-serif";
+      color: #333;
+
+      height: 100%;
+      width: 100%;
+      background: #fff;
+      /* 无惯性滚动 */
+      -webkit-overflow-scrolling: auto;
+    }
+  </style>
+  <!-- <script type="text/javascript" src="index.js"></script> -->
+  <script type="text/javascript">
+    document.getElementsByTagName('html')[0].style.fontSize = (document.documentElement.getBoundingClientRect().width ||
+      window.screen.width) / 20 + 'px'
+    var mainData = {}
+    window.browers = {}
+    var ua = navigator.userAgent.toLowerCase()
+    browers.iPad = ua.match(/ipad/)
+    browers.iPhone = ua.match(/iphone/)
+    browers.Android = ua.match(/android/)
+    browers.iOS = ua.match(/ipad|iphone|ios/)
+    browers.ie = ua.match(/iemobile/)
+    browers.isWifi = ua.match(/nettype\/wifi|technology\/wifi/)
+    browers.force_ssl = ua.match(/Android (5|6)/i)
+    browers.is_ios_6 = ua.match(/iOS 6/i)
+    browers.is_liveapp = ua.match(/LiveApp/i)
+    // 判断是否是app客户端内
+    var ua_dqd = ua.match(/NewsApp\/([\d\.]+)/i)
+
+
+
+
+    // 获取url参数
+    function _getQuery(name) {
+      var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)')
+      var tmp = location.href.split('?').pop()
+      // var r = tmp.substr(1).match(reg);
+      var r = tmp.match(reg)
+      if (r != null) return unescape(r[2])
+      return ''
+    }
+  </script>
+  <style>
+    .main {
+      height: 100%;
+      width: 100%;
+    }
+    input{
+      border: solid 1px red;
+    }
+    button{
+      background: rgba(255, 0, 0, .2)
+    }
+  </style>
+</body>
+
+</html>
