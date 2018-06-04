@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>数据绑定分享</title>
+</head>
+
+<body>
+  <!-- <template>
+    <button onclick="setTest()">set t1=123</button>
+    <input type="text" h-data="t1">
+    <div id="output" h-data="t1"></div>
+    <input type="text" h-data="t1">
+  </template> -->
+  <div id="hgn-app">
+    <button onclick="change(123)">set test=123</button>
+    <input type="text" hgn-input="test">
+    <div id="output">{h{test}h}</div>
+  </div>
+  <script>
+    // 声明数据
+    var hgn = {
+      test: '123'
+    }
+
+    function change(val) {
+      hgn.test = val
+    }
+
+    function observe(data) {
+      if (!data || typeof data !== 'object') {
+        return;
+      }
+      // 取出所有属性遍历
+      var keys = Object.keys(data)
+      for (var i = 0, l = keys.length; i < l; i++) {
+        defineReactive(data, keys[i], data[keys[i]])
+      }
+    };
+
+
+    function defineReactive(obj, key, val) {
+      // 子属性
+      var childOb = observe(val)
+      Object.defineProperty(obj, key, {
+        enumerable: true,
+        configurable: true,
+        // 注册一个get的监控，响应数据变动，
+        get: function () {
+          console.log('数据'+key+'被读取');
+          alert('数据'+key+'被读取')
+          return val
+        },
+        // 注册一个set的监控，触发数据变动
+        set: function (newVal) {
+          if (newVal === val) {
+            return
+          }
+          val = newVal
+          console.log('数据'+key+'被修改了',val);
+          alert('数据'+key+'被修改了->'+val)
+        }
+      })
+    }
+
+    observe(hgn)
+  </script>
+  <style>
+    .main {
+      height: 100%;
+      width: 100%;
+    }
+
+    input {
+      border: solid 1px red;
+      display: block;
+      margin: 2px;
+    }
+
+    button {
+      background: rgba(255, 0, 0, .2)
+    }
+  </style>
+</body>
+
+</html>

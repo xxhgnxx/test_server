@@ -1,0 +1,44 @@
+{
+  "challenge": {
+    "id": "62354d5e11387afca83972eb36d8764c",
+    "count": 4,
+    "compete": {
+      "compete_id": 2,
+      "winner": -1,
+      "datetime": "2018-05-08 20:08:19",
+      "state": "Fixture",
+      "host_team_name": "\u666e\u7f57\u97e6\u5c14\u5207\u5229",
+      "host_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/5675.png",
+      "guest_team_name": "\u6069\u6ce2\u5229",
+      "guest_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/1261.png"
+    },
+    "guarantee": {
+      "id": 1,
+      "val": "\u4ef7\u503c5\u5143\u7684\u53ef\u4e50"
+    },
+    "creator": {
+      "nickname": "\u4e8e\u632f\u56fd",
+      "winner": 1,
+      "breach": {
+        "id": 1,
+        "val": "\u4e00\u8f88\u5b50\u90fd\u662f\u201c\u975e\u6d32\u4eba\u201d"
+      }
+    },
+    "me": {
+      "nickname": "\u80e1\u529f\u5b81",
+      "winner": 0,
+      "breach": {
+        "id": 2,
+        "val": "\u4ee5\u540e\u5408\u7167\u6211\u603b\u662f\u6700\u4e11\u7684"
+      }
+    },
+    "joins": [{
+      "nickname": "\u80e1\u529f\u5b81",
+      "winner": 0,
+      "breach": {
+        "id": 2,
+        "val": "\u4ee5\u540e\u5408\u7167\u6211\u603b\u662f\u6700\u4e11\u7684"
+      }
+    }]
+  }
+}

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>数据绑定分享</title>
+</head>
+
+<body>
+  <!-- <template>
+    <button onclick="setTest()">set t1=123</button>
+    <input type="text" h-data="t1">
+    <div id="output" h-data="t1"></div>
+    <input type="text" h-data="t1">
+  </template> -->
+  <div id="app"></div>
+
+  <script>
+    // 声明数据
+    var vm = {}
+    vm.data = {
+      t1: '123'
+    }
+
+    function chage(val) {
+      hgn.test = val
+    }
+    // 数据响应化
+    // 核心精神是将数据转化为对象，利用defineProperty定义set和get方法
+    // 在需要数据响应化的地点注册get响应器，set触发事件，get响应事件
+    function _initData() {
+
+      // 属性代理 其他用处 与本次分享无关，略过
+      // _proxy(key)
+
+
+      // OB该数据
+      observe(vm.data)
+
+    }
+
+    function observe(value) {
+
+      // 首先判断是否是对象，是对象则进行处理，不是就退出
+      // if (!value || typeof value !== 'object') {
+      //   return
+      // }
+
+      var ob
+      // 在数据上绑定ob对象的实例
+      ob = new Observer(value)
+      return ob
+    }
+
+
+
+    function Observer(value) {
+
+      // 将数据本身存储到OB实例的value属性上
+      // this.value = value
+
+      // 注册dep实例 ??? 不知道做啥用的
+      // this.dep = new Dep()
+
+      // 注册ob属性，将Observer的实例(自身),绑定到数据的__ob__属性上  用处不明 ???
+      // def(value, '__ob__', this)
+
+      //  遍历属性，修改get和set方法 相应化
+      this.walk(value)
+    }
+
+    // function def(obj, key, val, enumerable) {
+    //   Object.defineProperty(obj, key, {
+    //     value: val,
+    //     // 其他相关属性暂时忽略
+    //     enumerable: !!enumerable,
+    //     writable: true,
+    //     configurable: true
+    //   })
+    // }
+
+    Observer.prototype.walk = function (obj) {
+      // 遍历全部属性
+      var keys = Object.keys(obj)
+      for (var i = 0, l = keys.length; i < l; i++) {
+        defineReactive(this.value, keys[i], obj[keys[i]])
+      }
+
+    }
+
+
+    function defineReactive(obj, key, val) {
+
+      // 遍历子集，在observe会判断是否是对象，是对象则将该对象内部相应化
+      // childOb 的情况忽略掉
+      //   var childOb = observe(val)
+
+
+      //  生成dep实例 消息队列，用于存储属性监听器
+      var dep = new Dep()
+
+
+      // var property = Object.getOwnPropertyDescriptor(obj, key)
+      // if (property && property.configurable === false) {
+      //   return
+      // }
+
+      // 有可能存在某个什么东西，并没有get和set的情况，比如 ???
+      // var getter = property && property.get
+      // var setter = property && property.set
+
+
+      Object.defineProperty(obj, key, {
+        enumerable: true,
+        configurable: true,
+        // 注册一个get的监控，响应数据变动，
+        get: function () {
+          // var value = getter ? getter.call(obj) : val
+
+          // 判断是否是需要响应数据变动，判断方式通过Dep实例来进行，这部分会在模板处理的时候 在transclude中进行添加
+          // (猜的)粗暴点说，只有通过模板特殊处理过的数据才能够进行响应动作 其他的正常的get动作直接返回value    
+
+          if (Dep.target) {
+            dep.depend()
+            // childOb 的情况忽略掉
+
+          }
+
+          return val
+        },
+        // 注册一个set的监控，触发数据变动
+        set: function (newVal) {
+          // var value = getter ? getter.call(obj) : val
+
+          if (newVal === value) {
+            return
+          }
+
+          // if (setter) {
+          //   setter.call(obj, newVal)
+          // } else {
+          val = newVal
+          // }
+
+          // 检测新值是否是对象 是的话进进行响应话
+          // childOb = observe(newVal)
+
+          // 通知订阅我这个dep的watcher们:我更新了
+          dep.notify()
+        }
+
+      })
+
+
+    }
+
+    function Dep() {
+      this.subs = [];
+    }
+    Dep.prototype = {
+      addSub: function (sub) {
+        this.subs.push(sub);
+      },
+      notify: function () {
+        this.subs.forEach(function (sub) {
+          sub.update();
+        });
+      }
+    };
+
+
+    var template =
+      '<button onclick="setTest()">set t1=123</button> <input type="text" h-data="t1"> <div id="output" h-data="t1"></div> <input type="text" h-data="t1">'
+
+
+
+    transclude(template)
+
+
+    function transclude(template) {
+
+      // transclude 模板种类繁多，transclude 判断模板种类，对模板进行1次加工 
+      // 将所有的attr都提取到._containerAttrs中?
+      // 添加若干参数属性，在后续的处理中根据参数属性的不同，进行不同处理
+      // 所有子元素的处理相关都忽略掉了，只考虑一层的问题
+      var target = document.querySelector("#app")
+      target.innerHTML = document.createElement('div').innerHTML = template
+      // slot相关的功能忽略掉
+      // resolveSlots(this, options._content)
+
+
+
+
+      // 转换成文档碎片fragment 
+      function node2Fragment(target) {
+        var fragment = document.createDocumentFragment(),
+          child;
+
+        // 将原生节点拷贝到fragment
+        while (child = el.firstChild) {
+          fragment.appendChild(child);
+        }
+
+        return fragment;
+      }
+
+      var fragment = node2Fragment
+      compile(fragment)
+
+    }
+
+
+    function compile(el) {
+
+
+
+    }
+
+
+    function link(params) {
+
+    }
+
+
+
+
+
+
+    let app = {}
+
+    Object.defineProperty(app, 'testData', {
+      configurable: true, // 描述该属性的描述符能否被改变，默认值为 false
+      enumerable: true, // 能否被遍历，比如 for in，默认值为 false
+      get: function () { // 取值的时候调用，object.test，默认值为 false
+        console.log('数据被修改了')
+        return test
+      },
+      set: function (newValue) { // 设置值的时候使用
+        console.log('数据被获取了')
+        test = newValue
+      }
+    })
+
+    function defData(name, value) {
+      Object.defineProperty(app, name, {
+        configurable: true,
+        enumerable: true,
+        get: function () {
+          console.log('数据读取， get')
+          return value
+        },
+        set: function (newValue) { // 设置值的时候使用
+          console.log('数据修改 set', newValue)
+          updataFn()
+        }
+      })
+    }
+
+    defData("t1", '')
+
+    function updataFn(fn) {
+
+    }
+
+    function setTest() {
+      app.t1 = 123
+    }
+  </script>
+  <style>
+    html,
+    body {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      font-family: "PingFang SC", "Microsoft YaHei", "微软雅黑", "Helvetica", "STHeiti",
+      "WenQuanYi Micro Hei", "SimSun", "sans-serif";
+      color: #333;
+
+      height: 100%;
+      width: 100%;
+      background: #fff;
+      /* 无惯性滚动 */
+      -webkit-overflow-scrolling: auto;
+    }
+  </style>
+  <!-- <script type="text/javascript" src="index.js"></script> -->
+  <script type="text/javascript">
+    document.getElementsByTagName('html')[0].style.fontSize = (document.documentElement.getBoundingClientRect().width ||
+      window.screen.width) / 20 + 'px'
+    var mainData = {}
+    window.browers = {}
+    var ua = navigator.userAgent.toLowerCase()
+    browers.iPad = ua.match(/ipad/)
+    browers.iPhone = ua.match(/iphone/)
+    browers.Android = ua.match(/android/)
+    browers.iOS = ua.match(/ipad|iphone|ios/)
+    browers.ie = ua.match(/iemobile/)
+    browers.isWifi = ua.match(/nettype\/wifi|technology\/wifi/)
+    browers.force_ssl = ua.match(/Android (5|6)/i)
+    browers.is_ios_6 = ua.match(/iOS 6/i)
+    browers.is_liveapp = ua.match(/LiveApp/i)
+    // 判断是否是app客户端内
+    var ua_dqd = ua.match(/NewsApp\/([\d\.]+)/i)
+
+
+
+
+    // 获取url参数
+    function _getQuery(name) {
+      var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)')
+      var tmp = location.href.split('?').pop()
+      // var r = tmp.substr(1).match(reg);
+      var r = tmp.match(reg)
+      if (r != null) return unescape(r[2])
+      return ''
+    }
+  </script>
+  <style>
+    .main {
+      height: 100%;
+      width: 100%;
+    }
+
+    input {
+      border: solid 1px red;
+      display: block;
+      margin: 2px;
+    }
+
+    button {
+      background: rgba(255, 0, 0, .2)
+    }
+  </style>
+</body>
+
+</html>

@@ -4,6 +4,7 @@ var fs = require('fs')
 var path = require('path')
 var express = require('express')
 var app = express()
+
 app.use('/', express.static(__dirname + '/www'))
 var privateKey = fs.readFileSync(path.join(__dirname, './conf/key/private.pem'), 'utf8')
 var certificate = fs.readFileSync(path.join(__dirname, './conf/key/file.crt'), 'utf8')
@@ -191,3 +192,32 @@ function get_file_list(path) {
 function time(){
 return moment().format('hh:mm')+"-"
 }
+
+
+
+// var options = { 
+//     hostname: 'https://m.dianping.com/shop/91958327', 
+//     path: '' , 
+//     method: 'GET' 
+// }; 
+   
+// var req = https_test.request(options, function (res) { 
+// 	console.log('STATUS: ' + res.statusCode); 
+// 	if (res.statusCode) {
+		
+// 	}
+    
+//     // console.log('HEADERS: ' + JSON.stringify(res.headers)); 
+//     res.setEncoding('utf8'); 
+//     res.on('data', function (chunk) { 
+//         // console.log('BODY: ' + chunk); 
+//     }); 
+// }); 
+   
+// req.on('error', function (e) { 
+//     console.log('problem with request: ' + e.message); 
+// }); 
+   
+// req.end(function (e) { 
+// 	console.log('end'); 
+// });

@@ -1,36 +1,55 @@
 {
     "code": "0",
     "message": "success",
-    "data": {
+    "data": [{
         "plan_info": {
             "plan_price": "188",
             "refund_detail": "\u82e5\u9519\u8bef\u5168\u989d\u9000\u6b3e",
-            "plan_id": "24002",
-            "sell_status": "0",
-            "summary": "\u5317\u7231\u5c14\u5170 +0.25 \u4e0b\u76d8",
-            "content": "",
-            "result": "2"
+            "plan_id": "72892",
+            "lottery_type_string": "\u4e9a\u76d8",
+            "sell_status": "1"
         },
         "match_info": {
             "team_A": {
-                "short_name": "\u5317\u7231\u5c14\u5170",
-                "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1584.png",
-                "fs": "0"
+                "short_name": "\u7687\u9a6c",
+                "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/2016.png",
+                "fs": ""
             },
             "team_B": {
-                "short_name": "\u745e\u58eb",
-                "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/2201.png",
-                "fs": "1"
+                "short_name": "\u5229\u7269\u6d66",
+                "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/663.png",
+                "fs": ""
             },
-            "competition": "\u4e16\u6b27\u9884",
-            "status": "Played",
-            "startTime": "11-10 03:45"
+            "competition": "\u6b27\u51a0",
+            "status": "Fixture",
+            "startTime": "05-27 02:45",
+            "pankou": "\u4e9a\u76d8\uff1a0.25"
         },
-        "order_info": {
-            "order_no": "201711100311415470104421195",
-            "order_price": "188.00",
-            "status": "1",
-            "refund_status": "1"
-        }
-    }
+        "order_info": null
+    }, {
+        "plan_info": {
+            "plan_price": "188",
+            "refund_detail": "\u82e5\u9519\u8bef\u5168\u989d\u9000\u6b3e",
+            "plan_id": "72893",
+            "lottery_type_string": "\u5927\u5c0f\u7403",
+            "sell_status": "1"
+        },
+        "match_info": {
+            "team_A": {
+                "short_name": "\u7687\u9a6c",
+                "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/2016.png",
+                "fs": ""
+            },
+            "team_B": {
+                "short_name": "\u5229\u7269\u6d66",
+                "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/663.png",
+                "fs": ""
+            },
+            "competition": "\u6b27\u51a0",
+            "status": "Fixture",
+            "startTime": "05-27 02:45",
+            "pankou": "\u5927\u5c0f\u7403\uff1a3.25"
+        },
+        "order_info": null
+    }]
 }

@@ -1,0 +1,34 @@
+{
+  "challenge": {
+    "id": "77c68487627495517a7081e0c4a163f2",
+    "compete": {
+      "compete_id": 1001,
+      "host_team_name": "曼联1",
+      "host_team_flag": "https://img.dongqiudi.com/data/pic/2053.png",
+      "guest_team_name": "曼城1",
+      "guest_team_flag": "https://img.dongqiudi.com/data/pic/2013.png",
+      "datetime": "2018-06-01 02:03:00",
+      "winner": 1
+    },
+    "creator": {
+      "nickname": "挑战创建者",
+      "winner": 1,
+      "breach": {
+        "id": 1,
+        "val": "我将变成一只猪"
+      }
+    },
+    "me": {
+      "nickname": "皇冠鸟",
+      "winner": 2,
+      "breach": {
+        "id": 1,
+        "val": "我将变成一只猪"
+      }
+    },
+    "guarantee": {
+      "id": 1,
+      "val": "1瓶雪碧"
+    }
+  }
+}

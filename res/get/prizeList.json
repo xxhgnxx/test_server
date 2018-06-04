@@ -1,0 +1,143 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+      "prize_list": {
+          "60": [
+              {
+                  "name": "50元话费充值卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs3/M00/02/40/ChOxM1r-kKCAVav9AABUy3dEwfI176.png?imageMogr2/quality/80"
+              },
+              {
+                  "name": "5元京东E卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/71/EF/ChOqM1r0EbyAaO1EAABEPinhMl0582.png"
+              },
+              {
+                  "name": "100元话费充值卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs3/M00/02/40/ChOxM1r-kLmASsdRAABUmLKMfCk827.png?imageMogr2/quality/80"
+              },
+              {
+                  "name": "5元京东E卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/71/EF/ChOqM1r0EbyAaO1EAABEPinhMl0582.png"
+              },
+              {
+                  "name": "谢谢参与",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/62/F9/ChNy21rDTNyAJL9cAAAd6CeOtQU009.png"
+              },
+              {
+                  "name": "5元京东E卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/71/EF/ChOqM1r0EbyAaO1EAABEPinhMl0582.png"
+              },
+              {
+                  "name": "坚果3 手机",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs3/M00/02/41/ChMMFVr-kNCAHQ4KAAIErkmIVsc001.png?imageMogr2/quality/80"
+              },
+              {
+                  "name": "5元京东E卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/71/EF/ChOqM1r0EbyAaO1EAABEPinhMl0582.png"
+              }
+          ],
+          "600": [
+              {
+                  "name": "500元京东E卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/4C/08/ChNy21p8KD6AeP6GAAAMe_dju7s713.png?imageMogr2/quality/80"
+              },
+              {
+                  "name": "50元京东E卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/58/66/ChOqM1qg2XCAeUHyAAANNecs3BQ922.png?imageMogr2/quality/80"
+              },
+              {
+                  "name": "1000元京东E卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/4B/FA/ChOqM1p8KECAXeuKAAAMZt25oYs098.png?imageMogr2/quality/80"
+              },
+              {
+                  "name": "50元京东E卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/58/66/ChOqM1qg2XCAeUHyAAANNecs3BQ922.png?imageMogr2/quality/80"
+              },
+              {
+                  "name": "谢谢参与",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/62/F9/ChNy21rDTNyAJL9cAAAd6CeOtQU009.png"
+              },
+              {
+                  "name": "50元京东E卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/58/66/ChOqM1qg2XCAeUHyAAANNecs3BQ922.png?imageMogr2/quality/80"
+              },
+              {
+                  "name": "GoPro相机",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs3/M00/02/40/ChOxM1r-kN2AMhLWAAI2yt9g2m8702.png?imageMogr2/quality/80"
+              },
+              {
+                  "name": "50元京东E卡",
+                  "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/58/66/ChOqM1qg2XCAeUHyAAANNecs3BQ922.png?imageMogr2/quality/80"
+              }
+          ]
+      },
+      "winning_list": [
+          {
+              "username": "古塔山后的晓霞",
+              "prize_name": "50元京东E卡"
+          },
+          {
+              "username": "lxr0517",
+              "prize_name": "50元京东E卡"
+          },
+          {
+              "username": "红裤子",
+              "prize_name": "500元京东E卡"
+          },
+          {
+              "username": "電音教主",
+              "prize_name": "50元京东E卡"
+          },
+          {
+              "username": "刻意的沉默",
+              "prize_name": "50元京东E卡"
+          }
+      ],
+      "point": 990,
+      "diamond": 990,
+      "today_num": 990,
+      "show_prizes": [
+          {
+              "name": "500元京东卡",
+              "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/4C/08/ChNy21p8KD6AeP6GAAAMe_dju7s713.png?imageMogr2/quality/80"
+          },
+          {
+              "name": "50元京东E卡",
+              "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/58/66/ChOqM1qg2XCAeUHyAAANNecs3BQ922.png?imageMogr2/quality/80"
+          },
+          {
+              "name": "千元京东卡",
+              "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/4B/FA/ChOqM1p8KECAXeuKAAAMZt25oYs098.png?imageMogr2/quality/80"
+          },
+          {
+              "name": "GoPro相机",
+              "img_url": "http://img1.dongqiudi.net/fastdfs3/M00/02/40/ChOxM1r-kN2AMhLWAAI2yt9g2m8702.png?imageMogr2/quality/80"
+          },
+          {
+              "name": "50元话费充值卡",
+              "img_url": "http://img1.dongqiudi.net/fastdfs3/M00/02/40/ChOxM1r-kKCAVav9AABUy3dEwfI176.png?imageMogr2/quality/80"
+          },
+          {
+              "name": "5元京东E卡",
+              "img_url": "http://img1.dongqiudi.net/fastdfs2/M00/71/EF/ChOqM1r0EbyAaO1EAABEPinhMl0582.png"
+          },
+          {
+              "name": "100元话费充值卡",
+              "img_url": "http://img1.dongqiudi.net/fastdfs3/M00/02/40/ChOxM1r-kLmASsdRAABUmLKMfCk827.png?imageMogr2/quality/80"
+          },
+          {
+              "name": "坚果3 手机",
+              "img_url": "http://img1.dongqiudi.net/fastdfs3/M00/02/41/ChMMFVr-kNCAHQ4KAAIErkmIVsc001.png?imageMogr2/quality/80"
+          }
+      ],
+      "bingo_rate": {
+          "60": "您<span>有可能</span>中奖5元京东E卡",
+          "600": "您<span>有可能</span>中奖50元京东E卡"
+      },
+      "game_pic": {
+          "60": "http://img1.dongqiudi.net/fastdfs3/M00/01/9C/ChOxM1r8BciAKaNdAAIWSALzEj0265.jpg",
+          "600": "http://img1.dongqiudi.net/fastdfs3/M00/01/9C/ChOxM1r8BW-ANmrZAAKLbC7DpI0630.jpg"
+      }
+  }
+}

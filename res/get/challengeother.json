@@ -1,0 +1,197 @@
+{
+  "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkb25ncWl1ZGkuY29tIiwiaWF0IjoxNTI2MzAwNDk3LCJleHAiOjE1MjYzMDc2OTcsInVpZCI6MTAwMDE3LCJuaWNrbmFtZSI6Ilx1ODBlMVx1NTI5Zlx1NWI4MSJ9.1269ab704ca879ab70284145ebda495230f5b5b948d999bd4318525a72bfd048",
+  "user": {
+    "nickname": "\u80e1\u529f\u5b81",
+    "headimgurl": "http:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/Q0j4TwGTfTJdLRNWVLrr4TlickIUbLtho8AibJQLy1tcDfeIkrOo826HZGLp8urUMwBs4OqGW4zQehyQ0dtez5Nw\/132"
+  },
+  "competes": [{
+    "compete_id": 50913423,
+    "winner": -1,
+    "datetime": "2018-05-15 20:00:00",
+    "state": "Fixture",
+    "host_team_name": "\u5e7f\u5dde\u6052\u5927\u6dd8\u5b9d",
+    "host_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/6648.png",
+    "guest_team_name": "\u5929\u6d25\u6743\u5065",
+    "guest_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/18583.png"
+  }, {
+    "compete_id": 50913424,
+    "winner": -1,
+    "datetime": "2018-05-16 20:00:00",
+    "state": "Fixture",
+    "host_team_name": "\u4e0a\u6d77\u4e0a\u6e2f",
+    "host_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/10655.png",
+    "guest_team_name": "\u9e7f\u5c9b\u9e7f\u89d2",
+    "guest_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/1324.png"
+  }, {
+    "compete_id": 50913625,
+    "winner": -1,
+    "datetime": "2018-05-18 19:35:00",
+    "state": "Fixture",
+    "host_team_name": "\u5929\u6d25\u6cf0\u8fbe",
+    "host_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/431.png",
+    "guest_team_name": "\u5c71\u4e1c\u9c81\u80fd\u6cf0\u5c71",
+    "guest_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/434.png"
+  }, {
+    "compete_id": 50913626,
+    "winner": -1,
+    "datetime": "2018-05-19 15:30:00",
+    "state": "Fixture",
+    "host_team_name": "\u957f\u6625\u4e9a\u6cf0",
+    "host_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/437.png",
+    "guest_team_name": "\u5317\u4eac\u4e2d\u8d6b\u56fd\u5b89",
+    "guest_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/429.png"
+  }, {
+    "compete_id": 50926273,
+    "winner": -1,
+    "datetime": "2018-05-20 00:15:00",
+    "state": "Fixture",
+    "host_team_name": "\u5207\u5c14\u897f",
+    "host_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/661.png",
+    "guest_team_name": "\u66fc\u8054",
+    "guest_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/662.png"
+  }, {
+    "compete_id": 50913632,
+    "winner": -1,
+    "datetime": "2018-05-20 20:00:00",
+    "state": "Fixture",
+    "host_team_name": "\u4e0a\u6d77\u4e0a\u6e2f",
+    "host_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/10655.png",
+    "guest_team_name": "\u6c5f\u82cf\u82cf\u5b81\u6613\u8d2d",
+    "guest_team_flag": "https:\/\/img.dongqiudi.com\/soccer\/data\/logo\/team\/338.png"
+  }],
+  "challenge": {
+    "id": "a37307ec3dd2ef0854ef2ae4dbc02abb",
+    "count": 11,
+    "joined_count": 11,
+    "compete": {
+      "compete_id": 50811840,
+      "winner": 0,
+      "datetime": "2018-05-14 02:45:00",
+      "state": "Played",
+      "host_team_name": "\u7f57\u9a6c",
+      "host_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/1241.png",
+      "guest_team_name": "\u5c24\u6587\u56fe\u65af",
+      "guest_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/1242.png"
+    },
+    "guarantee": {
+      "id": 1,
+      "val": "\u4ef7\u503c5\u5143\u7684\u53ef\u4e50"
+    },
+    "creator": {
+      "nickname": "\u5c0f\u7f57",
+      "winner": 0,
+      "breach": {
+        "id": 5,
+        "val": "\u6211\u559c\u6b22\u7684\u4e3b\u961f\u8f93\u7403\u964d\u7ea7"
+      }
+    },
+    "me": [],
+    "joins": [{
+      "nickname": "\u9648\u806a Chen",
+      "winner": 1,
+      "breach": {
+        "id": 1,
+        "val": "\u6211\u6263\u9f3b\u5c4e\u65f6\u603b\u88ab\u559c\u6b22\u7684\u4eba\u770b\u89c1"
+      }
+    }, {
+      "nickname": "\u8499\u8499\u8499\u2229__\u2229",
+      "winner": 2,
+      "breach": {
+        "id": 2,
+        "val": "\u5408\u7167\u6211\u662f\u6700\u4e11\u7684\u4e00\u4e2a"
+      }
+    }, {
+      "nickname": "\u5b59\u5dcd\u5dcd",
+      "winner": 2,
+      "breach": {
+        "id": 1,
+        "val": "\u6211\u6263\u9f3b\u5c4e\u65f6\u603b\u88ab\u559c\u6b22\u7684\u4eba\u770b\u89c1"
+      }
+    }, {
+      "nickname": "\u5176\u5b9e\u90fd\u90a3\u6837",
+      "winner": 2,
+      "breach": {
+        "id": 1,
+        "val": "\u6211\u6263\u9f3b\u5c4e\u65f6\u603b\u88ab\u559c\u6b22\u7684\u4eba\u770b\u89c1"
+      }
+    }, {
+      "nickname": "\u9648",
+      "winner": 2,
+      "breach": {
+        "id": 4,
+        "val": "\u6211\u62c9\u6613\u62c9\u7f50\u6c38\u8fdc\u62c9\u65ad"
+      }
+    }, {
+      "nickname": "\u90dd\u5c11\u534e",
+      "winner": 1,
+      "breach": {
+        "id": 1,
+        "val": "\u6211\u6263\u9f3b\u5c4e\u65f6\u603b\u88ab\u559c\u6b22\u7684\u4eba\u770b\u89c1"
+      }
+    }, {
+      "nickname": "\u4e8e\u632f\u56fd",
+      "winner": 1,
+      "breach": {
+        "id": 4,
+        "val": "\u6211\u62c9\u6613\u62c9\u7f50\u6c38\u8fdc\u62c9\u65ad"
+      }
+    }, {
+      "nickname": "Young",
+      "winner": 2,
+      "breach": {
+        "id": 4,
+        "val": "\u6211\u62c9\u6613\u62c9\u7f50\u6c38\u8fdc\u62c9\u65ad"
+      }
+    }, {
+      "nickname": "kzy",
+      "winner": 2,
+      "breach": {
+        "id": 1,
+        "val": "\u6211\u6263\u9f3b\u5c4e\u65f6\u603b\u88ab\u559c\u6b22\u7684\u4eba\u770b\u89c1"
+      }
+    }, {
+      "nickname": "\u51af\u6d2a\u6ce2",
+      "winner": 2,
+      "breach": {
+        "id": 1,
+        "val": "\u6211\u6263\u9f3b\u5c4e\u65f6\u603b\u88ab\u559c\u6b22\u7684\u4eba\u770b\u89c1"
+      }
+    }]
+  },
+  "guarantees": {
+    "1": {
+      "id": 1,
+      "val": "\u4ef7\u503c5\u5143\u7684\u53ef\u4e50"
+    },
+    "2": {
+      "id": 2,
+      "val": "\u4ef7\u503c10\u5143\u7684\u5564\u9152"
+    },
+    "3": {
+      "id": 3,
+      "val": "\u4ef7\u503c20\u5143\u7684\u5496\u5561"
+    }
+  },
+  "breaches": {
+    "1": {
+      "id": 1,
+      "val": "\u6211\u6263\u9f3b\u5c4e\u65f6\u603b\u88ab\u559c\u6b22\u7684\u4eba\u770b\u89c1"
+    },
+    "2": {
+      "id": 2,
+      "val": "\u5408\u7167\u6211\u662f\u6700\u4e11\u7684\u4e00\u4e2a"
+    },
+    "3": {
+      "id": 3,
+      "val": "\u6211\u62bd\u5361\u6c38\u8fdc\u662f\u201c\u975e\u6d32\u4eba\u201d"
+    },
+    "4": {
+      "id": 4,
+      "val": "\u6211\u62c9\u6613\u62c9\u7f50\u6c38\u8fdc\u62c9\u65ad"
+    },
+    "5": {
+      "id": 5,
+      "val": "\u6211\u559c\u6b22\u7684\u4e3b\u961f\u8f93\u7403\u964d\u7ea7"
+    }
+  }
+}

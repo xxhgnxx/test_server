@@ -1,0 +1,118 @@
+{
+  "data": [
+      {
+          "s_id": 12,
+          "s_name": "重庆大学",
+          "vote": "0",
+          "txt": "重大比赛没你不行&重大北京校友会行！",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-AKwH_AAHzEZ-0INE92.jpeg"
+      },
+      {
+          "s_id": 6,
+          "s_name": "北京理工大学",
+          "vote": "0",
+          "txt": "一日此少，终身此少",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-ALyNxAD852El12HY56.jpeg"
+      },
+      {
+          "s_id": 1,
+          "s_name": "中国人民大学",
+          "vote": null,
+          "txt": "",
+          "img": "http://"
+      },
+      {
+          "s_id": 5,
+          "s_name": "中国青年政治学院",
+          "vote": null,
+          "txt": "实事求是、朝气蓬勃",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-AIe3UABGeFwYjw5472.jpeg"
+      },
+      {
+          "s_id": 10,
+          "s_name": "大连理工大学",
+          "vote": null,
+          "txt": "团结威武&雄壮霸气之师",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-AT3dkAC2YVRzPKGE31.jpeg"
+      },
+      {
+          "s_id": 15,
+          "s_name": "北京航空航天大学",
+          "vote": null,
+          "txt": "自强不息北航人",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-AMNQaAASgUN_2n6w22.jpeg"
+      },
+      {
+          "s_id": 2,
+          "s_name": "西南政法大学",
+          "vote": null,
+          "txt": "西政,雄起&雄起,西政",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-ACcQ3AAVFrFaYrLw03.jpeg"
+      },
+      {
+          "s_id": 7,
+          "s_name": "南京理工大学",
+          "vote": null,
+          "txt": "南京理工 奋勇争先&金陵池浅 紫禁登巅",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-AQ2sqAJ5AywcRRFY20.jpeg"
+      },
+      {
+          "s_id": 11,
+          "s_name": "中国科技大学",
+          "vote": null,
+          "txt": "红专并进中国科大&踢球工作建我中华",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-ASoqYACWe4vMme6o81.jpeg"
+      },
+      {
+          "s_id": 16,
+          "s_name": "东北财经大学",
+          "vote": null,
+          "txt": "博学济世 缔造传奇&东财北京 挥汗绿茵",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-AeD6-AAIg2tzk4gI10.jpeg"
+      },
+      {
+          "s_id": 3,
+          "s_name": "北京邮电大学",
+          "vote": null,
+          "txt": "京邑之地，信息黄埔&足下绿茵，必争寸土",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-AG1zDAAUM12soh3M63.jpeg"
+      },
+      {
+          "s_id": 8,
+          "s_name": "西安电子科技大学",
+          "vote": null,
+          "txt": "科里,科里,科里马擦!&犀利,犀利,犀利火辣!",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-AdaFVAAMg8c828JA71.jpeg"
+      },
+      {
+          "s_id": 13,
+          "s_name": "上海交通大学",
+          "vote": null,
+          "txt": "思源致远，天地交通",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-ASW8xACFliSnYPuE60.jpeg"
+      },
+      {
+          "s_id": 4,
+          "s_name": "沈阳工业大学",
+          "vote": null,
+          "txt": "奉天一三八八 &承运冠耀京华",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-ARENoAGyLPHv7Yqo22.jpeg"
+      },
+      {
+          "s_id": 9,
+          "s_name": "天津大学",
+          "vote": null,
+          "txt": "扬天大雄风&撼北洋荣耀",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-ANrt8AAO8Y1QzpU023.jpeg"
+      },
+      {
+          "s_id": 14,
+          "s_name": "吉林大学",
+          "vote": null,
+          "txt": "大吉大利&今晚赢球",
+          "img": "https://img1.dongqiudi.com/fastdfs3/M00/06/B5/ChMMFVsNHn-AENePAFOn9H1s_xs28.jpeg"
+      }
+  ],
+  "code": 0,
+  "message": "success"
+}

@@ -16,13 +16,20 @@
     
     "/lottery-shop": { "des": "店铺推荐", "data": "/lottery-shop.json" },
     "/hgn/plat/v3": { "des": "文章页广告", "data": "/ad.json" },
+    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
+    
+    "/hgn/guess/payCoin": { "des": "竞猜页", "data": "/payCoin.json" },
+    "/hgn/guess/questions": { "des": "竞猜页", "data": "/questions.json" },
+    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
+
+    "/hgn/api/bsb-school/list": { "des": "学校列表", "data": "/schoollist.json" },
     
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
     "/recharge/apps": { "des": "充值产品页面", "data": "/app.json" },
     "/recharge/orderinfo?order_no=hgn": { "des": "", "data": "/recharge.json" },
     "/admin/monitoring/creative/list": { "des": "创意监控接口", "data": "/monitoring.json" },
-    "/api/plandetail": { "des": "卖料", "data": "/plandetail.json" },
-    "/api/orderStatus": { "des": "卖料订单查询", "data": "/orderStatus.json" },
+    "/hgn/api/asiaPlanDetail": { "des": "卖料", "data": "/plandetail.json" },
+    "/hgn/api/orderStatus": { "des": "卖料订单查询", "data": "/orderStatus.json" },
     "/refund/apply": { "des": "退款", "data": "/apply.json" },
     "/plat/v3": { "des": "广告", "data": "/ad.json" },
     "/table": { "des": "广告 自定义表格", "data": "/table.json" },
@@ -39,5 +46,11 @@
     "/hgn/v2/activity/teaminfo/create": { "des": "球赛报名", "data": "/create.json" },
     "/hgn/data/overview/match": { "des": "球赛报名", "data": "/match_event.json" },
     "/hgn/data/v1/person/statistic_new": { "des": "球赛报名", "data": "/statistic_new.json" },
+    "/hgn/api/wechat-activity/challenge-dqd": { "des": "球赛报名", "data": "/hgn-test.json" },
+    "/hgn/api/wechat-activity/challenge-dqd/challenge": { "des": "球赛报名", "data": "/challengeother.json" },
+    "/hgn/api/wechat-activity/challenge-dqd/my-challenges": { "des": "球赛报名", "data": "/myhis.json" },
+    "/hgn/luckdraw/prizeList": { "des": "抽奖初始化", "data": "/prizeList.json" },
+    "/hgn/luckdraw/luckDraw": { "des": "抽奖初始化", "data": "/luckDraw.json" },
+    "/hgn/luckdraw/exchangeDiamond": { "des": "抽奖初始化", "data": "/exchangeDiamond.json" },
     "/hgn/api/adidas-club/verification-code": { "des": "adidas用户信息", "data": "/verification.json" }  
 }

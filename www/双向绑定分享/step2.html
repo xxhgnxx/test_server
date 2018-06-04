@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>数据绑定分享</title>
+</head>
+
+<body>
+  <!-- <template>
+    <button onclick="setTest()">set t1=123</button>
+    <input type="text" h-data="t1">
+    <div id="output" h-data="t1"></div>
+    <input type="text" h-data="t1">
+  </template> -->
+  <div id="hgn-app">
+    <button onclick="change(123)">set test=123</button>
+    <input type="text" hgn-input="test">
+    <div id="output">{h{test}h}</div>
+  </div>
+  <script>
+    // 声明数据
+    var hgn = {
+      test: '未修改'
+    }
+
+    function change(val) {
+      hgn.test = val
+    }
+    var hgnElement = document.querySelector('#hgn-app')
+    compileElement(hgnElement)
+
+    function compileElement(el) {
+      var childNodes = el.childNodes;
+      // 这里必须加分号 - -！
+      [].slice.call(childNodes).forEach(function (node) {
+        // childNodes本身不是数组，这里如果直接用slice会报错
+        if (node.nodeType == 3 && /\{h\{(.*)\}h\}/.test(node.textContent)) {
+          console.log('获取的变量名',RegExp.$1)
+          console.log('textnode->', node);
+          console.log('textContent->', node.textContent);
+          textUpdater = function (value) {
+            node.textContent = value;
+          }
+          textUpdater(hgn[RegExp.$1]) // 渲染模板
+          // 监听注册点
+          console.log('监听注册点');
+        }
+        if (node.nodeType == 1) {
+          var nodeAttrs = node.attributes;
+          [].slice.call(nodeAttrs).forEach(function (attr) {
+            var attrName = attr.name;
+            if (attrName.indexOf('hgn-input') == 0) {
+              var exp = attr.value;
+              node.value = hgn[exp] // 渲染模板，这里我们不考虑调用子属性的问题 所以直接使用hgn[exp]便可
+              // 监听注册点
+              console.log('监听注册点');
+              node.addEventListener('input', function (e) {
+                var newValue = e.target.value;
+                if (hgn[exp] === newValue) {
+                  return;
+                }
+                hgn[exp] = newValue;
+                console.log('change');
+              });
+              node.removeAttribute(attrName);
+            }
+          });
+        }
+        if (node.childNodes && node.childNodes.length) {
+          compileElement(node);
+        }
+      })
+    }
+  </script>
+  <style>
+    .main {
+      height: 100%;
+      width: 100%;
+    }
+
+    input {
+      border: solid 1px red;
+      display: block;
+      margin: 2px;
+    }
+
+    button {
+      background: rgba(255, 0, 0, .2)
+    }
+  </style>
+</body>
+
+</html>

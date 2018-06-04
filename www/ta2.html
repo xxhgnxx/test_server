@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>单行图文混排垂直居中</title>
@@ -8,9 +9,11 @@
             margin: 0px;
             padding: 0px;
         }
+
         body {
             font: 12px "宋体";
         }
+
         .cont {
             margin: 30px auto;
             padding: 75px 0px;
@@ -18,23 +21,65 @@
             height: 150px;
             border: 1px solid #000;
         }
-            .cont img {
-                vertical-align: middle;
-                height: 20px;
-            }
+
+        .cont img {
+            vertical-align: middle;
+            height: 20px;
+        }
     </style>
 </head>
+
 <body>
     <div class="cont">
-            向我看齐<img src="" width="150" height="150" />
+        向我看齐
+        <img src="" width="150" height="150" />
     </div>
 
 
-    <input type="radio" name="radio" id="radio1" value="1" />1    
-    <input type="radio" name="radio" id="radio2" value="2" />2    
-    <input type="radio" name="radio" id="radio3" value="3" />3    
-    <input type="radio" name="radio" id="radio4" value="4" />4   
+    <input type="radio" name="radio" id="radio1" value="1" />1
+    <input type="radio" name="radio" id="radio2" value="2" />2
+    <input type="radio" name="radio" id="radio3" value="3" />3
+    <input type="radio" name="radio" id="radio4" value="4" />4
 </body>
 <script src="./jquery-3.1.1.min.js"></script>
+<script src="./b_list.js"></script>
+<script>
+    function getURL(url) {
+        var xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+
+        xmlhttp.open("GET", url, false);
+        xmlhttp.send();
+        if (xmlhttp.readyState == 4) {
+            if (xmlhttp.Status != 200)
+                alert("不存在");
+            return xmlhttp.Status == 200;
+        }
+        return false;
+    }
+
+    $.ajax({
+        url: 'https://m.dianping.com/shop/91958327',
+        dataType: 'JSONP',
+        jsonpCallback: 'callback',
+        type: 'GET',
+        success: function (data) {
+            console.log(11111111, data.status);
+        }
+    });
+
+    $.ajax({
+        url: 'http://192.168.1.103:8124/',
+        dataType: "jsonp",
+        jsonpCallback: "_testcb",
+        cache: false,
+        timeout: 5000,
+        success: function (data) {
+            $("#test").append(data);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            alert('error ' + textStatus + " " + errorThrown);
+        }
+    });
+</script>
 
 </html>

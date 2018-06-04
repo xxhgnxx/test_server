@@ -1,0 +1,125 @@
+{
+  "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkb25ncWl1ZGkuY29tIiwiaWF0IjoxNTI1Njc0MTcwLCJleHAiOjE1MjU2ODEzNzAsInVpZCI6Mn0=.72d6c24daff94a517dbb79f7b9018ac8b0d34706fd0bfbc50344b90cf3eaa3d7",
+  "new_msg": true,
+  "user": {
+    "nickname": "于振国",
+    "headimgurl": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJ9rd9fkguzlicUEMXnM6RSBR6ZhAEjnSiaC8WRnf0Ez4QwRhQmV4D0d2hmUquia3HqJltnVsmPKdVrQ/132"
+  },
+  "competes": [{
+    "compete_id": 1001,
+    "host_team_name": "曼联1曼联1曼联1",
+    "host_team_flag": "https://img.dongqiudi.com/data/pic/2053.png",
+    "guest_team_name": "曼城1曼城1曼城1",
+    "guest_team_flag": "https://img.dongqiudi.com/data/pic/2013.png",
+    "datetime": "2017-06-12 02:45:00",
+    "winner": -1
+  }, {
+    "compete_id": 1001,
+    "host_team_name": "曼联2曼联2曼联2",
+    "host_team_flag": "https://img.dongqiudi.com/data/pic/2003.png",
+    "guest_team_name": "曼城2曼城2曼城2",
+    "guest_team_flag": "https://img.dongqiudi.com/data/pic/2050.png",
+    "datetime": "2016-06-12 02:45:00",
+    "winner": -1
+  }, {
+    "compete_id": 1001,
+    "host_team_name": "曼联3",
+    "host_team_flag": "https://img.dongqiudi.com/data/pic/2043.png",
+    "guest_team_name": "曼城3",
+    "guest_team_flag": "https://img.dongqiudi.com/data/pic/2033.png",
+    "datetime": "2015-06-12 02:45:00",
+    "winner": -1
+  }, {
+    "compete_id": 1001,
+    "host_team_name": "曼联3",
+    "host_team_flag": "https://img.dongqiudi.com/data/pic/2043.png",
+    "guest_team_name": "曼城3",
+    "guest_team_flag": "https://img.dongqiudi.com/data/pic/2033.png",
+    "datetime": "2015-06-12 02:45:00",
+    "winner": -1
+  }
+  , {
+    "compete_id": 1001,
+    "host_team_name": "曼联3",
+    "host_team_flag": "https://img.dongqiudi.com/data/pic/2043.png",
+    "guest_team_name": "曼城3",
+    "guest_team_flag": "https://img.dongqiudi.com/data/pic/2033.png",
+    "datetime": "2015-06-12 02:45:00",
+    "winner": -1
+  }, {
+    "compete_id": 1001,
+    "host_team_name": "曼联3",
+    "host_team_flag": "https://img.dongqiudi.com/data/pic/2043.png",
+    "guest_team_name": "曼城3",
+    "guest_team_flag": "https://img.dongqiudi.com/data/pic/2033.png",
+    "datetime": "2015-06-12 02:45:00",
+    "winner": -1
+  }, {
+    "compete_id": 1001,
+    "host_team_name": "曼联3",
+    "host_team_flag": "https://img.dongqiudi.com/data/pic/2043.png",
+    "guest_team_name": "曼城3",
+    "guest_team_flag": "https://img.dongqiudi.com/data/pic/2033.png",
+    "datetime": "2015-06-12 02:45:00",
+    "winner": -1
+  }, {
+    "compete_id": 1001,
+    "host_team_name": "曼联3",
+    "host_team_flag": "https://img.dongqiudi.com/data/pic/2043.png",
+    "guest_team_name": "曼城3",
+    "guest_team_flag": "https://img.dongqiudi.com/data/pic/2033.png",
+    "datetime": "2015-06-12 02:45:00",
+    "winner": -1
+  }, {
+    "compete_id": 1001,
+    "host_team_name": "曼联3",
+    "host_team_flag": "https://img.dongqiudi.com/data/pic/2043.png",
+    "guest_team_name": "曼城3",
+    "guest_team_flag": "https://img.dongqiudi.com/data/pic/2033.png",
+    "datetime": "2015-06-12 02:45:00",
+    "winner": -1
+  }, {
+    "compete_id": 1001,
+    "host_team_name": "曼联3",
+    "host_team_flag": "https://img.dongqiudi.com/data/pic/2043.png",
+    "guest_team_name": "曼城3",
+    "guest_team_flag": "https://img.dongqiudi.com/data/pic/2033.png",
+    "datetime": "2015-06-12 02:45:00",
+    "winner": -1
+  }, {
+    "compete_id": 1001,
+    "host_team_name": "曼联3",
+    "host_team_flag": "https://img.dongqiudi.com/data/pic/2043.png",
+    "guest_team_name": "曼城3",
+    "guest_team_flag": "https://img.dongqiudi.com/data/pic/2033.png",
+    "datetime": "2015-06-12 02:45:00",
+    "winner": -1
+  }
+],
+  "guarantees": [{
+      "id": "1",
+      "val": "1瓶可乐"
+    },
+    {
+      "id": "2",
+      "val": "2瓶可乐"
+    },
+    {
+      "id": "3",
+      "val": "3瓶可乐"
+    }
+  ],
+  "breaches": [{
+      "id": "1",
+      "val": "我是小狗"
+    },
+    {
+      "id": "2",
+      "val": "我是小猫"
+    },
+    {
+      "id": "3",
+      "val": "我是小猪"
+    }
+  ]
+}

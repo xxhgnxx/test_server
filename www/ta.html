@@ -1,18 +1,100 @@
-<span>网络异常，请稍后再试</span>
-<style lang="">
-    span{
-        color: #fff;
-        padding:20px;
-        background: red;
+<!DOCTYPE html>
+<html>
 
-        position: fixed;
-    /* display: block; */
-    color: #fff;
-    border-radius: 5px;
-    left: 50%;
-    bottom: 10%;
-    transform: translateX(-50%);
-    /* -webkit-transform: translateX(-50%); */
-    z-index: 2000;
+<head>
+
+    <meta charset="utf-8">
+    <title>veampire</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+
+    <style type="text/css">
+        html,
+        body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        #uip{
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+
+    <script>
+
+var list=[]
+function test() {
+    var tmpP1 = parseInt(Math.random() * 8, 10)
+    var tmpP2 = parseInt(Math.random() * 8, 10)
+    var tmpP3 = parseInt(Math.random() * 8, 10)
+      if (tmpP1 % 2 || tmpP2 % 2) {
+        while (tmpP1 == tmpP2 && tmpP2 == tmpP3) {
+          tmpP3 = parseInt(Math.random() * 8, 10)
+        }
+      } else {
+        if (tmpP3 % 2 == 0) {
+          tmpP3 += 1
+        }
+      }
+      list.push([tmpP1,tmpP2,tmpP3])
+}
+var n=10000
+while (n>0) {
+    n--
+    test()
+
+}
+
+function check() {
+    var  error=[]
+    for (let i = 0; i < list.length; i++) {
+        const element = list[i];
+        if (list[i][1]==list[i][2]&& list[i][2]==list[i][0]) {
+            error.push(list[i])
+        }
+        if (!(list[i][1]%2 || list[i][0]%2 || list[i][2]%2)) {
+            error.push(list[i])            
+        }
     }
-</style>
+    console.log('错误数',error.length,);
+    console.log('错误列表',error);
+}
+
+ check()
+    </script>
+</head>
+
+<body>
+
+    <div class="content">
+        content888
+    </div>
+
+
+    <footer class="footer">
+        <div style="margin: auto;width: 100%;height: 100vw; background-color: #FF0000;">
+            <canvas></canvas>
+        </div>
+        <input id="uip" type="text" name="fname" focus=true onblur="this.focus()">
+    </footer>
+
+
+</body>
+
+</html>
