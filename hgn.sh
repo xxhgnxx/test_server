@@ -18,7 +18,7 @@ then
   exit
 fi
 echo -e "当前分支 \033[33m ${current_branch} \033[0m --> \033[33m ${target} \033[0m"
-`git add .`
+
 if  [ -z "$1" ] 
 then
 read -p "请输入本次提交的注释：" commitMsg
@@ -33,8 +33,9 @@ fi
 else
 commitMsg=$1
 fi
-echo -e "\033[33m -----commit------ \033[0m"
-# add_results=`git commit -m "'$commitMsg'"`
+echo -e "\033[33m -----git add .------ \033[0m"
+git add .
+echo -e "\033[33m -----git commit------ \033[0m"
 git commit -m "'$commitMsg'"
 if [ $? -ne 0 ]  
 then
