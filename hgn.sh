@@ -22,16 +22,20 @@ echo -e "当前分支 \033[33m ${current_branch} \033[0m --> \033[33m ${target} 
 if  [ ! -n "$1" ] 
 then
 read -p "请输入本次提交的注释：" commitMsg
-# if  [! -n "$commitMsg"];then
-# echo "you have not input a word!"
-# exit
-# fi
+if  [! -n "$commitMsg"];then
+echo "you have not input a word!"
+exit
 else
-commitMsg=$0
+commitMsg=\"commitMsg\"
+fi
+else
+commitMsg=\"$0\"
 fi
 
 add_results=`git commit -m $commitMsg`
 echo "$add_results"
+
+
 "On branch test nothing to commit"
 
 
