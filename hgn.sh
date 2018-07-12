@@ -31,7 +31,7 @@ commitMsg=$commitMsg
 echo $commitMsg
 fi
 else
-commitMsg=\"$0\"
+commitMsg=$1
 fi
 
 add_results=`git commit -m "'$commitMsg'"`
