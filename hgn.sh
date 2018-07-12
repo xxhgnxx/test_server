@@ -33,45 +33,51 @@ fi
 else
 commitMsg=$1
 fi
-warn "pull"
+warn "current_branch pull"
 git pull
 if [ $? -ne 0 ]  
 then
 err '合并过程出现出现异常 程序退出'
   exit
 fi
-warn "git add ."
-echo -e "\033[33m git add . \033[0m"
+warn "current_branch add ."
 git add .
-warn "git commit "
-
-echo -e "\033[33m git commit \033[0m"
+warn "current_branch commit "
 git commit -m "'$commitMsg'"
 if [ $? -ne 0 ]  
 then
 err '合并过程出现出现异常 程序退出'
   exit
 fi
-echo -e "\033[33m push \033[0m"
+warn "current_branch push"
 git push
 if [ $? -ne 0 ]  
 then
 err '合并过程出现出现异常 程序退出'
   exit
 fi
+warn "checkout develop"
 git checkout develop
 if [ $? -ne 0 ]  
 then
 err '合并过程出现出现异常 程序退出'
   exit
 fi
+warn "develop pull"
 git pull
 if [ $? -ne 0 ]  
 then
 err '合并过程出现出现异常 程序退出'
   exit
 fi
+git merge $current_branch -m 合并分支
+if [ $? -ne 0 ]  
+then
+err '合并过程出现出现异常 程序退出'
+  exit
+fi
 
+warn "goback current_branch"
 git checkout $current_branch
 
 echo -e "add"
