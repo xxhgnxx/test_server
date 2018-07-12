@@ -2,7 +2,7 @@
 
 
 warn(){
-   echo -e "\033[33m $1 \033[0m"
+   echo -e "\033[33m ----- $1 ----- \033[0m"
 }
 
 err(){
@@ -33,10 +33,27 @@ fi
 else
 commitMsg=$1
 fi
-echo -e "\033[33m -----git add .------ \033[0m"
+warn "pull"
+git pull
+if [ $? -ne 0 ]  
+then
+err '合并过程出现出现异常 程序退出'
+  exit
+fi
+warn "git add ."
+echo -e "\033[33m git add . \033[0m"
 git add .
-echo -e "\033[33m -----git commit------ \033[0m"
+warn "git commit "
+
+echo -e "\033[33m git commit \033[0m"
 git commit -m "'$commitMsg'"
+if [ $? -ne 0 ]  
+then
+err '合并过程出现出现异常 程序退出'
+  exit
+fi
+echo -e "\033[33m push \033[0m"
+git push
 if [ $? -ne 0 ]  
 then
 err '合并过程出现出现异常 程序退出'
