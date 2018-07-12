@@ -9,6 +9,14 @@ err(){
     echo -e "\033[43;41m $1 \033[0m" 
 }
 
+isOK(){
+if [ $? -ne 0 ]  
+then
+err '合并过程出现出现异常 程序退出'
+  exit
+fi
+}
+
 current_branch=`git symbolic-ref --short -q HEAD`
 target=develop
 if   [ $current_branch = "develop" ]  || [ $current_branch = 'beta' ] 
@@ -37,12 +45,11 @@ echo -e "\033[33m -----git add .------ \033[0m"
 git add .
 echo -e "\033[33m -----git commit------ \033[0m"
 git commit -m "'$commitMsg'"
-if [ $? -ne 0 ]  
-then
-err 'commit 出现异常'
-  exit
-fi
-
+isOK()
+# git checkout develop
+# isOK()
+# git pull
+# isOK()
 
 
 echo -e "add"
