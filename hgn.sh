@@ -26,15 +26,16 @@ if  [! -n "$commitMsg"];then
 echo "you have not input a word!"
 exit
 else
-commitMsg=\"commitMsg\"
+commitMsg="\'$commitMsg\'"
+echo $commitMsg
 fi
 else
 commitMsg=\"$0\"
 fi
 
-add_results=`git commit -m $commitMsg`
-echo "$add_results"
-
+# add_results=`git commit -m $commitMsg`
+# echo "$add_results"
+git commit -m $commitMsg
 
 "On branch test nothing to commit"
 
