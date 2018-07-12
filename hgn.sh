@@ -46,6 +46,9 @@ if [ $? -ne 0 ]
 then
 err '没有什么值得提交的'
   exit
+  echo "succeed"
+else
+    echo "failed"
 fi
 
 
