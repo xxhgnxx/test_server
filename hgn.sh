@@ -1,5 +1,6 @@
 #!/bin/bash
-
+read commitMsg
+echo $commitMsg
 warn(){
    echo -e "\033[33m $1 \033[0m"
 }
@@ -17,7 +18,7 @@ then
   exit
 fi
 
-add_results=`git add .`
+`git add .`
 add_results=`git commit -m save`
 echo $add_results
 echo -e "当前分支 \033[33m ${current_branch} \033[0m --> \033[33m ${target} \033[0m"
