@@ -45,7 +45,7 @@ echo -e "\033[33m -----git add .------ \033[0m"
 git add .
 echo -e "\033[33m -----git commit------ \033[0m"
 git commit -m "'$commitMsg'"
-isOK()
+# isOK()
 # git checkout develop
 # isOK()
 # git pull
