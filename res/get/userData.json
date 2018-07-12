@@ -1,0 +1,10 @@
+{
+  "User": {
+    "attr": 644,
+    "nickname": "",
+    "headimgurl": ""
+  },
+  "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkb25ncWl1ZGkuY29tIiwiaWF0IjoxNTI4NTEzNDE1LCJleHAiOjE1Mjg1MjA2MTUsInVpZCI6MSwibmlja25hbWUiOiJcdTRlOGVcdTYzMmZcdTU2ZmQiLCJoZWFkaW1ndXJsIjoiIn0=.2ff004b839bc6319c828124a3aabe37e059db59db24bd587612d66b86db34dbe",
+  "code": 0,
+  "message": ""
+}

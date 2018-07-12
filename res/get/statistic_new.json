@@ -2,421 +2,26 @@
     "total": [
         {
             "season": {
-                "id": "9390",
-                "season_id": "9390",
-                "name": "2017"
+                "id": "9256",
+                "season_id": "9256",
+                "name": "2017/2018",
+                "season": ""
             },
             "team": {
-                "id": "516",
-                "name": "利物浦",
-                "short_name": "利物浦",
-                "logo": "https://img.dongqiudi.com/data/pic/663.png",
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
                 "type": "club"
             },
             "list": [
                 {
                     "title": "出场",
-                    "value": "2"
+                    "value": "43"
                 },
                 {
                     "title": "首发",
-                    "value": "2"
-                },
-                {
-                    "title": "进球",
-                    "value": "1"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
-        },
-        {
-            "season": {
-                "id": "9257",
-                "season_id": "9257",
-                "name": "2017/2018"
-            },
-            "team": {
-                "id": "516",
-                "name": "利物浦",
-                "short_name": "利物浦",
-                "logo": "https://img.dongqiudi.com/data/pic/663.png",
-                "type": "club"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "51"
-                },
-                {
-                    "title": "首发",
-                    "value": "48"
-                },
-                {
-                    "title": "进球",
-                    "value": "44"
-                },
-                {
-                    "title": "助攻",
-                    "value": "14"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "1"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "3"
-                }
-            ]
-        },
-        {
-            "season": {
-                "id": "1991",
-                "season_id": "1991",
-                "name": "2016/2017"
-            },
-            "team": {
-                "id": "1039",
-                "name": "罗马",
-                "short_name": "罗马",
-                "logo": "https://img.dongqiudi.com/data/pic/1241.png",
-                "type": "club"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "33"
-                },
-                {
-                    "title": "首发",
-                    "value": "31"
-                },
-                {
-                    "title": "进球",
-                    "value": "17"
-                },
-                {
-                    "title": "助攻",
-                    "value": "11"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "2"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "2"
-                }
-            ]
-        },
-        {
-            "season": {
-                "id": "1871",
-                "season_id": "1871",
-                "name": "2015/2016"
-            },
-            "team": {
-                "id": "1039",
-                "name": "罗马",
-                "short_name": "罗马",
-                "logo": "https://img.dongqiudi.com/data/pic/1241.png",
-                "type": "club"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "42"
-                },
-                {
-                    "title": "首发",
-                    "value": "39"
-                },
-                {
-                    "title": "进球",
-                    "value": "15"
-                },
-                {
-                    "title": "助攻",
-                    "value": "6"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "2"
-                },
-                {
-                    "title": "红牌",
-                    "value": "1"
-                },
-                {
-                    "title": "替补",
-                    "value": "3"
-                }
-            ]
-        },
-        {
-            "season": {
-                "id": "1735",
-                "season_id": "1735",
-                "name": "2014/2015"
-            },
-            "team": {
-                "id": "514",
-                "name": "切尔西",
-                "short_name": "切尔西",
-                "logo": "https://img.dongqiudi.com/data/pic/661.png",
-                "type": "club"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "8"
-                },
-                {
-                    "title": "首发",
-                    "value": "4"
-                },
-                {
-                    "title": "进球",
-                    "value": "0"
-                },
-                {
-                    "title": "助攻",
-                    "value": "2"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "4"
-                }
-            ]
-        },
-        {
-            "season": {
-                "id": "1744",
-                "season_id": "1744",
-                "name": "2014/2015"
-            },
-            "team": {
-                "id": "1057",
-                "name": "佛罗伦萨",
-                "short_name": "佛罗伦萨",
-                "logo": "https://img.dongqiudi.com/data/pic/1259.png",
-                "type": "club"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "26"
-                },
-                {
-                    "title": "首发",
-                    "value": "20"
-                },
-                {
-                    "title": "进球",
-                    "value": "9"
-                },
-                {
-                    "title": "助攻",
-                    "value": "4"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "1"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "6"
-                }
-            ]
-        },
-        {
-            "season": {
-                "id": "1625",
-                "season_id": "1625",
-                "name": "2013/2014"
-            },
-            "team": {
-                "id": "514",
-                "name": "切尔西",
-                "short_name": "切尔西",
-                "logo": "https://img.dongqiudi.com/data/pic/661.png",
-                "type": "club"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "11"
-                },
-                {
-                    "title": "首发",
-                    "value": "6"
-                },
-                {
-                    "title": "进球",
-                    "value": "2"
-                },
-                {
-                    "title": "助攻",
-                    "value": "1"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "1"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "5"
-                }
-            ]
-        },
-        {
-            "season": {
-                "id": "1633",
-                "season_id": "1633",
-                "name": "2013/2014"
-            },
-            "team": {
-                "id": "1905",
-                "name": "巴塞尔",
-                "short_name": "巴塞尔",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/1905.png",
-                "type": "club"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "29"
-                },
-                {
-                    "title": "首发",
-                    "value": "23"
-                },
-                {
-                    "title": "进球",
-                    "value": "10"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "3"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "6"
-                }
-            ]
-        },
-        {
-            "season": {
-                "id": "1418",
-                "season_id": "1418",
-                "name": "2012/2013"
-            },
-            "team": {
-                "id": "1905",
-                "name": "巴塞尔",
-                "short_name": "巴塞尔",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/1905.png",
-                "type": "club"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "48"
-                },
-                {
-                    "title": "首发",
-                    "value": "25"
-                },
-                {
-                    "title": "进球",
-                    "value": "9"
-                },
-                {
-                    "title": "助攻",
-                    "value": "3"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "1"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "23"
-                }
-            ]
-        },
-        {
-            "season": {
-                "id": "5976",
-                "season_id": "5976",
-                "name": "2011/2012"
-            },
-            "team": {
-                "id": "3555",
-                "name": "阿拉伯承包商",
-                "short_name": "阿拉伯承包商",
-                "logo": "https://img.dongqiudi.com/data/pic/4618.png",
-                "type": "club"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "15"
-                },
-                {
-                    "title": "首发",
-                    "value": "15"
+                    "value": "41"
                 },
                 {
                     "title": "进球",
@@ -424,11 +29,191 @@
                 },
                 {
                     "title": "助攻",
+                    "value": "4"
+                },
+                {
+                    "title": "黄牌",
+                    "value": "13"
+                },
+                {
+                    "title": "红牌",
+                    "value": "0"
+                },
+                {
+                    "title": "替补",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "season": {
+                "id": "1912",
+                "season_id": "1912",
+                "name": "2016/2017",
+                "season": ""
+            },
+            "team": {
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
+                "type": "club"
+            },
+            "list": [
+                {
+                    "title": "出场",
+                    "value": "37"
+                },
+                {
+                    "title": "首发",
+                    "value": "35"
+                },
+                {
+                    "title": "进球",
+                    "value": "3"
+                },
+                {
+                    "title": "助攻",
+                    "value": "3"
+                },
+                {
+                    "title": "黄牌",
+                    "value": "4"
+                },
+                {
+                    "title": "红牌",
+                    "value": "0"
+                },
+                {
+                    "title": "替补",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "season": {
+                "id": "1864",
+                "season_id": "1864",
+                "name": "2015/2016",
+                "season": ""
+            },
+            "team": {
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
+                "type": "club"
+            },
+            "list": [
+                {
+                    "title": "出场",
+                    "value": "23"
+                },
+                {
+                    "title": "首发",
+                    "value": "10"
+                },
+                {
+                    "title": "进球",
+                    "value": "3"
+                },
+                {
+                    "title": "助攻",
                     "value": "0"
                 },
                 {
                     "title": "黄牌",
+                    "value": "0"
+                },
+                {
+                    "title": "红牌",
+                    "value": "0"
+                },
+                {
+                    "title": "替补",
+                    "value": "13"
+                }
+            ]
+        },
+        {
+            "season": {
+                "id": "1749",
+                "season_id": "1749",
+                "name": "2014/2015",
+                "season": ""
+            },
+            "team": {
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
+                "type": "club"
+            },
+            "list": [
+                {
+                    "title": "出场",
+                    "value": "10"
+                },
+                {
+                    "title": "首发",
+                    "value": "2"
+                },
+                {
+                    "title": "进球",
+                    "value": "0"
+                },
+                {
+                    "title": "助攻",
                     "value": "1"
+                },
+                {
+                    "title": "黄牌",
+                    "value": "0"
+                },
+                {
+                    "title": "红牌",
+                    "value": "0"
+                },
+                {
+                    "title": "替补",
+                    "value": "8"
+                }
+            ]
+        },
+        {
+            "season": {
+                "id": "8464",
+                "season_id": "8464",
+                "name": "2014/2015",
+                "season": ""
+            },
+            "team": {
+                "id": "12386",
+                "name": "CSKA Moskva U19",
+                "short_name": "CSKA Moskva U19",
+                "logo": "",
+                "type": "club"
+            },
+            "list": [
+                {
+                    "title": "出场",
+                    "value": "6"
+                },
+                {
+                    "title": "首发",
+                    "value": "6"
+                },
+                {
+                    "title": "进球",
+                    "value": "1"
+                },
+                {
+                    "title": "助攻",
+                    "value": "0"
+                },
+                {
+                    "title": "黄牌",
+                    "value": "2"
                 },
                 {
                     "title": "红牌",
@@ -442,29 +227,30 @@
         },
         {
             "season": {
-                "id": "5111",
-                "season_id": "5111",
-                "name": "2010/2011"
+                "id": "7844",
+                "season_id": "7844",
+                "name": "2013/2014",
+                "season": ""
             },
             "team": {
-                "id": "3555",
-                "name": "阿拉伯承包商",
-                "short_name": "阿拉伯承包商",
-                "logo": "https://img.dongqiudi.com/data/pic/4618.png",
+                "id": "12386",
+                "name": "CSKA Moskva U19",
+                "short_name": "CSKA Moskva U19",
+                "logo": "",
                 "type": "club"
             },
             "list": [
                 {
                     "title": "出场",
-                    "value": "21"
+                    "value": "6"
                 },
                 {
                     "title": "首发",
-                    "value": "12"
+                    "value": "5"
                 },
                 {
                     "title": "进球",
-                    "value": "4"
+                    "value": "2"
                 },
                 {
                     "title": "助攻",
@@ -480,218 +266,53 @@
                 },
                 {
                     "title": "替补",
-                    "value": "9"
+                    "value": "1"
                 }
             ]
         }
     ],
     "league": [
         {
-            "id": "2171114",
+            "id": "2209725",
             "competition": {
-                "id": "4",
-                "name": "英格兰足球顶级联赛",
-                "short_name": "英超",
+                "id": "108",
+                "name": "俄罗斯足球超级联赛",
+                "short_name": "俄超",
                 "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
             },
             "season": {
-                "id": "9235",
-                "season_id": "9235",
-                "name": "2017/2018"
+                "id": "9264",
+                "season_id": "9264",
+                "name": "2017/2018",
+                "season": ""
             },
             "team": {
-                "id": "516",
-                "name": "利物浦",
-                "short_name": "利物浦",
-                "logo": "https://img.dongqiudi.com/data/pic/663.png",
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
                 "type": "club"
             },
             "base_info": {
-                "appearances": "36",
-                "starts": "34",
-                "goals": "32",
-                "assists": "10",
-                "substitute_in": "2",
-                "avg_appearances_time": "81"
+                "appearances": "27",
+                "starts": "26",
+                "goals": "5",
+                "assists": "3",
+                "substitute_in": "1",
+                "avg_appearances_time": "85"
             },
             "attack": {
-                "goals": "32",
-                "shots": "111",
-                "fouled": "23",
-                "offsides": "17",
-                "avg_goals": "0.89",
-                "freq_goals": "91",
-                "shots_on_target_rate": "60"
-            },
-            "pass": {
-                "assists": "10",
-                "passes": "946",
-                "key_passes": "52",
-                "success_pass_rate": "77"
-            },
-            "defense": {
-                "avg_tackles": "0.33",
-                "avg_interceptions": "0.17",
-                "avg_clearances": "0.11"
-            },
-            "discipline": {
-                "fouls": "14",
-                "yellow_cards": "1",
-                "red_cards": "0",
-                "appearances_time": "2922"
-            },
-            "statistic": {
-                "appearances": "36",
-                "assists": "10",
-                "clearances": "4",
-                "fouled": "23",
-                "fouls": "14",
-                "goals": "32",
-                "id": "2171114",
-                "interceptions": "6",
-                "key_passes": "52",
-                "minutes_played": "2922",
-                "offsides": "17",
-                "pass_accuracy": "0",
-                "passes": "946",
-                "penalty_goals": "1",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "11",
-                "shots": "111",
-                "shots_on_target": "67",
-                "starts": "34",
-                "substitute_in": "2",
-                "success_passes": "726",
-                "tackles": "12",
-                "time_played": "2921",
-                "yellow_cards": "1"
-            }
-        },
-        {
-            "id": "1484955",
-            "competition": {
-                "id": "9",
-                "name": "意大利足球甲级联赛",
-                "short_name": "意甲",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1986",
-                "season_id": "1986",
-                "name": "2016/2017"
-            },
-            "team": {
-                "id": "1039",
-                "name": "罗马",
-                "short_name": "罗马",
-                "logo": "https://img.dongqiudi.com/data/pic/1241.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "31",
-                "starts": "29",
-                "goals": "15",
-                "assists": "11",
-                "substitute_in": "2",
-                "avg_appearances_time": "80"
-            },
-            "attack": {
-                "goals": "15",
-                "shots": "64",
-                "fouled": "26",
-                "offsides": "25",
-                "avg_goals": "0.48",
-                "freq_goals": "166",
-                "shots_on_target_rate": "53"
-            },
-            "pass": {
-                "assists": "11",
-                "passes": "967",
-                "key_passes": "60",
-                "success_pass_rate": "80"
-            },
-            "defense": {
-                "avg_tackles": "0.84",
-                "avg_interceptions": "0.35",
-                "avg_clearances": "0.16"
-            },
-            "discipline": {
-                "fouls": "28",
-                "yellow_cards": "2",
-                "red_cards": "0",
-                "appearances_time": "2486"
-            },
-            "statistic": {
-                "appearances": "31",
-                "assists": "11",
-                "clearances": "5",
-                "fouled": "26",
-                "fouls": "28",
-                "goals": "15",
-                "id": "1484955",
-                "interceptions": "11",
-                "key_passes": "60",
-                "minutes_played": "2486",
-                "offsides": "25",
-                "pass_accuracy": "0",
-                "passes": "967",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "11",
-                "shots": "64",
-                "shots_on_target": "34",
-                "starts": "29",
-                "substitute_in": "2",
-                "success_passes": "777",
-                "tackles": "26",
-                "time_played": "2485",
-                "yellow_cards": "2"
-            }
-        },
-        {
-            "id": "1484997",
-            "competition": {
-                "id": "9",
-                "name": "意大利足球甲级联赛",
-                "short_name": "意甲",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1881",
-                "season_id": "1881",
-                "name": "2015/2016"
-            },
-            "team": {
-                "id": "1039",
-                "name": "罗马",
-                "short_name": "罗马",
-                "logo": "https://img.dongqiudi.com/data/pic/1241.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "34",
-                "starts": "32",
-                "goals": "14",
-                "assists": "6",
-                "substitute_in": "2",
-                "avg_appearances_time": "81"
-            },
-            "attack": {
-                "goals": "14",
+                "goals": "5",
                 "shots": "0",
                 "fouled": "0",
                 "offsides": "0",
-                "avg_goals": "0.41",
+                "avg_goals": "0.19",
                 "freq_goals": "0",
                 "shots_on_target_rate": "0"
             },
             "pass": {
-                "assists": "6",
-                "passes": "0",
+                "assists": "3",
+                "passes": "-",
                 "key_passes": "0",
                 "success_pass_rate": "0"
             },
@@ -702,66 +323,489 @@
             },
             "discipline": {
                 "fouls": "0",
-                "yellow_cards": "2",
-                "red_cards": "1",
-                "appearances_time": "2739"
+                "yellow_cards": "8",
+                "red_cards": "0",
+                "appearances_time": "2283"
             },
             "statistic": {
-                "appearances": "34",
-                "assists": "6",
+                "appearances": "27",
+                "assists": "3",
                 "clearances": "0",
                 "fouled": "0",
                 "fouls": "0",
-                "goals": "14",
-                "id": "1484997",
+                "goals": "5",
+                "id": "2209725",
                 "interceptions": "0",
                 "key_passes": "0",
-                "minutes_played": "2739",
+                "minutes_played": "2283",
                 "offsides": "0",
                 "pass_accuracy": "0",
                 "passes": "0",
                 "penalty_goals": "0",
-                "red_cards": "1",
+                "red_cards": "0",
                 "saves": "0",
-                "second_yellow_cards": "1",
-                "shirt_number": "11",
+                "second_yellow_cards": "0",
+                "shirt_number": "17",
                 "shots": "0",
                 "shots_on_target": "0",
-                "starts": "32",
-                "substitute_in": "2",
+                "starts": "26",
+                "substitute_in": "1",
                 "success_passes": "0",
                 "tackles": "0",
                 "time_played": "0",
+                "yellow_cards": "8"
+            }
+        },
+        {
+            "id": "1658931",
+            "competition": {
+                "id": "108",
+                "name": "俄罗斯足球超级联赛",
+                "short_name": "俄超",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "1993",
+                "season_id": "1993",
+                "name": "2016/2017",
+                "season": ""
+            },
+            "team": {
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
+                "type": "club"
+            },
+            "base_info": {
+                "appearances": "30",
+                "starts": "29",
+                "goals": "3",
+                "assists": "3",
+                "substitute_in": "1",
+                "avg_appearances_time": "84"
+            },
+            "attack": {
+                "goals": "3",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "0.10",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
+            },
+            "pass": {
+                "assists": "3",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
+            },
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "3",
+                "red_cards": "0",
+                "appearances_time": "2524"
+            },
+            "statistic": {
+                "appearances": "30",
+                "assists": "3",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "3",
+                "id": "1658931",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "2524",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "17",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "29",
+                "substitute_in": "1",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "3"
+            }
+        },
+        {
+            "id": "1658945",
+            "competition": {
+                "id": "108",
+                "name": "俄罗斯足球超级联赛",
+                "short_name": "俄超",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "1884",
+                "season_id": "1884",
+                "name": "2015/2016",
+                "season": ""
+            },
+            "team": {
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
+                "type": "club"
+            },
+            "base_info": {
+                "appearances": "17",
+                "starts": "6",
+                "goals": "1",
+                "assists": "0",
+                "substitute_in": "11",
+                "avg_appearances_time": "36"
+            },
+            "attack": {
+                "goals": "1",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "0.06",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
+            },
+            "pass": {
+                "assists": "0",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
+            },
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "0",
+                "red_cards": "0",
+                "appearances_time": "620"
+            },
+            "statistic": {
+                "appearances": "17",
+                "assists": "0",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "1",
+                "id": "1658945",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "620",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "60",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "6",
+                "substitute_in": "11",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "0"
+            }
+        },
+        {
+            "id": "1658990",
+            "competition": {
+                "id": "108",
+                "name": "俄罗斯足球超级联赛",
+                "short_name": "俄超",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "1773",
+                "season_id": "1773",
+                "name": "2014/2015",
+                "season": ""
+            },
+            "team": {
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
+                "type": "club"
+            },
+            "base_info": {
+                "appearances": "7",
+                "starts": "0",
+                "goals": "0",
+                "assists": "1",
+                "substitute_in": "7",
+                "avg_appearances_time": "17"
+            },
+            "attack": {
+                "goals": "0",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "0",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
+            },
+            "pass": {
+                "assists": "1",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
+            },
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "0",
+                "red_cards": "0",
+                "appearances_time": "121"
+            },
+            "statistic": {
+                "appearances": "7",
+                "assists": "1",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "0",
+                "id": "1658990",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "121",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "60",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "0",
+                "substitute_in": "7",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "0"
+            }
+        }
+    ],
+    "cup": [
+        {
+            "id": "2222199",
+            "competition": {
+                "id": "6",
+                "name": "欧洲冠军联赛",
+                "short_name": "欧冠",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "9273",
+                "season_id": "9273",
+                "name": "2017/2018",
+                "season": ""
+            },
+            "team": {
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
+                "type": "club"
+            },
+            "base_info": {
+                "appearances": "10",
+                "starts": "10",
+                "goals": "0",
+                "assists": "1",
+                "substitute_in": "0",
+                "avg_appearances_time": "88"
+            },
+            "attack": {
+                "goals": "0",
+                "shots": "8",
+                "fouled": "7",
+                "offsides": "0",
+                "avg_goals": "0",
+                "freq_goals": "0",
+                "shots_on_target_rate": "13"
+            },
+            "pass": {
+                "assists": "1",
+                "passes": "-",
+                "key_passes": "8",
+                "success_pass_rate": "85"
+            },
+            "defense": {
+                "avg_tackles": "1.30",
+                "avg_interceptions": "1.00",
+                "avg_clearances": "0.20"
+            },
+            "discipline": {
+                "fouls": "11",
+                "yellow_cards": "3",
+                "red_cards": "0",
+                "appearances_time": "881"
+            },
+            "statistic": {
+                "appearances": "10",
+                "assists": "1",
+                "clearances": "2",
+                "fouled": "7",
+                "fouls": "11",
+                "goals": "0",
+                "id": "2222199",
+                "interceptions": "10",
+                "key_passes": "8",
+                "minutes_played": "881",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "295",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "17",
+                "shots": "8",
+                "shots_on_target": "1",
+                "starts": "10",
+                "substitute_in": "0",
+                "success_passes": "250",
+                "tackles": "13",
+                "time_played": "537",
+                "yellow_cards": "3"
+            }
+        },
+        {
+            "id": "2504743",
+            "competition": {
+                "id": "14",
+                "name": "欧足联欧洲联赛",
+                "short_name": "欧联",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "9274",
+                "season_id": "9274",
+                "name": "2017/2018",
+                "season": ""
+            },
+            "team": {
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
+                "type": "club"
+            },
+            "base_info": {
+                "appearances": "5",
+                "starts": "5",
+                "goals": "2",
+                "assists": "0",
+                "substitute_in": "0",
+                "avg_appearances_time": "90"
+            },
+            "attack": {
+                "goals": "2",
+                "shots": "14",
+                "fouled": "6",
+                "offsides": "0",
+                "avg_goals": "0.40",
+                "freq_goals": "225",
+                "shots_on_target_rate": "57"
+            },
+            "pass": {
+                "assists": "0",
+                "passes": "-",
+                "key_passes": "6",
+                "success_pass_rate": "83"
+            },
+            "defense": {
+                "avg_tackles": "1.80",
+                "avg_interceptions": "1.60",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "3",
+                "yellow_cards": "2",
+                "red_cards": "0",
+                "appearances_time": "450"
+            },
+            "statistic": {
+                "appearances": "5",
+                "assists": "0",
+                "clearances": "0",
+                "fouled": "6",
+                "fouls": "3",
+                "goals": "2",
+                "id": "2504743",
+                "interceptions": "8",
+                "key_passes": "6",
+                "minutes_played": "450",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "267",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "17",
+                "shots": "14",
+                "shots_on_target": "8",
+                "starts": "5",
+                "substitute_in": "0",
+                "success_passes": "222",
+                "tackles": "9",
+                "time_played": "450",
                 "yellow_cards": "2"
             }
         },
         {
-            "id": "1485025",
+            "id": "2420734",
             "competition": {
-                "id": "4",
-                "name": "英格兰足球顶级联赛",
-                "short_name": "英超",
+                "id": "171",
+                "name": "俄罗斯杯",
+                "short_name": "俄杯",
                 "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
             },
             "season": {
-                "id": "1751",
-                "season_id": "1751",
-                "name": "2014/2015"
+                "id": "9256",
+                "season_id": "9256",
+                "name": "2017/2018",
+                "season": ""
             },
             "team": {
-                "id": "514",
-                "name": "切尔西",
-                "short_name": "切尔西",
-                "logo": "https://img.dongqiudi.com/data/pic/661.png",
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
                 "type": "club"
             },
             "base_info": {
-                "appearances": "3",
+                "appearances": "1",
                 "starts": "0",
                 "goals": "0",
                 "assists": "0",
-                "substitute_in": "3",
-                "avg_appearances_time": "10"
+                "substitute_in": "1",
+                "avg_appearances_time": "26"
             },
             "attack": {
                 "goals": "0",
@@ -774,7 +818,7 @@
             },
             "pass": {
                 "assists": "0",
-                "passes": "0",
+                "passes": "-",
                 "key_passes": "0",
                 "success_pass_rate": "0"
             },
@@ -784,22 +828,190 @@
                 "avg_clearances": "0"
             },
             "discipline": {
-                "fouls": "1",
+                "fouls": "0",
                 "yellow_cards": "0",
                 "red_cards": "0",
-                "appearances_time": "30"
+                "appearances_time": "26"
             },
             "statistic": {
-                "appearances": "3",
+                "appearances": "1",
                 "assists": "0",
                 "clearances": "0",
                 "fouled": "0",
-                "fouls": "1",
+                "fouls": "0",
                 "goals": "0",
-                "id": "1485025",
+                "id": "2420734",
                 "interceptions": "0",
                 "key_passes": "0",
-                "minutes_played": "30",
+                "minutes_played": "26",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "0",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "0",
+                "substitute_in": "1",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "0"
+            }
+        },
+        {
+            "id": "1658939",
+            "competition": {
+                "id": "6",
+                "name": "欧洲冠军联赛",
+                "short_name": "欧冠",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "1973",
+                "season_id": "1973",
+                "name": "2016/2017",
+                "season": ""
+            },
+            "team": {
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
+                "type": "club"
+            },
+            "base_info": {
+                "appearances": "6",
+                "starts": "6",
+                "goals": "0",
+                "assists": "0",
+                "substitute_in": "0",
+                "avg_appearances_time": "83"
+            },
+            "attack": {
+                "goals": "0",
+                "shots": "5",
+                "fouled": "7",
+                "offsides": "2",
+                "avg_goals": "0",
+                "freq_goals": "0",
+                "shots_on_target_rate": "60"
+            },
+            "pass": {
+                "assists": "0",
+                "passes": "-",
+                "key_passes": "5",
+                "success_pass_rate": "77"
+            },
+            "defense": {
+                "avg_tackles": "4.00",
+                "avg_interceptions": "2.83",
+                "avg_clearances": "0.50"
+            },
+            "discipline": {
+                "fouls": "14",
+                "yellow_cards": "1",
+                "red_cards": "0",
+                "appearances_time": "496"
+            },
+            "statistic": {
+                "appearances": "6",
+                "assists": "0",
+                "clearances": "3",
+                "fouled": "7",
+                "fouls": "14",
+                "goals": "0",
+                "id": "1658939",
+                "interceptions": "17",
+                "key_passes": "5",
+                "minutes_played": "496",
+                "offsides": "2",
+                "pass_accuracy": "0",
+                "passes": "208",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "17",
+                "shots": "5",
+                "shots_on_target": "3",
+                "starts": "6",
+                "substitute_in": "0",
+                "success_passes": "161",
+                "tackles": "24",
+                "time_played": "494",
+                "yellow_cards": "1"
+            }
+        },
+        {
+            "id": "1658936",
+            "competition": {
+                "id": "219",
+                "name": "俄罗斯超级杯",
+                "short_name": "俄超杯",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "1912",
+                "season_id": "1912",
+                "name": "2016/2017",
+                "season": ""
+            },
+            "team": {
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
+                "type": "club"
+            },
+            "base_info": {
+                "appearances": "1",
+                "starts": "0",
+                "goals": "0",
+                "assists": "0",
+                "substitute_in": "1",
+                "avg_appearances_time": "29"
+            },
+            "attack": {
+                "goals": "0",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "0",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
+            },
+            "pass": {
+                "assists": "0",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
+            },
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "0",
+                "red_cards": "0",
+                "appearances_time": "29"
+            },
+            "statistic": {
+                "appearances": "1",
+                "assists": "0",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "0",
+                "id": "1658936",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "29",
                 "offsides": "0",
                 "pass_accuracy": "0",
                 "passes": "0",
@@ -811,839 +1023,7 @@
                 "shots": "0",
                 "shots_on_target": "0",
                 "starts": "0",
-                "substitute_in": "3",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "1485019",
-            "competition": {
-                "id": "9",
-                "name": "意大利足球甲级联赛",
-                "short_name": "意甲",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1762",
-                "season_id": "1762",
-                "name": "2014/2015"
-            },
-            "team": {
-                "id": "1057",
-                "name": "佛罗伦萨",
-                "short_name": "佛罗伦萨",
-                "logo": "https://img.dongqiudi.com/data/pic/1259.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "16",
-                "starts": "10",
-                "goals": "6",
-                "assists": "3",
-                "substitute_in": "6",
-                "avg_appearances_time": "57"
-            },
-            "attack": {
-                "goals": "6",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0.38",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "3",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "911"
-            },
-            "statistic": {
-                "appearances": "16",
-                "assists": "3",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "6",
-                "id": "1485019",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "911",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "74",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "10",
-                "substitute_in": "6",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "1485065",
-            "competition": {
-                "id": "4",
-                "name": "英格兰足球顶级联赛",
-                "short_name": "英超",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1630",
-                "season_id": "1630",
-                "name": "2013/2014"
-            },
-            "team": {
-                "id": "514",
-                "name": "切尔西",
-                "short_name": "切尔西",
-                "logo": "https://img.dongqiudi.com/data/pic/661.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "10",
-                "starts": "6",
-                "goals": "2",
-                "assists": "1",
-                "substitute_in": "4",
-                "avg_appearances_time": "50"
-            },
-            "attack": {
-                "goals": "2",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0.20",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "1",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "1",
-                "red_cards": "0",
-                "appearances_time": "501"
-            },
-            "statistic": {
-                "appearances": "10",
-                "assists": "1",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "2",
-                "id": "1485065",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "501",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "15",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "6",
-                "substitute_in": "4",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "1"
-            }
-        },
-        {
-            "id": "1485084",
-            "competition": {
-                "id": "20",
-                "name": "瑞士足球超级联赛",
-                "short_name": "瑞士超",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1660",
-                "season_id": "1660",
-                "name": "2013/2014"
-            },
-            "team": {
-                "id": "1905",
-                "name": "巴塞尔",
-                "short_name": "巴塞尔",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/1905.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "18",
-                "starts": "12",
-                "goals": "4",
-                "assists": "0",
-                "substitute_in": "6",
-                "avg_appearances_time": "64"
-            },
-            "attack": {
-                "goals": "4",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0.22",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "1",
-                "red_cards": "0",
-                "appearances_time": "1151"
-            },
-            "statistic": {
-                "appearances": "18",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "4",
-                "id": "1485084",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "1151",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "22",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "12",
-                "substitute_in": "6",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "1"
-            }
-        },
-        {
-            "id": "1485109",
-            "competition": {
-                "id": "20",
-                "name": "瑞士足球超级联赛",
-                "short_name": "瑞士超",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1424",
-                "season_id": "1424",
-                "name": "2012/2013"
-            },
-            "team": {
-                "id": "1905",
-                "name": "巴塞尔",
-                "short_name": "巴塞尔",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/1905.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "29",
-                "starts": "12",
-                "goals": "5",
-                "assists": "0",
-                "substitute_in": "17",
-                "avg_appearances_time": "49"
-            },
-            "attack": {
-                "goals": "5",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0.17",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "1431"
-            },
-            "statistic": {
-                "appearances": "29",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "5",
-                "id": "1485109",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "1431",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "22",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "12",
-                "substitute_in": "17",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "1485136",
-            "competition": {
-                "id": "187",
-                "name": "埃及甲组联赛",
-                "short_name": "埃及甲",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "5976",
-                "season_id": "5976",
-                "name": "2011/2012"
-            },
-            "team": {
-                "id": "3555",
-                "name": "阿拉伯承包商",
-                "short_name": "阿拉伯承包商",
-                "logo": "https://img.dongqiudi.com/data/pic/4618.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "15",
-                "starts": "15",
-                "goals": "7",
-                "assists": "0",
-                "substitute_in": "0",
-                "avg_appearances_time": "90"
-            },
-            "attack": {
-                "goals": "7",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0.47",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "1",
-                "red_cards": "0",
-                "appearances_time": "1350"
-            },
-            "statistic": {
-                "appearances": "15",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "7",
-                "id": "1485136",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "1350",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "0",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "15",
-                "substitute_in": "0",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "1"
-            }
-        },
-        {
-            "id": "1485147",
-            "competition": {
-                "id": "187",
-                "name": "埃及甲组联赛",
-                "short_name": "埃及甲",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "5111",
-                "season_id": "5111",
-                "name": "2010/2011"
-            },
-            "team": {
-                "id": "3555",
-                "name": "阿拉伯承包商",
-                "short_name": "阿拉伯承包商",
-                "logo": "https://img.dongqiudi.com/data/pic/4618.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "21",
-                "starts": "12",
-                "goals": "4",
-                "assists": "0",
-                "substitute_in": "9",
-                "avg_appearances_time": "63"
-            },
-            "attack": {
-                "goals": "4",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0.19",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "1",
-                "red_cards": "0",
-                "appearances_time": "1331"
-            },
-            "statistic": {
-                "appearances": "21",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "4",
-                "id": "1485147",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "1331",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "31",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "12",
-                "substitute_in": "9",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "1"
-            }
-        }
-    ],
-    "cup": [
-        {
-            "id": "2255668",
-            "competition": {
-                "id": "1255",
-                "name": "Premier League Asia Trophy",
-                "short_name": "Premier League Asia Trophy",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "9390",
-                "season_id": "9390",
-                "name": "2017"
-            },
-            "team": {
-                "id": "516",
-                "name": "利物浦",
-                "short_name": "利物浦",
-                "logo": "https://img.dongqiudi.com/data/pic/663.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "2",
-                "starts": "2",
-                "goals": "1",
-                "assists": "0",
-                "substitute_in": "0",
-                "avg_appearances_time": "58"
-            },
-            "attack": {
-                "goals": "1",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0.50",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "115"
-            },
-            "statistic": {
-                "appearances": "2",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "1",
-                "id": "2255668",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "115",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "11",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "2",
-                "substitute_in": "0",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "2242927",
-            "competition": {
-                "id": "6",
-                "name": "欧洲冠军联赛",
-                "short_name": "欧冠",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "9273",
-                "season_id": "9273",
-                "name": "2017/2018"
-            },
-            "team": {
-                "id": "516",
-                "name": "利物浦",
-                "short_name": "利物浦",
-                "logo": "https://img.dongqiudi.com/data/pic/663.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "14",
-                "starts": "13",
-                "goals": "11",
-                "assists": "4",
                 "substitute_in": "1",
-                "avg_appearances_time": "77"
-            },
-            "attack": {
-                "goals": "11",
-                "shots": "31",
-                "fouled": "7",
-                "offsides": "8",
-                "avg_goals": "0.79",
-                "freq_goals": "82",
-                "shots_on_target_rate": "74"
-            },
-            "pass": {
-                "assists": "4",
-                "passes": "283",
-                "key_passes": "23",
-                "success_pass_rate": "74"
-            },
-            "defense": {
-                "avg_tackles": "0.43",
-                "avg_interceptions": "0.36",
-                "avg_clearances": "0.21"
-            },
-            "discipline": {
-                "fouls": "3",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "1080"
-            },
-            "statistic": {
-                "appearances": "14",
-                "assists": "4",
-                "clearances": "3",
-                "fouled": "7",
-                "fouls": "3",
-                "goals": "11",
-                "id": "2242927",
-                "interceptions": "5",
-                "key_passes": "23",
-                "minutes_played": "1080",
-                "offsides": "8",
-                "pass_accuracy": "0",
-                "passes": "283",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "11",
-                "shots": "31",
-                "shots_on_target": "23",
-                "starts": "13",
-                "substitute_in": "1",
-                "success_passes": "210",
-                "tackles": "6",
-                "time_played": "899",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "2242926",
-            "competition": {
-                "id": "82",
-                "name": "英格兰足总杯",
-                "short_name": "足总杯",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "9311",
-                "season_id": "9311",
-                "name": "2017/2018"
-            },
-            "team": {
-                "id": "516",
-                "name": "利物浦",
-                "short_name": "利物浦",
-                "logo": "https://img.dongqiudi.com/data/pic/663.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "1",
-                "starts": "1",
-                "goals": "1",
-                "assists": "0",
-                "substitute_in": "0",
-                "avg_appearances_time": "90"
-            },
-            "attack": {
-                "goals": "1",
-                "shots": "4",
-                "fouled": "2",
-                "offsides": "1",
-                "avg_goals": "1",
-                "freq_goals": "90",
-                "shots_on_target_rate": "50"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "29",
-                "key_passes": "2",
-                "success_pass_rate": "69"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "90"
-            },
-            "statistic": {
-                "appearances": "1",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "2",
-                "fouls": "0",
-                "goals": "1",
-                "id": "2242926",
-                "interceptions": "0",
-                "key_passes": "2",
-                "minutes_played": "90",
-                "offsides": "1",
-                "pass_accuracy": "0",
-                "passes": "29",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "11",
-                "shots": "4",
-                "shots_on_target": "2",
-                "starts": "1",
-                "substitute_in": "0",
-                "success_passes": "20",
-                "tackles": "0",
-                "time_played": "90",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "2242924",
-            "competition": {
-                "id": "83",
-                "name": "英格兰联赛杯",
-                "short_name": "英联杯",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "9257",
-                "season_id": "9257",
-                "name": "2017/2018"
-            },
-            "team": {
-                "id": "516",
-                "name": "利物浦",
-                "short_name": "利物浦",
-                "logo": "https://img.dongqiudi.com/data/pic/663.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "0",
-                "starts": "0",
-                "goals": "0",
-                "assists": "0",
-                "substitute_in": "0",
-                "avg_appearances_time": "-"
-            },
-            "attack": {
-                "goals": "0",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "-",
-                "freq_goals": "-",
-                "shots_on_target_rate": "-"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "-"
-            },
-            "defense": {
-                "avg_tackles": "-",
-                "avg_interceptions": "-",
-                "avg_clearances": "-"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "0"
-            },
-            "statistic": {
-                "appearances": "0",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "0",
-                "id": "2242924",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "0",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "11",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "0",
-                "substitute_in": "0",
                 "success_passes": "0",
                 "tackles": "0",
                 "time_played": "0",
@@ -1651,256 +1031,7 @@
             }
         },
         {
-            "id": "1484976",
-            "competition": {
-                "id": "6",
-                "name": "欧洲冠军联赛",
-                "short_name": "欧冠",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1973",
-                "season_id": "1973",
-                "name": "2016/2017"
-            },
-            "team": {
-                "id": "1039",
-                "name": "罗马",
-                "short_name": "罗马",
-                "logo": "https://img.dongqiudi.com/data/pic/1241.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "0",
-                "starts": "0",
-                "goals": "0",
-                "assists": "0",
-                "substitute_in": "0",
-                "avg_appearances_time": "-"
-            },
-            "attack": {
-                "goals": "0",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "-",
-                "freq_goals": "-",
-                "shots_on_target_rate": "-"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "-"
-            },
-            "defense": {
-                "avg_tackles": "-",
-                "avg_interceptions": "-",
-                "avg_clearances": "-"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "0"
-            },
-            "statistic": {
-                "appearances": "0",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "0",
-                "id": "1484976",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "0",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "0",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "0",
-                "substitute_in": "0",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "1484980",
-            "competition": {
-                "id": "14",
-                "name": "欧足联欧洲联赛",
-                "short_name": "欧联",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1972",
-                "season_id": "1972",
-                "name": "2016/2017"
-            },
-            "team": {
-                "id": "1039",
-                "name": "罗马",
-                "short_name": "罗马",
-                "logo": "https://img.dongqiudi.com/data/pic/1241.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "0",
-                "starts": "0",
-                "goals": "0",
-                "assists": "0",
-                "substitute_in": "0",
-                "avg_appearances_time": "-"
-            },
-            "attack": {
-                "goals": "0",
-                "shots": "13",
-                "fouled": "6",
-                "offsides": "7",
-                "avg_goals": "-",
-                "freq_goals": "-",
-                "shots_on_target_rate": "62"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "130",
-                "key_passes": "9",
-                "success_pass_rate": "83"
-            },
-            "defense": {
-                "avg_tackles": "-",
-                "avg_interceptions": "-",
-                "avg_clearances": "-"
-            },
-            "discipline": {
-                "fouls": "4",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "0"
-            },
-            "statistic": {
-                "appearances": "0",
-                "assists": "0",
-                "clearances": "1",
-                "fouled": "6",
-                "fouls": "4",
-                "goals": "0",
-                "id": "1484980",
-                "interceptions": "1",
-                "key_passes": "9",
-                "minutes_played": "0",
-                "offsides": "7",
-                "pass_accuracy": "0",
-                "passes": "130",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "0",
-                "shots": "13",
-                "shots_on_target": "8",
-                "starts": "0",
-                "substitute_in": "0",
-                "success_passes": "108",
-                "tackles": "2",
-                "time_played": "373",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "2039062",
-            "competition": {
-                "id": "116",
-                "name": "意大利杯",
-                "short_name": "意杯",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1991",
-                "season_id": "1991",
-                "name": "2016/2017"
-            },
-            "team": {
-                "id": "1039",
-                "name": "罗马",
-                "short_name": "罗马",
-                "logo": "https://img.dongqiudi.com/data/pic/1241.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "2",
-                "starts": "2",
-                "goals": "2",
-                "assists": "0",
-                "substitute_in": "0",
-                "avg_appearances_time": "80"
-            },
-            "attack": {
-                "goals": "2",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "1",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "159"
-            },
-            "statistic": {
-                "appearances": "2",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "2",
-                "id": "2039062",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "159",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "11",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "2",
-                "substitute_in": "0",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "1485013",
+            "id": "1658953",
             "competition": {
                 "id": "6",
                 "name": "欧洲冠军联赛",
@@ -1910,105 +1041,23 @@
             "season": {
                 "id": "1902",
                 "season_id": "1902",
-                "name": "2015/2016"
+                "name": "2015/2016",
+                "season": ""
             },
             "team": {
-                "id": "1039",
-                "name": "罗马",
-                "short_name": "罗马",
-                "logo": "https://img.dongqiudi.com/data/pic/1241.png",
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
                 "type": "club"
             },
             "base_info": {
-                "appearances": "7",
-                "starts": "6",
-                "goals": "1",
-                "assists": "0",
-                "substitute_in": "1",
-                "avg_appearances_time": "78"
-            },
-            "attack": {
-                "goals": "1",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0.14",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "543"
-            },
-            "statistic": {
-                "appearances": "7",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "1",
-                "id": "1485013",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "543",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "11",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "6",
-                "substitute_in": "1",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "1485002",
-            "competition": {
-                "id": "116",
-                "name": "意大利杯",
-                "short_name": "意杯",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1871",
-                "season_id": "1871",
-                "name": "2015/2016"
-            },
-            "team": {
-                "id": "1039",
-                "name": "罗马",
-                "short_name": "罗马",
-                "logo": "https://img.dongqiudi.com/data/pic/1241.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "1",
-                "starts": "1",
+                "appearances": "2",
+                "starts": "0",
                 "goals": "0",
                 "assists": "0",
-                "substitute_in": "0",
-                "avg_appearances_time": "120"
+                "substitute_in": "2",
+                "avg_appearances_time": "8"
             },
             "attack": {
                 "goals": "0",
@@ -2021,7 +1070,7 @@
             },
             "pass": {
                 "assists": "0",
-                "passes": "0",
+                "passes": "-",
                 "key_passes": "0",
                 "success_pass_rate": "0"
             },
@@ -2034,90 +1083,7 @@
                 "fouls": "0",
                 "yellow_cards": "0",
                 "red_cards": "0",
-                "appearances_time": "120"
-            },
-            "statistic": {
-                "appearances": "1",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "0",
-                "id": "1485002",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "120",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "0",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "1",
-                "substitute_in": "0",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "1485050",
-            "competition": {
-                "id": "6",
-                "name": "欧洲冠军联赛",
-                "short_name": "欧冠",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1780",
-                "season_id": "1780",
-                "name": "2014/2015"
-            },
-            "team": {
-                "id": "514",
-                "name": "切尔西",
-                "short_name": "切尔西",
-                "logo": "https://img.dongqiudi.com/data/pic/661.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "2",
-                "starts": "1",
-                "goals": "0",
-                "assists": "0",
-                "substitute_in": "1",
-                "avg_appearances_time": "39"
-            },
-            "attack": {
-                "goals": "0",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "77"
+                "appearances_time": "15"
             },
             "statistic": {
                 "appearances": "2",
@@ -2126,10 +1092,10 @@
                 "fouled": "0",
                 "fouls": "0",
                 "goals": "0",
-                "id": "1485050",
+                "id": "1658953",
                 "interceptions": "0",
                 "key_passes": "0",
-                "minutes_played": "77",
+                "minutes_played": "15",
                 "offsides": "0",
                 "pass_accuracy": "0",
                 "passes": "0",
@@ -2137,11 +1103,11 @@
                 "red_cards": "0",
                 "saves": "0",
                 "second_yellow_cards": "0",
-                "shirt_number": "0",
+                "shirt_number": "60",
                 "shots": "0",
                 "shots_on_target": "0",
-                "starts": "1",
-                "substitute_in": "1",
+                "starts": "0",
+                "substitute_in": "2",
                 "success_passes": "0",
                 "tackles": "0",
                 "time_played": "0",
@@ -2149,367 +1115,36 @@
             }
         },
         {
-            "id": "1485043",
+            "id": "1658950",
             "competition": {
-                "id": "14",
-                "name": "欧足联欧洲联赛",
-                "short_name": "欧联",
+                "id": "171",
+                "name": "俄罗斯杯",
+                "short_name": "俄杯",
                 "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
             },
             "season": {
-                "id": "1754",
-                "season_id": "1754",
-                "name": "2014/2015"
+                "id": "1864",
+                "season_id": "1864",
+                "name": "2015/2016",
+                "season": ""
             },
             "team": {
-                "id": "1057",
-                "name": "佛罗伦萨",
-                "short_name": "佛罗伦萨",
-                "logo": "https://img.dongqiudi.com/data/pic/1259.png",
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
                 "type": "club"
             },
             "base_info": {
-                "appearances": "8",
-                "starts": "8",
-                "goals": "1",
-                "assists": "1",
-                "substitute_in": "0",
-                "avg_appearances_time": "90"
-            },
-            "attack": {
-                "goals": "1",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0.12",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "1",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "1",
-                "red_cards": "0",
-                "appearances_time": "718"
-            },
-            "statistic": {
-                "appearances": "8",
-                "assists": "1",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "1",
-                "id": "1485043",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "718",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "0",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "8",
-                "substitute_in": "0",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "1"
-            }
-        },
-        {
-            "id": "1485029",
-            "competition": {
-                "id": "82",
-                "name": "英格兰足总杯",
-                "short_name": "足总杯",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1757",
-                "season_id": "1757",
-                "name": "2014/2015"
-            },
-            "team": {
-                "id": "514",
-                "name": "切尔西",
-                "short_name": "切尔西",
-                "logo": "https://img.dongqiudi.com/data/pic/661.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "1",
-                "starts": "1",
-                "goals": "0",
-                "assists": "1",
-                "substitute_in": "0",
-                "avg_appearances_time": "70"
-            },
-            "attack": {
-                "goals": "0",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "1",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "70"
-            },
-            "statistic": {
-                "appearances": "1",
-                "assists": "1",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "0",
-                "id": "1485029",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "70",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "0",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "1",
-                "substitute_in": "0",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "1485037",
-            "competition": {
-                "id": "116",
-                "name": "意大利杯",
-                "short_name": "意杯",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1744",
-                "season_id": "1744",
-                "name": "2014/2015"
-            },
-            "team": {
-                "id": "1057",
-                "name": "佛罗伦萨",
-                "short_name": "佛罗伦萨",
-                "logo": "https://img.dongqiudi.com/data/pic/1259.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "2",
-                "starts": "2",
+                "appearances": "4",
+                "starts": "4",
                 "goals": "2",
-                "assists": "0",
-                "substitute_in": "0",
-                "avg_appearances_time": "82"
-            },
-            "attack": {
-                "goals": "2",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "1",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "164"
-            },
-            "statistic": {
-                "appearances": "2",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "2",
-                "id": "1485037",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "164",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "74",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "2",
-                "substitute_in": "0",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "1485032",
-            "competition": {
-                "id": "83",
-                "name": "英格兰联赛杯",
-                "short_name": "英联杯",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1735",
-                "season_id": "1735",
-                "name": "2014/2015"
-            },
-            "team": {
-                "id": "514",
-                "name": "切尔西",
-                "short_name": "切尔西",
-                "logo": "https://img.dongqiudi.com/data/pic/661.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "2",
-                "starts": "2",
-                "goals": "0",
-                "assists": "1",
-                "substitute_in": "0",
-                "avg_appearances_time": "80"
-            },
-            "attack": {
-                "goals": "0",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "1",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "160"
-            },
-            "statistic": {
-                "appearances": "2",
-                "assists": "1",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "0",
-                "id": "1485032",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "160",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "0",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "2",
-                "substitute_in": "0",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "1485090",
-            "competition": {
-                "id": "6",
-                "name": "欧洲冠军联赛",
-                "short_name": "欧冠",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1638",
-                "season_id": "1638",
-                "name": "2013/2014"
-            },
-            "team": {
-                "id": "1905",
-                "name": "巴塞尔",
-                "short_name": "巴塞尔",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/1905.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "10",
-                "starts": "10",
-                "goals": "5",
                 "assists": "0",
                 "substitute_in": "0",
                 "avg_appearances_time": "85"
             },
             "attack": {
-                "goals": "5",
+                "goals": "2",
                 "shots": "0",
                 "fouled": "0",
                 "offsides": "0",
@@ -2519,90 +1154,7 @@
             },
             "pass": {
                 "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "2",
-                "red_cards": "0",
-                "appearances_time": "853"
-            },
-            "statistic": {
-                "appearances": "10",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "5",
-                "id": "1485090",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "853",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "22",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "10",
-                "substitute_in": "0",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "2"
-            }
-        },
-        {
-            "id": "1485072",
-            "competition": {
-                "id": "82",
-                "name": "英格兰足总杯",
-                "short_name": "足总杯",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1625",
-                "season_id": "1625",
-                "name": "2013/2014"
-            },
-            "team": {
-                "id": "514",
-                "name": "切尔西",
-                "short_name": "切尔西",
-                "logo": "https://img.dongqiudi.com/data/pic/661.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "1",
-                "starts": "0",
-                "goals": "0",
-                "assists": "0",
-                "substitute_in": "1",
-                "avg_appearances_time": "44"
-            },
-            "attack": {
-                "goals": "0",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "0",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
+                "passes": "-",
                 "key_passes": "0",
                 "success_pass_rate": "0"
             },
@@ -2615,102 +1167,19 @@
                 "fouls": "0",
                 "yellow_cards": "0",
                 "red_cards": "0",
-                "appearances_time": "44"
+                "appearances_time": "340"
             },
             "statistic": {
-                "appearances": "1",
+                "appearances": "4",
                 "assists": "0",
                 "clearances": "0",
                 "fouled": "0",
                 "fouls": "0",
-                "goals": "0",
-                "id": "1485072",
+                "goals": "2",
+                "id": "1658950",
                 "interceptions": "0",
                 "key_passes": "0",
-                "minutes_played": "44",
-                "offsides": "0",
-                "pass_accuracy": "0",
-                "passes": "0",
-                "penalty_goals": "0",
-                "red_cards": "0",
-                "saves": "0",
-                "second_yellow_cards": "0",
-                "shirt_number": "15",
-                "shots": "0",
-                "shots_on_target": "0",
-                "starts": "0",
-                "substitute_in": "1",
-                "success_passes": "0",
-                "tackles": "0",
-                "time_played": "0",
-                "yellow_cards": "0"
-            }
-        },
-        {
-            "id": "1485080",
-            "competition": {
-                "id": "102",
-                "name": "瑞士杯",
-                "short_name": "瑞士杯",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1633",
-                "season_id": "1633",
-                "name": "2013/2014"
-            },
-            "team": {
-                "id": "1905",
-                "name": "巴塞尔",
-                "short_name": "巴塞尔",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/1905.png",
-                "type": "club"
-            },
-            "base_info": {
-                "appearances": "1",
-                "starts": "1",
-                "goals": "1",
-                "assists": "0",
-                "substitute_in": "0",
-                "avg_appearances_time": "77"
-            },
-            "attack": {
-                "goals": "1",
-                "shots": "0",
-                "fouled": "0",
-                "offsides": "0",
-                "avg_goals": "1",
-                "freq_goals": "0",
-                "shots_on_target_rate": "0"
-            },
-            "pass": {
-                "assists": "0",
-                "passes": "0",
-                "key_passes": "0",
-                "success_pass_rate": "0"
-            },
-            "defense": {
-                "avg_tackles": "0",
-                "avg_interceptions": "0",
-                "avg_clearances": "0"
-            },
-            "discipline": {
-                "fouls": "0",
-                "yellow_cards": "0",
-                "red_cards": "0",
-                "appearances_time": "77"
-            },
-            "statistic": {
-                "appearances": "1",
-                "assists": "0",
-                "clearances": "0",
-                "fouled": "0",
-                "fouls": "0",
-                "goals": "1",
-                "id": "1485080",
-                "interceptions": "0",
-                "key_passes": "0",
-                "minutes_played": "77",
+                "minutes_played": "340",
                 "offsides": "0",
                 "pass_accuracy": "0",
                 "passes": "0",
@@ -2721,7 +1190,7 @@
                 "shirt_number": "0",
                 "shots": "0",
                 "shots_on_target": "0",
-                "starts": "1",
+                "starts": "4",
                 "substitute_in": "0",
                 "success_passes": "0",
                 "tackles": "0",
@@ -2730,28 +1199,29 @@
             }
         },
         {
-            "id": "1485114",
+            "id": "1658996",
             "competition": {
-                "id": "6",
-                "name": "欧洲冠军联赛",
-                "short_name": "欧冠",
+                "id": "171",
+                "name": "俄罗斯杯",
+                "short_name": "俄杯",
                 "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
             },
             "season": {
-                "id": "1416",
-                "season_id": "1416",
-                "name": "2012/2013"
+                "id": "1749",
+                "season_id": "1749",
+                "name": "2014/2015",
+                "season": ""
             },
             "team": {
-                "id": "1905",
-                "name": "巴塞尔",
-                "short_name": "巴塞尔",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/1905.png",
+                "id": "1588",
+                "name": "莫斯科中央陆军",
+                "short_name": "莫斯科中央陆军",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/15881111.png",
                 "type": "club"
             },
             "base_info": {
-                "appearances": "2",
-                "starts": "1",
+                "appearances": "3",
+                "starts": "2",
                 "goals": "0",
                 "assists": "0",
                 "substitute_in": "1",
@@ -2768,7 +1238,7 @@
             },
             "pass": {
                 "assists": "0",
-                "passes": "0",
+                "passes": "-",
                 "key_passes": "0",
                 "success_pass_rate": "0"
             },
@@ -2781,19 +1251,19 @@
                 "fouls": "0",
                 "yellow_cards": "0",
                 "red_cards": "0",
-                "appearances_time": "106"
+                "appearances_time": "158"
             },
             "statistic": {
-                "appearances": "2",
+                "appearances": "3",
                 "assists": "0",
                 "clearances": "0",
                 "fouled": "0",
                 "fouls": "0",
                 "goals": "0",
-                "id": "1485114",
+                "id": "1658996",
                 "interceptions": "0",
                 "key_passes": "0",
-                "minutes_played": "106",
+                "minutes_played": "158",
                 "offsides": "0",
                 "pass_accuracy": "0",
                 "passes": "0",
@@ -2804,7 +1274,7 @@
                 "shirt_number": "0",
                 "shots": "0",
                 "shots_on_target": "0",
-                "starts": "1",
+                "starts": "2",
                 "substitute_in": "1",
                 "success_passes": "0",
                 "tackles": "0",
@@ -2813,45 +1283,46 @@
             }
         },
         {
-            "id": "1485120",
+            "id": "1658974",
             "competition": {
-                "id": "14",
-                "name": "欧足联欧洲联赛",
-                "short_name": "欧联",
+                "id": "1023",
+                "name": "欧洲青年联赛",
+                "short_name": "欧青联",
                 "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
             },
             "season": {
-                "id": "1397",
-                "season_id": "1397",
-                "name": "2012/2013"
+                "id": "8464",
+                "season_id": "8464",
+                "name": "2014/2015",
+                "season": ""
             },
             "team": {
-                "id": "1905",
-                "name": "巴塞尔",
-                "short_name": "巴塞尔",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/1905.png",
+                "id": "12386",
+                "name": "CSKA Moskva U19",
+                "short_name": "CSKA Moskva U19",
+                "logo": "",
                 "type": "club"
             },
             "base_info": {
-                "appearances": "14",
-                "starts": "10",
-                "goals": "2",
-                "assists": "3",
-                "substitute_in": "4",
-                "avg_appearances_time": "68"
+                "appearances": "6",
+                "starts": "6",
+                "goals": "1",
+                "assists": "0",
+                "substitute_in": "0",
+                "avg_appearances_time": "83"
             },
             "attack": {
-                "goals": "2",
+                "goals": "1",
                 "shots": "0",
                 "fouled": "0",
                 "offsides": "0",
-                "avg_goals": "0.14",
+                "avg_goals": "0.17",
                 "freq_goals": "0",
                 "shots_on_target_rate": "0"
             },
             "pass": {
-                "assists": "3",
-                "passes": "0",
+                "assists": "0",
+                "passes": "-",
                 "key_passes": "0",
                 "success_pass_rate": "0"
             },
@@ -2862,21 +1333,21 @@
             },
             "discipline": {
                 "fouls": "0",
-                "yellow_cards": "0",
+                "yellow_cards": "2",
                 "red_cards": "0",
-                "appearances_time": "947"
+                "appearances_time": "500"
             },
             "statistic": {
-                "appearances": "14",
-                "assists": "3",
+                "appearances": "6",
+                "assists": "0",
                 "clearances": "0",
                 "fouled": "0",
                 "fouls": "0",
-                "goals": "2",
-                "id": "1485120",
+                "goals": "1",
+                "id": "1658974",
                 "interceptions": "0",
                 "key_passes": "0",
-                "minutes_played": "947",
+                "minutes_played": "500",
                 "offsides": "0",
                 "pass_accuracy": "0",
                 "passes": "0",
@@ -2884,57 +1355,58 @@
                 "red_cards": "0",
                 "saves": "0",
                 "second_yellow_cards": "0",
-                "shirt_number": "22",
+                "shirt_number": "10",
                 "shots": "0",
                 "shots_on_target": "0",
-                "starts": "10",
-                "substitute_in": "4",
+                "starts": "6",
+                "substitute_in": "0",
                 "success_passes": "0",
                 "tackles": "0",
                 "time_played": "0",
-                "yellow_cards": "0"
+                "yellow_cards": "2"
             }
         },
         {
-            "id": "1485096",
+            "id": "1659009",
             "competition": {
-                "id": "102",
-                "name": "瑞士杯",
-                "short_name": "瑞士杯",
+                "id": "1023",
+                "name": "欧洲青年联赛",
+                "short_name": "欧青联",
                 "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
             },
             "season": {
-                "id": "1418",
-                "season_id": "1418",
-                "name": "2012/2013"
+                "id": "7844",
+                "season_id": "7844",
+                "name": "2013/2014",
+                "season": ""
             },
             "team": {
-                "id": "1905",
-                "name": "巴塞尔",
-                "short_name": "巴塞尔",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/team/1905.png",
+                "id": "12386",
+                "name": "CSKA Moskva U19",
+                "short_name": "CSKA Moskva U19",
+                "logo": "",
                 "type": "club"
             },
             "base_info": {
-                "appearances": "3",
-                "starts": "2",
+                "appearances": "6",
+                "starts": "5",
                 "goals": "2",
                 "assists": "0",
                 "substitute_in": "1",
-                "avg_appearances_time": "89"
+                "avg_appearances_time": "76"
             },
             "attack": {
                 "goals": "2",
                 "shots": "0",
                 "fouled": "0",
                 "offsides": "0",
-                "avg_goals": "0.67",
+                "avg_goals": "0.33",
                 "freq_goals": "0",
                 "shots_on_target_rate": "0"
             },
             "pass": {
                 "assists": "0",
-                "passes": "0",
+                "passes": "-",
                 "key_passes": "0",
                 "success_pass_rate": "0"
             },
@@ -2947,7 +1419,261 @@
                 "fouls": "0",
                 "yellow_cards": "1",
                 "red_cards": "0",
-                "appearances_time": "268"
+                "appearances_time": "456"
+            },
+            "statistic": {
+                "appearances": "6",
+                "assists": "0",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "2",
+                "id": "1659009",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "456",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "1",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "60",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "5",
+                "substitute_in": "1",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "1"
+            }
+        }
+    ],
+    "international": [
+        {
+            "id": "2545162",
+            "competition": {
+                "id": "61",
+                "name": "世界杯",
+                "short_name": "世界杯",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "1800",
+                "season_id": "1800",
+                "name": "2018",
+                "season": ""
+            },
+            "team": {
+                "id": "1622",
+                "name": "俄罗斯",
+                "short_name": "俄罗斯",
+                "logo": "https://img.dongqiudi.com/data/pic/1878.png",
+                "type": "national"
+            },
+            "base_info": {
+                "appearances": "2",
+                "starts": "2",
+                "goals": "1",
+                "assists": "2",
+                "substitute_in": "0",
+                "avg_appearances_time": "90"
+            },
+            "attack": {
+                "goals": "1",
+                "shots": "2",
+                "fouled": "3",
+                "offsides": "0",
+                "avg_goals": "0.50",
+                "freq_goals": "180",
+                "shots_on_target_rate": "50"
+            },
+            "pass": {
+                "assists": "2",
+                "passes": "-",
+                "key_passes": "3",
+                "success_pass_rate": "74"
+            },
+            "defense": {
+                "avg_tackles": "3.00",
+                "avg_interceptions": "1.50",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "7",
+                "yellow_cards": "1",
+                "red_cards": "0",
+                "appearances_time": "180"
+            },
+            "statistic": {
+                "appearances": "2",
+                "assists": "2",
+                "clearances": "0",
+                "fouled": "3",
+                "fouls": "7",
+                "goals": "1",
+                "id": "2545162",
+                "interceptions": "3",
+                "key_passes": "3",
+                "minutes_played": "180",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "78",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "17",
+                "shots": "2",
+                "shots_on_target": "1",
+                "starts": "2",
+                "substitute_in": "0",
+                "success_passes": "58",
+                "tackles": "6",
+                "time_played": "180",
+                "yellow_cards": "1"
+            }
+        },
+        {
+            "id": "2522179",
+            "competition": {
+                "id": "389",
+                "name": "国家队友谊赛",
+                "short_name": "友谊赛",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "9266",
+                "season_id": "9266",
+                "name": "2018",
+                "season": ""
+            },
+            "team": {
+                "id": "1622",
+                "name": "俄罗斯",
+                "short_name": "俄罗斯",
+                "logo": "https://img.dongqiudi.com/data/pic/1878.png",
+                "type": "national"
+            },
+            "base_info": {
+                "appearances": "4",
+                "starts": "4",
+                "goals": "0",
+                "assists": "0",
+                "substitute_in": "0",
+                "avg_appearances_time": "87"
+            },
+            "attack": {
+                "goals": "0",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "0",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
+            },
+            "pass": {
+                "assists": "0",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
+            },
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "0",
+                "red_cards": "0",
+                "appearances_time": "346"
+            },
+            "statistic": {
+                "appearances": "4",
+                "assists": "0",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "0",
+                "id": "2522179",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "346",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "0",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "4",
+                "substitute_in": "0",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "0"
+            }
+        },
+        {
+            "id": "2165679",
+            "competition": {
+                "id": "223",
+                "name": "国际足联联合会杯",
+                "short_name": "联合会杯",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "7849",
+                "season_id": "7849",
+                "name": "2017",
+                "season": ""
+            },
+            "team": {
+                "id": "1622",
+                "name": "俄罗斯",
+                "short_name": "俄罗斯",
+                "logo": "https://img.dongqiudi.com/data/pic/1878.png",
+                "type": "national"
+            },
+            "base_info": {
+                "appearances": "3",
+                "starts": "3",
+                "goals": "0",
+                "assists": "0",
+                "substitute_in": "0",
+                "avg_appearances_time": "90"
+            },
+            "attack": {
+                "goals": "0",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "0",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
+            },
+            "pass": {
+                "assists": "0",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
+            },
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "1",
+                "red_cards": "0",
+                "appearances_time": "270"
             },
             "statistic": {
                 "appearances": "3",
@@ -2955,11 +1681,347 @@
                 "clearances": "0",
                 "fouled": "0",
                 "fouls": "0",
-                "goals": "2",
-                "id": "1485096",
+                "goals": "0",
+                "id": "2165679",
                 "interceptions": "0",
                 "key_passes": "0",
-                "minutes_played": "268",
+                "minutes_played": "270",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "17",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "3",
+                "substitute_in": "0",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "1"
+            }
+        },
+        {
+            "id": "2055068",
+            "competition": {
+                "id": "389",
+                "name": "国家队友谊赛",
+                "short_name": "友谊赛",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "2030",
+                "season_id": "2030",
+                "name": "2017",
+                "season": ""
+            },
+            "team": {
+                "id": "1622",
+                "name": "俄罗斯",
+                "short_name": "俄罗斯",
+                "logo": "https://img.dongqiudi.com/data/pic/1878.png",
+                "type": "national"
+            },
+            "base_info": {
+                "appearances": "4",
+                "starts": "3",
+                "goals": "0",
+                "assists": "0",
+                "substitute_in": "1",
+                "avg_appearances_time": "72"
+            },
+            "attack": {
+                "goals": "0",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "0",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
+            },
+            "pass": {
+                "assists": "0",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
+            },
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "0",
+                "red_cards": "0",
+                "appearances_time": "286"
+            },
+            "statistic": {
+                "appearances": "4",
+                "assists": "0",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "0",
+                "id": "2055068",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "286",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "0",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "3",
+                "substitute_in": "1",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "0"
+            }
+        },
+        {
+            "id": "1246592",
+            "competition": {
+                "id": "18",
+                "name": "欧洲国家杯",
+                "short_name": "欧洲杯",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "1530",
+                "season_id": "1530",
+                "name": "2016",
+                "season": ""
+            },
+            "team": {
+                "id": "1622",
+                "name": "俄罗斯",
+                "short_name": "俄罗斯",
+                "logo": "https://img.dongqiudi.com/data/pic/1878.png",
+                "type": "national"
+            },
+            "base_info": {
+                "appearances": "3",
+                "starts": "2",
+                "goals": "0",
+                "assists": "0",
+                "substitute_in": "1",
+                "avg_appearances_time": "54"
+            },
+            "attack": {
+                "goals": "0",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "0",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
+            },
+            "pass": {
+                "assists": "0",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
+            },
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "0",
+                "red_cards": "0",
+                "appearances_time": "161"
+            },
+            "statistic": {
+                "appearances": "3",
+                "assists": "0",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "0",
+                "id": "1246592",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "161",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "13",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "2",
+                "substitute_in": "1",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "0"
+            }
+        },
+        {
+            "id": "1658983",
+            "competition": {
+                "id": "883",
+                "name": "欧洲杯预选赛",
+                "short_name": "欧预赛",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "1575",
+                "season_id": "1575",
+                "name": "2016",
+                "season": ""
+            },
+            "team": {
+                "id": "1622",
+                "name": "俄罗斯",
+                "short_name": "俄罗斯",
+                "logo": "https://img.dongqiudi.com/data/pic/1878.png",
+                "type": "national"
+            },
+            "base_info": {
+                "appearances": "-",
+                "starts": "-",
+                "goals": "-",
+                "assists": "-",
+                "substitute_in": "-",
+                "avg_appearances_time": "-"
+            },
+            "attack": {
+                "goals": "-",
+                "shots": "-",
+                "fouled": "-",
+                "offsides": "-",
+                "avg_goals": "-",
+                "freq_goals": "-",
+                "shots_on_target_rate": "-"
+            },
+            "pass": {
+                "assists": "-",
+                "passes": "-",
+                "key_passes": "-",
+                "success_pass_rate": "-"
+            },
+            "defense": {
+                "avg_tackles": "-",
+                "avg_interceptions": "-",
+                "avg_clearances": "-"
+            },
+            "discipline": {
+                "fouls": "-",
+                "yellow_cards": "-",
+                "red_cards": "-",
+                "appearances_time": "-"
+            },
+            "statistic": {
+                "appearances": "-",
+                "assists": "-",
+                "clearances": "-",
+                "fouled": "-",
+                "fouls": "-",
+                "goals": "-",
+                "id": "1658983",
+                "interceptions": "-",
+                "key_passes": "-",
+                "minutes_played": "-",
+                "offsides": "-",
+                "pass_accuracy": "-",
+                "passes": "-",
+                "penalty_goals": "-",
+                "red_cards": "-",
+                "saves": "-",
+                "second_yellow_cards": "-",
+                "shirt_number": "-",
+                "shots": "-",
+                "shots_on_target": "-",
+                "starts": "-",
+                "substitute_in": "-",
+                "success_passes": "-",
+                "tackles": "-",
+                "time_played": "-",
+                "yellow_cards": "-"
+            }
+        },
+        {
+            "id": "1246593",
+            "competition": {
+                "id": "389",
+                "name": "国家队友谊赛",
+                "short_name": "友谊赛",
+                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            },
+            "season": {
+                "id": "1928",
+                "season_id": "1928",
+                "name": "2016",
+                "season": ""
+            },
+            "team": {
+                "id": "1622",
+                "name": "俄罗斯",
+                "short_name": "俄罗斯",
+                "logo": "https://img.dongqiudi.com/data/pic/1878.png",
+                "type": "national"
+            },
+            "base_info": {
+                "appearances": "4",
+                "starts": "2",
+                "goals": "1",
+                "assists": "0",
+                "substitute_in": "2",
+                "avg_appearances_time": "53"
+            },
+            "attack": {
+                "goals": "1",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "0.25",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
+            },
+            "pass": {
+                "assists": "0",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
+            },
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "0",
+                "red_cards": "0",
+                "appearances_time": "210"
+            },
+            "statistic": {
+                "appearances": "4",
+                "assists": "0",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "1",
+                "id": "1246593",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "210",
                 "offsides": "0",
                 "pass_accuracy": "0",
                 "passes": "0",
@@ -2971,323 +2033,15 @@
                 "shots": "0",
                 "shots_on_target": "0",
                 "starts": "2",
-                "substitute_in": "1",
+                "substitute_in": "2",
                 "success_passes": "0",
                 "tackles": "0",
                 "time_played": "0",
-                "yellow_cards": "1"
+                "yellow_cards": "0"
             }
-        }
-    ],
-    "international": [
-        {
-            "id": "2522523",
-            "competition": {
-                "id": "389",
-                "name": "国家队友谊赛",
-                "short_name": "友谊赛",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "9266",
-                "season_id": "9266",
-                "name": "2018"
-            },
-            "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "1"
-                },
-                {
-                    "title": "首发",
-                    "value": "1"
-                },
-                {
-                    "title": "进球",
-                    "value": "1"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
         },
         {
-            "id": "1212760",
-            "competition": {
-                "id": "206",
-                "name": "世界杯非洲区预选赛",
-                "short_name": "非洲预选",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1707",
-                "season_id": "1707",
-                "name": "2018"
-            },
-            "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "5"
-                },
-                {
-                    "title": "首发",
-                    "value": "5"
-                },
-                {
-                    "title": "进球",
-                    "value": "5"
-                },
-                {
-                    "title": "助攻",
-                    "value": "2"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "1"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
-        },
-        {
-            "id": "1994855",
-            "competition": {
-                "id": "351",
-                "name": "非洲国家杯",
-                "short_name": "非洲杯",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1882",
-                "season_id": "1882",
-                "name": "2017"
-            },
-            "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "6"
-                },
-                {
-                    "title": "首发",
-                    "value": "6"
-                },
-                {
-                    "title": "进球",
-                    "value": "2"
-                },
-                {
-                    "title": "助攻",
-                    "value": "2"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "1"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
-        },
-        {
-            "id": "1992454",
-            "competition": {
-                "id": "389",
-                "name": "国家队友谊赛",
-                "short_name": "友谊赛",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "2030",
-                "season_id": "2030",
-                "name": "2017"
-            },
-            "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "1"
-                },
-                {
-                    "title": "首发",
-                    "value": "0"
-                },
-                {
-                    "title": "进球",
-                    "value": "0"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "1"
-                }
-            ]
-        },
-        {
-            "id": "1212759",
-            "competition": {
-                "id": "389",
-                "name": "国家队友谊赛",
-                "short_name": "友谊赛",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1928",
-                "season_id": "1928",
-                "name": "2016"
-            },
-            "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "1"
-                },
-                {
-                    "title": "首发",
-                    "value": "1"
-                },
-                {
-                    "title": "进球",
-                    "value": "0"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
-        },
-        {
-            "id": "1212763",
-            "competition": {
-                "id": "887",
-                "name": "非洲杯预选赛",
-                "short_name": "非洲杯预选",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1564",
-                "season_id": "1564",
-                "name": "2015"
-            },
-            "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "0"
-                },
-                {
-                    "title": "首发",
-                    "value": "0"
-                },
-                {
-                    "title": "进球",
-                    "value": "3"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
-        },
-        {
-            "id": "1212762",
+            "id": "1658963",
             "competition": {
                 "id": "389",
                 "name": "国家队友谊赛",
@@ -3297,453 +2051,246 @@
             "season": {
                 "id": "1793",
                 "season_id": "1793",
-                "name": "2015"
+                "name": "2015",
+                "season": ""
             },
             "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
+                "id": "1622",
+                "name": "俄罗斯",
+                "short_name": "俄罗斯",
+                "logo": "https://img.dongqiudi.com/data/pic/1878.png",
                 "type": "national"
             },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "2"
-                },
-                {
-                    "title": "首发",
-                    "value": "2"
-                },
-                {
-                    "title": "进球",
-                    "value": "0"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
+            "base_info": {
+                "appearances": "1",
+                "starts": "0",
+                "goals": "1",
+                "assists": "1",
+                "substitute_in": "1",
+                "avg_appearances_time": "28"
+            },
+            "attack": {
+                "goals": "1",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "1",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
+            },
+            "pass": {
+                "assists": "1",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
+            },
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "0",
+                "red_cards": "0",
+                "appearances_time": "28"
+            },
+            "statistic": {
+                "appearances": "1",
+                "assists": "1",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "1",
+                "id": "1658963",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "28",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "0",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "0",
+                "substitute_in": "1",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "0"
+            }
         },
         {
-            "id": "1212764",
+            "id": "1659004",
             "competition": {
-                "id": "389",
-                "name": "国家队友谊赛",
-                "short_name": "友谊赛",
+                "id": "333",
+                "name": "U17世界杯",
+                "short_name": "世青U17",
                 "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
             },
             "season": {
-                "id": "1613",
-                "season_id": "1613",
-                "name": "2014"
+                "id": "1368",
+                "season_id": "1368",
+                "name": "2013",
+                "season": ""
             },
             "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
+                "id": "9594",
+                "name": "俄罗斯U17",
+                "short_name": "俄罗斯U17",
+                "logo": "https://img.dongqiudi.com/data/pic/15524.png",
                 "type": "national"
             },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "3"
-                },
-                {
-                    "title": "首发",
-                    "value": "3"
-                },
-                {
-                    "title": "进球",
-                    "value": "2"
-                },
-                {
-                    "title": "助攻",
-                    "value": "3"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
+            "base_info": {
+                "appearances": "4",
+                "starts": "2",
+                "goals": "1",
+                "assists": "1",
+                "substitute_in": "2",
+                "avg_appearances_time": "47"
+            },
+            "attack": {
+                "goals": "1",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "0.25",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
+            },
+            "pass": {
+                "assists": "1",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
+            },
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
+            },
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "1",
+                "red_cards": "0",
+                "appearances_time": "188"
+            },
+            "statistic": {
+                "appearances": "4",
+                "assists": "1",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "1",
+                "id": "1659004",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "188",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "10",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "2",
+                "substitute_in": "2",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "1"
+            }
         },
         {
-            "id": "1485130",
+            "id": "1659016",
             "competition": {
-                "id": "206",
-                "name": "世界杯非洲区预选赛",
-                "short_name": "非洲预选",
+                "id": "719",
+                "name": "欧洲U17国家杯",
+                "short_name": "欧青U17",
                 "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
             },
             "season": {
-                "id": "1294",
-                "season_id": "1294",
-                "name": "2014"
+                "id": "6721",
+                "season_id": "6721",
+                "name": "2013",
+                "season": ""
             },
             "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
+                "id": "9594",
+                "name": "俄罗斯U17",
+                "short_name": "俄罗斯U17",
+                "logo": "https://img.dongqiudi.com/data/pic/15524.png",
                 "type": "national"
             },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "8"
-                },
-                {
-                    "title": "首发",
-                    "value": "8"
-                },
-                {
-                    "title": "进球",
-                    "value": "6"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
-        },
-        {
-            "id": "1485122",
-            "competition": {
-                "id": "887",
-                "name": "非洲杯预选赛",
-                "short_name": "非洲杯预选",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            "base_info": {
+                "appearances": "8",
+                "starts": "5",
+                "goals": "0",
+                "assists": "0",
+                "substitute_in": "3",
+                "avg_appearances_time": "45"
             },
-            "season": {
-                "id": "1339",
-                "season_id": "1339",
-                "name": "2013"
+            "attack": {
+                "goals": "0",
+                "shots": "0",
+                "fouled": "0",
+                "offsides": "0",
+                "avg_goals": "0",
+                "freq_goals": "0",
+                "shots_on_target_rate": "0"
             },
-            "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
+            "pass": {
+                "assists": "0",
+                "passes": "-",
+                "key_passes": "0",
+                "success_pass_rate": "0"
             },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "0"
-                },
-                {
-                    "title": "首发",
-                    "value": "0"
-                },
-                {
-                    "title": "进球",
-                    "value": "1"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
-        },
-        {
-            "id": "1212765",
-            "competition": {
-                "id": "389",
-                "name": "国家队友谊赛",
-                "short_name": "友谊赛",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
+            "defense": {
+                "avg_tackles": "0",
+                "avg_interceptions": "0",
+                "avg_clearances": "0"
             },
-            "season": {
-                "id": "1552",
-                "season_id": "1552",
-                "name": "2013"
+            "discipline": {
+                "fouls": "0",
+                "yellow_cards": "1",
+                "red_cards": "0",
+                "appearances_time": "362"
             },
-            "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "3"
-                },
-                {
-                    "title": "首发",
-                    "value": "3"
-                },
-                {
-                    "title": "进球",
-                    "value": "2"
-                },
-                {
-                    "title": "助攻",
-                    "value": "1"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
-        },
-        {
-            "id": "1485152",
-            "competition": {
-                "id": "887",
-                "name": "非洲杯预选赛",
-                "short_name": "非洲杯预选",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1336",
-                "season_id": "1336",
-                "name": "2012"
-            },
-            "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "0"
-                },
-                {
-                    "title": "首发",
-                    "value": "0"
-                },
-                {
-                    "title": "进球",
-                    "value": "1"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
-        },
-        {
-            "id": "1485127",
-            "competition": {
-                "id": "389",
-                "name": "国家队友谊赛",
-                "short_name": "友谊赛",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1303",
-                "season_id": "1303",
-                "name": "2012"
-            },
-            "team": {
-                "id": "511",
-                "name": "埃及",
-                "short_name": "埃及",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "1"
-                },
-                {
-                    "title": "首发",
-                    "value": "1"
-                },
-                {
-                    "title": "进球",
-                    "value": "0"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
-        },
-        {
-            "id": "1485102",
-            "competition": {
-                "id": "200",
-                "name": "奥运男足",
-                "short_name": "奥运男足",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1330",
-                "season_id": "1330",
-                "name": "2012"
-            },
-            "team": {
-                "id": "10973",
-                "name": "埃及U23",
-                "short_name": "埃及U23",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "4"
-                },
-                {
-                    "title": "首发",
-                    "value": "3"
-                },
-                {
-                    "title": "进球",
-                    "value": "3"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "1"
-                }
-            ]
-        },
-        {
-            "id": "1485141",
-            "competition": {
-                "id": "249",
-                "name": "U20世界杯",
-                "short_name": "世青赛",
-                "logo": "https://img.dongqiudi.com/soccer/data/logo/competition/default.png"
-            },
-            "season": {
-                "id": "1222",
-                "season_id": "1222",
-                "name": "2011"
-            },
-            "team": {
-                "id": "3375",
-                "name": "埃及U20",
-                "short_name": "埃及U20",
-                "logo": "https://img.dongqiudi.com/data/pic/658.png",
-                "type": "national"
-            },
-            "list": [
-                {
-                    "title": "出场",
-                    "value": "4"
-                },
-                {
-                    "title": "首发",
-                    "value": "4"
-                },
-                {
-                    "title": "进球",
-                    "value": "1"
-                },
-                {
-                    "title": "助攻",
-                    "value": "0"
-                },
-                {
-                    "title": "黄牌",
-                    "value": "0"
-                },
-                {
-                    "title": "红牌",
-                    "value": "0"
-                },
-                {
-                    "title": "替补",
-                    "value": "0"
-                }
-            ]
+            "statistic": {
+                "appearances": "8",
+                "assists": "0",
+                "clearances": "0",
+                "fouled": "0",
+                "fouls": "0",
+                "goals": "0",
+                "id": "1659016",
+                "interceptions": "0",
+                "key_passes": "0",
+                "minutes_played": "362",
+                "offsides": "0",
+                "pass_accuracy": "0",
+                "passes": "0",
+                "penalty_goals": "0",
+                "red_cards": "0",
+                "saves": "0",
+                "second_yellow_cards": "0",
+                "shirt_number": "0",
+                "shots": "0",
+                "shots_on_target": "0",
+                "starts": "5",
+                "substitute_in": "3",
+                "success_passes": "0",
+                "tackles": "0",
+                "time_played": "0",
+                "yellow_cards": "1"
+            }
         }
     ]
 }

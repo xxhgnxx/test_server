@@ -1,0 +1,242 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "tips":"123",
+    "banner": [{
+      "url": "http://www.baidu.com",
+      "img": "https:\/\/img1.dongqiudi.com\/fastdfs3\/M00\/1A\/BB\/ChOxM1swX-eADpc1AAFKayogeaY353.jpg"
+    }, {
+      "url": "",
+      "img": "https:\/\/img1.dongqiudi.com\/fastdfs3\/M00\/19\/EF\/ChOxM1svOamABsmiAAFHCEvHzNY175.jpg"
+    }],
+    "notice": "\u9884\u6d4b\u8fd124\u4e2d19\uff0c\u7d2f\u8ba1\u56de\u62a5\u73872413.8%",
+    "today": [{
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u4f0a\u6717",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1178.png"
+      },
+      "team_B": {
+        "short_name": "\u8461\u8404\u7259",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1772.png"
+      },
+      "start_play": "06-26 02:00",
+      "id": "105905",
+      "stat": {
+        "return_rate": 300,
+        "string": "\u540c\u7c7b\u76d8\u53e3\u8fd1\u4e03\u65e5\u56de\u62a5\u7387"
+      }
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u897f\u73ed\u7259",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/2137.png"
+      },
+      "team_B": {
+        "short_name": "\u6469\u6d1b\u54e5",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1509.png"
+      },
+      "start_play": "06-26 02:00",
+      "id": "105904",
+      "stat": {
+        "return_rate": 144,
+        "string": "\u4e16\u754c\u676f\u8fd1\u4e03\u65e5\u56de\u62a5\u7387"
+      }
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u6c99\u7279\u963f\u62c9\u4f2f",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1897.png"
+      },
+      "team_B": {
+        "short_name": "\u57c3\u53ca",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/658.png"
+      },
+      "start_play": "06-25 22:00",
+      "id": "105903",
+      "stat": {
+        "return_rate": 188,
+        "string": "\u540c\u7c7b\u76d8\u53e3\u8fd1\u4e03\u65e5\u56de\u62a5\u7387"
+      }
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u4e4c\u62c9\u572d",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/2300.png"
+      },
+      "team_B": {
+        "short_name": "\u4fc4\u7f57\u65af",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1878.png"
+      },
+      "start_play": "06-25 22:00",
+      "id": "105902",
+      "stat": {
+        "return_rate": 144,
+        "string": "\u4e16\u754c\u676f\u8fd1\u4e03\u65e5\u56de\u62a5\u7387"
+      }
+    }],
+    "history": [{
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u5fb7\u56fd",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1037.png",
+        "fs": "2"
+      },
+      "team_B": {
+        "short_name": "\u745e\u5178",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/2173.png",
+        "fs": "1"
+      },
+      "start_play": "06-24 02:00",
+      "id": "104969",
+      "result": "1",
+      "summary": "\u672c\u573a\u9526\u56ca\uff1a\u745e\u5178 +1\uff0c\u5373\u672c\u573a\u6bd4\u8d5b\u745e\u5178\u6700\u591a\u8f93\u4e00\u4e2a"
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u97e9\u56fd",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1385.png",
+        "fs": "1"
+      },
+      "team_B": {
+        "short_name": "\u58a8\u897f\u54e5",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1497.png",
+        "fs": "2"
+      },
+      "start_play": "06-23 23:00",
+      "id": "104968",
+      "result": "1",
+      "summary": "\u672c\u573a\u9526\u56ca\uff1a\u58a8\u897f\u54e5 -0.75\uff0c\u5373\u672c\u573a\u6bd4\u8d5b\u58a8\u897f\u54e5\u83b7\u80dc"
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u6bd4\u5229\u65f6",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/281.png",
+        "fs": "5"
+      },
+      "team_B": {
+        "short_name": "\u7a81\u5c3c\u65af",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/2211.png",
+        "fs": "2"
+      },
+      "start_play": "06-23 20:00",
+      "id": "104967",
+      "result": "1",
+      "summary": "\u672c\u573a\u9526\u56ca\uff1a\u6bd4\u5229\u65f6 -1.25\uff0c\u5373\u672c\u573a\u6bd4\u8d5b\u6bd4\u5229\u65f6\u6700\u5c11\u8d62\u4e24\u4e2a"
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u585e\u5c14\u7ef4\u4e9a",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/6816.png",
+        "fs": "1"
+      },
+      "team_B": {
+        "short_name": "\u745e\u58eb",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/2201.png",
+        "fs": "2"
+      },
+      "start_play": "06-23 02:00",
+      "id": "104805",
+      "result": "2",
+      "summary": "\u672c\u573a\u9526\u56ca\uff1a\u585e\u5c14\u7ef4\u4e9a-0\uff0c\u5373\u672c\u573a\u6bd4\u8d5b\u585e\u5c14\u7ef4\u4e9a\u4e0d\u8d25"
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u5c3c\u65e5\u5229\u4e9a",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1567.png",
+        "fs": "2"
+      },
+      "team_B": {
+        "short_name": "\u51b0\u5c9b",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1143.png",
+        "fs": "0"
+      },
+      "start_play": "06-22 23:00",
+      "id": "104804",
+      "result": "1",
+      "summary": "\u672c\u573a\u9526\u56ca\uff1a\u5c3c\u65e5\u5229\u4e9a -0\uff0c\u5373\u672c\u573a\u6bd4\u8d5b\u5c3c\u65e5\u5229\u4e9a\u4e0d\u8d25"
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u5df4\u897f",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/349.png",
+        "fs": "2"
+      },
+      "team_B": {
+        "short_name": "\u54e5\u65af\u8fbe\u9ece\u52a0",
+        "logo": "https:\/\/img.dongqiudi.com\/soccer\/data\/logo\/team\/368.png",
+        "fs": "0"
+      },
+      "start_play": "06-22 20:00",
+      "id": "104803",
+      "result": "1",
+      "summary": "\u672c\u573a\u9526\u56ca\uff1a\u5df4\u897f -1.5\uff0c \u5373\u672c\u573a\u6bd4\u8d5b\u5df4\u897f\u6700\u5c11\u8d62\u4e24\u4e2a"
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u963f\u6839\u5ef7",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/132.png",
+        "fs": "0"
+      },
+      "team_B": {
+        "short_name": "\u514b\u7f57\u5730\u4e9a",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/514.png",
+        "fs": "3"
+      },
+      "start_play": "06-22 02:00",
+      "id": "104718",
+      "result": "1",
+      "summary": "\u672c\u573a\u9526\u56ca\uff1a\u514b\u7f57\u5730\u4e9a +0.5\uff0c \u5373\u672c\u573a\u6bd4\u8d5b\u514b\u7f57\u5730\u4e9a\u4e0d\u8d25"
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u6cd5\u56fd",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/944.png",
+        "fs": "1"
+      },
+      "team_B": {
+        "short_name": "\u79d8\u9c81",
+        "logo": "https:\/\/img.dongqiudi.com\/soccer\/data\/logo\/team\/1418.png",
+        "fs": "0"
+      },
+      "start_play": "06-21 23:00",
+      "id": "104717",
+      "result": "1",
+      "summary": "\u672c\u573a\u9526\u56ca\uff1a\u6cd5\u56fd -0.75\uff0c\u5373\u672c\u573a\u6bd4\u8d5b\u6cd5\u56fd\u961f\u83b7\u80dc"
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u4e39\u9ea6",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/643.png",
+        "fs": "1"
+      },
+      "team_B": {
+        "short_name": "\u6fb3\u5927\u5229\u4e9a",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/156.png",
+        "fs": "1"
+      },
+      "start_play": "06-21 20:00",
+      "id": "104716",
+      "result": "2",
+      "summary": "\u672c\u573a\u9526\u56ca\uff1a\u4e39\u9ea6 -0.5\uff0c\u5373\u672c\u573a\u6bd4\u8d5b\u4e39\u9ea6\u83b7\u80dc"
+    }, {
+      "short_name": "\u4e16\u754c\u676f",
+      "team_A": {
+        "short_name": "\u4f0a\u6717",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/1178.png",
+        "fs": "0"
+      },
+      "team_B": {
+        "short_name": "\u897f\u73ed\u7259",
+        "logo": "https:\/\/img.dongqiudi.com\/data\/pic\/2137.png",
+        "fs": "1"
+      },
+      "start_play": "06-21 02:00",
+      "id": "104585",
+      "result": "1",
+      "summary": "\u672c\u573a\u9526\u56ca\uff1a\u4f0a\u6717 +1.5\uff0c \u5373\u672c\u573a\u6bd4\u8d5b\u4f0a\u6717\u6700\u591a\u8f93\u4e00\u4e2a"
+    }],
+    "next": "\/plan\/asiaPlanAdPage?score=104584"
+  }
+}

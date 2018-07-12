@@ -1,0 +1,30 @@
+[{
+	"pgid": "1.10.4",
+	"aid": 117486,
+	"request_id": "14bf068c5364cdd42d95364c694986ff",
+	"ad_type": "banner",
+	"ad_source": {
+		"mk": 117486,
+		"image": [{
+			"pic": "https://img1.dongqiudi.com/fastdfs3/M00/09/02/ChOxM1sWWAKAK6NOAAEhBQGmWSk474.jpg",
+			"w": 1080,
+			"h": 173
+		}],
+		"title": "",
+		"ios_link": "dongqiudi:///ads/news/50924450?type=1",
+		"android_link": "dongqiudi:///ads/news/50924450?type=1",
+		"ios_link_v2": "dongqiudi:///ads/news/50924450?type=1",
+		"android_link_v2": "dongqiudi:///ads/news/50924450?type=1",
+		"label": "广告",
+		"label_color": "#f20cf2",
+		"threshold": 0
+	},
+	"position": "0",
+	"imp_mon_arr": ["https://test-dab.dongqiudi.com/imp/v3?ex=kkqblp6zVgbS4iRxMucInDjauqBFzgcHd6FIjN0Ue675QUmhl8DVeRxkhT1y9WduHggEB4wzvKcn&uid=113947&cid=117486&posid=100000121&ruleid=0&androidid=__ANDROIDID__&os=android&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=14bf068c5364cdd42d95364c694986ff&apvc=5.6.2&qt=__TT__&cp=__CP__&uuid=&position=0&pgid=1.10.4&platform=1&ex2=&tpt=0"],
+	"click_mon_arr": ["https://test-dab.dongqiudi.com/click/v3?ex=kkqblp6zVgbS4iRxMucInDjauqBFzgcHd6FIjN0Ue675QUmhl8DVeRxkhT1y9WduHggEB4wzvKcn&uid=113947&cid=117486&posid=100000121&ruleid=0&androidid=__ANDROIDID__&os=android&net=__NET__&idfa=__IDFA__&imei=__IMEI__&mn=__MN__&rid=14bf068c5364cdd42d95364c694986ff&apvc=5.6.2&qt=__TT__&cp=__CP__&uuid=&position=0&pgid=1.10.4&platform=1&ex2=&tpt=0"],
+	"cache_image": [],
+	"cache_ad": [],
+	"last_modify": 0,
+	"schedule": [],
+	"directional": {}
+}]

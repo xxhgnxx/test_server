@@ -1,0 +1,41 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+      "orders": [
+          {
+              "team_A": {
+                  "short_name": "瑞典"
+              },
+              "team_B": {
+                  "short_name": "韩国"
+              },
+              "score": "1 - 0",
+              "id": "239234",
+              "result": "推荐正确",
+              "lottery_type": "竞彩锦囊",
+              "price": "￥288",
+              "pay_date": "06-18",
+              "pay_time": "18:13",
+              "refund_status": ""
+          },
+          {
+              "team_A": {
+                  "short_name": "比利时"
+              },
+              "team_B": {
+                  "short_name": "巴拿马"
+              },
+              "score": "3 - 0",
+              "id": "238025",
+              "result": "推荐正确",
+              "lottery_type": "亚盘",
+              "price": "￥288",
+              "pay_date": "06-18",
+              "pay_time": "16:51",
+              "refund_status": "退款中"
+          }
+      ],
+      "next": ""
+  }
+}

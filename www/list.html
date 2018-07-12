@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta charset=utf-8>
+<meta name=Cache-Control content=no-cache>
+<title>懂球帝</title>
+<link rel="stylesheet" href="{{staticDomain}}/public/css/swiper.min.css">
+<script src="{{staticDomain}}/public/js/jquery-3.1.1.min.js"></script>
+<script src="{{staticDomain}}/public/js/swiper.min.js"></script>
+<meta name="format-detection" content="telephone=no" />
+
+
+<script type="text/javascript">
+	var $ = jQuery.noConflict();
+	//声明_czc对象:
+	var _czc = _czc || [];
+	//绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
+	//_czc.push(["_setAccount", "1273794779"]);
+</script>
+
+<style>
+* {margin: 0;padding: 0;}
+html, body {-webkit-touch-callout: none;font-family:'PingFang SC', "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-font-smoothing: antialiased;user-select: none;width: 100%;min-height: 100%;height: 100%;background-size: 100% auto;}
+body{background:#fbf1dd;background:url({{staticDomain}}/public/images/51redRain/bg2.jpg) center top no-repeat;background-size:cover;}
+.ell{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+
+
+.div1{width:7.5rem;min-height:12.06rem;height:100%;position:relative;}
+.logo{width:7.5rem;height:1.13rem;background:url({{staticDomain}}/public/images/51redRain/logo.png) center no-repeat;background-size:contain;position:absolute;left:0;top:0;}
+.text{width:7.5rem;height:.9rem;position:absolute;left:0;top:1.13rem;font-size:.3rem;line-height:.9rem;color:#315520;font-weight:bolder;text-align:center;}
+
+.qs{width:6.37rem;height:12.06rem;position:absolute;top:0;margin-left:-3.18rem;left:50%;z-index:9;}
+
+.q1{width:6.37rem;height:1.84rem;background:url({{staticDomain}}/public/images/51redRain/q1a.png) center no-repeat;background-size:6.37rem 1.84rem;position:relative;vertical-align:text-bottom;}
+.cash{width:2.8rem;height:.85rem;font-size:.85rem;line-height:.7rem;color:#fff;position:absolute;top:.5rem;left:.27rem;font-weight:bolder;}
+.cashyuan{font-size:.5rem;left:2rem;line-height:.85rem;}
+.cash span{display:inline-block;float:left;}
+.q2{width:6.37rem;height:1.84rem;background:url({{staticDomain}}/public/images/51redRain/q2.png) center no-repeat;background-size:6.37rem 1.84rem;}
+.q3{width:6.37rem;height:1.84rem;background:url({{staticDomain}}/public/images/51redRain/q3.png) center no-repeat;background-size:6.37rem 1.84rem;}
+.q4{width:6.37rem;height:1.84rem;background:url({{staticDomain}}/public/images/51redRain/q4.png) center no-repeat;background-size:6.37rem 1.84rem;}
+
+.cb{width:100%;height:3.17rem;background:url({{staticDomain}}/public/images/51redRain/cb.png) center no-repeat;background-size:contain;position:absolute;left:0;bottom:0;}
+
+.btn{width:100%;height:20%;position:absolute;top:50%;left:0;}
+
+.blank1{width:100%;height:1.9rem;}
+.blank{width:100%;height:.1rem;}
+
+.gray { 
+-webkit-filter: grayscale(100%); 
+-moz-filter: grayscale(100%); 
+-ms-filter: grayscale(100%); 
+-o-filter: grayscale(100%); 
+filter: grayscale(100%); 
+filter: gray; 
+} 
+.swiper6{
+    width:6.37rem;
+	height:70vh;
+}
+.swiper6 .swiper-slide {
+	height: auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	display: block;
+}
+.swiper6 .swiper-scrollbar {background:#333;width:.1rem;}
+.swiper6 .swiper-scrollbar .swiper-scrollbar-drag{background:#ebebeb;border-radius:0;}
+</style>
+
+
+</head>
+<body>
+	<div class="div1">
+		<div class="logo"></div>
+		<div class="text">恭喜您在本次世界杯进球时刻红包雨活动中获得</div>
+		<div class="cb"></div>
+		<div class="qs">
+			<div class="blank1"></div>
+			<div>
+				<div class="swiper-container swiper6" id="swiper6">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide qss"></div>
+						<div class="swiper-scrollbar" id="swiper6scrollbar"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cover"></div>
+
+<div class="alert_bg" style="width: 100%;height: 100%;position: fixed;top: 0px;left: 0px;z-index: 98;display: none;"></div>
+<div style="width:5.9rem;height:1.8rem;position:fixed;left:.8rem;top:4rem;border-radius:.2rem;z-index:99;display:none;background-color:#fff;" id="alert_ok" onclick="alert_ok_js_no()">
+	<div style="width:100%;height:100%;position:relative;">
+		<div style="width:5.1rem;height:1rem;position:absolute;left:.4rem;top:.4rem;color:#000;font-weight:bold;text-align:center;font-size:.28rem;">
+			<span id="alertinfo"></span>
+			<div style="margin-top:.5rem;font-weight:normal;font-size:.24rem;width:5.1rem;text-align:center;line-height:.45rem;">关闭</div>
+		</div>
+		<div style="width:5.9rem;height:1px;border-top:1px solid #999;top:1rem;left:0px;position:absolute;"></div>
+	</div>
+</div>
+<script type="text/javascript">
+if('{{Authorization}}' === '') {
+	location.href = 'dongqiudi:///native/login';
+}
+
+function getHostName() {
+	var domian = {
+	'test1-n.dongqiudi.com': 'test-go-biz.dongqiudi.com',
+	'beta-n.dongqiudi.com': 'beta-go-biz.dongqiudi.com',
+	'n.dongqiudi.com': 'go-biz.dongqiudi.com'
+	};
+	return domian[location.hostname]
+}
+
+function alert_ok_js(txt){
+    // var body_height=j(document.body).height();
+    // j(".alert_bg").css("height",body_height);
+    $(".alert_bg").css("opacity","0.5");
+    $(".alert_bg").css("background","#000");
+    $(".alert_bg").show();
+    $("#alertinfo").html(txt);
+    $("#alert_ok").show(); 
+}
+function alert_ok_js_no(){
+     $(".alert_bg").css("opacity","");
+     $(".alert_bg").css("background","");
+     $(".alert_bg").hide();
+     $("#alert_ok").hide(); 
+}
+
+var deviceWidth=$(window).outerWidth();
+$("html").css("font-size",deviceWidth/750*100+'px');
+
+var _q1='<div class="q1"><div class="cash"><span id="cash"></span><span class="cashyuan">元</span></div></div>'
+			+'<div class="blank bk1"></div>';
+var _q2='<div class="q2"></div>'
+			+'<div class="blank bk2"></div>';
+var _q3='<div class="q3"></div>'
+			+'<div class="blank bk3"></div>';
+var _q4='<div class="q4"></div>';
+function GetQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]); return null;
+}
+var host=new Array("test-go-biz.dongqiudi.com","beta-go-biz.dongqiudi.com","go-biz.dongqiudi.com");
+var hostid=GetQueryString("hostid");
+if(!hostid)hostid=0;
+var arrCash=new Array(0,0.1,0.5,1,1.5,2,5);
+var plid,cash,url,address1,address2,swiper6;
+$.ajax({
+        url:'https://'+getHostName()+'/worldcup51/getuserprize',
+		//url:'getuserprize.php',
+        type:'GET',
+		beforeSend: function (xhr) {  
+			xhr.setRequestHeader("Authorization",'{{Authorization}}');
+			xhr.setRequestHeader("uuid",'{{UUID}}');
+		},
+		async: false,
+		cache: false,
+        success:function(data){
+			console.log(data);
+			
+            if(data.code==0){
+				for(var i=0;i<data.data.length;i++){
+					switch(data.data[i].type){
+						case 1:
+							if(data.data[i].value==100){
+								plid=data.data[i].id;
+								$(".qss").append('<div class="q3" id="q3'+plid+'" data-plid='+plid+'></div><div class="blank bk3"></div>');
+								//$(".q3").show();
+								//$(".bk3").show();
+								
+								if(data.data[i].status==0){
+									$("#q3"+plid).on("click",function(){
+										//console.log(this.dataset.data-plid);
+										var plida=$(this).attr("data-plid");
+										location="userinfo.html?plid="+plida;
+									});
+								}else{
+									$("#q3"+plid).addClass("gray");
+									$("#q3"+plid).on("click",function(){
+										alert_ok_js("奖品已领");
+									});
+								}
+							}else if(data.data[i].value==200){
+								//$(".q4").show();
+								plid=data.data[i].id;
+								$(".qss").append('<div class="q4" id="q4'+plid+'" data-plid='+plid+'></div><div class="blank bk3"></div>');
+								if(data.data[i].status==0){
+									$("#q4"+plid).on("click",function(){
+										var plida=$(this).attr("data-plid");
+										location="userinfo.html?plid="+plida;
+									});
+								}else{
+									$("#q4"+plid).addClass("gray");
+									$("#q4"+plid).on("click",function(){
+										alert_ok_js("奖品已领");
+									});
+								}
+							}
+							break;
+						case 2:
+							//$("#cash").html(data.data[i].value);
+							//$(".q1").show();
+							//$(".bk1").show();
+							cash=data.data[i].value;
+							address1=encodeURIComponent(data.data[i].address);
+							plid=data.data[i].id;
+							//alert_ok_js("plid="+plid);
+							$(".qss").append('<div class="q1" id="q1'+plid+'" data-plid='+plid+' data-cash="'+cash+'"><div class="cash"><span id="cash">'+cash+'</span><span class="cashyuan">元</span></div></div><div class="blank bk1"></div>');
+							if(data.data[i].status==0){
+								$("#q1"+plid).on("click",function(){
+									//console.log(this.dataset.data-plid);
+									var plida=$(this).attr("data-plid");
+									var cash=$(this).attr("data-cash");
+									location="88a.html?v="+cash+"&plid="+plida+"&u="+address1;
+								});
+							}else{
+								$("#q1"+plid).addClass("gray");
+								$("#q1"+plid).on("click",function(){
+										alert_ok_js("奖品已领");
+								});
+							}
+							break;
+						case 3:
+							//$(".q2").show();
+							//$(".bk2").show();
+							//$("#address").html(data.data[i].address);
+							address2=data.data[i].address;
+							plid=data.data[i].id;
+							//alert_ok_js("plid="+plid);
+							$(".qss").append('<div class="q2" id="q2'+plid+'" data-plid='+plid+' data-url="'+data.data[i].address+'"></div><div class="blank bk2"></div>');
+							if(data.data[i].status==0){
+								$("#q2"+plid).on("click",function(){
+									console.log($(this).attr("data-plid"));
+									var plida=$(this).attr("data-plid");
+									var dataurl=$(this).attr("data-url");
+									$.ajax({
+										url:'https://'+getHostName()+'/worldcup51/setstatus?plid='+plida,
+										//url:'setstatus.php?plid='+plid,
+										type:'GET',
+										beforeSend: function (xhr) {  
+											xhr.setRequestHeader("Authorization",'{{Authorization}}');
+											xhr.setRequestHeader("uuid",'{{UUID}}');
+										},
+										async: false,
+										cache: false,
+										success:function(data){
+											if(data.code==0){
+												//location="xyk.html?u="+encodeURIComponent(address);
+												// location=address2;
+												location=dataurl;
+											}else{
+												alert_ok_js(data.message);
+											}
+										}
+									});
+								});
+							}else{
+								$("#q2"+plid).addClass("gray");
+								$("#q2"+plid).on("click",function(){
+									location=$(this).attr("data-url");
+									// alert_ok_js("奖品已领");
+								});
+							}
+							break;
+							
+					}
+				}
+				$(".qss").css("height",(data.data.length*1.94)+"rem");
+				swiper6 = new Swiper('.swiper6', {
+					scrollbar: '#swiper6scrollbar',
+					direction: 'vertical',
+					slidesPerView: 'auto',
+					scrollbarHide:false,
+					mousewheelControl: true,
+					freeMode: true,
+					roundLengths : true, //防止文字模糊
+					onInit: function(swiper){
+						
+						j(".gzinfo").css("opacity","1");
+						//j(".gzinfo").css("left",".41rem");
+						//j(".gzinfo").hide();
+						showgz();
+					}
+				});
+			}else{
+				alert_ok_js(data.message);
+			}
+			
+            //测试成功
+       }
+});
+
+/*
+$(".q1").on("click",function(){
+	location="88.html?v="+data.data.value+"&u="+encodeURIComponent(data.data.address);
+});
+$(".q2").on("click",function(){
+	location="xyk.html";
+});
+$(".q3").on("click",function(){
+	location="userinfo.html?glid=1";
+});
+$(".q4").on("click",function(){
+	location="userinfo.html?glid=2";
+});
+*/
+
+
+</script>
+
+
+<div style="display:none;">
+<script src="https://s22.cnzz.com/z_stat.php?id=1273895860&web_id=1273895860" language="JavaScript"></script>
+</div>
+
+
+</body>
+</html>

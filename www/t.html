@@ -1,18 +1,192 @@
-<a href="https://evt.dianping.com/synthesislink/6166.html?shopId=22310196?schema=dianping%3A%2F%2Fshopinfo%3Fid%3D22310196%26utm%3Dulink_shopbutton%253Adefault%253ASafari%253Am">oggogogogogo22222222</a>
-<a href="https://www.dianping.com/shop/91958327">33333</a>
+<img id="test" src="" alt="">
 
-
+<script src="jquery-3.1.1.min.js"></script>
+<style>
+  #test {
+    margin: 10%;
+    width: 80%
+  }
+</style>
 <script>
-            connectWebViewJavascriptBridge(function (bridge) {
-            bridge.callHandler("replaceAdsParams", {
-              "url": '__NET__x-x__MN__x-x__IDFA__'
-            }, function (url) {
-              console.log(url);
-          
-            }) // url广告提供的点击打点地址
-          })
+  var tmp = "https://img1.dongqiudi.com/fastdfs3/M00/1F/1E/ChOxM1s2Hf-AcqthAAD0z_wwlrg572.jpg?watermark/3"
 
+  // tmp += `/text/${btoa(unescape(encodeURIComponent('我是中11文')))}/text/${btoa(unescape(encodeURIComponent('我是222中文')))}`
+  var data = {
+    "compete": {
+      "compete_id": 50811840,
+      "winner": '主胜',
+      "datetime": "06月29日 02:00",
+      "state": "Fixture",
+      "host_team_name": "\u7f57\u9a6c",
+      "host_team_flag": "https://img.dongqiudi.com/data/pic/944.png",
+      "guest_team_name": "尤文图斯",
+      "guest_team_flag": "https://img.dongqiudi.com/soccer/data/logo/team/417.png"
+    },
+    "t1": '如果我不给，我将变成小狗',
+    "guarantee": {
+      "id": 1,
+      "val": "\u4ef7\u503c5\u5143\u7684\u53ef\u4e50"
+    },
+    "creator": {
+      "nickname": "\u5c0f\u7f57",
+      "winner": 0,
+      "breach": {
+        "id": 5,
+        "val": "\u6211\u559c\u6b22\u7684\u4e3b\u961f\u8f93\u7403\u964d\u7ea7"
+      }
+    },
+    "me": [],
+  }
+
+  console.log(data);
+
+
+  var opt = {
+    text: '',
+    font: '',
+    fontsize: '',
+    fill: '',
+    dissolve: '',
+    gravity: '',
+    dx: '',
+    dy: '',
+  }
+
+  function format(str) {
+    return btoa(unescape(encodeURIComponent(str))).replace(/[+]/ig, '-').replace(/[\/]/ig, '_')
+  }
+
+  function text(opt) {
+    let text = `/text/${format(opt.text)}`
+    let font = opt.font ? `/font/${format(opt.text)}` : ''
+    let fontsize = opt.fontsize ? `/fontsize/${Math.floor(opt.fontsize*21.4)}` : ''
+    let fill = opt.fill ? `/fill/${format(opt.fill)}` : ''
+    let dissolve = opt.dissolve ? `/dissolve/${opt.dissolve}` : ''
+    let gravity = `/gravity/${opt.gravity||'Center'}`
+    let dx = opt.dx ? `/dx/${opt.dx}` : ''
+    let dy = opt.dy ? `/dy/${opt.dy}` : ''
+    return `${text}${font}${fontsize}${fill}${gravity}${dx}${dy}${dissolve}`
+  };
+
+  function pic(opt) {
+    let url = `/image/${format(opt.url)}`
+    let gravity = `/gravity/${opt.gravity||'Center'}`
+    let dissolve = opt.dissolve ? `/dissolve/${opt.dissolve}` : ''
+    let dx = opt.dx ? `/dx/${opt.dx}` : ''
+    let dy = opt.dy ? `/dy/${opt.dy}` : ''
+    let ws = `/ws/${opt.ws || 0.17}`
+    let wst = `/wst/${opt.wst||1}`
+    return `${url}${gravity}${dx}${dy}${ws}${wst}`
+  }
+
+  function textLine(list, opt) {
+    let lengthMax = 0
+    let objList = []
+    let lastText = ''
+    let urlText = ''
+    list.forEach(element => {
+      element = Object.assign({}, opt, element)
+      element.len = element.text.length * (Math.floor(opt.fontsize))
+      for (let i = 0; i < element.text.length; i++) {
+        const c = element.text[i];
+        if (c >= "0" && c <= "9") {
+          console.log('数字');
+          element.len -= Math.floor(opt.fontsize / 2)
+        }
+      }
+      objList.push(element)
+      lengthMax += element.len
+    });
+    objList.forEach(element => {
+      if (lastText) {
+        console.log(element.len);
+        element.dx = Math.floor(lastText.dx + (element.len / 2) + (lastText.len / 2))
+      } else {
+        element.dx = Math.floor((0 - lengthMax / 2) + (element.len / 2))
+      }
+      lastText = element
+      urlText += text(element)
+    });
+    return urlText
+  }
+
+  let url = "https://static1.dongqiudi.com/web-new/web/images/code_down.jpg"
+
+
+
+  let textList = [{
+      text: '我用'
+    },
+    {
+      text: '“1瓶可乐”',
+      fill: '#ff7700'
+    },
+    {
+      text: '的家产来保证是这个结果！'
+    },
+  ]
+
+  let textOpt = {
+    fontsize: 28,
+    fill: '#262626',
+    dx: '0',
+    dy: '66',
+  }
+
+
+  var itemList = [
+    text({
+      text: data.compete.host_team_name,
+      fontsize: 28,
+      fill: '#262626',
+      dx: '-182',
+      dy: '-85',
+    }),
+    text({
+      text: data.compete.guest_team_name,
+      fontsize: 28,
+      fill: '#262626',
+      dx: '182',
+      dy: '-85',
+    }),
+    text({
+      text: data.compete.datetime,
+      fontsize: 24,
+      fill: '#666',
+      dx: '0',
+      dy: '-198',
+    }),
+    text({
+      text: data.compete.winner,
+      fontsize: 40,
+      fill: '#262626',
+      dx: '0',
+      dy: '-149',
+    }),
+    text({
+      text: '如果我不给，我将变成小狗',
+      fontsize: 30,
+      fill: '#262626',
+      dx: '0',
+      dy: '133',
+    }),
+    pic({
+      url: data.compete.host_team_flag,
+      dx: '-185',
+      dy: '-180',
+    }),
+    pic({
+      url: data.compete.guest_team_flag,
+      dx: '185',
+      dy: '-180',
+    }),
+    textLine(textList, textOpt)
+  ]
+  itemList.forEach(element => {
+    tmp += element
+  });
+
+
+
+  $('#test').attr('src', tmp)
 </script>
-
-
-<script> console.log(11111111111111); </script>

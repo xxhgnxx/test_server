@@ -2,6 +2,8 @@
     "code": 0,
     "message": "success",
     "data": {
+      "order_no":"hgntest1",
+      "result_url":"",
       "status": "1",
       "msg": "已支付",
       "summary": "曹亮解盘志在高赔！带你赢大奖！",

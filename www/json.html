@@ -1,0 +1,63 @@
+<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.css">
+
+<!-- jQuery -->
+<script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.js"></script>
+
+<input type="text" id="a">
+<input type="text" id="b">
+<input type="text" id="c">
+<button onclick="go()">go</button>
+<table id="example" class="display"></table>
+<script>
+  function go(params) {
+    $.get(
+    `http://dev-wallet.allfootballapp.com/inner/txtrace/trace?from=0x5bcbdfb6cc624b959c39a2d16110d1f2d9204f72&value=1000000&a=${$('#a').val()}&b=${$('#b').val()}&c=${$('#c').val()}`
+      )
+      .then(function (res) {
+        console.log(res.data);
+        $('#example').DataTable({
+          data: res.data,
+          columns: [{
+              data: 'block_number'
+            },
+            {
+              data: 'created_at'
+            },
+            {
+              data: 'from_addr'
+            },
+            {
+              data: 'gas_used'
+            },
+            {
+              data: 'id'
+            },
+            {
+              data: 'nonce'
+            },
+            {
+              data: 'to_addr'
+            },
+            {
+              data: 'tx_hash'
+            },
+            {
+              data: 'tx_timestamp'
+            },
+            {
+              data: 'txreceipt_status'
+            },
+            {
+              data: 'updated_at'
+            },
+            {
+              data: 'value'
+            }
+          ]
+        });
+      })
+  }
+</script>

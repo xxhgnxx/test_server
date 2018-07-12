@@ -1,0 +1,1341 @@
+{
+    "euro": [
+        {
+            "name": "竞彩官方",
+            "cid": "1129",
+            "now": {
+                "homeWin": "1.27",
+                "awayWin": "8.20",
+                "draw": "4.55",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "0.91",
+                "kelly_awayWin": "1.08",
+                "kelly_draw": "1.03"
+            },
+            "begin": {
+                "homeWin": "1.41",
+                "awayWin": "6.05",
+                "draw": "3.95",
+                "ts": "06-12 05:01",
+                "kelly_homeWin": "0.98",
+                "kelly_awayWin": "0.87",
+                "kelly_draw": "0.98"
+            }
+        },
+        {
+            "name": "ManbetX",
+            "cid": "1183",
+            "now": {
+                "homeWin": "1.43",
+                "awayWin": "7.60",
+                "draw": "4.55",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.02",
+                "kelly_awayWin": 0.99,
+                "kelly_draw": "1.03"
+            },
+            "begin": {
+                "homeWin": "1.50",
+                "awayWin": "6.90",
+                "draw": "4.15",
+                "ts": "06-12 02:42",
+                "kelly_homeWin": "1.04",
+                "kelly_awayWin": "0.99",
+                "kelly_draw": "1.03"
+            }
+        },
+        {
+            "name": "Bet365",
+            "cid": "281",
+            "now": {
+                "homeWin": "1.45",
+                "awayWin": "8.00",
+                "draw": "4.00",
+                "ts": "06-11 20:50",
+                "kelly_homeWin": "1.04",
+                "kelly_awayWin": "1.05",
+                "kelly_draw": "0.90"
+            },
+            "begin": {
+                "homeWin": "1.53",
+                "awayWin": "7.00",
+                "draw": "3.75",
+                "ts": "06-11 17:17",
+                "kelly_homeWin": "1.06",
+                "kelly_awayWin": "1.00",
+                "kelly_draw": "0.93"
+            }
+        },
+        {
+            "name": "威廉希尔",
+            "cid": "115",
+            "now": {
+                "homeWin": "1.44",
+                "awayWin": "7.00",
+                "draw": "4.20",
+                "ts": "06-11 21:11",
+                "kelly_homeWin": "1.03",
+                "kelly_awayWin": "0.92",
+                "kelly_draw": "0.95"
+            },
+            "begin": {
+                "homeWin": "1.40",
+                "awayWin": "8.00",
+                "draw": "4.00",
+                "ts": "06-11 14:06",
+                "kelly_homeWin": "0.97",
+                "kelly_awayWin": "1.14",
+                "kelly_draw": 0.99
+            }
+        },
+        {
+            "name": "立博",
+            "cid": "82",
+            "now": {
+                "homeWin": "1.40",
+                "awayWin": "7.50",
+                "draw": "4.25",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "0.99",
+                "kelly_draw": "0.96"
+            },
+            "begin": {
+                "homeWin": "1.44",
+                "awayWin": "7.00",
+                "draw": "4.00",
+                "ts": "06-13 01:11",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "1.00",
+                "kelly_draw": 0.99
+            }
+        },
+        {
+            "name": "韦德",
+            "cid": "81",
+            "now": {
+                "homeWin": "1.45",
+                "awayWin": "8.00",
+                "draw": "4.20",
+                "ts": "06-11 22:24",
+                "kelly_homeWin": "1.04",
+                "kelly_awayWin": "1.05",
+                "kelly_draw": "0.95"
+            },
+            "begin": {
+                "homeWin": "1.40",
+                "awayWin": "9.00",
+                "draw": "4.20",
+                "ts": "06-11 13:21",
+                "kelly_homeWin": "0.97",
+                "kelly_awayWin": "1.29",
+                "kelly_draw": "1.04"
+            }
+        },
+        {
+            "name": "bwin",
+            "cid": "255",
+            "now": {
+                "homeWin": "1.44",
+                "awayWin": "7.25",
+                "draw": "4.10",
+                "ts": "06-11 19:14",
+                "kelly_homeWin": "1.03",
+                "kelly_awayWin": "0.95",
+                "kelly_draw": "0.93"
+            },
+            "begin": {
+                "homeWin": "1.44",
+                "awayWin": "7.25",
+                "draw": "4.10",
+                "ts": "06-11 19:14",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "1.04",
+                "kelly_draw": "1.01"
+            }
+        },
+        {
+            "name": "易胜博",
+            "cid": "90",
+            "now": {
+                "homeWin": "1.41",
+                "awayWin": "5.90",
+                "draw": "4.6",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "0.78",
+                "kelly_draw": "1.04"
+            },
+            "begin": {
+                "homeWin": "1.37",
+                "awayWin": "6.40",
+                "draw": "4.70",
+                "ts": "06-13 14:58",
+                "kelly_homeWin": "0.95",
+                "kelly_awayWin": "0.92",
+                "kelly_draw": "1.16"
+            }
+        },
+        {
+            "name": "Interwetten",
+            "cid": "104",
+            "now": {
+                "homeWin": "1.40",
+                "awayWin": "7.30",
+                "draw": "4.45",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "0.96",
+                "kelly_draw": "1.00"
+            },
+            "begin": {
+                "homeWin": "1.45",
+                "awayWin": "7.25",
+                "draw": "3.85",
+                "ts": "06-11 20:16",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "1.04",
+                "kelly_draw": "0.95"
+            }
+        },
+        {
+            "name": "Oddset",
+            "cid": "370",
+            "now": {
+                "homeWin": "1.30",
+                "awayWin": "7.50",
+                "draw": "4",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "0.93",
+                "kelly_awayWin": "0.99",
+                "kelly_draw": "0.90"
+            },
+            "begin": {
+                "homeWin": "1.25",
+                "awayWin": "8.50",
+                "draw": "4.25",
+                "ts": "06-05 01:11",
+                "kelly_homeWin": "0.87",
+                "kelly_awayWin": "1.22",
+                "kelly_draw": "1.05"
+            }
+        },
+        {
+            "name": "澳彩",
+            "cid": "80",
+            "now": {
+                "homeWin": "1.35",
+                "awayWin": "7.90",
+                "draw": "4.3",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "0.96",
+                "kelly_awayWin": "1.04",
+                "kelly_draw": "0.97"
+            },
+            "begin": {
+                "homeWin": "1.37",
+                "awayWin": "7.90",
+                "draw": "4.10",
+                "ts": "06-12 06:49",
+                "kelly_homeWin": "0.95",
+                "kelly_awayWin": "1.13",
+                "kelly_draw": "1.01"
+            }
+        },
+        {
+            "name": "香港马会",
+            "cid": "432",
+            "now": {
+                "homeWin": "1.40",
+                "awayWin": "6.30",
+                "draw": "4.00",
+                "ts": "06-11 19:56",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "0.83",
+                "kelly_draw": "0.90"
+            },
+            "begin": {
+                "homeWin": "1.40",
+                "awayWin": "6.30",
+                "draw": "4.00",
+                "ts": "06-11 19:56",
+                "kelly_homeWin": "0.97",
+                "kelly_awayWin": "0.90",
+                "kelly_draw": 0.99
+            }
+        },
+        {
+            "name": "SNAI",
+            "cid": "110",
+            "now": {
+                "homeWin": "1.40",
+                "awayWin": "7.50",
+                "draw": "4.5",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "0.99",
+                "kelly_draw": "1.02"
+            },
+            "begin": {
+                "homeWin": "1.45",
+                "awayWin": "6.75",
+                "draw": "3.90",
+                "ts": "06-12 02:45",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "0.97",
+                "kelly_draw": "0.97"
+            }
+        },
+        {
+            "name": "Betfair",
+            "cid": "2",
+            "now": {
+                "homeWin": "1.43",
+                "awayWin": "9.60",
+                "draw": "5",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.02",
+                "kelly_awayWin": "1.26",
+                "kelly_draw": "1.13"
+            },
+            "begin": {
+                "homeWin": "1.31",
+                "awayWin": "5.10",
+                "draw": "3.50",
+                "ts": "06-08 09:17",
+                "kelly_homeWin": "0.91",
+                "kelly_awayWin": "0.73",
+                "kelly_draw": "0.87"
+            }
+        },
+        {
+            "name": "18Bet",
+            "cid": "976",
+            "now": {
+                "homeWin": "1.40",
+                "awayWin": "7.00",
+                "draw": "4.6",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "0.92",
+                "kelly_draw": "1.04"
+            },
+            "begin": {
+                "homeWin": "1.53",
+                "awayWin": "7.00",
+                "draw": "3.80",
+                "ts": "06-12 01:23",
+                "kelly_homeWin": "1.06",
+                "kelly_awayWin": "1.00",
+                "kelly_draw": "0.94"
+            }
+        },
+        {
+            "name": "Smarkets",
+            "cid": "841",
+            "now": {
+                "homeWin": "1.42",
+                "awayWin": "9.60",
+                "draw": "5.1",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "1.26",
+                "kelly_draw": "1.15"
+            },
+            "begin": {
+                "homeWin": "1.39",
+                "awayWin": "6.00",
+                "draw": "3.95",
+                "ts": "06-11 08:49",
+                "kelly_homeWin": "0.97",
+                "kelly_awayWin": "0.86",
+                "kelly_draw": "0.98"
+            }
+        },
+        {
+            "name": "Betsson",
+            "cid": "665",
+            "now": {
+                "homeWin": "1.37",
+                "awayWin": "7.95",
+                "draw": "4.75",
+                "ts": "06-13 11:34",
+                "kelly_homeWin": "0.98",
+                "kelly_awayWin": "1.04",
+                "kelly_draw": "1.07"
+            },
+            "begin": {
+                "homeWin": "1.37",
+                "awayWin": "7.95",
+                "draw": "4.75",
+                "ts": "06-13 11:34",
+                "kelly_homeWin": "0.95",
+                "kelly_awayWin": "1.14",
+                "kelly_draw": "1.18"
+            }
+        },
+        {
+            "name": "盈禾",
+            "cid": "659",
+            "now": {
+                "homeWin": "1.43",
+                "awayWin": "7.60",
+                "draw": "4.55",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.02",
+                "kelly_awayWin": 0.99,
+                "kelly_draw": "1.03"
+            },
+            "begin": {
+                "homeWin": "1.50",
+                "awayWin": "6.90",
+                "draw": "4.15",
+                "ts": "06-12 02:49",
+                "kelly_homeWin": "1.04",
+                "kelly_awayWin": "0.99",
+                "kelly_draw": "1.03"
+            }
+        },
+        {
+            "name": "IBCBET",
+            "cid": "649",
+            "now": {
+                "homeWin": "1.42",
+                "awayWin": "6.90",
+                "draw": "4.35",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "0.91",
+                "kelly_draw": "0.98"
+            },
+            "begin": {
+                "homeWin": "1.49",
+                "awayWin": "6.60",
+                "draw": "3.90",
+                "ts": "06-12 03:08",
+                "kelly_homeWin": "1.03",
+                "kelly_awayWin": "0.94",
+                "kelly_draw": "0.97"
+            }
+        },
+        {
+            "name": "皇冠",
+            "cid": "545",
+            "now": {
+                "homeWin": "1.43",
+                "awayWin": "7.60",
+                "draw": "4.55",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.02",
+                "kelly_awayWin": 0.99,
+                "kelly_draw": "1.03"
+            },
+            "begin": {
+                "homeWin": "1.50",
+                "awayWin": "6.90",
+                "draw": "4.15",
+                "ts": "06-12 02:35",
+                "kelly_homeWin": "1.04",
+                "kelly_awayWin": "0.99",
+                "kelly_draw": "1.03"
+            }
+        },
+        {
+            "name": "明陞",
+            "cid": "517",
+            "now": {
+                "homeWin": "1.45",
+                "awayWin": "7.30",
+                "draw": "4.00",
+                "ts": "06-12 01:27",
+                "kelly_homeWin": "1.04",
+                "kelly_awayWin": "0.96",
+                "kelly_draw": "0.90"
+            },
+            "begin": {
+                "homeWin": "1.49",
+                "awayWin": "6.60",
+                "draw": "3.90",
+                "ts": "06-11 18:48",
+                "kelly_homeWin": "1.03",
+                "kelly_awayWin": "0.94",
+                "kelly_draw": "0.97"
+            }
+        },
+        {
+            "name": "金宝博",
+            "cid": "499",
+            "now": {
+                "homeWin": "1.40",
+                "awayWin": "8.30",
+                "draw": "4.60",
+                "ts": "06-13 06:34",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "1.09",
+                "kelly_draw": "1.04"
+            },
+            "begin": {
+                "homeWin": "1.50",
+                "awayWin": "6.90",
+                "draw": "4.15",
+                "ts": "06-11 18:30",
+                "kelly_homeWin": "1.04",
+                "kelly_awayWin": "0.99",
+                "kelly_draw": "1.03"
+            }
+        },
+        {
+            "name": "利记",
+            "cid": "474",
+            "now": {
+                "homeWin": "1.42",
+                "awayWin": "6.60",
+                "draw": "4.5",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "0.87",
+                "kelly_draw": "1.02"
+            },
+            "begin": {
+                "homeWin": "1.51",
+                "awayWin": "6.40",
+                "draw": "3.85",
+                "ts": "06-12 01:53",
+                "kelly_homeWin": "1.05",
+                "kelly_awayWin": "0.92",
+                "kelly_draw": "0.95"
+            }
+        },
+        {
+            "name": "TOTO",
+            "cid": "450",
+            "now": {
+                "homeWin": "1.37",
+                "awayWin": "7.10",
+                "draw": "4.34",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "0.98",
+                "kelly_awayWin": "0.93",
+                "kelly_draw": "0.98"
+            },
+            "begin": {
+                "homeWin": "1.45",
+                "awayWin": "6.33",
+                "draw": "3.95",
+                "ts": "06-12 02:45",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "0.91",
+                "kelly_draw": "0.98"
+            }
+        },
+        {
+            "name": "博天堂",
+            "cid": "422",
+            "now": {
+                "homeWin": "1.44",
+                "awayWin": "7.25",
+                "draw": "4.10",
+                "ts": "06-11 19:05",
+                "kelly_homeWin": "1.03",
+                "kelly_awayWin": "0.95",
+                "kelly_draw": "0.93"
+            },
+            "begin": {
+                "homeWin": "1.44",
+                "awayWin": "7.25",
+                "draw": "4.10",
+                "ts": "06-11 19:05",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "1.04",
+                "kelly_draw": "1.01"
+            }
+        },
+        {
+            "name": "Matchbook",
+            "cid": "352",
+            "now": {
+                "homeWin": "1.39",
+                "awayWin": "8.60",
+                "draw": "4.75",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": 0.99,
+                "kelly_awayWin": "1.13",
+                "kelly_draw": "1.07"
+            },
+            "begin": {
+                "homeWin": "1.47",
+                "awayWin": "7.10",
+                "draw": "4.40",
+                "ts": "06-12 21:01",
+                "kelly_homeWin": "1.02",
+                "kelly_awayWin": "1.02",
+                "kelly_draw": "1.09"
+            }
+        },
+        {
+            "name": "Pinnacle",
+            "cid": "177",
+            "now": {
+                "homeWin": "1.41",
+                "awayWin": "8.54",
+                "draw": "4.8",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "1.12",
+                "kelly_draw": "1.08"
+            },
+            "begin": {
+                "homeWin": "1.49",
+                "awayWin": "7.28",
+                "draw": "4.33",
+                "ts": "06-12 01:47",
+                "kelly_homeWin": "1.03",
+                "kelly_awayWin": "1.04",
+                "kelly_draw": "1.07"
+            }
+        },
+        {
+            "name": "Bet-at-home",
+            "cid": "173",
+            "now": {
+                "homeWin": "1.38",
+                "awayWin": "7.22",
+                "draw": "4.4",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "0.99",
+                "kelly_awayWin": "0.95",
+                "kelly_draw": 0.99
+            },
+            "begin": {
+                "homeWin": "1.45",
+                "awayWin": "6.61",
+                "draw": "4.04",
+                "ts": "06-12 16:00",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "0.95",
+                "kelly_draw": "1.00"
+            }
+        },
+        {
+            "name": "Gamebookers",
+            "cid": "158",
+            "now": {
+                "homeWin": "1.44",
+                "awayWin": "7.25",
+                "draw": "4.10",
+                "ts": "06-11 20:24",
+                "kelly_homeWin": "1.03",
+                "kelly_awayWin": "0.95",
+                "kelly_draw": "0.93"
+            },
+            "begin": {
+                "homeWin": "1.44",
+                "awayWin": "7.25",
+                "draw": "4.10",
+                "ts": "06-11 20:24",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "1.04",
+                "kelly_draw": "1.01"
+            }
+        },
+        {
+            "name": "Nike",
+            "cid": "97",
+            "now": {
+                "homeWin": "1.39",
+                "awayWin": "7.95",
+                "draw": "4.6",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": 0.99,
+                "kelly_awayWin": "1.04",
+                "kelly_draw": "1.04"
+            },
+            "begin": {
+                "homeWin": "1.51",
+                "awayWin": "6.55",
+                "draw": "3.95",
+                "ts": "06-12 02:45",
+                "kelly_homeWin": "1.05",
+                "kelly_awayWin": "0.94",
+                "kelly_draw": "0.98"
+            }
+        },
+        {
+            "name": "Coral",
+            "cid": "88",
+            "now": {
+                "homeWin": "1.40",
+                "awayWin": "7.00",
+                "draw": "4.25",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "0.92",
+                "kelly_draw": "0.96"
+            },
+            "begin": {
+                "homeWin": "1.44",
+                "awayWin": "7.00",
+                "draw": "4.00",
+                "ts": "06-13 01:11",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "1.00",
+                "kelly_draw": 0.99
+            }
+        },
+        {
+            "name": "Eurobet",
+            "cid": "71",
+            "now": {
+                "homeWin": "1.42",
+                "awayWin": "6.80",
+                "draw": "4.30",
+                "ts": "06-11 21:23",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "0.89",
+                "kelly_draw": "0.97"
+            },
+            "begin": {
+                "homeWin": "1.47",
+                "awayWin": "6.35",
+                "draw": "4.10",
+                "ts": "06-11 18:03",
+                "kelly_homeWin": "1.02",
+                "kelly_awayWin": "0.91",
+                "kelly_draw": "1.01"
+            }
+        },
+        {
+            "name": "Expekt",
+            "cid": "70",
+            "now": {
+                "homeWin": "1.38",
+                "awayWin": "7.20",
+                "draw": "4.4",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "0.99",
+                "kelly_awayWin": "0.95",
+                "kelly_draw": 0.99
+            },
+            "begin": {
+                "homeWin": "1.44",
+                "awayWin": "7.40",
+                "draw": "3.85",
+                "ts": "06-11 17:53",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "1.06",
+                "kelly_draw": "0.95"
+            }
+        },
+        {
+            "name": "BETDAQ",
+            "cid": "54",
+            "now": {
+                "homeWin": "1.42",
+                "awayWin": "9.00",
+                "draw": "4.9",
+                "ts": "06-13 19:00",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "1.18",
+                "kelly_draw": "1.11"
+            },
+            "begin": {
+                "homeWin": "1.45",
+                "awayWin": "5.80",
+                "draw": "3.55",
+                "ts": "06-12 03:20",
+                "kelly_homeWin": "1.01",
+                "kelly_awayWin": "0.83",
+                "kelly_draw": "0.88"
+            }
+        },
+        {
+            "name": "12BET",
+            "cid": "18",
+            "now": {
+                "homeWin": "1.46",
+                "awayWin": "7.10",
+                "draw": "3.95",
+                "ts": "06-11 22:52",
+                "kelly_homeWin": "1.04",
+                "kelly_awayWin": "0.93",
+                "kelly_draw": "0.89"
+            },
+            "begin": {
+                "homeWin": "1.49",
+                "awayWin": "6.60",
+                "draw": "3.90",
+                "ts": "06-11 18:48",
+                "kelly_homeWin": "1.03",
+                "kelly_awayWin": "0.94",
+                "kelly_draw": "0.97"
+            }
+        },
+        {
+            "name": "10BET",
+            "cid": "16",
+            "now": {
+                "homeWin": "1.45",
+                "awayWin": "7.00",
+                "draw": "4.20",
+                "ts": "06-11 23:37",
+                "kelly_homeWin": "1.04",
+                "kelly_awayWin": "0.92",
+                "kelly_draw": "0.95"
+            },
+            "begin": {
+                "homeWin": "1.44",
+                "awayWin": "8.00",
+                "draw": "4.05",
+                "ts": "06-11 14:35",
+                "kelly_homeWin": "1.00",
+                "kelly_awayWin": "1.14",
+                "kelly_draw": "1.00"
+            }
+        },
+        {
+            "name": "Centrebet",
+            "cid": "9",
+            "now": {
+                "homeWin": "1.35",
+                "awayWin": "8.50",
+                "draw": "4.80",
+                "ts": "06-13 03:32",
+                "kelly_homeWin": "0.96",
+                "kelly_awayWin": "1.12",
+                "kelly_draw": "1.08"
+            },
+            "begin": {
+                "homeWin": "1.40",
+                "awayWin": "8.00",
+                "draw": "4.00",
+                "ts": "06-11 14:38",
+                "kelly_homeWin": "0.97",
+                "kelly_awayWin": "1.14",
+                "kelly_draw": 0.99
+            }
+        },
+        {
+            "name": "Nordicbet",
+            "cid": "4",
+            "now": {
+                "homeWin": "1.37",
+                "awayWin": "8.15",
+                "draw": "4.70",
+                "ts": "06-13 03:52",
+                "kelly_homeWin": "0.98",
+                "kelly_awayWin": "1.07",
+                "kelly_draw": "1.06"
+            },
+            "begin": {
+                "homeWin": "1.43",
+                "awayWin": "7.35",
+                "draw": "4.30",
+                "ts": "06-11 22:03",
+                "kelly_homeWin": 0.99,
+                "kelly_awayWin": "1.05",
+                "kelly_draw": "1.06"
+            }
+        }
+    ],
+    "asia": [
+        {
+            "name": "ManbetX",
+            "cid": "45",
+            "now": {
+                "homeWin": "1.05",
+                "awayWin": "0.87",
+                "draw": "一/球半",
+                "ts": "06-13 16:35"
+            },
+            "begin": {
+                "homeWin": "0.90",
+                "awayWin": "1.02",
+                "draw": "一球",
+                "ts": "06-12 02:41"
+            }
+        },
+        {
+            "name": "Bet365",
+            "cid": "8",
+            "now": {
+                "homeWin": "1.00",
+                "awayWin": "0.85",
+                "draw": "一/球半",
+                "ts": "06-13 16:24"
+            },
+            "begin": {
+                "homeWin": "0.92",
+                "awayWin": "0.92",
+                "draw": "一球",
+                "ts": "06-12 01:23"
+            }
+        },
+        {
+            "name": "韦德",
+            "cid": "14",
+            "now": {
+                "homeWin": "0.98",
+                "awayWin": "0.92",
+                "draw": "一/球半",
+                "ts": "06-13 16:08"
+            },
+            "begin": {
+                "homeWin": "0.95",
+                "awayWin": "0.95",
+                "draw": "一球",
+                "ts": "06-12 01:11"
+            }
+        },
+        {
+            "name": "易胜博",
+            "cid": "12",
+            "now": {
+                "homeWin": "1.01",
+                "awayWin": "0.90",
+                "draw": "一/球半",
+                "ts": "06-13 16:23"
+            },
+            "begin": {
+                "homeWin": "0.62",
+                "awayWin": "1.26",
+                "draw": "一球",
+                "ts": "06-13 14:58"
+            }
+        },
+        {
+            "name": "澳彩",
+            "cid": "1",
+            "now": {
+                "homeWin": "1.06",
+                "awayWin": "0.74",
+                "draw": "一/球半",
+                "ts": "06-12 06:13"
+            },
+            "begin": {
+                "homeWin": "1.03",
+                "awayWin": "0.77",
+                "draw": "一/球半",
+                "ts": "06-11 22:49"
+            }
+        },
+        {
+            "name": "18Bet",
+            "cid": "42",
+            "now": {
+                "homeWin": "0.99",
+                "awayWin": "0.85",
+                "draw": "一/球半",
+                "ts": "06-13 16:24"
+            },
+            "begin": {
+                "homeWin": "0.92",
+                "awayWin": "0.92",
+                "draw": "一球",
+                "ts": "06-12 01:07"
+            }
+        },
+        {
+            "name": "盈禾",
+            "cid": "35",
+            "now": {
+                "homeWin": "1.06",
+                "awayWin": "0.86",
+                "draw": "一/球半",
+                "ts": "06-13 16:29"
+            },
+            "begin": {
+                "homeWin": "0.89",
+                "awayWin": "1.00",
+                "draw": "一球",
+                "ts": "06-12 02:53"
+            }
+        },
+        {
+            "name": "利记",
+            "cid": "31",
+            "now": {
+                "homeWin": "0.98",
+                "awayWin": "0.94",
+                "draw": "一/球半",
+                "ts": "06-13 07:20"
+            },
+            "begin": {
+                "homeWin": "0.97",
+                "awayWin": "0.95",
+                "draw": "一球",
+                "ts": "06-11 17:40"
+            }
+        },
+        {
+            "name": "IBCBET",
+            "cid": "24",
+            "now": {
+                "homeWin": "0.82",
+                "awayWin": "1.11",
+                "draw": "一球",
+                "ts": "06-12 15:48"
+            },
+            "begin": {
+                "homeWin": "0.96",
+                "awayWin": "0.96",
+                "draw": "一球",
+                "ts": "06-11 17:03"
+            }
+        },
+        {
+            "name": "金宝博",
+            "cid": "23",
+            "now": {
+                "homeWin": "0.80",
+                "awayWin": "1.13",
+                "draw": "一球",
+                "ts": "06-11 22:12"
+            },
+            "begin": {
+                "homeWin": "0.90",
+                "awayWin": "1.02",
+                "draw": "一球",
+                "ts": "06-11 18:29"
+            }
+        },
+        {
+            "name": "10BET",
+            "cid": "22",
+            "now": {
+                "homeWin": "1.03",
+                "awayWin": "0.87",
+                "draw": "一/球半",
+                "ts": "06-13 16:29"
+            },
+            "begin": {
+                "homeWin": "0.95",
+                "awayWin": "0.95",
+                "draw": "一球",
+                "ts": "06-12 01:04"
+            }
+        },
+        {
+            "name": "明陞",
+            "cid": "17",
+            "now": {
+                "homeWin": "1.06",
+                "awayWin": "0.86",
+                "draw": "一/球半",
+                "ts": "06-13 16:35"
+            },
+            "begin": {
+                "homeWin": "0.96",
+                "awayWin": "0.96",
+                "draw": "一球",
+                "ts": "06-12 01:04"
+            }
+        },
+        {
+            "name": "皇冠",
+            "cid": "3",
+            "now": {
+                "homeWin": "1.05",
+                "awayWin": "0.84",
+                "draw": "一/球半",
+                "ts": "06-13 16:35"
+            },
+            "begin": {
+                "homeWin": "0.88",
+                "awayWin": "1.00",
+                "draw": "一球",
+                "ts": "06-12 02:35"
+            }
+        }
+    ],
+    "size": [
+        {
+            "name": "ManbetX",
+            "cid": "45",
+            "now": {
+                "homeWin": "0.95",
+                "awayWin": "0.95",
+                "draw": "2.5",
+                "ts": "06-12 17:29"
+            },
+            "begin": {
+                "homeWin": "1.04",
+                "awayWin": "0.86",
+                "draw": "2.5",
+                "ts": "06-11 18:30"
+            }
+        },
+        {
+            "name": "Bet365",
+            "cid": "8",
+            "now": {
+                "homeWin": "0.78",
+                "awayWin": "1.10",
+                "draw": "2/2.5",
+                "ts": "06-11 18:07"
+            },
+            "begin": {
+                "homeWin": "0.82",
+                "awayWin": "1.02",
+                "draw": "2/2.5",
+                "ts": "06-11 17:16"
+            }
+        },
+        {
+            "name": "立博",
+            "cid": "4",
+            "now": {
+                "homeWin": "0.73",
+                "awayWin": "1.10",
+                "draw": "2.5",
+                "ts": "06-13 16:03"
+            },
+            "begin": {
+                "homeWin": "0.91",
+                "awayWin": "0.85",
+                "draw": "2.5",
+                "ts": "06-13 01:06"
+            }
+        },
+        {
+            "name": "韦德",
+            "cid": "14",
+            "now": {
+                "homeWin": "1.00",
+                "awayWin": "0.87",
+                "draw": "2.5/3",
+                "ts": "06-13 16:03"
+            },
+            "begin": {
+                "homeWin": "0.85",
+                "awayWin": "1.02",
+                "draw": "2/2.5",
+                "ts": "06-12 01:08"
+            }
+        },
+        {
+            "name": "易胜博",
+            "cid": "12",
+            "now": {
+                "homeWin": "0.97",
+                "awayWin": "0.89",
+                "draw": "2.5/3",
+                "ts": "06-13 16:23"
+            },
+            "begin": {
+                "homeWin": "0.56",
+                "awayWin": "1.36",
+                "draw": "2/2.5",
+                "ts": "06-13 14:59"
+            }
+        },
+        {
+            "name": "澳彩",
+            "cid": "1",
+            "now": {
+                "homeWin": "0.88",
+                "awayWin": "0.82",
+                "draw": "2.5",
+                "ts": "06-11 22:49"
+            },
+            "begin": {
+                "homeWin": "0.88",
+                "awayWin": "0.82",
+                "draw": "2.5",
+                "ts": "06-11 22:49"
+            }
+        },
+        {
+            "name": "18Bet",
+            "cid": "42",
+            "now": {
+                "homeWin": "0.95",
+                "awayWin": "0.89",
+                "draw": "2.5",
+                "ts": "06-11 21:51"
+            },
+            "begin": {
+                "homeWin": "0.83",
+                "awayWin": "1.02",
+                "draw": "2/2.5",
+                "ts": "06-11 17:02"
+            }
+        },
+        {
+            "name": "盈禾",
+            "cid": "35",
+            "now": {
+                "homeWin": "1.01",
+                "awayWin": "0.86",
+                "draw": "2.5",
+                "ts": "06-11 23:04"
+            },
+            "begin": {
+                "homeWin": "1.02",
+                "awayWin": "0.85",
+                "draw": "2.5",
+                "ts": "06-11 18:46"
+            }
+        },
+        {
+            "name": "利记",
+            "cid": "31",
+            "now": {
+                "homeWin": "0.87",
+                "awayWin": "1.03",
+                "draw": "2.5",
+                "ts": "06-13 03:29"
+            },
+            "begin": {
+                "homeWin": "0.89",
+                "awayWin": "1.01",
+                "draw": "2/2.5",
+                "ts": "06-11 17:40"
+            }
+        },
+        {
+            "name": "IBCBET",
+            "cid": "24",
+            "now": {
+                "homeWin": "1.02",
+                "awayWin": "0.88",
+                "draw": "2.5/3",
+                "ts": "06-13 16:25"
+            },
+            "begin": {
+                "homeWin": "0.85",
+                "awayWin": "1.05",
+                "draw": "2/2.5",
+                "ts": "06-12 01:01"
+            }
+        },
+        {
+            "name": "金宝博",
+            "cid": "23",
+            "now": {
+                "homeWin": "0.98",
+                "awayWin": "0.92",
+                "draw": "2.5/3",
+                "ts": "06-13 16:36"
+            },
+            "begin": {
+                "homeWin": "1.04",
+                "awayWin": "0.86",
+                "draw": "2.5",
+                "ts": "06-12 02:35"
+            }
+        },
+        {
+            "name": "10BET",
+            "cid": "22",
+            "now": {
+                "homeWin": "1.00",
+                "awayWin": "0.86",
+                "draw": "2.5",
+                "ts": "06-11 23:36"
+            },
+            "begin": {
+                "homeWin": "0.84",
+                "awayWin": "1.03",
+                "draw": "2/2.5",
+                "ts": "06-11 17:01"
+            }
+        },
+        {
+            "name": "明陞",
+            "cid": "17",
+            "now": {
+                "homeWin": "1.04",
+                "awayWin": "0.86",
+                "draw": "2.5/3",
+                "ts": "06-13 06:57"
+            },
+            "begin": {
+                "homeWin": "0.85",
+                "awayWin": "1.05",
+                "draw": "2/2.5",
+                "ts": "06-11 17:02"
+            }
+        },
+        {
+            "name": "皇冠",
+            "cid": "3",
+            "now": {
+                "homeWin": "1.00",
+                "awayWin": "0.88",
+                "draw": "2.5",
+                "ts": "06-12 03:57"
+            },
+            "begin": {
+                "homeWin": "1.01",
+                "awayWin": "0.85",
+                "draw": "2.5",
+                "ts": "06-11 18:34"
+            }
+        }
+    ],
+    "has_odds": true,
+    "max": {
+        "now": {
+            "homeWin": "1.46",
+            "awayWin": "9.60",
+            "draw": "5.1",
+            "ts": "06-11 22:52",
+            "kelly_homeWin": "1.04",
+            "kelly_awayWin": "1.26",
+            "kelly_draw": "1.15"
+        },
+        "begin": {
+            "homeWin": "1.53",
+            "awayWin": "9.00",
+            "draw": "4.75",
+            "ts": "06-13 11:34",
+            "kelly_homeWin": "1.06",
+            "kelly_awayWin": "1.29",
+            "kelly_draw": "1.18"
+        },
+        "name": "最高值"
+    },
+    "min": {
+        "now": {
+            "homeWin": "1.27",
+            "awayWin": "5.90",
+            "draw": "3.95",
+            "ts": "06-11 22:52",
+            "kelly_homeWin": "0.91",
+            "kelly_awayWin": "0.78",
+            "kelly_draw": "0.89"
+        },
+        "begin": {
+            "homeWin": "1.25",
+            "awayWin": "5.10",
+            "draw": "3.50",
+            "ts": "06-08 09:17",
+            "kelly_homeWin": "0.87",
+            "kelly_awayWin": "0.73",
+            "kelly_draw": "0.87"
+        },
+        "name": "最低值"
+    },
+    "avg": {
+        "now": {
+            "homeWin": "1.40",
+            "awayWin": "7.61",
+            "draw": "4.43",
+            "ts": "06-13 19:00",
+            "kelly_homeWin": "-",
+            "kelly_awayWin": "-",
+            "kelly_draw": "-"
+        },
+        "begin": {
+            "homeWin": "1.44",
+            "awayWin": "6.99",
+            "draw": "4.04",
+            "ts": "06-13 14:58",
+            "kelly_homeWin": "-",
+            "kelly_awayWin": "-",
+            "kelly_draw": "-"
+        },
+        "name": "平均值"
+    },
+    "matchId": 50909431
+}

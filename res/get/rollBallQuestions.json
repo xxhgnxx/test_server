@@ -1,0 +1,222 @@
+{
+  "code": "0",
+  "message": "success",
+  "data": {
+      "guess": [
+          {
+              "can_guess": false,
+              "guess_id": "170797",
+              "have_answer": true,
+              "question": "第10-19分钟是否会有进球？",
+              "total": "0",
+              "answer": [
+                  {
+                      "proportion": "0%",
+                      "is_right": false,
+                      "answer_id": 0,
+                      "content": "会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "2.50"
+                  },
+                  {
+                      "proportion": "0%",
+                      "is_right": true,
+                      "answer_id": 1,
+                      "content": "不会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "1.30"
+                  }
+              ],
+              "start_minute": "0",
+              "end_minute": "8",
+              "ban_minute": "2"
+          },
+          {
+              "can_guess": false,
+              "guess_id": "170796",
+              "have_answer": true,
+              "question": "第20-29分钟是否会有进球？",
+              "total": "0",
+              "answer": [
+                  {
+                      "proportion": "0%",
+                      "is_right": false,
+                      "answer_id": 0,
+                      "content": "会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "2.50"
+                  },
+                  {
+                      "proportion": "0%",
+                      "is_right": true,
+                      "answer_id": 1,
+                      "content": "不会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "1.30"
+                  }
+              ],
+              "start_minute": "10",
+              "end_minute": "18",
+              "ban_minute": "2"
+          },
+          {
+              "can_guess": false,
+              "guess_id": "170795",
+              "have_answer": true,
+              "question": "第30-39分钟是否会有进球？",
+              "total": "0",
+              "answer": [
+                  {
+                      "proportion": "0%",
+                      "is_right": false,
+                      "answer_id": 0,
+                      "content": "会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "2.50"
+                  },
+                  {
+                      "proportion": "0%",
+                      "is_right": true,
+                      "answer_id": 1,
+                      "content": "不会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "1.30"
+                  }
+              ],
+              "start_minute": "20",
+              "end_minute": "28",
+              "ban_minute": "2"
+          },
+          {
+              "can_guess": false,
+              "guess_id": "170794",
+              "have_answer": true,
+              "question": "第50-59分钟是否会有进球？",
+              "total": "0",
+              "answer": [
+                  {
+                      "proportion": "0%",
+                      "is_right": false,
+                      "answer_id": 0,
+                      "content": "会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "2.50"
+                  },
+                  {
+                      "proportion": "0%",
+                      "is_right": true,
+                      "answer_id": 1,
+                      "content": "不会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "1.30"
+                  }
+              ],
+              "start_minute": "30",
+              "end_minute": "48",
+              "ban_minute": "2",
+              "halftime": true
+          },
+          {
+              "can_guess": false,
+              "guess_id": "170793",
+              "have_answer": true,
+              "question": "第60-69分钟是否会有进球？",
+              "total": "0",
+              "answer": [
+                  {
+                      "proportion": "0%",
+                      "is_right": false,
+                      "answer_id": 0,
+                      "content": "会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "2.50"
+                  },
+                  {
+                      "proportion": "0%",
+                      "is_right": true,
+                      "answer_id": 1,
+                      "content": "不会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "1.30"
+                  }
+              ],
+              "start_minute": "50",
+              "end_minute": "58",
+              "ban_minute": "2"
+          },
+          {
+              "can_guess": false,
+              "guess_id": "170792",
+              "have_answer": true,
+              "question": "第70-79分钟是否会有进球？",
+              "total": "0",
+              "answer": [
+                  {
+                      "proportion": "0%",
+                      "is_right": false,
+                      "answer_id": 0,
+                      "content": "会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "2.50"
+                  },
+                  {
+                      "proportion": "0%",
+                      "is_right": true,
+                      "answer_id": 1,
+                      "content": "不会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "1.30"
+                  }
+              ],
+              "start_minute": "60",
+              "end_minute": "68",
+              "ban_minute": "2"
+          },
+          {
+              "can_guess": false,
+              "guess_id": "170791",
+              "have_answer": true,
+              "question": "第80-89分钟是否会有进球？",
+              "total": "0",
+              "answer": [
+                  {
+                      "proportion": "0%",
+                      "is_right": false,
+                      "answer_id": 0,
+                      "content": "会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "2.50"
+                  },
+                  {
+                      "proportion": "0%",
+                      "is_right": true,
+                      "answer_id": 1,
+                      "content": "不会进球",
+                      "pay": 0,
+                      "this_total": "0",
+                      "odds": "1.30"
+                  }
+              ],
+              "start_minute": "70",
+              "end_minute": "78",
+              "ban_minute": "2"
+          }
+      ],
+      "start": true,
+      "balance": 0,
+      "plan_id": 1
+  }
+}

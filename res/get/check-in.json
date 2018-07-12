@@ -1,0 +1,41 @@
+{
+  "checkin": {
+    "A100101": {
+      "status": 0,
+      "name": "普通签到"
+    },
+    "A100102": {
+      "status": 0,
+      "name": "分享"
+    },
+    "A100201": {
+      "status": 0,
+      "name": "比赛预测"
+    },
+    "A100301": {
+      "status": 0,
+      "name": "冠军之路"
+    },
+    "A100301": {
+      "count": 1,
+      "status": 0,
+      "name": "冠军之路"
+    },
+    "A100302": {
+      "count": 1,
+      "status": 0,
+      "name": "金靴竞猜"
+    },
+    "A100303": {
+      "count": 1,
+      "status": 0,
+      "name": "定制球衣"
+    }
+  },
+  "todayMatch": null,
+
+  "user": {
+    "unused_count": 1
+  }
+
+}

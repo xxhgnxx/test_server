@@ -31,7 +31,7 @@ var upload = multer({
 // 实例化上传模块(前端使用参数名为file)
 app.post('/upload', upload, function (req, res, next) {
 	var file = req.file;
-	console.log(time()+'文件上传');
+	console.log(time() + '文件上传');
 	console.log('文件类型：%s', file.mimetype);
 	console.log('原始文件名：%s', file.originalname);
 	console.log('文件大小：%s', file.size);
@@ -63,11 +63,11 @@ app.get("/img", function (req, res) {
 		body: get_file_list('./www/public/images')
 	});
 });
-app.get('/test', async(req, res) => {
+app.get('/test', async (req, res) => {
 	res.redirect('http://10.18.7.108:7777/双向绑定分享');
 })
-app.get('/tt', async(req, res) => {
-	res.redirect('http://10.18.7.108:8083/webapp/career-stats/career-stats.html?id=123123123');
+app.get('/tt', async (req, res) => {
+	res.redirect('http://10.18.7.108:8083/webapp/moreAsiaPlan/moreAsiaPlan.html');
 })
 
 
@@ -85,7 +85,7 @@ var http = new Promise(resolve => {
 	require('http').createServer(app).listen(config.http_port, () => {
 		console.log('------------http启动------------');
 		config.server_list.http.forEach(element => {
-			console.log(time()+element);
+			console.log(time() + element);
 		});
 		resolve()
 	})
@@ -102,7 +102,7 @@ var https = new Promise(resolve => {
 });
 // 等待服务器启动完成
 Promise.all([http, https]).then(() => {
-	console.log('------------------服务器启动完成-----%s-----',time());
+	console.log('------------------服务器启动完成-----%s-----', time());
 });
 
 function setup_res(req, res, res_date) {
@@ -139,9 +139,9 @@ function url_analysis(url, method) {
 
 
 
-app.use('*', async(req, res) => {
+app.use('*', async (req, res) => {
 	// console.log(time()+"收到请求", req.protocol, req.method, req.headers.host, req._parsedUrl.pathname, req.query)
-	console.log(time()+`收到${req.method.toLowerCase()}请求 ${decodeURIComponent(req.originalUrl)}`)
+	console.log(time() + `收到${req.method.toLowerCase()}请求 ${decodeURIComponent(req.originalUrl)}`)
 	var res_path = await url_analysis(req._parsedUrl.pathname, req.method.toLowerCase())
 	if (res_path == 'error') {
 		res.status(200).send('服务器工作异常')
@@ -152,7 +152,7 @@ app.use('*', async(req, res) => {
 			setup_res(req, res, data)
 		})
 	} else {
-		console.log(time()+"无效请求", req.url)
+		console.log(time() + "无效请求", req.url)
 		res.status(400).send('无效请求')
 	}
 })
@@ -163,6 +163,7 @@ app.use('*', async(req, res) => {
 // 递归循环遍历目录
 function get_file_list(path) {
 	var fileList = [];
+
 	function walk(path) {
 		var dirList = fs.readdirSync(path);
 		dirList.forEach(function (item) {
@@ -179,18 +180,18 @@ function get_file_list(path) {
 		});
 		return fileList
 	}
-	return walk(path).sort(function(val1, val2){
+	return walk(path).sort(function (val1, val2) {
 		//读取文件信息
 		var stat1 = fs.statSync('./www' + val1.url);
 		var stat2 = fs.statSync('./www' + val2.url);
 		//根据时间从最新到最旧排序
 		return stat2.mtime - stat1.mtime;
-	 });
+	});
 }
 
 
-function time(){
-return moment().format('hh:mm')+"-"
+function time() {
+	return moment().format('hh:mm') + "-"
 }
 
 
@@ -200,24 +201,25 @@ return moment().format('hh:mm')+"-"
 //     path: '' , 
 //     method: 'GET' 
 // }; 
-   
+
 // var req = https_test.request(options, function (res) { 
 // 	console.log('STATUS: ' + res.statusCode); 
 // 	if (res.statusCode) {
-		
+
 // 	}
-    
+
 //     // console.log('HEADERS: ' + JSON.stringify(res.headers)); 
 //     res.setEncoding('utf8'); 
 //     res.on('data', function (chunk) { 
 //         // console.log('BODY: ' + chunk); 
 //     }); 
 // }); 
-   
+
 // req.on('error', function (e) { 
 //     console.log('problem with request: ' + e.message); 
 // }); 
-   
+
 // req.end(function (e) { 
 // 	console.log('end'); 
 // });
+

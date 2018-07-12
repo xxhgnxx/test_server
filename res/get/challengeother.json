@@ -61,13 +61,13 @@
   }],
   "challenge": {
     "id": "a37307ec3dd2ef0854ef2ae4dbc02abb",
-    "count": 11,
-    "joined_count": 11,
+    "count": 9,
+    "joined_count": 6,
     "compete": {
       "compete_id": 50811840,
       "winner": 0,
       "datetime": "2018-05-14 02:45:00",
-      "state": "Played",
+      "state": "Fixture",
       "host_team_name": "\u7f57\u9a6c",
       "host_team_flag": "https:\/\/img.dongqiudi.com\/data\/pic\/1241.png",
       "guest_team_name": "\u5c24\u6587\u56fe\u65af",
