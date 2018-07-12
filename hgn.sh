@@ -40,7 +40,7 @@ echo "$add_results"
 
 
 
-if   [ $add_results = "On branch test nothing to commit" ]  
+if [ $add_results = "On branch test nothing to commit" ]  
 then
 warn '没有什么值得提交的'
   exit
