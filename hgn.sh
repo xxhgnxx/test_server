@@ -17,8 +17,8 @@ then
   exit
 fi
 
-add_results = `git add .`
-add_results = `git commit -m save`
+add_results=`git add .`
+add_results=`git commit -m save`
 echo $add_results
 echo -e "当前分支 \033[33m ${current_branch} \033[0m --> \033[33m ${target} \033[0m"
 echo -e "add"
