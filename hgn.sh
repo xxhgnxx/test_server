@@ -17,7 +17,7 @@ then
   err '请检查当前分支后再做合并'
   exit
 fi
-
+echo -e "当前分支 \033[33m ${current_branch} \033[0m --> \033[33m ${target} \033[0m"
 `git add .`
 if  [ ! -n "$1" ] 
 then
@@ -31,8 +31,12 @@ commitMsg=$0
 fi
 
 add_results=`git commit -m $commitMsg`
-echo $add_results
-echo -e "当前分支 \033[33m ${current_branch} \033[0m --> \033[33m ${target} \033[0m"
+echo "$add_results"
+"On branch test nothing to commit"
+
+
+
+
 echo -e "add"
 
 exit
