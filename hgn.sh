@@ -19,10 +19,10 @@ then
 fi
 echo -e "当前分支 \033[33m ${current_branch} \033[0m --> \033[33m ${target} \033[0m"
 `git add .`
-if  [ ! -n "$1" ] 
+if  [ -z "$1" ] 
 then
 read -p "请输入本次提交的注释：" commitMsg
-if  [ ! -n "$commitMsg" ]
+if  [ -z "$commitMsg" ]
 then
 echo "无注释无法提交，退出本次合并过程"
 exit
@@ -34,14 +34,15 @@ else
 commitMsg=$1
 fi
 
-add_results=`git commit -m "'$commitMsg'"`
-echo "$add_results"
-# echo $add_results
+# add_results=`git commit -m "'$commitMsg'"`
+git commit -m "'$commitMsg'"
+# echo "$add_results"
+echo $?
 
 
 
 
-if [ "$add_results" == "*nothing to commit*" ]  
+if [ $? == "*nothing to commit*" ]  
 then
 warn '没有什么值得提交的'
   exit
