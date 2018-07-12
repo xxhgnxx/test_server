@@ -1,6 +1,6 @@
 #!/bin/bash
-read commitMsg
-echo $commitMsg
+
+
 warn(){
    echo -e "\033[33m $1 \033[0m"
 }
@@ -19,7 +19,15 @@ then
 fi
 
 `git add .`
-add_results=`git commit -m save`
+if  [ ! -n "$0" ] ;then
+read -p "请输入本次提交的注释：" commitMsg
+echo "you have not input a word!"
+exit
+else
+commitMsg=$0
+fi
+
+add_results=`git commit -m $commitMsg`
 echo $add_results
 echo -e "当前分支 \033[33m ${current_branch} \033[0m --> \033[33m ${target} \033[0m"
 echo -e "add"
