@@ -36,12 +36,12 @@ fi
 
 add_results=`git commit -m "'$commitMsg'"`
 echo "$add_results"
-echo $add_results
+# echo $add_results
 
 
 
 
-if [ $add_results = 'On branch test nothing to commit' ]  
+if [ "$add_results" = 'On branch test nothing to commit' ]  
 then
 warn '没有什么值得提交的'
   exit
