@@ -1,9 +1,9 @@
 {
   "code": "0",
   "message": "success",
-  "data1": {
+  "data": {
     "coupon": "已优惠200元，截至7月9日23:59",
     "price": 1
   },
-  "data": null
+  "data1": null
 }
