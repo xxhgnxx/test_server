@@ -36,19 +36,10 @@ fi
 
 # add_results=`git commit -m "'$commitMsg'"`
 git commit -m "'$commitMsg'"
-# echo "$add_results"
-# echo $?
-
-
-
-
 if [ $? -ne 0 ]  
 then
-err '没有什么值得提交的'
+err 'commit 出现异常'
   exit
-  echo "succeed"
-else
-    echo "failed"
 fi
 
 
