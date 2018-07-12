@@ -37,7 +37,7 @@ fi
 # add_results=`git commit -m "'$commitMsg'"`
 git commit -m "'$commitMsg'"
 # echo "$add_results"
-echo $?
+# echo $?
 
 
 
