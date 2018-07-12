@@ -24,7 +24,7 @@ then
 read -p "请输入本次提交的注释：" commitMsg
 if  [ ! -n "$commitMsg" ]
 then
-echo "you have not input a word!"
+echo "无注释无法提交，退出本次合并过程"
 exit
 else
 commitMsg=$commitMsg
@@ -34,12 +34,17 @@ else
 commitMsg=\"$0\"
 fi
 
-# add_results=`git commit -m $commitMsg`
-# echo "$add_results"
-git commit -m "'$commitMsg'"
+add_results=`git commit -m "'$commitMsg'"`
+echo "$add_results"
 
-"On branch test nothing to commit"
 
+
+
+if   [ $add_results = "On branch test nothing to commit" ]  
+then
+warn '没有什么值得提交的'
+  exit
+fi
 
 
 
