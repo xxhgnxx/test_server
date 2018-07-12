@@ -33,7 +33,7 @@ fi
 else
 commitMsg=$1
 fi
-
+echo -e "\033[33m -----commit------ \033[0m"
 # add_results=`git commit -m "'$commitMsg'"`
 git commit -m "'$commitMsg'"
 if [ $? -ne 0 ]  
