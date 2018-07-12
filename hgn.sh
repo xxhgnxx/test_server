@@ -19,12 +19,13 @@ then
 fi
 
 `git add .`
-if  [ ! -n "$1" ] ;then
+if  [ ! -n "$1" ] 
+then
 read -p "请输入本次提交的注释：" commitMsg
-if  [! -n "$commitMsg"];then
-echo "you have not input a word!"
-exit
-fi
+# if  [! -n "$commitMsg"];then
+# echo "you have not input a word!"
+# exit
+# fi
 else
 commitMsg=$0
 fi
