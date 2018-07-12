@@ -42,21 +42,18 @@ then
 err '合并过程出现出现异常 程序退出'
   exit
 fi
-}
 git checkout develop
 if [ $? -ne 0 ]  
 then
 err '合并过程出现出现异常 程序退出'
   exit
 fi
-}
 git pull
 if [ $? -ne 0 ]  
 then
 err '合并过程出现出现异常 程序退出'
   exit
 fi
-}
 
 git checkout $current_branch
 
