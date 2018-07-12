@@ -42,9 +42,9 @@ echo abc$?
 
 
 
-if [ $? == "*nothing to commit*" ]  
+if [ $? -ne 0 ]  
 then
-warn '没有什么值得提交的'
+err '没有什么值得提交的'
   exit
 fi
 
