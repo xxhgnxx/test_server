@@ -28,7 +28,7 @@ IPv4.forEach(ip => {
 
 
 module.exports = {
-    "timeout": 100, // 返回延迟，模拟网络阻塞时使用
+    "timeout": 2100, // 返回延迟，模拟网络阻塞时使用
     "header": [{
             "name": "Access-Control-Allow-Origin",
             "set": "https://localhost:8080"

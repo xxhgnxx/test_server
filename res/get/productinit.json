@@ -1,0 +1,150 @@
+{
+    "nav": [{
+        "id": 13,
+        "shop_id": 6,
+        "title": "\u63a8\u8350"
+    }, {
+        "id": 14,
+        "shop_id": 6,
+        "title": "\u7403\u8863"
+    }],
+    "title": "\u6d4b\u8bd51.3",
+    "img": "http:\/\/test1-img1.dongqiudi.net\/www\/M00\/24\/E5\/ChOOult_bjOAJcwfAADqtpfpPXM069.jpg",
+    "share": {
+        "title": "\u6d4b\u8bd51.3",
+        "content": "\u6211\u5728\u61c2\u7403\u5e1d\u5546\u57ce\u53d1\u73b0\u4e86\u4e00\u4e2a\u4e0d\u9519\u7684\u4e13\u9898\uff0c\u5927\u5bb6\u5feb\u6765\u770b\u770b\u5427\uff01"
+    },
+    "list": [{
+        "product_code": "dxn5220207",
+        "type_id": "2",
+        "img_url": "http:\/\/test1-img1.dongqiudi.net\/www\/M00\/20\/E1\/ChOOulsZGdiAc4E9AABubTYqm3Y539_450_450.jpg",
+        "title": "dxn5220207  \u9884\u552e",
+        "warehouse_id": "1",
+        "sale_price": "300",
+        "list_price": "90",
+        "postage": "0",
+        "is_haitao": false,
+        "is_buyable": true,
+        "sales": 9,
+        "status": {
+            "key": "in_stock",
+            "title": "\u552e\u5356\u4e2d",
+            "color": ""
+        },
+        "stock": "875",
+        "tags": [],
+        "label": "",
+        "labels": [],
+        "limited": [],
+        "max_price": 0,
+        "min_price": 0
+    }, {
+        "product_code": "dxn52207",
+        "type_id": "2",
+        "img_url": "http:\/\/test1-img1.dongqiudi.net\/www\/M00\/1F\/F3\/ChOOulsED8qATniJAAKV0xs3bi8415_450_450.jpg",
+        "title": "dxn52207  \u5317\u4eac\u4ed3\u5e93 \u7403\u8863",
+        "warehouse_id": "1",
+        "sale_price": "3",
+        "list_price": "34",
+        "postage": "0",
+        "is_haitao": false,
+        "is_buyable": true,
+        "sales": 31,
+        "status": {
+            "key": "in_stock",
+            "title": "\u552e\u5356\u4e2d",
+            "color": ""
+        },
+        "stock": "859",
+        "tags": [],
+        "label": "",
+        "labels": [],
+        "limited": [],
+        "max_price": 0,
+        "min_price": 0
+    }, {
+        "product_code": "dxn52206",
+        "type_id": "2",
+        "img_url": "http:\/\/test1-img1.dongqiudi.net\/www\/M00\/1F\/F3\/ChOOulsEDzmAIdw-AAB6MZ5rEY0519_450_450.jpg",
+        "title": "\u5317\u4eac\u4e00\u53f7\u4ed3 \u7403\u8863",
+        "warehouse_id": "5",
+        "sale_price": "2.67",
+        "list_price": "2999",
+        "postage": "0",
+        "is_haitao": false,
+        "is_buyable": true,
+        "sales": 12,
+        "status": {
+            "key": "in_stock",
+            "title": "\u552e\u5356\u4e2d",
+            "color": ""
+        },
+        "stock": "891",
+        "tags": [],
+        "label": "",
+        "labels": [],
+        "limited": [],
+        "max_price": 0,
+        "min_price": 0
+    }, {
+        "product_code": "dxn52204",
+        "type_id": "1",
+        "img_url": "http:\/\/test1-img1.dongqiudi.net\/www\/M00\/1F\/F2\/ChOOulsEC6-AN3ESAAE2qGLtRaQ76_450_450.jpeg",
+        "title": "dxn52204 \u7f8e\u56fd \u7403\u978b",
+        "warehouse_id": "4",
+        "sale_price": "0.23",
+        "list_price": "4455",
+        "postage": "0",
+        "is_haitao": true,
+        "is_buyable": true,
+        "sales": 8,
+        "status": {
+            "key": "in_stock",
+            "title": "\u552e\u5356\u4e2d",
+            "color": ""
+        },
+        "stock": "98",
+        "tags": [],
+        "label": "",
+        "labels": [],
+        "limited": [],
+        "max_price": 0,
+        "min_price": 0
+    }, {
+        "product_code": "dxn52203",
+        "type_id": "1",
+        "img_url": "http:\/\/test1-img1.dongqiudi.net\/www\/M00\/1F\/F3\/ChOOulsEDXqASXVyAAFveVQ4Mmk067_450_450.jpg",
+        "title": "dxn52203 \u4e8c\u53f7\u4ed3 \u7403\u978b",
+        "warehouse_id": "3",
+        "sale_price": "0.02",
+        "list_price": "588.98",
+        "postage": "0",
+        "is_haitao": false,
+        "is_buyable": true,
+        "sales": 40,
+        "status": {
+            "key": "in_stock",
+            "title": "\u552e\u5356\u4e2d",
+            "color": ""
+        },
+        "stock": "60",
+        "tags": [{
+            "type": "text",
+            "value": "\u957f\u9489"
+        }],
+        "label": "",
+        "labels": [{
+            "type": "image",
+            "value": "http:\/\/test1-img1.dongqiudi.net\/www\/M00\/00\/13\/ChOOulfstgeAQlYeAAAI75cMR_M635.png",
+            "layer": 1
+        }, {
+            "type": "text",
+            "value": "\u7403\u661f\u540c\u6b3e",
+            "layer": 2
+        }],
+        "limited": [],
+        "max_price": 0,
+        "min_price": 0
+    }],
+    "next": ""
+}

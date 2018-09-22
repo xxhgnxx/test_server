@@ -35,12 +35,22 @@
     "/hgn/plat/v3": { "des": "广告接口", "data": "/v3.json" },
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
 
+    "/hgn/h5/club/product": { "des": "商城接口", "data": "/productinit.json" },
+    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
+
+    "/hgn/league/rank": { "des": "球队排名", "data": "/rank.json" },
+    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
+    "/hgn/v2/vote/result/match": { "des": "球队排名", "data": "/result_match.json" },
+    "/hgn/data/match/pre_analysis": { "des": "球队排名", "data": "/pre_analysis.json" },
+    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
+
     "/hgn/api/jeep/index": { "des": "jeep活动用户认证", "data": "/userData.json" },
     "/hgn/jeep/my-checkin": { "des": "jeep签到", "data": "/check-in.json" },
     "/hgn/jeep/checkin": { "des": "签到", "data": "/check-in.json" },
     "/hgn/jeep/my-card": { "des": "jeep卡相关信息", "data": "/card_group.json" },
     "/hgn/jeep/good-luck": { "des": "抽卡", "data": "/good-luck.json" },
     "/hgn/jeep/exchange-card": { "des": "换卡", "data": "/exchange-card.json" },
+    "/hgn/com/socer": { "des": "创意监控接口", "data": "/save.json" },
     
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
     "/recharge/apps": { "des": "充值产品页面", "data": "/app.json" },
@@ -48,7 +58,7 @@
     "/admin/monitoring/creative/list": { "des": "创意监控接口", "data": "/monitoring.json" },
     "/hgn/api/asiaPlanDetail": { "des": "卖料", "data": "/plandetail.json" },
     "/hgn/order/worldCupOrders": { "des": "卖料", "data": "/worldCupOrders.json" },
-    "/hgn/api/orderStatus": { "des": "卖料订单查询", "data": "/orderStatus.json" },
+    "/hgn/api/orderStatus": { "des": "卖料订单查询", "data": "/orderStatus2.json" },
     "/hgn/api/order": { "des": "订单支付状态查询", "data": "/orderStatus.json" },
     "/hgn/order/generateProduct": { "des": "订单支付状态查询", "data": "/orderStatus.json" },
     "/hgn/api/getCoupon": { "des": "订单支付状态查询", "data": "/getCoupon.json" },

@@ -63,8 +63,8 @@ app.get("/img", function (req, res) {
 		body: get_file_list('./www/public/images')
 	});
 });
-app.get('/test', async (req, res) => {
-	res.redirect('http://10.18.7.108:7777/双向绑定分享');
+app.get('/t', async (req, res) => {
+	res.redirect('http://10.18.7.108:7777/t.html');
 })
 app.get('/tt', async (req, res) => {
 	res.redirect('http://10.18.7.108:8083/webapp/moreAsiaPlan/moreAsiaPlan.html');

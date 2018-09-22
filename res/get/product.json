@@ -1,0 +1,319 @@
+{
+    "title": "\u5229\u7269\u6d66",
+    "slides": [
+        {
+          "img": "https://static1.dongqiudi.com/dqd-node/public/images/mall/liverpool/liverpool-banner-all.jpg"
+        }
+      ],
+      "nav": [
+        {
+          "title": "热门",
+          "id": "0",
+          "tag": "89"
+        },
+        {
+          "title": "球衣",
+          "id": "0",
+          "tag": "10046"
+        },
+        {
+          "title": "运动服",
+          "id": "0",
+          "tag": "10049"
+        },
+        {
+          "title": "配件",
+          "id": "0",
+          "tag": "10047"
+        },
+        {
+          "title": "周边",
+          "id": "3",
+          "tag": "10048"
+        }
+      ],
+    "deftag": {
+        "list": [{
+            "product_code": "I1002SLH",
+            "type_id": "2",
+            "img_url": "http:\/\/img1.dongqiudi.com\/fastdfs2\/M00\/72\/F3\/ChOqM1tuv_aAJEbwAALj9koZWwQ681_450_450.jpg",
+            "title": "\u5229\u7269\u6d66\u4ff1\u4e50\u90e8\u5b98\u65b9\u51fa\u54c1 18-19\u8d5b\u5b63\u8428\u62c9\u8d6b\u5370\u53f7\u7403\u8863 \u4e3b\u573a11\u53f7",
+            "warehouse_id": "5",
+            "sale_price": "399",
+            "list_price": "599",
+            "postage": "0",
+            "is_haitao": false,
+            "is_buyable": true,
+            "sales": 31,
+            "status": {
+                "key": "in_stock",
+                "title": "\u552e\u5356\u4e2d",
+                "color": ""
+            },
+            "stock": "78",
+            "tags": [{
+                "type": "image",
+                "value": "http:\/\/img.dongqiudi.com\/data\/pic\/663.png"
+            }],
+            "label": "",
+            "labels": [{
+                "type": "image",
+                "value": "http:\/\/img1.dongqiudi.com\/fastdfs\/M00\/08\/53\/oYYBAFgAzvaANuJiAAAJcdrkyj0738.png",
+                "layer": 1
+            }],
+            "limited": [],
+            "max_price": 0,
+            "min_price": 0
+        }, {
+            "product_code": "I1003",
+            "type_id": "2",
+            "img_url": "http:\/\/img1.dongqiudi.com\/fastdfs2\/M00\/72\/F4\/ChNy21tcNVKAYuVuAAKbsf_2HC0975_450_450.jpg",
+            "title": "\u4ff1\u4e50\u90e8\u5b98\u65b9\u51fa\u54c1 18-19\u8d5b\u5b63\u5229\u7269\u6d66\u4e3b\u573a\u7403\u8863\u513f\u7ae5\u6b3e",
+            "warehouse_id": "5",
+            "sale_price": "159",
+            "list_price": "259",
+            "postage": "0",
+            "is_haitao": false,
+            "is_buyable": true,
+            "sales": 25,
+            "status": {
+                "key": "in_stock",
+                "title": "\u552e\u5356\u4e2d",
+                "color": ""
+            },
+            "stock": "81",
+            "tags": [{
+                "type": "image",
+                "value": "http:\/\/img.dongqiudi.com\/data\/pic\/663.png"
+            }],
+            "label": "",
+            "labels": [{
+                "type": "image",
+                "value": "http:\/\/img1.dongqiudi.com\/fastdfs\/M00\/08\/53\/oYYBAFgAzvaANuJiAAAJcdrkyj0738.png",
+                "layer": 1
+            }, {
+                "type": "text",
+                "value": "\u513f\u7ae5\u6b3e",
+                "layer": 2
+            }],
+            "limited": [],
+            "max_price": 0,
+            "min_price": 0
+        }, {
+            "product_code": "I8386",
+            "type_id": "2",
+            "img_url": "http:\/\/img1.dongqiudi.com\/fastdfs2\/M00\/72\/E7\/ChOqM1taoXCAeXcvAAD7PNXzPVM019_450_450.jpg",
+            "title": "\u5229\u7269\u6d66\u4ff1\u4e50\u90e8\u5b98\u65b9\u51fa\u54c1 2000\u8d5b\u5b63\u4e3b\u573a\u7eaa\u5ff5\u7248\u590d\u53e4\u7403\u8863  ",
+            "warehouse_id": "5",
+            "sale_price": "249",
+            "list_price": "399",
+            "postage": "0",
+            "is_haitao": false,
+            "is_buyable": true,
+            "sales": 8,
+            "status": {
+                "key": "in_stock",
+                "title": "\u552e\u5356\u4e2d",
+                "color": ""
+            },
+            "stock": "202",
+            "tags": [{
+                "type": "image",
+                "value": "http:\/\/img.dongqiudi.com\/data\/pic\/663.png"
+            }],
+            "label": "",
+            "labels": [{
+                "type": "image",
+                "value": "http:\/\/img1.dongqiudi.com\/fastdfs\/M00\/08\/53\/oYYBAFgAzvaANuJiAAAJcdrkyj0738.png",
+                "layer": 1
+            }],
+            "limited": [],
+            "max_price": 0,
+            "min_price": 0
+        }, {
+            "product_code": "A7280",
+            "type_id": "7",
+            "img_url": "http:\/\/img1.dongqiudi.com\/fastdfs2\/M00\/72\/E8\/ChOqM1tbDpuAZq2yAASbowEkebw186_450_450.PNG",
+            "title": "\u5229\u7269\u6d66\u4ff1\u4e50\u90e8\u5b98\u65b9\u51fa\u54c1  \u9999\u514b\u5229\u590d\u523b\u7248\u8fd0\u52a8\u5916\u5957",
+            "warehouse_id": "5",
+            "sale_price": "299",
+            "list_price": "529",
+            "postage": "0",
+            "is_haitao": false,
+            "is_buyable": true,
+            "sales": 18,
+            "status": {
+                "key": "in_stock",
+                "title": "\u552e\u5356\u4e2d",
+                "color": ""
+            },
+            "stock": "144",
+            "tags": [],
+            "label": "",
+            "labels": [{
+                "type": "image",
+                "value": "http:\/\/img1.dongqiudi.com\/fastdfs\/M00\/08\/53\/oYYBAFgAzvaANuJiAAAJcdrkyj0738.png",
+                "layer": 1
+            }],
+            "limited": [],
+            "max_price": 0,
+            "min_price": 0
+        }, {
+            "product_code": "A7937",
+            "type_id": "2",
+            "img_url": "http:\/\/img1.dongqiudi.com\/fastdfs2\/M00\/72\/F4\/ChNy21tbAaGAUF1sAAWt_k_kHpw163_450_450.PNG",
+            "title": "\u5229\u7269\u6d66\u4ff1\u4e50\u90e8\u5b98\u65b9\u51fa\u54c1 2005\u5e74\u6b27\u51a0\u51b3\u8d5b\u4f0a\u65af\u5766\u5e03\u5c14\u4e4b\u591c\u7eaa\u5ff5\u7248\u590d\u53e4\u7403\u8863\t",
+            "warehouse_id": "5",
+            "sale_price": "299",
+            "list_price": "499",
+            "postage": "0",
+            "is_haitao": false,
+            "is_buyable": true,
+            "sales": 61,
+            "status": {
+                "key": "in_stock",
+                "title": "\u552e\u5356\u4e2d",
+                "color": ""
+            },
+            "stock": "482",
+            "tags": [{
+                "type": "image",
+                "value": "http:\/\/img.dongqiudi.com\/data\/pic\/663.png"
+            }],
+            "label": "",
+            "labels": [{
+                "type": "image",
+                "value": "http:\/\/img1.dongqiudi.com\/fastdfs\/M00\/08\/53\/oYYBAFgAzvaANuJiAAAJcdrkyj0738.png",
+                "layer": 1
+            }],
+            "limited": [],
+            "max_price": 0,
+            "min_price": 0
+        }, {
+            "product_code": "I1002",
+            "type_id": "2",
+            "img_url": "http:\/\/img1.dongqiudi.com\/fastdfs2\/M00\/72\/E5\/ChOqM1tIjZKAWXOBAAJT2uGlr-Q698_450_450.jpg",
+            "title": "\u5229\u7269\u6d66\u4ff1\u4e50\u90e8\u5b98\u65b9\u51fa\u54c1 18-19\u8d5b\u5b63\u4e3b\u573a\u7403\u8863",
+            "warehouse_id": "5",
+            "sale_price": "199",
+            "list_price": "299",
+            "postage": "0",
+            "is_haitao": false,
+            "is_buyable": true,
+            "sales": 201,
+            "status": {
+                "key": "in_stock",
+                "title": "\u552e\u5356\u4e2d",
+                "color": ""
+            },
+            "stock": "1138",
+            "tags": [{
+                "type": "image",
+                "value": "http:\/\/img.dongqiudi.com\/data\/pic\/663.png"
+            }],
+            "label": "",
+            "labels": [],
+            "limited": [],
+            "max_price": 0,
+            "min_price": 0
+        }, {
+            "product_code": "LFC0008",
+            "type_id": "7",
+            "img_url": "http:\/\/img1.dongqiudi.com\/fastdfs2\/M00\/72\/94\/ChOqM1sKUOOAFj9lAAGQtSHBURE203_450_450.jpg",
+            "title": "\u3010XS\u7801\u3011\u5229\u7269\u6d66\u5b98\u65b9 YNWA\u5229\u7269\u6d66\u7403\u8ff7\u7eaa\u5ff5T\u6064 \u7ea2\u8272\u590f\u5b63\u77ed\u8896",
+            "warehouse_id": "5",
+            "sale_price": "99",
+            "list_price": "149",
+            "postage": "0",
+            "is_haitao": false,
+            "is_buyable": true,
+            "sales": 660,
+            "status": {
+                "key": "in_stock",
+                "title": "\u552e\u5356\u4e2d",
+                "color": ""
+            },
+            "stock": "6",
+            "tags": [],
+            "label": "",
+            "labels": [],
+            "limited": [],
+            "max_price": 0,
+            "min_price": 0
+        }, {
+            "product_code": "A8795",
+            "type_id": "3",
+            "img_url": "http:\/\/img1.dongqiudi.com\/fastdfs2\/M00\/72\/87\/ChOqM1sCPpWALqH-AAPLJ_Zhx5g553_450_450.jpg",
+            "title": "\u5229\u7269\u6d66\u5b98\u65b9 17-18\u8d5b\u5b63\u7403\u661f\u7b7e\u540d\u6b3e\u7403\u8ff7\u7eaa\u5ff5\u8db3\u7403 5\u53f7\u7403 ",
+            "warehouse_id": "5",
+            "sale_price": "89",
+            "list_price": "109",
+            "postage": "0",
+            "is_haitao": false,
+            "is_buyable": true,
+            "sales": 198,
+            "status": {
+                "key": "in_stock",
+                "title": "\u552e\u5356\u4e2d",
+                "color": ""
+            },
+            "stock": "37",
+            "tags": [],
+            "label": "",
+            "labels": [],
+            "limited": [],
+            "max_price": 0,
+            "min_price": 0
+        }, {
+            "product_code": "A10717",
+            "type_id": "3",
+            "img_url": "http:\/\/img1.dongqiudi.com\/fastdfs2\/M00\/72\/95\/ChNy21sCbLGAAU2NAAQ3uIRhX1w721_450_450.jpg",
+            "title": "\u5229\u7269\u6d66\u5b98\u65b9 \u7403\u8ff7\u7eaa\u5ff5\u56f4\u5dfe  \u5370\u5236\u201cTHIS IS ANFIELD\u201d \u5b57\u6837\u6b3e ",
+            "warehouse_id": "5",
+            "sale_price": "79",
+            "list_price": "89",
+            "postage": "0",
+            "is_haitao": false,
+            "is_buyable": true,
+            "sales": 76,
+            "status": {
+                "key": "in_stock",
+                "title": "\u552e\u5356\u4e2d",
+                "color": ""
+            },
+            "stock": "139",
+            "tags": [],
+            "label": "",
+            "labels": [],
+            "limited": [],
+            "max_price": 0,
+            "min_price": 0
+        }, {
+            "product_code": "A8807",
+            "type_id": "3",
+            "img_url": "http:\/\/img1.dongqiudi.com\/fastdfs2\/M00\/72\/95\/ChNy21sCPwqAVzX2AAJgcinUgXU165_450_450.jpg",
+            "title": "\u5229\u7269\u6d66\u5b98\u65b9 \u7403\u8ff7U\u578b\u6795\u62a4\u9888\u6795\u65c5\u884c\u6795\u5348\u7761\u9760\u6795 \u8116\u6795",
+            "warehouse_id": "5",
+            "sale_price": "89",
+            "list_price": "129",
+            "postage": "0",
+            "is_haitao": false,
+            "is_buyable": true,
+            "sales": 76,
+            "status": {
+                "key": "in_stock",
+                "title": "\u552e\u5356\u4e2d",
+                "color": ""
+            },
+            "stock": "15",
+            "tags": [],
+            "label": "",
+            "labels": [],
+            "limited": [],
+            "max_price": 0,
+            "min_price": 0
+        }],
+        "next": "https:\/\/mall.dongqiudi.com\/h5\/club\/product?tab_type=hot&type_id=0&category_id=0&tag_id=88&order=recommend&sort=desc&next=10&app=h5"
+
+    }
+}

@@ -1,6 +1,7 @@
 {
     
     "/hgn/activity/quiz/tempMatch/submit/1": { "des": "创意监控接口", "data": "/ok.json" },
+    "/hgn/league/save": { "des": "创意监控接口", "data": "/ok.json" },
     "/hgn/activity/quiz/leagues/submit/1": { "des": "创意监控接口", "data": "/ok.json" },
     "/hgn/activity/quiz/leagues/submit/": { "des": "创意监控接口", "data": "/ok.json" },
     "/hgn/activity/quiz/zhongchao/submit/": { "des": "创意监控接口", "data": "/ok.json" },
@@ -21,6 +22,7 @@
     "/hgn/api/wechat-activity/challenge-dqd/challenge": { "des": "球赛报名", "data": "/challengecjoin.json" },
     "/hgn/api/adidas-club/register": { "des": "adidas用户注册", "data": "/register.json" },
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
+    "/hgn/v2/vote/match": { "des": "球队排名", "data": "/vote_match.json" },
     
     "/hgn/api/bsb-school/vote": { "des": "学校列表", "data": "/schoolvote.json" }
 }

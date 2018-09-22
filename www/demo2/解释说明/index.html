@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+
+<script src="js/jquery-1.3.2.js"></script>
+<script src="js/event.js"></script>
+
+
+<link href="css/eventStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="team1_99" style="display:none;">布里斯班狮吼布里斯班狮吼布里斯班狮吼布里斯班狮吼布里斯班狮吼布里斯班狮吼布里斯班狮吼布里斯班狮吼</div>
+<div id="team2_99" style="display:none;">墨尔本胜利六七墨尔本胜利六七墨尔本胜利六七墨尔本胜利六七墨尔本胜利六七</div>
+<div class="debug">
+  <div class="title">比赛动画事件调用API</div>
+  <table border="0" cellpadding="0" cellspacing="1">
+    <tr>
+      <td align="right"><a href="javascript:init(99);"  name="button4" id="button4" >初始化</a></td>
+      <td width="80%">init(matchID);</td>
+      <td width="80%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:ctrl(99,0);"  name="button" id="button" value="控球(主)" >控球(主)</a></td>
+      <td>ctrl(matchID,type);</td>
+      <td><a href="javascript:ctrl(99,1);"  name="button11" id="button14" value="控球(客)" >控球(客)</a></td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:attack(99,0);"  name="button2" id="button2" value="进攻(主)" >进攻(主)</a></td>
+      <td>attack(matchID,type);</td>
+      <td><a href="javascript:attack(99,1);"  name="button12" id="button15" value="进攻(客)" >进攻(客)</a></td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:dangerousAttack(99,0);"  name="button3" id="button3" value="危险进攻(主)" >危险进攻(主)</a></td>
+      <td>dangerousAttack(matchID,type);</td>
+      <td><a href="javascript:dangerousAttack(99,1);"  name="button13" id="button16" value="危险进攻(客)" >危险进攻(客)</a></td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:ballIn(99,1,1,0);"  name="button4" id="button5" value="进球" >进球</a></td>
+      <td colspan="2">ballIn(matchID,type,homeScore,guestScore);</td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:autoBall(99,0);"  name="button5" id="button28" value="任意球(主)" >任意球(主)</a></td>
+      <td>autoBall(matchID,type);</td>
+      <td><a href="javascript:autoBall(99,1);"  name="button14" id="button29" value="任意球(客)" >任意球(客)</a></td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:DAutoBall(99,0);"  name="button5" id="button28" value="危险任意球(主)" >危险任意球(主)</a></td>
+      <td>DAutoBall(matchID,type);</td>
+      <td><a href="javascript:DAutoBall(99,1);"  name="button14" id="button29" value="危险任意球(客)" >危险任意球(客)</a></td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:offside(99,0);"  name="button5" id="button26" value="越位(主)" >越位(主)</a></td>
+      <td>offside(matchID,type);</td>
+      <td><a href="javascript:offside(99,1);"  name="button14" id="button27" value="任意球(客)" >越位(客)</a></td>
+    </tr>
+    
+    <tr>
+      <td align="right"><a href="javascript:DBall(99,0);"  name="button5" id="button6" value="任意球(主)" >球门球(主)</a></td>
+      <td>DBall(matchID,type);</td>
+      <td><a href="javascript:DBall(99,1);"  name="button14" id="button17" value="任意球(客)" >球门球(客)</a></td>
+    </tr>
+    
+    
+    <tr>
+      <td align="right"><a href="javascript:cornerBall(99,0,1);"  name="button8" id="button7" value="角球(左上)" >角球(左上)</a>        <a href="javascript:cornerBall(99,3,1);"  name="button10" id="button13" value="角球(左下)" >角球(左下)</a>      </td>
+      <td>cornerBall(matchID,direction,type);</td>
+      <td><a href="javascript:cornerBall(99,1,0);"  name="button15" id="button11" value="角球(右上)" >角球(右上)</a>        <a href="javascript:cornerBall(99,2,0);"  name="button9" id="button12" value="角球(右下)">角球(右下)</a></td>
+    </tr>
+    <tr>
+      <td align="right">
+      <a href="javascript:lineBall(99,0,0);"  name="button5" id="button8" value="界外球(左上)" >主队界外球(0)</a><a href="javascript:lineBall(99,1,0);"  name="button5" id="button18" value="界外球(左上)" >主队界外球(1)</a><a href="javascript:lineBall(99,2,0);"  name="button5" id="button24" value="界外球(左上)" >主队界外球(2)</a><a href="javascript:lineBall(99,3,0);"  name="button5" id="button25" value="界外球(左上)" >主队界外球(3)</a></td>
+      <td>lineBall(matchID,postionID,type);</td>
+      <td align="right"><a href="javascript:lineBall(99,0,1);"  name="button5" id="button8" value="界外球(左上)" >客队界外球(0)</a><a href="javascript:lineBall(99,1,1);"  name="button5" id="button18" value="界外球(左上)" >客队界外球(1)</a><a href="javascript:lineBall(99,2,1);"  name="button5" id="button24" value="界外球(左上)" >客队界外球(2)</a><a href="javascript:lineBall(99,3,1);"  name="button5" id="button25" value="界外球(左上)" >客队界外球(3)</a></td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:star(99,0);"  name="button6" id="button21" value="开球" >开球</a></td>
+      <td>star(matchID,type);</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:defaultInfo(99);"  name="button6" id="button21" value="开球" >未开赛</a></td>
+      <td>defaultInfo(matchID);</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:showMsg(99,'这是一个事件文本<span>点球失败</span>');"  name="button6" id="button21" value="开球" >事件信息</a></td>
+      <td>showMsg(matchID,htmlstr);</td>
+      <td>&nbsp;</td>
+    </tr>
+    
+    <tr>
+      <td align="right"><a href="javascript:shotIn(99,0);"  name="button6" id="button21" value="开球" >射正</a></td>
+      <td>shotIn(matchID,type);</td>
+      <td>&nbsp;</td>
+    </tr>
+    
+    <tr>
+      <td align="right"><a href="javascript:stopIt(99,0);"  name="button6" id="button21" value="射门被挡" >射门被挡</a></td>
+      <td>stopIt(matchID,type);</td>
+      <td>&nbsp;</td>
+    </tr>
+    
+    <tr>
+      <td align="right"><a href="javascript:shotOut(99,1);"  name="button6" id="button21" value="开球" >射偏</a></td>
+      <td>shotOut(matchID,type);</td>
+      <td>&nbsp;</td>
+    </tr>
+    
+    <tr>
+      <td align="right"><a href="javascript:shotLost(99,1);"  name="button6" id="button21" value="开球" >中框</a></td>
+      <td>shotLost(matchID,type);</td>
+      <td>&nbsp;</td>
+    </tr>
+    
+    
+    <tr>
+      <td align="right"><a href="javascript:foul(99,'red',0);"  name="button6" id="button9" value="红牌" >红牌</a></td>
+      <td>foul(matchID,cardType,type);</td>
+      <td><a href="javascript:foul(99,'yellow',1);"  name="button6" id="button9" value="黄牌" >黄牌</a></td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:pointBall(99,0);"  name="button7" id="button10" value="点球(主)" >点球(主)</a></td>
+      <td>pointBall(matchID,type);</td>
+      <td><a href="javascript:pointBall(99,1);"  name="button18" id="button20" value="点球(客)" >点球(客)</a></td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:pointBallIn(99,0,1,0);"  name="button4" id="button22" value="进球" >点球进球</a></td>
+      <td colspan="2"><p>pointBallIn(matchID,type,homeScore,guestScore);<br />
+      注:此方法只适用于显示点球动画后调用.</p></td>
+    </tr>
+    <tr>
+      <td align="right"><a href="javascript:showPointBallMsg(99,'<span>射失点球</span>');"  name="button6" id="button23" value="开球" >点球射失信息</a></td>
+      <td colspan="2">showPointBallMsg(matchID,"msgString");<br />
+ 注:此方法只适用于显示点球动画后调用.</td>
+    </tr>
+    <tr>
+      <td colspan="3" align="left"><p>参数说明:<br />
+      matchID : 对阵ID <br />
+      postionID       : 事件位置ID <br />
+      type : 主客队标识  [0,1] 对应主队,客队<br />
+      homeScore : 主队比分<br />
+      guestScore : 客队比分<br />
+      direction : 发球方向 [0,1,2,3,] 对应左上,右上,右下,左下<br />
+      cardType : [&quot;red&quot;,&quot;yellow&quot;] 对应 红牌,黄牌
+      <br />
+      teamName : 队名<br />
+      htmlstr : HTML代码或文本      </p></td>
+    </tr>
+  </table>
+</div>
+<div class="demo">
+  
+  <div class="ant">
+    <div class="liveBox"><!--事件容器开始-->
+    
+    
+      <div class="homeEventBox" id="homeEventBox_99">
+        <div class="team">
+          <div class="teamName">布里斯班狮吼布里斯班狮吼布里斯班狮吼布里斯班狮吼布里斯班狮吼布里斯班狮吼布里斯班狮吼布里斯班狮吼</div>
+          <div class="ball">控球</div>
+        </div>
+		<div class="ctrlBG" id="homeCtrlBG_99"></div>
+        <div class="attackBG" id="homeAttackBG_99"></div>
+        <div class="DAttackBG" id="homeDAttackBG_99"></div>
+      </div>
+      
+      <div class="guestEventBox" id="guestEventBox_99">
+        <div class="team">
+        <div class="teamName">墨尔本胜利墨尔本胜利墨尔本胜利墨尔本胜利墨尔本胜利墨尔本胜利墨尔本胜利墨尔本胜利</div>
+        
+          <div class="ball">控球</div>
+        </div>
+		<div class="ctrlBG" id="guestCtrlBG_99"></div>
+        <div class="attackBG" id="guestAttackBG_99"></div>
+        <div class="DAttackBG" id="guestDAttackBG_99"></div>
+      </div>
+      
+      
+      
+      
+      <div class="foul" id="foul_99">
+      	<span class="redCard"></span>
+      </div>
+      
+      
+      <div class="pointBall_0" id="pointBall_99">
+      	<div class="team">
+          <div class="teamName"></div>
+          <div class="ball">点球</div>
+        </div>
+      </div>
+      
+      <div class="ballIn" id="ballIn_99"></div>
+      
+      <div class="autoBall_0" id="autoBall_99">
+      	<div class="team">
+         <div class="teamName"></div>
+          <div class="ball">任意球</div>
+        </div>
+      </div>
+      
+      <div class="DAutoBall_0" id="DAutoBall_99">
+      	<div class="team">
+         <div class="teamName"></div>
+          <div class="ball">危险任意球</div>
+        </div>
+      </div>
+      
+      <div class="DBall_0" id="DBall_99">
+      	<div class="team">
+          <div class="teamName"></div>
+          <div class="ball">球门球</div>
+        </div>
+      </div>
+      
+      <div class="offside_1" id="offside_99">
+	   <div class="team">
+           <div class="teamName"></div>
+          <div class="ball">越位</div>
+       </div>
+       <i></i>
+      </div>
+      
+<div class="cornerBall_0" id="cornerBall_99">
+      	<div class="team">
+          <div class="teamName"></div>
+          <div class="ball">角球</div>
+        </div>
+      </div>
+      
+      <div class="lineBall_0" id="lineBall_99">
+      	<div class="team">
+          <div class="teamName"></div>
+          <div class="ball">界外球</div>
+        </div>
+      </div>
+      
+      <div class="star" id="star_99">
+      	<div class="team"> 
+        	<div class="teamName"></div>
+          	<div class="ball">先开球</div>
+        </div>
+      </div>
+      <div id="msg_99" class="msg">弹框文本内容</div>
+      <div id="shotIn_99" class="shotIn">
+      	<div class="team"><span class="teamName"></span>
+          <div class="ball">射正球门</div>
+        </div>
+      </div>
+      
+      <div id="stopIt_99" class="stopIt">
+      	<div class="team"><span class="teamName"></span>
+          <div class="ball">射门被阻挡</div>
+        </div>
+      </div>
+      
+      
+      <div id="shotOut_99" class="shotOut">
+      	<div class="team"><span class="teamName"></span>
+          <div class="ball">射偏球门</div>
+        </div>
+      </div>
+      
+      <div id="shotLost_99" class="shotLost">
+      	<div class="team"><span class="teamName"></span>
+          <div class="ball">射中门框</div>
+        </div>
+      </div>
+      
+      
+      <div class="default" id="default_99">
+      	
+      	<div class="homeTeam">布里斯班狮吼</div>
+        <div class="guestTeam">墨尔本胜利</div>
+        <div class="tianqi">
+        场地 : 罗伯特森体育场
+        <br />
+        天气 : 间中有云 温度 : 18~19 </div>
+      </div>
+      
+      
+      
+      
+      
+      
+  	  
+ 
+    </div><!--事件容器结束-->
+    <div class="timeLine">
+      <div class="info">
+        <div class="timeLine" style="right:10%"></div>
+        <div class="timeBar" style="left:30%"><i>59`</i></div>
+        <div class="home">
+        <i class="b" style="left:5px;"></i>
+        <i class="a" style="left:1px;"></i>
+        <i class="s" style="left:15px;"></i>
+        <i class="f" style="left:20px;"></i>
+        <i class="s" style="left:30px;"></i>
+        </div>
+        <div class="guest">
+        <i class="b" style="left:15px;"></i>
+        <i class="a" style="left:11px;"></i>
+        <i class="f" style="left:30px;"></i>
+        <i class="s" style="left:40px;"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

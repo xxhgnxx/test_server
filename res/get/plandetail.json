@@ -3,12 +3,11 @@
 	"message": "success",
 	"data": [
 		{
-			
 		"plan_info": {
 			"plan_price": "518",
 			"refund_detail": "",
 			"plan_id": "110063",
-			"can_refund": "0",
+			"can_refund": "1",
 			"lottery_type_string": "\u4e9a\u76d8",
 			"sell_status": "1",
 			"stat": {

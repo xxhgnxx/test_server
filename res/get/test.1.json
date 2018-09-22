@@ -1,0 +1,24 @@
+{
+  "code": 0,
+  "data": {
+    "nickname": "皇冠鸟",
+    "count": 8888,
+    "leaderboard": [
+      { "id": 1, "flag": "队旗1", "name": "队名1" },
+      { "id": 2, "flag": "队旗2", "name": "队名2" },
+      { "id": 3, "flag": "队旗3", "name": "队名3" },
+      …………
+    ],
+    "lastboard": {
+      "leaderboard": [
+        { "id": 1, "flag": "队旗1", "name": "队名1" },
+        { "id": 2, "flag": "队旗2", "name": "队名2" },
+        { "id": 3, "flag": "队旗3", "name": "队名3" },
+        …………
+      ],
+      "myboardTime": "1985.1.6",
+      "nickname": "胡功宁"
+    },
+    "backUlr": "https://activity-static.dongqiudi.com/2018/leaderboard/000.jpg"
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"data": {
+		"name": "\u5927\u795e\uff0c\u9884\u6d4b\u4e00\u4e0b\u6bd4\u8d5b\u7ed3\u679c\u5427",
+		"data": [{
+			"id": 1,
+			"name": "\u4e3b\u80dc",
+			"num": 926
+		}, {
+			"id": 2,
+			"name": "\u5e73\u5c40",
+			"num": 207
+		}, {
+			"id": 3,
+			"name": "\u5ba2\u80dc",
+			"num": 310
+		}],
+		"total_num": 1443,
+		"select_opt": [],
+		"start_time": "2018-08-24 18:00:00"
+	},
+	"errCode": 0
+}
