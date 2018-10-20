@@ -1,0 +1,35 @@
+{
+    "code": 0,
+    "msg": "",
+    "data": {
+        "list": [
+            {
+                "parentIds": "0.3.4",
+                "sort": 2,
+                "pic": "",
+                "parentId": 3,
+                "children": [],
+                "name": "男-3",
+                "id": 4,
+                "ext2": "",
+                "ext1": "",
+                "status": 1
+            },
+            {
+                "parentIds": "0.3.5",
+                "sort": 0,
+                "pic": "",
+                "parentId": 3,
+                "children": [],
+                "name": "女",
+                "id": 5,
+                "ext2": "",
+                "ext1": "",
+                "status": 1
+            }
+        ]
+    },
+    "setCode": true,
+    "setMsg": true,
+    "setData": true
+}

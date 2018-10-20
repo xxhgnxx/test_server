@@ -4,6 +4,7 @@ var fs = require('fs')
 var path = require('path')
 var express = require('express')
 var app = express()
+var io = {}
 
 app.use('/', express.static(__dirname + '/www'))
 var privateKey = fs.readFileSync(path.join(__dirname, './conf/key/private.pem'), 'utf8')
@@ -82,7 +83,9 @@ app.get('/tt', async (req, res) => {
 
 // 创建http服务器 
 var http = new Promise(resolve => {
-	require('http').createServer(app).listen(config.http_port, () => {
+	let httpServer = require('http').createServer(app)
+	io = require('socket.io')(httpServer);
+	httpServer.listen(config.http_port, () => {
 		console.log('------------http启动------------');
 		config.server_list.http.forEach(element => {
 			console.log(time() + element);
@@ -103,6 +106,8 @@ var https = new Promise(resolve => {
 // 等待服务器启动完成
 Promise.all([http, https]).then(() => {
 	console.log('------------------服务器启动完成-----%s-----', time());
+
+	initSockitIo()
 });
 
 function setup_res(req, res, res_date) {
@@ -223,3 +228,14 @@ function time() {
 // 	console.log('end'); 
 // });
 
+
+
+function initSockitIo() {
+
+	io.on('connection', function (socket) {
+		console.log('a user connected');
+		io.emit('serverMsg','ok')
+	});
+
+
+}

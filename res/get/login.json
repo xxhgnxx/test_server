@@ -1,0 +1,37 @@
+{
+    "code": 0,
+    "msg": "",
+    "data": {
+        "createdAt": 1536131604,
+        "password": "$2a$10$KotQz015UghfuXACZ1/s.ejztphwAPuDBcwXMAwmh.he5WENmGzye",
+        "address": "",
+        "phone": "",
+        "roles": [
+            {
+                "id": 2,
+                "name": "ROLE_FINANCE"
+            },
+            {
+                "id": 4,
+                "name": "ROLE_GUEST"
+            }
+        ],
+        "name": "财务",
+        "remark": "",
+        "id": 17,
+        "userface": "",
+        "authorities": [
+            {
+                "authority": "ROLE_FINANCE"
+            },
+            {
+                "authority": "ROLE_GUEST"
+            }
+        ],
+        "updatedAt": 1536131604,
+        "username": "finance"
+    },
+    "setCode": true,
+    "setMsg": true,
+    "setData": true
+}

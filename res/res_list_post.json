@@ -24,5 +24,12 @@
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
     "/hgn/v2/vote/match": { "des": "球队排名", "data": "/vote_match.json" },
     
-    "/hgn/api/bsb-school/vote": { "des": "学校列表", "data": "/schoolvote.json" }
+    "/hgn/api/bsb-school/vote": { "des": "学校列表", "data": "/schoolvote.json" },
+    "/hgn/v2/zcvip/purch": { "des": "", "data": "/purch.json" },
+
+    "=======这只是一条无聊的分界线========":"财务中心接口",
+    "/gateway": { "des": "", "data": "/gateway.json" },
+    "/login": { "des": "", "data": "/login.json" },
+    "/login": { "des": "", "data": "/login.json" },
+    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用"
 }

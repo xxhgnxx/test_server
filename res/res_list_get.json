@@ -23,6 +23,7 @@
     "/hgn/guess/payCoin": { "des": "竞猜页", "data": "/payCoin.json" },
     "/hgn/guess/questions": { "des": "竞猜页", "data": "/questions.json" },
     "/hgn/guess/myGuess": { "des": "竞猜页", "data": "/myGuess.json" },
+    "/hgn/data/odds/detail": { "des": "赔率走势", "data": "/detail.json" },
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
 
     "/hgn/api/bsb-school/list": { "des": "学校列表", "data": "/schoollist.json" },
@@ -35,7 +36,8 @@
     "/hgn/plat/v3": { "des": "广告接口", "data": "/v3.json" },
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
 
-    "/hgn/h5/club/product": { "des": "商城接口", "data": "/productinit.json" },
+    "/h5/club/product": { "des": "商城接口", "data": "/productinit.json" },
+    "/h5/taobaoke/product": { "des": "商城接口", "data": "/productinit2.json" },
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用",
 
     "/hgn/league/rank": { "des": "球队排名", "data": "/rank.json" },
@@ -88,5 +90,18 @@
     "/hgn/luckdraw/prizeList": { "des": "抽奖初始化", "data": "/prizeList.json" },
     "/hgn/luckdraw/luckDraw": { "des": "抽奖初始化", "data": "/luckDraw.json" },
     "/hgn/luckdraw/exchangeDiamond": { "des": "抽奖初始化", "data": "/exchangeDiamond.json" },
-    "/hgn/api/adidas-club/verification-code": { "des": "adidas用户信息", "data": "/verification.json" }  
+    "/hgn/api/adidas-club/verification-code": { "des": "adidas用户信息", "data": "/verification.json" } ,
+    "/sd/biz/match/statistics": { "des": "", "data": "/statistics.json" },
+    "=======这只是一条无聊的分界线========":"财务中心接口",
+    "/login": { "des": "", "data": "/login.json" },
+    "/config/user/user": { "des": "", "data": "/config_user.json" },
+    "/gateway": { "des": "", "data": "/gateway.json" },
+    "/config/sys/menu": { "des": "", "data": "/menu.json" },
+    "/category/pid/1": { "des": "", "data": "/pid1.json" },
+    "/category/pid/2": { "des": "", "data": "/pid2.json" },
+    "/category/": { "des": "", "data": "/category.json" },
+    "/hgn/v2/zcvip": { "des": "", "data": "/zcvip.json" },
+    "/hgn/v2/stat": { "des": "", "data": "/orderstat.json" },
+    "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用"
+
 }

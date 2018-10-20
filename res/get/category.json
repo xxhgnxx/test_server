@@ -1,0 +1,238 @@
+{
+	"same_history": {
+		"title": ["\u5386\u53f2\u540c\u8d54", "\u80dc", "\u5e73", "\u8d1f"],
+		"all": [{
+			"score": "\u5168\u90e8",
+			"number": "627"
+		}, {
+			"score": "45.5%",
+			"number": "285\u573a"
+		}, {
+			"score": "0.0%",
+			"number": "0\u573a"
+		}, {
+			"score": "54.5%",
+			"number": "342\u573a"
+		}],
+		"same_competition": [{
+			"score": "\u897f\u7532",
+			"number": "627"
+		}, {
+			"score": "45.5%",
+			"number": "285\u573a"
+		}, {
+			"score": "0.0%",
+			"number": "0\u573a"
+		}, {
+			"score": "54.5%",
+			"number": "342\u573a"
+		}]
+	},
+	"teamData": {
+		"teamA": {
+			"name": "塞萨洛尼基",
+			"teamId": "50000872",
+			"logo": "https://img.dongqiudi.com/data/pic/1041.png"
+		},
+		"teamB": {
+			"name": "切尔西",
+			"teamId": "50000514",
+			"logo": "https://img.dongqiudi.com/data/pic/661.png"
+		},
+		"matchTime": "2018-09-21 00:55",
+		"matchRound": "第1轮"
+	},
+	"betList": [{
+			"company": {
+				"name": "澳彩",
+				"companyId": "1",
+				"sort": 1,
+				"type": "asia",
+				"detail": [{
+						"homeWin": "0.86",
+						"draw": "受一球",
+						"awayWin": "0.94",
+						"time": "09-21 00:25"
+					},
+					{
+						"homeWin": "0.92",
+						"draw": "受一球",
+						"awayWin": "0.88",
+						"time": "09-20 23:22"
+					},
+					{
+						"homeWin": "0.90",
+						"draw": "受一球",
+						"awayWin": "0.90",
+						"time": "09-20 22:25"
+					},
+					{
+						"homeWin": "0.88",
+						"draw": "受一球",
+						"awayWin": "0.92",
+						"time": "09-20 22:12"
+					},
+					{
+						"homeWin": "1.06",
+						"draw": "受半/一",
+						"awayWin": "0.74",
+						"time": "09-20 19:52"
+					},
+					{
+						"homeWin": "1.04",
+						"draw": "受半/一",
+						"awayWin": "0.76",
+						"time": "09-20 16:18"
+					},
+					{
+						"homeWin": "1.22",
+						"draw": "受半球",
+						"awayWin": "0.58",
+						"time": "09-20 15:25"
+					},
+					{
+						"homeWin": "1.16",
+						"draw": "受半球",
+						"awayWin": "0.64",
+						"time": "09-20 13:43"
+					},
+					{
+						"homeWin": "1.14",
+						"draw": "受半球",
+						"awayWin": "0.66",
+						"time": "09-20 12:41"
+					},
+					{
+						"homeWin": "1.12",
+						"draw": "受半球",
+						"awayWin": "0.68",
+						"time": "09-20 10:02"
+					},
+					{
+						"homeWin": "1.06",
+						"draw": "受半球",
+						"awayWin": "0.74",
+						"time": "09-20 05:58"
+					},
+					{
+						"homeWin": "0.98",
+						"draw": "受半球",
+						"awayWin": "0.82",
+						"time": "09-20 00:50"
+					},
+					{
+						"homeWin": "1.05",
+						"draw": "受半球",
+						"awayWin": "0.75",
+						"time": "09-19 22:19"
+					},
+					{
+						"homeWin": "0.95",
+						"draw": "受半球",
+						"awayWin": "0.85",
+						"time": "09-14 23:14"
+					}
+				]
+			}
+		},
+		{
+			"company": {
+				"name": "Bet365",
+				"companyId": "8",
+				"sort": 2,
+				"type": "asia",
+				"detail": []
+			}
+		},
+		{
+			"company": {
+				"name": "韦德",
+				"companyId": "14",
+				"sort": 3,
+				"type": "asia",
+				"detail": []
+			}
+		},
+		{
+			"company": {
+				"name": "易胜博",
+				"companyId": "12",
+				"sort": 4,
+				"type": "asia",
+				"detail": []
+			}
+		},
+		{
+			"company": {
+				"name": "18Bet",
+				"companyId": "42",
+				"sort": 5,
+				"type": "asia",
+				"detail": []
+			}
+		},
+		{
+			"company": {
+				"name": "盈禾",
+				"companyId": "35",
+				"sort": 6,
+				"type": "asia",
+				"detail": []
+			}
+		},
+		{
+			"company": {
+				"name": "利记",
+				"companyId": "31",
+				"sort": 7,
+				"type": "asia",
+				"detail": []
+			}
+		},
+		{
+			"company": {
+				"name": "IBCBET",
+				"companyId": "24",
+				"sort": 8,
+				"type": "asia",
+				"detail": []
+			}
+		},
+		{
+			"company": {
+				"name": "金宝博",
+				"companyId": "23",
+				"sort": 9,
+				"type": "asia",
+				"detail": []
+			}
+		},
+		{
+			"company": {
+				"name": "10BET",
+				"companyId": "22",
+				"sort": 10,
+				"type": "asia",
+				"detail": []
+			}
+		},
+		{
+			"company": {
+				"name": "明陞",
+				"companyId": "17",
+				"sort": 11,
+				"type": "asia",
+				"detail": []
+			}
+		},
+		{
+			"company": {
+				"name": "皇冠",
+				"companyId": "3",
+				"sort": 12,
+				"type": "asia",
+				"detail": []
+			}
+		}
+	]
+}

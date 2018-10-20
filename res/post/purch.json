@@ -1,0 +1,18 @@
+{
+    "code": 0,
+    "message": "",
+    "data": {
+        "ret_weixin": {
+            "appid": "wx0e54c49af725f996",
+            "noncestr": "fjc1wouq5czvi0lx0yhogeiugnd6vdz6",
+            "package": "Sign=WXPay",
+            "partnerid": "1488897042",
+            "prepayid": "wx292127595410298f8ab0a7fd1251814275",
+            "timestamp": "1538227679",
+            "sign": "23DC42A291EF890DD6611700AA6E497F"
+        },
+        "ret_alipay": null,
+        "pay_plat": "2",
+        "order_no": "20180929976722822872821318"
+    }
+}

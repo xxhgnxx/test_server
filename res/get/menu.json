@@ -1,0 +1,200 @@
+{
+	"code": 0,
+	"msg": "",
+	"data": {
+			"list": [
+					{
+							"children": [
+									{
+											"children": [],
+											"component": "Gateway",
+											"iconCls": "",
+											"id": 10,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "支付账号",
+											"path": "/gateway"
+									},
+									{
+											"children": [],
+											"component": "Business",
+											"iconCls": "",
+											"id": 11,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "业务管理",
+											"path": "/business/index"
+									}
+							],
+							"component": "Home",
+							"id": 2,
+							"name": "信息管理",
+							"path": "/home",
+							"roles": []
+					},
+					{
+							"children": [
+									{
+											"children": [],
+											"component": "Order",
+											"iconCls": "",
+											"id": 12,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "订单详情",
+											"path": "/order/detail"
+									},
+									{
+											"children": [],
+											"component": "Order",
+											"iconCls": "",
+											"id": 13,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "退款申请",
+											"path": "/order/refund"
+									},
+									{
+											"children": [],
+											"component": "Order",
+											"iconCls": "",
+											"id": 14,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "对账管理",
+											"path": "/order/bill"
+									},
+									{
+											"children": [],
+											"component": "Order",
+											"iconCls": "",
+											"id": 15,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "核算报表",
+											"path": "/order/report"
+									}
+							],
+							"component": "Home",
+							"id": 7,
+							"name": "财务信息",
+							"path": "/home",
+							"roles": []
+					},
+					{
+							"children": [
+									{
+											"children": [],
+											"component": "System",
+											"iconCls": "",
+											"id": 17,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "权限管理",
+											"path": "/system/role"
+									},
+									{
+											"children": [],
+											"component": "System",
+											"iconCls": "",
+											"id": 18,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "角色管理",
+											"path": "/system/menu"
+									},
+									{
+											"children": [],
+											"component": "System",
+											"iconCls": "",
+											"id": 19,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "用户管理",
+											"path": "/system/user"
+									}
+							],
+							"component": "Home",
+							"id": 8,
+							"name": "系统管理",
+							"path": "/home",
+							"roles": []
+					},
+					{
+							"children": [
+									{
+											"children": [],
+											"component": "Log",
+											"iconCls": "",
+											"id": 20,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "操作日志",
+											"path": "/system/log"
+									}
+							],
+							"component": "Home",
+							"id": 9,
+							"name": "操作日志",
+							"path": "/home",
+							"roles": []
+					},
+					{
+							"children": [
+									{
+											"children": [],
+											"component": "Guest",
+											"iconCls": "",
+											"id": 22,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "guest",
+											"path": "/config"
+									},
+									{
+											"children": [],
+											"component": "Guest",
+											"iconCls": "",
+											"id": 24,
+											"meta": {
+													"keepAlive": false,
+													"requireAuth": false
+											},
+											"name": "分类",
+											"path": "/category"
+									}
+							],
+							"component": "Home",
+							"id": 21,
+							"name": "guest",
+							"path": "/config",
+							"roles": []
+					}
+			]
+	},
+	"setCode": true,
+	"setMsg": true,
+	"setData": true
+}

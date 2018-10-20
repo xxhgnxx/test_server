@@ -1,0 +1,32 @@
+{
+    "code": 0,
+    "message": "",
+    "data": {
+        "id": "2821318",
+        "username": "xxhgnxx",
+        "avatar": "https://img.dongqiudi.com/uploads/avatar/2018/05/23/Ottta14Plo.657.jpg!avatarsmall",
+        "type": 2,
+        "endtime": "2019-11-30",
+        "endtime_yy": "2019-11-29",
+        "pay_types": [
+            "alipay"
+        ],
+        "month_list": [
+            {
+                "month": 1,
+                "price": 0.01,
+                "origin_price": 1280
+            },
+            {
+                "month": 3,
+                "price": 2980,
+                "origin_price": 3880
+            },
+            {
+                "month": 12,
+                "price": 0.01,
+                "origin_price": 12880
+            }
+        ]
+    }
+}
