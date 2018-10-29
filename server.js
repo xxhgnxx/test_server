@@ -6,6 +6,7 @@ var express = require('express')
 var app = express()
 var io = {}
 
+// app.use('/', express.static(__dirname + '/www'))
 app.use('/', express.static(__dirname + '/www'))
 var privateKey = fs.readFileSync(path.join(__dirname, './conf/key/private.pem'), 'utf8')
 var certificate = fs.readFileSync(path.join(__dirname, './conf/key/file.crt'), 'utf8')
@@ -231,11 +232,8 @@ function time() {
 
 
 function initSockitIo() {
+	require('./game.js')(io)
 
-	io.on('connection', function (socket) {
-		console.log('a user connected');
-		io.emit('serverMsg','ok')
-	});
 
 
 }

@@ -102,6 +102,7 @@
     "/category/": { "des": "", "data": "/category.json" },
     "/hgn/v2/zcvip": { "des": "", "data": "/zcvip.json" },
     "/hgn/v2/stat": { "des": "", "data": "/orderstat.json" },
+    "/v2/advip": { "des": "", "data": "/advip.json" },
     "=======这只是一条无聊的分界线========":"对！没错，这就是分界线，区分项目用"
 
 }

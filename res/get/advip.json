@@ -1,0 +1,35 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+      "id": "3894162",
+      "username": "xxhgnxx",
+      "avatar": "https://img.dongqiudi.com/uploads/avatar/2017/08/31/a2HQM7Erkj.0641.jpg!avatarsmall",
+      "type": 2,
+      "endtime": false,
+      "pay_types": [
+          "alipay",
+          "weixin"
+      ],
+      "month_list": [
+          {
+              "pid": 1,
+              "month": 1,
+              "price": 15,
+              "origin_price": 20
+          },
+          {
+              "pid": 2,
+              "month": 3,
+              "price": 39,
+              "origin_price": 60
+          },
+          {
+              "pid": 3,
+              "month": 12,
+              "price": 150,
+              "origin_price": 240
+          }
+      ]
+  }
+}
